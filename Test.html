@@ -144,7 +144,7 @@ Macro.add("currenttime", {
 	    }
 	}
 });
-</script><tw-tag name="StoryMenu" color="purple"></tw-tag><tw-passagedata pid="1" name="Start" tags="" position="150,25" size="100,100">!!Start page
+</script><tw-tag name="StoryMenu" color="purple"></tw-tag><tw-passagedata pid="1" name="Start" tags="" position="150,25" size="100,100">!!Start page - for Philip&#39;s test rig
 </tw-passagedata><tw-passagedata pid="2" name="Links" tags="" position="25,175" size="100,100">&lt;&lt;remember $previous =passage()&gt;&gt;
 !!!Links
 [[next]]
@@ -199,13 +199,7 @@ Here I&#39;n trying to create a link to the previous passage:
 
 [[(Page templates)]]
 [[(Wipe memory)]]
-&lt;&lt;nobr&gt;&gt;
-&lt;&lt;if $previous neq 0 and def $previous&gt;&gt;
-[[(After reload: GoBack)|$previous]]
-&lt;&lt;else&gt;&gt;
-[[(After reload: GoBack)|Getting started]]
-&lt;&lt;endif&gt;&gt;
-&lt;&lt;endnobr&gt;&gt;</tw-passagedata><tw-passagedata pid="5" name="Return-Back" tags="" position="25,1050" size="100,100">&lt;&lt;remember $previous =passage()&gt;&gt;&lt;&lt;return&gt;&gt; | [[next]]
+</tw-passagedata><tw-passagedata pid="5" name="Return-Back" tags="" position="25,1050" size="100,100"> | [[next]]
 !!!Return/Back
 
 
@@ -307,10 +301,10 @@ comment.Quasimodo @@##--&gt; Appears in generated HTML </tw-passagedata><tw-pass
 [[Favourites list (new code)]]
 [[A favourite page (new code)]]
 
-[[Favourites code dump]]</tw-passagedata><tw-passagedata pid="13" name="A favourite page (old code)" tags="" position="300,425" size="100,100">&lt;&lt;remember $previous =passage()&gt;&gt;&lt;&lt;return&gt;&gt;
+[[Favourites code dump]]</tw-passagedata><tw-passagedata pid="13" name="A favourite page (old code)" tags="" position="300,425" size="100,100">
 
 [[(F)|passage()][$FavePassageName =passage()]]
-&lt;&lt;remember $FavePassageName&gt;&gt;</tw-passagedata><tw-passagedata pid="14" name="Favourites list (old code)" tags="" position="300,300" size="100,100">&lt;&lt;remember $previous =passage()&gt;&gt;&lt;&lt;return&gt;&gt;
+&lt;&lt;remember $FavePassageName&gt;&gt;</tw-passagedata><tw-passagedata pid="14" name="Favourites list (old code)" tags="" position="300,300" size="100,100">
 
 &lt;&lt;if $FavePageVariable neq 0&gt;&gt;
 [[$FavePageVariable]] [[(*)|passage()][$FavePageVariable =0]]&lt;br&gt;
@@ -319,10 +313,10 @@ comment.Quasimodo @@##--&gt; Appears in generated HTML </tw-passagedata><tw-pass
 
 
 
-</tw-passagedata><tw-passagedata pid="15" name="Favourites list (new code)" tags="" position="425,300" size="100,100">&lt;&lt;remember $previous =passage()&gt;&gt;&lt;&lt;return&gt;&gt;
-</tw-passagedata><tw-passagedata pid="16" name="A favourite page (new code)" tags="" position="425,425" size="100,100">&lt;&lt;remember $previous =passage()&gt;&gt;&lt;&lt;return&gt;&gt;
+</tw-passagedata><tw-passagedata pid="15" name="Favourites list (new code)" tags="" position="425,300" size="100,100">
+</tw-passagedata><tw-passagedata pid="16" name="A favourite page (new code)" tags="" position="425,425" size="100,100">
 
-</tw-passagedata><tw-passagedata pid="17" name="Favourites code dump" tags="" position="550,300" size="100,100">&lt;&lt;remember $previous =passage()&gt;&gt;&lt;&lt;return&gt;&gt;
+</tw-passagedata><tw-passagedata pid="17" name="Favourites code dump" tags="" position="550,300" size="100,100">
 
 
 &lt;&lt;if $FaveLinkedProjectsTEMP_DevelopmentIdeas neq 0&gt;&gt;
@@ -335,7 +329,7 @@ comment.Quasimodo @@##--&gt; Appears in generated HTML </tw-passagedata><tw-pass
 
 &lt;&lt;if $FaveLinkedProjectsTEMP_DevelopmentIdeas neq 0&gt;&gt;[[$FaveLinkedProjectsTEMP_DevelopmentIdeas]] [[(*)|passage()][$FaveLinkedProjectsTEMP_DevelopmentIdeas =0]]&lt;br&gt;&lt;&lt;endif&gt;&gt;&lt;&lt;remember $FaveLinkedProjectsTEMP_DevelopmentIdeas&gt;&gt;
 
-&lt;&lt;run forget(&#39;achievements&#39;)&gt;&gt;</tw-passagedata><tw-passagedata pid="18" name="Getting started" tags="" position="275,25" size="100,100">&lt;&lt;remember $previous =passage()&gt;&gt;&lt;&lt;include Start&gt;&gt;</tw-passagedata><tw-passagedata pid="19" name="Buttons" tags="" position="25,1300" size="100,100">&lt;&lt;remember $previous =passage()&gt;&gt;
+&lt;&lt;run forget(&#39;achievements&#39;)&gt;&gt;</tw-passagedata><tw-passagedata pid="18" name="Buttons" tags="" position="25,1300" size="100,100">&lt;&lt;remember $previous =passage()&gt;&gt;
 !!!Buttons
 
 &lt;&lt;button Button&gt;&gt; &lt;&lt;set $buttonTest to &quot;working&quot;&gt;&gt;  &lt;&lt;/button&gt;&gt;
@@ -345,10 +339,10 @@ comment.Quasimodo @@##--&gt; Appears in generated HTML </tw-passagedata><tw-pass
 The value of the &quot;&quot;&quot;$buttonTest&quot;&quot;&quot; variable
 $buttonTest
 
-</tw-passagedata><tw-passagedata pid="20" name="Line continuation" tags="" position="25,1425" size="100,100">&lt;&lt;remember $previous =passage()&gt;&gt;
+</tw-passagedata><tw-passagedata pid="19" name="Line continuation" tags="" position="25,1425" size="100,100">&lt;&lt;remember $previous =passage()&gt;&gt;
 
 dsgar  rty  y stysy  \  
-th t y ty  t</tw-passagedata><tw-passagedata pid="21" name="Variables" tags="" position="25,1550" size="100,100">&lt;&lt;remember $previous =passage()&gt;&gt;
+th t y ty  t</tw-passagedata><tw-passagedata pid="20" name="Variables" tags="" position="25,1550" size="100,100">&lt;&lt;remember $previous =passage()&gt;&gt;
 !!!Variables
 
 Below, between the brackets, is the printed value of a naked variable &quot;&quot;&quot;&#39;$nakedVariablePrintTest&#39;&quot;&quot;&quot; before it has been been given a value: 
@@ -373,31 +367,30 @@ Now let&#39;s see if the passage link, using the variable to set the page link, 
 &lt;&lt;unset $nakedVariablePrintTest&gt;&gt;&lt;&lt;/nobr&gt;&gt;
 ----
 
-http://strugglingwithtwine.blogspot.com/2014/03/handling-variables-that-have-not-been.html</tw-passagedata><tw-passagedata pid="22" name="Jump page" tags="" position="150,1550" size="100,100">&lt;&lt;remember $previous =passage()&gt;&gt;&lt;&lt;return&gt;&gt;
-!!!Jump page (part of the variables test suite)</tw-passagedata><tw-passagedata pid="23" name="Memorize(), Recall(), Forget() functions" tags="" position="25,1675" size="100,100">!!!Memorize(), Recall(), Forget() functions
+http://strugglingwithtwine.blogspot.com/2014/03/handling-variables-that-have-not-been.html</tw-passagedata><tw-passagedata pid="21" name="Jump page" tags="" position="150,1550" size="100,100">
+!!!Jump page (part of the variables test suite)</tw-passagedata><tw-passagedata pid="22" name="Memorize(), Recall(), Forget() functions" tags="" position="25,1675" size="100,100">!!!Memorize(), Recall(), Forget() functions
 
 [[Memorize() function]]
 [[Recall() function]]
 [[Forget() function]]
-[[All three]]</tw-passagedata><tw-passagedata pid="24" name="(Page templates)" tags="" position="400,25" size="100,100">&lt;&lt;remember $previous =passage()&gt;&gt;
-!!!html code
+[[All three]]</tw-passagedata><tw-passagedata pid="23" name="(Page templates)" tags="" position="400,25" size="100,100">!!!Page templates
 
 ----
 FOR PAGES LINKED TO THE MENU
 
-&lt;&lt;remember $previous =passage()&gt;&gt;
+&lt;&lt;return&gt;&gt;
 !!!Heading
 ----
 FOR PAGES &quot;&quot;NOT&quot;&quot; LINKED TO THE MENU
 
-&lt;&lt;remember $previous =passage()&gt;&gt;&lt;&lt;return&gt;&gt;
+&lt;&lt;return&gt;&gt;
 !!!Heading
-----</tw-passagedata><tw-passagedata pid="25" name="Memorize() function" tags="" position="275,1675" size="100,100">
+----</tw-passagedata><tw-passagedata pid="24" name="Memorize() function" tags="" position="275,1675" size="100,100">
 
 
 
 
-https://intfiction.org/t/help-with-memorize-function-twine-2-sugarcube-2-30-0/45743</tw-passagedata><tw-passagedata pid="26" name="Recall() function" tags="" position="400,1675" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="27" name="All three" tags="" position="150,1675" size="100,100">
+https://intfiction.org/t/help-with-memorize-function-twine-2-sugarcube-2-30-0/45743</tw-passagedata><tw-passagedata pid="25" name="Recall() function" tags="" position="400,1675" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="26" name="All three" tags="" position="150,1675" size="100,100">
 https://intfiction.org/t/help-with-memorize-function-twine-2-sugarcube-2-30-0/45743
 If this (below) is true, how did Twine 1 and the remember and the forget macros manage to act as if the variables existed in both active memory and in device storage??  It Feels like the new approach is less sophisticated than the old system (from an ease of use point of view) 
 Variables (defined with the &lt;&lt;set&gt;&gt; macro) and metadata (defined with the memorize() function) are independent of each other, even if their keys share names. Metadata also use the recall() and forget() functions. The proper way is to put… &lt;&lt;set $ending_1 to recall(&#39;ending_1&#39;)&gt;&gt; …in your StoryInit.…
@@ -408,14 +401,12 @@ PhilipSuttonOz — Today at 19:56
 Here&#39;s someone speaking in favour of the change to the memory function rather than the &lt;&lt;remember&gt;&gt; and &lt;&lt;forget&gt;&gt; functions:  
 I especially like the new forget(), memorize(), and recall() mechanics vs. the old &lt;&lt;remember&gt;&gt; and &lt;&lt;forget&gt;&gt; macros. It works a lot better this way, as opposed to the old way, where loading a save could override a &quot;remembered&quot; value. Instead, now the data isn&#39;t affected by saves and loads, since it&#39;s in the metadata instead of stored on a story variable.
 
-</tw-passagedata><tw-passagedata pid="28" name="(Wipe memory)" tags="" position="525,25" size="100,100">!!!Wiping memory - &#39;forgetall&#39; macros
+</tw-passagedata><tw-passagedata pid="27" name="(Wipe memory)" tags="" position="525,25" size="100,100">!!!Wiping memory - &#39;forgetall&#39; macros
 
-There are two links below - one to wipe memory (session memory and persistent memory) using two forgetall macros, and the other a link to a test page for use after applying one or both of the wipe functions:
+There are two links below - one to wipe memory (session memory and persistent memory) using two forgetall macros, and the other to go to a test page for use after applying one or both of the wipe functions:
 
 ----
-
 [[Set up variable values and go on to the wipe options|Set up variable values and go to wipe]]
-
 ----
 
 Click the link to go to the test results after rebooting Test.html  You can try two ways to see what values of the variable have persisted:
@@ -423,26 +414,34 @@ Click the link to go to the test results after rebooting Test.html  You can try 
 - use the browser reload button to refresh the passage you are on
 - use the Restart option at the end of the Menu to clear the non-persistent Story variable value.
 
-[[Test passage 4 after reload or reboot]]
-
 ----
-</tw-passagedata><tw-passagedata pid="29" name="Wiped-legacy" tags="" position="775,25" size="100,100">/% &lt;&lt;forgetalllegacy&gt;&gt; %/
+[[Test passage 4 after reload or reboot or restart]]
+----
+</tw-passagedata><tw-passagedata pid="28" name="Wiped-legacy" tags="" position="775,25" size="100,100">/% &lt;&lt;forgetalllegacy&gt;&gt; %/
 &lt;&lt;forgetalllegacy&gt;&gt;
 The Test file&#39;s long term and short term memory has been wiped (hopefully!).  Test results are below.
 
 &lt;&lt;include [[Test page (4inclusion)]]&gt;&gt;
-</tw-passagedata><tw-passagedata pid="30" name="Forget() function" tags="" position="525,1675" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="31" name="Test page (4inclusion)" tags="" position="1025,25" size="100,100">Below is the value of the test variable which will appear between the brackets in yellow:
+</tw-passagedata><tw-passagedata pid="29" name="Forget() function" tags="" position="525,1675" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="30" name="Test page (4inclusion)" tags="" position="900,25" size="100,100">Below is the value of the test variable which will appear between the brackets in yellow:
 (&lt;font color=yellow&gt; $wipeTestVariable &lt;/font&gt;)
 
 It the wipe operation has worked or you haven&#39;t given the variable a value, the displayed &#39;value&#39; should be: &quot;&quot;&quot;$wipeTestVariable&quot;&quot;&quot;.
 
 If the value memorised on the hard disk has persisted then the value should be &#39;8&#39;.
 
-If value in active memory (that was not stored to the hard disk) persistes then the value displayed should be &#39;2&#39;.</tw-passagedata><tw-passagedata pid="32" name="Test passage 4 after reload or reboot" tags="" position="900,25" size="100,100">&lt;&lt;include [[Test page (4inclusion)]]&gt;&gt;</tw-passagedata><tw-passagedata pid="33" name="Set up variable values and go to wipe" tags="" position="650,25" size="100,100">&lt;&lt;remember $previous =passage()&gt;&gt;&lt;&lt;return&gt;&gt;
+If value in active memory (that was not stored to the hard disk) persistes then the value displayed should be &#39;2&#39;.
+
+[[Try another wipe option|(Wipe memory)]]
+
+Or reboot / reload / restart this Test twine project and then retest the results:
+
+[[Retest after reloading, rebooting or restarting the Test project|Test passage 4 after reload or reboot or restart]]
+
+Otherwise use the menu to go somewhere else.  (A bit obvious I guess.)</tw-passagedata><tw-passagedata pid="31" name="Set up variable values and go to wipe" tags="" position="650,25" size="100,100">
 
 Before you try to wipe the story memory, this passage will set up a test varable and give it values in several ways.  Then you can try the memory wipe, check the test results immediately, then reload the passage or reboot Tes.html and check the test results again without going through the wipe step.
 
-The first step is to get the system to remember the test variable to the hard disk with the value of 8 using this commend:
+The first step is to get the system to &quot;remember&quot; the test variable to the hard disk with the value of 8 using this commend:
 &quot;&quot;&quot;&lt;&lt;remember $wipeTestVariable =8&gt;&gt;&quot;&quot;&quot;
 &lt;&lt;remember $wipeTestVariable =8&gt;&gt;
 The stored value will appear between these brackets: (&lt;font color=yellow&gt; $wipeTestVariable &lt;/font&gt;)
@@ -458,10 +457,20 @@ Click the link to wipe the non-persistent memory and the long term memory in the
 Click the link to wipe the long term metadata memory.
  !!! [[Wipe all memory now using the metadata macro|Wiped-metadata]] !!!
 ----
-</tw-passagedata><tw-passagedata pid="34" name="Saving" tags="" position="25,1800" size="100,100">Config.saves.autosave = true;
-Config.saves.autoload = true;</tw-passagedata><tw-passagedata pid="35" name="Wiped-metadata" tags="" position="775,150" size="100,100">/% &lt;&lt;forgetall&gt;&gt; %/
+
+&quot;&quot;&quot;&lt;&lt;run memorize(&#39;$wipeTestVariable&#39;, 29)&gt;&gt;&quot;&quot;&quot;
+&lt;&lt;run memorize(&#39;$wipeTestVariable&#39;, 29)&gt;&gt;
+$wipeTestVariable
+&quot;&quot;&quot;&lt;&lt;set setup.$twineScriptVariable to recall(&#39;$wipeTestVariable&#39;)&gt;&gt;&quot;&quot;&quot;
+&lt;&lt;set setup.$twineScriptVariable to recall(&#39;$wipeTestVariable&#39;)&gt;&gt;
+$wipeTestVariable
+
+</tw-passagedata><tw-passagedata pid="32" name="Saving" tags="" position="25,1800" size="100,100">Config.saves.autosave = true;
+Config.saves.autoload = true;</tw-passagedata><tw-passagedata pid="33" name="Wiped-metadata" tags="" position="775,150" size="100,100">/% &lt;&lt;forgetall&gt;&gt; %/
 &lt;&lt;forgetall&gt;&gt;
 The Test file&#39;s long term memory in the metadata has been wiped (hopefully!).  Test results are below.
+
+&lt;&lt;include [[Test page (4inclusion)]]&gt;&gt;</tw-passagedata><tw-passagedata pid="34" name="Test passage 4 after reload or reboot or restart" tags="" position="650,150" size="100,100">!!!Showing the test results after reloading, rebooting or restarting the Test  project.
 
 &lt;&lt;include [[Test page (4inclusion)]]&gt;&gt;</tw-passagedata></tw-storydata>
 	<script id="script-sugarcube" type="text/javascript">
