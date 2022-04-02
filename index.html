@@ -588,8 +588,8 @@ Tel: +61 3 9078 9746  /  (03) 9078 9746</tw-passagedata><tw-passagedata pid="11"
 ----
 &lt;&lt;return&gt;&gt;</tw-passagedata><tw-passagedata pid="12" name="StoryDisplayTitle" tags="@#P9910 @#Fold000" position="125,500" size="100,100">Climate Rescue Adviser</tw-passagedata><tw-passagedata pid="13" name="StoryMenu" tags="@#P9994 @#Fold000" position="125,625" size="100,100">[[Getting started]]
 &lt;&lt;nobr&gt;&gt;
-&lt;&lt;if $wholeSystemPlan eq 1&gt;&gt;
-[[&#39;Whole System&#39; Plan|Is this really what you want?]]
+&lt;&lt;if $wholeSystemPackagePlan eq 1&gt;&gt;
+[[Whole System Package|Is this really what you want?]]
 &lt;&lt;/if&gt;&gt;
 
 &lt;&lt;if $globalScenarios eq 1&gt;&gt;
@@ -597,11 +597,11 @@ Tel: +61 3 9078 9746  /  (03) 9078 9746</tw-passagedata><tw-passagedata pid="11"
 &lt;&lt;/if&gt;&gt;
 
 &lt;&lt;if $buildingSupportSystem eq 1&gt;&gt;
-[[Building a support system|Building a support system for &#39;whole system&#39; action]]
+[[Building a support system|Building a support system for &#39;whole system package&#39; action]]
 &lt;&lt;/if&gt;&gt;
 
-&lt;&lt;if $adaptingTheWholePackagePlanShow eq 1&gt;&gt;
-[[Adapting the &#39;whole system&#39; plan]]
+&lt;&lt;if $adaptingTheWholeSystemPackagePlanShow eq 1&gt;&gt;
+[[Adapting the &#39;whole system package&#39; plan]]
 &lt;&lt;/if&gt;&gt;
 
 &lt;&lt;if $linkedProjectsShow eq 1&gt;&gt;
@@ -797,30 +797,30 @@ Tel: +61 3 9078 9746  /  (03) 9078 9746</tw-passagedata><tw-passagedata pid="11"
 		});
 	});
 &lt;&lt;/script&gt;&gt;
-/* &lt;&lt;textboxPlus&gt;&gt; widget - End */</tw-passagedata><tw-passagedata pid="15" name="Version input (2include)" tags="@#P9991 @#Fold000" position="500,125" size="100,100">&lt;nobr&gt;Adviser revised 2 April 2022, 1.16 pm.  &lt;small&gt;(Begun 19 December 2021)&lt;/small&gt;&lt;/nobr&gt;</tw-passagedata><tw-passagedata pid="16" name="Getting started" tags="@#P9998 @#Fold001" position="375,0" size="100,100">&lt;&lt;include [[Start]]&gt;&gt;</tw-passagedata><tw-passagedata pid="17" name="Start" tags="@#P9999 @#Fold001" position="250,0" size="100,100">!!Getting started
+/* &lt;&lt;textboxPlus&gt;&gt; widget - End */</tw-passagedata><tw-passagedata pid="15" name="Version input (2include)" tags="@#P9991 @#Fold000" position="500,125" size="100,100">&lt;nobr&gt;Adviser revised 3 April 2022, 1.19 am.  &lt;small&gt;(Begun 19 December 2021)&lt;/small&gt;&lt;/nobr&gt;</tw-passagedata><tw-passagedata pid="16" name="Getting started" tags="@#P9998 @#Fold001" position="375,0" size="100,100">&lt;&lt;include [[Start]]&gt;&gt;</tw-passagedata><tw-passagedata pid="17" name="Start" tags="@#P9999 @#Fold001" position="250,0" size="100,100">!!Getting started
 The purpose of the Climate Rescue Adviser is to help people to prepare a climate action plan based on a commitment to:
 *maximum protection for the climate vulnerable
 *safe climate restoration
-*taking action in the context of a &#39;whole package&#39; plan
+*taking action in the context of a &#39;whole system package&#39; plan
 *emergency mode of action.
 See:  http://bit.ly/DeliveringMaximumProtection
 
 The Adviser is being built by RSTI&#39;s Climate Rescue Catalytic Group and is in a very early stage of development, so please bear with us over the coming months as it is built up.
 
-//(development comment)// The purpose of this page &amp;ndash; the material to be added here will help people get orientated before plunging in to create their first draft of a &#39;Whole Package&#39; climate action plan based on the maximum protection approach.)
+//(development comment)// The purpose of this page &amp;ndash; the material to be added here will help people get orientated before plunging in to create their first draft of a &#39;Whole System Package&#39; climate action plan based on the maximum protection approach.)
 
 !!!!The need for a &quot;maximum protection&quot; approach to climate action
 (to come)
-!!!!The need for a &quot;whole-package&quot; approach to climate action
+!!!!The need for a &#39;whole system package&#39; approach to climate action
 (to come)
 !!!!The need for a &quot;emergency mode of action&quot; approach to climate action
 (to come)
 !!!!How the Adviser has been structured
-!!!!!The generic &#39;Whole Package&#39; plan
+!!!!!The generic &#39;whole system package&#39; plan
 (to come)
-!!!!!The adapted &#39;Whole Package&#39; plan
+!!!!!The adapted &#39;whole system package&#39; plan
 (to come)
-!!!!!Identifying projects to contribute to the &#39;whole package&#39; plan
+!!!!!Identifying projects to contribute to the &#39;whole system package&#39; plan
 (to come)
 !!!!!Building up a customised report 
 (to come)
@@ -833,15 +833,15 @@ This project is looking for people to assist with the development of the content
 Okay – here we go: [[next»|Is this really what you want?]] 
 &lt;&lt;else&gt;&gt;
 !!!!Ready to start using the Adviser?
-Okay – here we go: [[next»|&#39;Whole System&#39; Plan]] 
+Okay – here we go: [[next»|&#39;Whole System Package&#39; Plan]] 
 &lt;&lt;/if&gt;&gt;
 &lt;large&gt;&lt;b&gt;Adviser version&lt;/b&gt;&lt;/large&gt;
-&lt;&lt;include [[Version input (2include)]]&gt;&gt;</tw-passagedata><tw-passagedata pid="18" name="&#39;Whole System&#39; Plan" tags="@#P9989 @#Fold002" position="950,825" size="200,200">!!Developing a maximum protection, &#39;whole system&#39; plan&lt;nobr&gt;&lt;&lt;set $wholeSystemPlan to 1&gt;&gt;&lt;&lt;set $genericWholePackagePlanArray to [0,0,0,0,0,0,0,0,0,0,0,0]&gt;&gt;
+&lt;&lt;include [[Version input (2include)]]&gt;&gt;</tw-passagedata><tw-passagedata pid="18" name="&#39;Whole System Package&#39; Plan" tags="@#P9989 @#Fold002" position="950,825" size="200,200">!!Developing a maximum protection, &#39;whole system package&#39; plan&lt;nobr&gt;&lt;&lt;set $wholeSystemPackagePlan to 1&gt;&gt;&lt;&lt;set $genericWholePackagePlanArray to [0,0,0,0,0,0,0,0,0,0,0,0]&gt;&gt;
 &lt;/nobr&gt;
 By answering these questions below, it should be possible to create a climate plan based on four key principles:
 *maximum protection for the climate vulnerable
 *safe climate restoration
-*taking action in the context of a &#39;Whole Package&#39; plan
+*taking action in the context of a &#39;Whole System Package&#39; plan
 *emergency mode of action
 that can later be adapted for use by individuals, organisations and governments etc.
 
@@ -865,16 +865,16 @@ that can later be adapted for use by individuals, organisations and governments 
 
 [[Q10. What actions are needed to build and activate the alliances?|Q10. What actions needed to activate alliances?]]
 
-[[11. Challenges for the &#39;whole system&#39; plan]]
+[[11. Challenges for the &#39;whole system package&#39; plan]]
 
 [[Q12. How does the approach emerging from answering the questions above differ from the (currently) usual approach?|Q12. How does action package differ from conventional?]]
 
 [[Q13. What are the action implications of these differences?|Q13. Significance of differences?]]
 
 ----
-[[Output Report: &#39;Whole System&#39; Plan|Output Report_&#39;Whole System&#39; Plan]]
+[[Output Report: &#39;Whole System Package&#39; Plan|Output Report_&#39;Whole System Package&#39; Plan]]
 ----
-&lt;&lt;return&gt;&gt; | [[«previous|Getting started]] | [[next»|Q1. Who-what to protect?]]</tw-passagedata><tw-passagedata pid="19" name="Q10. What actions needed to activate alliances?" tags="@#P9916 @#Fold020" position="1375,2075" size="100,100">&lt;&lt;return&gt;&gt; | [[Navigation» &#39;Whole Package&#39;|NAV_&#39;Whole System&#39; Plan]] | &lt;&lt;fav&gt;&gt;
+&lt;&lt;return&gt;&gt; | [[«previous|Getting started]] | [[next»|Q1. Who-what to protect?]]</tw-passagedata><tw-passagedata pid="19" name="Q10. What actions needed to activate alliances?" tags="@#P9916 @#Fold020" position="1375,2075" size="100,100">&lt;&lt;return&gt;&gt; | [[Navigation» &#39;Whole System Package&#39;|NAV_&#39;Whole System Package&#39; Plan]] | &lt;&lt;fav&gt;&gt;
 ----
 !!Q10. What actions are needed to build and activate the alliances?
 
@@ -906,9 +906,9 @@ The work on this page is/is not complete)
 (As the user works through this page, report material related to the page will collect here.  It will also be repeated on the Output Report page.)
 
 ----
-&lt;&lt;return&gt;&gt; | [[«previous|Q9. What alliances needed?]] | [[next»|11. Challenges for the &#39;whole system&#39; plan]]</tw-passagedata><tw-passagedata pid="20" name="11. Challenges for the &#39;whole system&#39; plan" tags="@#P9934 @#Fold011" position="1375,825" size="100,100">&lt;&lt;return&gt;&gt; | [[Navigation» &#39;Whole System&#39; Plan|NAV_&#39;Whole System&#39; Plan]] | &lt;&lt;fav&gt;&gt;
+&lt;&lt;return&gt;&gt; | [[«previous|Q9. What alliances needed?]] | [[next»|11. Challenges for the &#39;whole system package&#39; plan]]</tw-passagedata><tw-passagedata pid="20" name="11. Challenges for the &#39;whole system package&#39; plan" tags="@#P9934 @#Fold011" position="1375,825" size="100,100">&lt;&lt;return&gt;&gt; | [[Navigation» &#39;Whole System Package&#39; Plan|NAV_&#39;Whole System Package&#39; Plan]] | &lt;&lt;fav&gt;&gt;
 ----
-!!11. Challenges that the &#39;whole system&#39; plan needs to deal with (identified in response to questions 1-10)
+!!11. Challenges that the &#39;whole system package&#39; plan needs to deal with (identified in response to questions 1-10)
 
 !!!How to answer the question
 
@@ -937,7 +937,7 @@ The work on this page is/is not complete)
 (As the user works through this page, report material related to the page will collect here.  It will also be repeated on the Output Report page.)
 
 ----
-&lt;&lt;return&gt;&gt; | [[«previous|Q10. What actions needed to activate alliances?]] | [[next»|Q12. How does action package differ from conventional?]]</tw-passagedata><tw-passagedata pid="21" name="Q12. How does action package differ from conventional?" tags="@#P9914 @#Fold021" position="1375,2200" size="100,100">&lt;&lt;return&gt;&gt; | [[Navigation» &#39;Whole Package&#39;|NAV_&#39;Whole System&#39; Plan]] | &lt;&lt;fav&gt;&gt;
+&lt;&lt;return&gt;&gt; | [[«previous|Q10. What actions needed to activate alliances?]] | [[next»|Q12. How does action package differ from conventional?]]</tw-passagedata><tw-passagedata pid="21" name="Q12. How does action package differ from conventional?" tags="@#P9914 @#Fold021" position="1375,2200" size="100,100">&lt;&lt;return&gt;&gt; | [[Navigation» &#39;Whole System Package&#39;|NAV_&#39;Whole System Package&#39; Plan]] | &lt;&lt;fav&gt;&gt;
 ----
 !!Q12. How does the approach emerging from answering the earlier questions differ from the (currently) usual approach?
 
@@ -969,7 +969,7 @@ The work on this page is/is not complete)
 (As the user works through this page, report material related to the page will collect here.  It will also be repeated on the Output Report page.)
 
 ----
-&lt;&lt;return&gt;&gt; | [[«previous|11. Challenges for the &#39;whole system&#39; plan]] | [[next»|Q13. Significance of differences?]]</tw-passagedata><tw-passagedata pid="22" name="Q13. Significance of differences?" tags="@#P9912 @#Fold022" position="1375,2325" size="100,100">&lt;&lt;return&gt;&gt; | [[Navigation» &#39;Whole Package&#39;|NAV_&#39;Whole System&#39; Plan]] | &lt;&lt;fav&gt;&gt;
+&lt;&lt;return&gt;&gt; | [[«previous|11. Challenges for the &#39;whole system package&#39; plan]] | [[next»|Q13. Significance of differences?]]</tw-passagedata><tw-passagedata pid="22" name="Q13. Significance of differences?" tags="@#P9912 @#Fold022" position="1375,2325" size="100,100">&lt;&lt;return&gt;&gt; | [[Navigation» &#39;Whole System Package&#39;|NAV_&#39;Whole System Package&#39; Plan]] | &lt;&lt;fav&gt;&gt;
 ----
 !!Q13. What are the implications of these differences (identified in response to question 12) for action?
 
@@ -1002,7 +1002,7 @@ The work on this page is/is not complete)
 (As the user works through this page, report material related to the page will collect here.  It will also be repeated on the Output Report page.)
 
 ----
-&lt;&lt;return&gt;&gt; | [[«previous|Q12. How does action package differ from conventional?]] | [[next» (the &quot;building a support system&quot; series)|Building a support system for &#39;whole system&#39; action]]</tw-passagedata><tw-passagedata pid="23" name="Q1. Who-what to protect?" tags="@#P9932 @#Fold012" position="1375,950" size="100,100">[[Navigation» &#39;Whole Package&#39;|NAV_&#39;Whole System&#39; Plan]] | &lt;&lt;fav&gt;&gt;
+&lt;&lt;return&gt;&gt; | [[«previous|Q12. How does action package differ from conventional?]] | [[next» (the &quot;building a support system&quot; series)|Building a support system for &#39;whole system package&#39; action]]</tw-passagedata><tw-passagedata pid="23" name="Q1. Who-what to protect?" tags="@#P9932 @#Fold012" position="1375,950" size="100,100">[[Navigation» &#39;Whole System Package&#39;|NAV_&#39;Whole System Package&#39; Plan]] | &lt;&lt;fav&gt;&gt;
 ----
 !!Q1. Who or what should be protected?
 
@@ -1033,7 +1033,7 @@ The work on this page is/is not complete)
 (As the user works through this page, report material related to the page will collect here.  It will also be repeated on the Output Report page.)
 
 ----
-&lt;&lt;return&gt;&gt; | [[«previous|&#39;Whole System&#39; Plan]] | [[next»|Q2. What threats need to be dealt with?]]</tw-passagedata><tw-passagedata pid="24" name="Q2. What threats need to be dealt with?" tags="@#P9930 @#Fold013" position="1375,1075" size="100,100">&lt;&lt;return&gt;&gt; | [[Navigation» &#39;Whole Package&#39;|NAV_&#39;Whole System&#39; Plan]] | &lt;&lt;fav&gt;&gt;
+&lt;&lt;return&gt;&gt; | [[«previous|&#39;Whole System Package&#39; Plan]] | [[next»|Q2. What threats need to be dealt with?]]</tw-passagedata><tw-passagedata pid="24" name="Q2. What threats need to be dealt with?" tags="@#P9930 @#Fold013" position="1375,1075" size="100,100">&lt;&lt;return&gt;&gt; | [[Navigation» &#39;Whole System Package&#39;|NAV_&#39;Whole System Package&#39; Plan]] | &lt;&lt;fav&gt;&gt;
 ----
 !!Q2. What threats need to be dealt with?
 
@@ -1065,7 +1065,7 @@ The work on this page is/is not complete)
 (As the user works through this page, report material related to the page will collect here.  It will also be repeated on the Output Report page.)
 
 ----
-&lt;&lt;return&gt;&gt; | [[«previous|Q1. Who-what to protect?]] | [[next»|Q3. How much protection?]]</tw-passagedata><tw-passagedata pid="25" name="Q3. How much protection?" tags="@#P9928 @#Fold014" position="1375,1200" size="100,100">&lt;&lt;return&gt;&gt; | [[Navigation» &#39;Whole Package&#39;|NAV_&#39;Whole System&#39; Plan]] | &lt;&lt;fav&gt;&gt;
+&lt;&lt;return&gt;&gt; | [[«previous|Q1. Who-what to protect?]] | [[next»|Q3. How much protection?]]</tw-passagedata><tw-passagedata pid="25" name="Q3. How much protection?" tags="@#P9928 @#Fold014" position="1375,1200" size="100,100">&lt;&lt;return&gt;&gt; | [[Navigation» &#39;Whole System Package&#39;|NAV_&#39;Whole System Package&#39; Plan]] | &lt;&lt;fav&gt;&gt;
 ----
 !!Q3. What degree of protection do you want to achieve?
 
@@ -1097,7 +1097,7 @@ The work on this page is/is not complete)
 (As the user works through this page, report material related to the page will collect here.  It will also be repeated on the Output Report page.)
 
 ----
-&lt;&lt;return&gt;&gt; | [[«previous|Q2. What threats need to be dealt with?]] | [[next»|Q4. What protection conditions needed?]]</tw-passagedata><tw-passagedata pid="26" name="Q4. What protection conditions needed?" tags="@#P9926 @#Fold015" position="1375,1325" size="100,100">&lt;&lt;return&gt;&gt; | [[Navigation» &#39;Whole Package&#39;|NAV_&#39;Whole System&#39; Plan]] | &lt;&lt;fav&gt;&gt;
+&lt;&lt;return&gt;&gt; | [[«previous|Q2. What threats need to be dealt with?]] | [[next»|Q4. What protection conditions needed?]]</tw-passagedata><tw-passagedata pid="26" name="Q4. What protection conditions needed?" tags="@#P9926 @#Fold015" position="1375,1325" size="100,100">&lt;&lt;return&gt;&gt; | [[Navigation» &#39;Whole System Package&#39;|NAV_&#39;Whole System Package&#39; Plan]] | &lt;&lt;fav&gt;&gt;
 ----
 !!Q4. What conditions are needed by when to provide that protection with certainty?
 
@@ -1129,7 +1129,7 @@ The work on this page is/is not complete)
 (As the user works through this page, report material related to the page will collect here.  It will also be repeated on the Output Report page.)
 
 ----
-&lt;&lt;return&gt;&gt; | [[«previous|Q3. How much protection?]] | [[next»|Q5. What protection actions needed?]]</tw-passagedata><tw-passagedata pid="27" name="Q5. What protection actions needed?" tags="@#P9924 @#Fold016" position="1375,1450" size="100,100">&lt;&lt;return&gt;&gt; | [[Navigation» &#39;Whole Package&#39;|NAV_&#39;Whole System&#39; Plan]] | &lt;&lt;fav&gt;&gt;
+&lt;&lt;return&gt;&gt; | [[«previous|Q3. How much protection?]] | [[next»|Q5. What protection actions needed?]]</tw-passagedata><tw-passagedata pid="27" name="Q5. What protection actions needed?" tags="@#P9924 @#Fold016" position="1375,1450" size="100,100">&lt;&lt;return&gt;&gt; | [[Navigation» &#39;Whole System Package&#39;|NAV_&#39;Whole System Package&#39; Plan]] | &lt;&lt;fav&gt;&gt;
 ----
 !!Q5. What actions are needed at what scale to deliver the protection by when it’s needed?
 
@@ -1163,7 +1163,7 @@ The work on this page is/is not complete)
 (As the user works through this page, report material related to the page will collect here.  It will also be repeated on the Output Report page.)
 
 ----
-&lt;&lt;return&gt;&gt; | [[«previous|Q4. What protection conditions needed?]] | [[next»|Q6. Geographical scope?]]</tw-passagedata><tw-passagedata pid="28" name="Q6. Geographical scope?" tags="@#P9922 @#Fold017" position="1375,1575" size="100,100">&lt;&lt;return&gt;&gt; | [[Navigation» &#39;Whole Package&#39;|NAV_&#39;Whole System&#39; Plan]] | &lt;&lt;fav&gt;&gt;
+&lt;&lt;return&gt;&gt; | [[«previous|Q4. What protection conditions needed?]] | [[next»|Q6. Geographical scope?]]</tw-passagedata><tw-passagedata pid="28" name="Q6. Geographical scope?" tags="@#P9922 @#Fold017" position="1375,1575" size="100,100">&lt;&lt;return&gt;&gt; | [[Navigation» &#39;Whole System Package&#39;|NAV_&#39;Whole System Package&#39; Plan]] | &lt;&lt;fav&gt;&gt;
 ----
 !!Q6. What is the geographical scope of the package?
 
@@ -1198,7 +1198,7 @@ The work on this page is/is not complete)
 (As the user works through this page, report material related to the page will collect here.  It will also be repeated on the Output Report page.)
 
 ----
-&lt;&lt;return&gt;&gt; | [[«previous|Q5. What protection actions needed?]] | [[next»|Q7. Mode of action?]]</tw-passagedata><tw-passagedata pid="29" name="Q7. Mode of action?" tags="@#P9920 @#Fold018" position="1375,1700" size="100,100">&lt;&lt;return&gt;&gt; | [[Navigation» &#39;Whole Package&#39;|NAV_&#39;Whole System&#39; Plan]] | &lt;&lt;fav&gt;&gt;
+&lt;&lt;return&gt;&gt; | [[«previous|Q5. What protection actions needed?]] | [[next»|Q7. Mode of action?]]</tw-passagedata><tw-passagedata pid="29" name="Q7. Mode of action?" tags="@#P9920 @#Fold018" position="1375,1700" size="100,100">&lt;&lt;return&gt;&gt; | [[Navigation» &#39;Whole System Package&#39;|NAV_&#39;Whole System Package&#39; Plan]] | &lt;&lt;fav&gt;&gt;
 ----
 !!Q7. What mode of action is needed given the scale and urgency of action?
 
@@ -1253,7 +1253,7 @@ Despite about 2000 governments declaring a climate emergency, no government that
 
 In $thisYear at this early stage of the climate emergency action mobilisation in Australia and globally, it will be impossible for municipalities, state/province and national governments to get into emergency mode unless they take sufficient preparatory action.
 
-A practical first step for each stage of engagement with climate emergency action is to create an action checklist.  This Adviser is being developed to assist you with this task.</tw-passagedata><tw-passagedata pid="30" name="Q8. Delivering protection" tags="@#P9850 @#Fold087" position="1375,1825" size="100,100">&lt;&lt;return&gt;&gt; | [[Navigation» &#39;Whole Package&#39;|NAV_&#39;Whole System&#39; Plan]] | &lt;&lt;fav&gt;&gt;
+A practical first step for each stage of engagement with climate emergency action is to create an action checklist.  This Adviser is being developed to assist you with this task.</tw-passagedata><tw-passagedata pid="30" name="Q8. Delivering protection" tags="@#P9850 @#Fold087" position="1375,1825" size="100,100">&lt;&lt;return&gt;&gt; | [[Navigation» &#39;Whole System Package&#39;|NAV_&#39;Whole System Package&#39; Plan]] | &lt;&lt;fav&gt;&gt;
 ----
 !!Q8. Delivering protection
 
@@ -1284,7 +1284,7 @@ The work on this page is/is not complete)
 (As the user works through this page, report material related to the page will collect here.  It will also be repeated on the Output Report page.)
 
 ----
-&lt;&lt;return&gt;&gt; | [[«previous|Q7. Mode of action?]] | [[next»|Q9. What alliances needed?]]</tw-passagedata><tw-passagedata pid="31" name="Q9. What alliances needed?" tags="@#P9918 @#Fold019" position="1375,1950" size="100,100">&lt;&lt;return&gt;&gt; | [[Navigation» &#39;Whole Package&#39;|NAV_&#39;Whole System&#39; Plan]] | &lt;&lt;fav&gt;&gt;
+&lt;&lt;return&gt;&gt; | [[«previous|Q7. Mode of action?]] | [[next»|Q9. What alliances needed?]]</tw-passagedata><tw-passagedata pid="31" name="Q9. What alliances needed?" tags="@#P9918 @#Fold019" position="1375,1950" size="100,100">&lt;&lt;return&gt;&gt; | [[Navigation» &#39;Whole System Package&#39;|NAV_&#39;Whole System Package&#39; Plan]] | &lt;&lt;fav&gt;&gt;
 ----
 !!Q9. What alliances are needed to deliver the protection?
 
@@ -1317,7 +1317,7 @@ The work on this page is/is not complete)
 
 ----
 &lt;&lt;return&gt;&gt; | [[«previous|Q8. Delivering protection]] | [[next»|Q10. What actions needed to activate alliances?]]</tw-passagedata><tw-passagedata pid="32" name="Is this really what you want?" tags="@#P9997 @#Fold002" position="950,700" size="100,100">&lt;IMG SRC=&quot;http://www.green-innovations.asn.au/graphics/Question-sign_3_25pc.png&quot;&gt;&lt;nobr&gt;
-&lt;&lt;if previous() is &quot;&#39;Whole Package&#39; Plan&quot; and $startupWarning is 1&gt;&gt;&lt;&lt;goto [[Start]]&gt;&gt;&lt;&lt;elseif $startupWarning is 1&gt;&gt;&lt;&lt;goto [[&#39;Whole System&#39; Plan]]&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;&lt;set $startupWarning to 1&gt;&gt;&lt;/nobr&gt;
+&lt;&lt;if previous() is &quot;&#39;Whole System Package&#39; Plan&quot; and $startupWarning is 1&gt;&gt;&lt;&lt;goto [[Start]]&gt;&gt;&lt;&lt;elseif $startupWarning is 1&gt;&gt;&lt;&lt;goto [[&#39;Whole System Package&#39; Plan]]&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;&lt;set $startupWarning to 1&gt;&gt;&lt;/nobr&gt;
 !!Is this Adviser really for you?
 Is your approach to climate based on one or more of these assumptions?
 * The climate outcome that should be aimed for will be less dangerous than what you fear is possible, but not less dangerous than it is now.
@@ -1325,7 +1325,7 @@ Is your approach to climate based on one or more of these assumptions?
 * Climate action will inevitably fall well short of what&#39;s needed and will be slow and incremental.
 If it is, then perhaps this adviser is not what you want?
 
-But if you are still curious about the alternative approach that will be explored through this adviser, then let&#39;s move on to the first &#39;level&#39; - developing a [[&#39;Whole System&#39; Plan]].</tw-passagedata><tw-passagedata pid="33" name="NAV_&#39;Whole System&#39; Plan" tags="@#P9988 @#Fold002" position="1175,825" size="100,100">&lt;nobr&gt;&lt;/nobr&gt;[[Q1. Who-what to protect?|Q1. Who-what to protect?]]
+But if you are still curious about the alternative approach that will be explored through this adviser, then let&#39;s move on to the first &#39;level&#39; - developing a [[&#39;Whole System Package&#39; Plan]].</tw-passagedata><tw-passagedata pid="33" name="NAV_&#39;Whole System Package&#39; Plan" tags="@#P9988 @#Fold002" position="1175,825" size="100,100">&lt;nobr&gt;&lt;/nobr&gt;[[Q1. Who-what to protect?|Q1. Who-what to protect?]]
 [[Q2. What threats need to be dealt with?]]
 [[Q3. How much protection?]]
 [[Q4. What protection conditions needed?]]
@@ -1335,11 +1335,11 @@ But if you are still curious about the alternative approach that will be explore
 [[Q8. Delivery of protection?|Q8. Delivering protection]]
 [[Q9. What alliances needed?|Q9. What alliances needed?]]
 [[Q10. What actions needed to activate alliances?]]
-[[11. Challenges for the &#39;whole system&#39; plan]]
+[[11. Challenges for the &#39;whole system package&#39; plan]]
 [[Q12. How does action package differ from conventional?]]
 [[Q13. Significance of differences?|Q13. Significance of differences?]]
 
-[[Output Report: &#39;Whole System&#39; Plan|Output Report_&#39;Whole System&#39; Plan]]
+[[Output Report: &#39;Whole System Package&#39; Plan|Output Report_&#39;Whole System Package&#39; Plan]]
 
 &lt;&lt;return&gt;&gt;</tw-passagedata><tw-passagedata pid="34" name="Descent into warring" tags="@#P9908 @#Fold003" position="1425,3925" size="100,100">&lt;&lt;fav&gt;&gt;
 ---
@@ -1361,13 +1361,13 @@ But if you are still curious about the alternative approach that will be explore
 ----
 !!Maximum protection world</tw-passagedata><tw-passagedata pid="39" name="Stabilised climate, but hotter than now" tags="@#P9904 @#Fold003" position="1425,4050" size="100,100">&lt;&lt;fav&gt;&gt;
 ---
-!!Stabilised climate, but hotter than now</tw-passagedata><tw-passagedata pid="40" name="Building a support system for &#39;whole system&#39; action" tags="@#P9903 @#Fold004" position="1000,4475" size="200,200">!!Building a support system for &#39;whole system&#39; action
+!!Stabilised climate, but hotter than now</tw-passagedata><tw-passagedata pid="40" name="Building a support system for &#39;whole system package&#39; action" tags="@#P9903 @#Fold004" position="1000,4475" size="200,200">!!Building a support system for &#39;whole system package&#39; action
 
 (to come)
 
 ----
-&lt;&lt;return&gt;&gt; | [[«previous|&#39;Whole System&#39; Plan]] | [[next» (the &quot;adapting the plan&quot; series)|Adapting the &#39;whole system&#39; plan]]</tw-passagedata><tw-passagedata pid="41" name="Adapting the &#39;whole system&#39; plan" tags="@#P9902 @#Fold005" position="1000,4875" size="200,200">!!Adapting the maximum protection, &#39;Whole Package&#39; Plan to different contexts
-Most people will be approaching climate action from a particular perspective - so they will need to adapt the generic &#39;Whole Package&#39; climate actiopn plan.
+&lt;&lt;return&gt;&gt; | [[«previous|&#39;Whole System Package&#39; Plan]] | [[next» (the &quot;adapting the plan&quot; series)|Adapting the &#39;whole system package&#39; plan]]</tw-passagedata><tw-passagedata pid="41" name="Adapting the &#39;whole system package&#39; plan" tags="@#P9902 @#Fold005" position="1000,4875" size="200,200">!!Adapting the maximum protection, &#39;Whole System Package&#39; Plan to different contexts
+Most people will be approaching climate action from a particular perspective - so they will need to adapt the generic &#39;Whole System Package&#39; climate actiopn plan.
 
 Select one of the options below to start this customisation process.  You might want to come back later to explore one or more other approaches to help you see the customisation process from other perspectives 
 
@@ -1564,7 +1564,7 @@ Select one of the options below to start this customisation process.  You might 
 
 
 &lt;&lt;return&gt;&gt; | [[Navigation» Adapting the Plan|NAV_Linked projects]]</tw-passagedata><tw-passagedata pid="49" name="Linked projects" tags="@#P9890 @#Fold006" position="1000,5600" size="200,200">!!Identifying linked projects
-//(This is the topic that most activists or potential activists are intersted in.  Most people want to dive into the detail before they get a handle on the big picture.  The Adviser is structured to try to encourage to go through the whole package plan development first and then think about how to adapt  the whole plan for particular contexts and then finally toget to the issue of specific projects.)//
+//(This is the topic that most activists or potential activists are interested in.  Most people want to dive into the detail before they get a handle on the big picture.  The Adviser is structured to try to encourage people to go through the whole system package plan development first and then think about how to adapt the whole system package plan for particular contexts and then finally to get to the issue of specific projects.)//
 
 [[Development ideas for this section of the Adviser|Linked projects_TEMP_development ideas]]
 
@@ -1595,9 +1595,9 @@ Select one of the options below to start this customisation process.  You might 
 [[CRCG priority projects]]
 
 
-&lt;&lt;return&gt;&gt;</tw-passagedata><tw-passagedata pid="52" name="Output Report_&#39;Whole System&#39; Plan" tags="@#P9986 @#Fold007 MC@#Fold002" position="1375,700" size="100,100">&lt;&lt;fav&gt;&gt;
+&lt;&lt;return&gt;&gt;</tw-passagedata><tw-passagedata pid="52" name="Output Report_&#39;Whole System Package&#39; Plan" tags="@#P9986 @#Fold007 MC@#Fold002" position="1375,700" size="100,100">&lt;&lt;fav&gt;&gt;
 ----
-!Output Report - &#39;Whole System&#39; Plan
+!Output Report - &#39;Whole System Package&#39; Plan
 //(content will be auto-generated here based on freeform user input, and material selected by the adviser basedon the user&#39;s yes/no answers to questions or other structures choises made by the user.  After the user has developed a draft plan Climate Rescue will create opportunities for the user to have discussions with campaign workers.)//
 
 !!!Printing this report
@@ -1645,9 +1645,9 @@ To turn this page into a word processing document for your own use, select the s
 
 &lt;&lt;return&gt;&gt;</tw-passagedata><tw-passagedata pid="58" name="Output reports" tags="@#P9987 @#Fold007 MC@#Fold001" position="600,425" size="200,200">&lt;&lt;fav&gt;&gt;
 !!Output reports
-[[&#39;Whole System&#39; Plan|Output Report_&#39;Whole System&#39; Plan]]
+[[&#39;Whole System Package&#39; Plan|Output Report_&#39;Whole System Package&#39; Plan]]
 
-&#39;&#39;Output Reports for Adaptations of the &quot;Whole-Package&quot; Plan&#39;&#39;
+&#39;&#39;Output Reports for Adaptations of the &#39;Whole System Package&#39; Plan&#39;&#39;
 [[Individuals|Output Report_Individuals]]
 [[Climate action groups|Output Report_Climate action groups]]
 [[Governments|Output Report_Governments]]
@@ -2636,7 +2636,7 @@ Too often people try to solve problems in a piecemeal fashion. This means that t
 
 So what do we do? The nearest we can get to solving everything at once is to develop a vision or an impressionistic picture of what the future might look like if we were able to give effect to our multiple goals. The vision is used as a reference point to judge each ad-hoc or individual decision which has to be made. The test in each decision is: &quot;does the proposed solution, over the longer term, move us further towards the realisation of our vision or further away? In this way a multitude of ad hoc decisions can be given some degree of coherence with a minimum of formal coordination.
 
-The vision should be comprehensive and integrated. It should be based on the integration of not just your own highest order goals, but should also embrace, as far as possible, other people&#39;s highest order goals. Thus the vision aims to represent a &#39;highest common denominator&#39; resolution of the &#39;&#39;whole community&#39;&#39;&#39;s desires in which your highest order goals are also achieved.
+The vision should be comprehensive and integrated. It should be based on the integration of not just your own highest order goals, but should also embrace, as far as possible, other people&#39;s highest order goals. Thus the vision aims to represent a &#39;highest common denominator&#39; resolution of the whole community&#39;s desires in which your highest order goals are also achieved.
 
 The vision needs to be constantly up-dated to reflect changes in people&#39;s highest order goals, to incorporate the latest technical knowledge and to take advantage of the current best practice in problem solving techniques so that it remains realistic as well as idealistic.</tw-passagedata><tw-passagedata pid="209" name="Direct analysis_Opportunity multiplying_Framework" tags="" position="1925,15175" size="100,100">[[Background|Background (get)]] | [[Frameworks]] | [[Opportunity multiplying|Opportunity multiplying (Framework)]] | (here) | &lt;&lt;fav&gt;&gt; 
 ----
@@ -3413,8 +3413,8 @@ Covid has moved so fast that all politicians know that the human and economic im
 
 
 
-&lt;&lt;return&gt;&gt;</tw-passagedata><tw-passagedata pid="315" name="Campaign for the whole solutions package--PrinEtc" tags="" position="1525,18050" size="100,100">[[Background|Background (get)]] | [[Principles etc]] | &lt;&lt;fav&gt;&gt; 
-!!Campaign for the whole solutions package (Principles etc)
+&lt;&lt;return&gt;&gt;</tw-passagedata><tw-passagedata pid="315" name="Campaign for the whole system solutions package--PrinEtc" tags="" position="1525,18050" size="100,100">[[Background|Background (get)]] | [[Principles etc]] | &lt;&lt;fav&gt;&gt; 
+!!Campaign for the whole system solutions package (Principles etc)
 
 
 
@@ -3498,7 +3498,7 @@ Covid has moved so fast that all politicians know that the human and economic im
 
 &lt;&lt;return&gt;&gt;</tw-passagedata><tw-passagedata pid="325" name="Principles etc" tags="" position="1400,18050" size="100,100">[[Background|Background (get)]] | &lt;&lt;fav&gt;&gt;
 !!Principles, factors, strategies and solutions
-*[[Campaign for the whole solutions package|Campaign for the whole solutions package--PrinEtc]]
+*[[Campaign for the whole system solutions package|Campaign for the whole system solutions package--PrinEtc]]
 *[[Chain of Responsibility|Chain of Responsibility--PrinEtc]]
 *[[Compassion|Compassion--PrinEtc]]
 *[[Emergency management|Emergency management-PrinEtc]]
@@ -3683,9 +3683,9 @@ Very interesting question!  My instant gut reaction was &quot;of course general 
 
 I haven&#39;t got an answer yet.  But I&#39;ve started to think about the question using a brain analogy framework.
 
-The whole-package plan //adaptation// options in the Adviser are a bit like a shift in attention when a person is thinking, but in the brain, one&#39;s past thinking on a range of topics is also influencing the topic that you have shifted your attention to. 
+The &#39;whole system package&#39; plan //adaptation// options in the Adviser are a bit like a shift in attention when a person is thinking, but in the brain, one&#39;s past thinking on a range of topics is also influencing the topic that you have shifted your attention to. 
 
-Maybe the results of the user&#39;s work on the generic &#39;Whole Package&#39; plan should be available to influence focused attention on any of the plan adaptation scenarios (eg. what should the local climate group Darebin Climate Action Now [DCAN] do (in the context of one&#39;s thinking on the generic plan? 
+Maybe the results of the user&#39;s work on the generic &#39;Whole System Package&#39; plan should be available to influence focused attention on any of the plan adaptation scenarios (eg. what should the local climate group Darebin Climate Action Now [DCAN] do (in the context of one&#39;s thinking on the generic plan? 
 
 Does this mean that the Advisor needs to run in continuous session?  That&#39;s how the brain works.  Even sleep is not a clean reboot. 
 
@@ -3722,11 +3722,11 @@ I think I&#39;ve finally extracted some practical options from my brain analogy 
 
 So here goes........
 
-First some practical context.....the Adviser is being constructed to have four main content/action domains.  There is a database of material, there is a module for creating a //generic// whole-package plan, and a set of modules to create context differentiated adapted whole package plans (individuals, climate groups, governments, businesses, international organisations); and finally a module to enable people think about designing //projects// that can sit within the two levels of whole-package plans.
+First some practical context.....the Adviser is being constructed to have four main content/action domains.  There is a database of material, there is a module for creating a //generic// &#39;whole system package&#39; plan, and a set of modules to create context differentiated adapted &#39;whole system package&#39; plans (individuals, climate groups, governments, businesses, international organisations); and finally a module to enable people think about designing //projects// that can sit within the two levels of &#39;whole system package&#39; plans.
 
-I think that the database and the generic level whole-package plan module should run in continuous session mode so the autosave system can handle values persistence.
+I think that the database and the generic level &#39;whole system package&#39; module should run in continuous session mode so the autosave system can handle values persistence.
 
-But I think there would be two ways to design the differentiated whole-package plan modules and the project module.
+But I think there would be two ways to design the differentiated &#39;whole system package&#39; plan modules and the project module.
 
 One option would be to have one set of code for each of these modules and then to create multiple distinct outputs from the modules, the modules could be treated as reusable.  Sub-projects would be run in a reusable module and then the module&#39;s state would be saved, allowing the module to be repurposed for another sub-project.
 
@@ -3736,7 +3736,7 @@ If the lower level modules are designed to be reused rather than cloned, then so
 
 *variables set with the module (including the content of text areas and text boxes)
 *calls to add information from the database into the sub-project output report
-*calls by applications of the project module to draw on variable values etc. from the higher-level differentiated whole-package plan modules (that would need to be called out of the persistent metadata for the relevant sub-project). 
+*calls by applications of the project module to draw on variable values etc. from the higher-level differentiated &#39;whole system package&#39; plan modules (that would need to be called out of the persistent metadata for the relevant sub-project). 
 
 Reusable modules would need to have mass functions such as saves of the reusable module state, clearing of the state of the reusable modules and reinstatement of one of the state saves so that work can continue on the sub-project.   These module saves, recalls, deletions would need to be independent of the whole system autosaves.</tw-passagedata><tw-passagedata pid="343" name="Storage and file size limits set by browsers" tags="@#P9881 @#Fold077" position="1375,21175" size="100,100">&lt;&lt;fav&gt;&gt;
 ----
@@ -3872,10 +3872,10 @@ Cathy Moore&#39;s article collections on:
 *[[A Modern Developer&#39;s Workflow For Twine|https://dev.to/lazerwalker/a-modern-developer-s-workflow-for-twine-4imp]]</tw-passagedata><tw-passagedata pid="348" name="Main menu items (complete)" tags="@#P9886 @#Fold072" position="2125,20675" size="100,100">&lt;&lt;fav&gt;&gt;
 ----
 [[Getting started]]
-[[&#39;Whole System&#39; Plan|Is this really what you want?]]
+[[&#39;Whole System Package&#39; Plan|Is this really what you want?]]
 [[Global Scenarios]]
-[[Building a support system|Building a support system for &#39;whole system&#39; action]]
-[[Adapting the &#39;whole system&#39; plan]]
+[[Building a support system|Building a support system for &#39;whole system package&#39; action]]
+[[Adapting the &#39;whole system package&#39; plan]]
 [[Linked projects]]
 [[Output reports]]
 [[Background|Background (get)]]
@@ -4421,7 +4421,7 @@ The Climate Rescue Adviser will also be integrated with the new elements of the 
 *Revise/complete the Getting started page.
 *Incorporate all the material in the CR strategy and framework papers into the database part of the adviser.
 *Add all pages (other than those linked to the main menu) to the new Favourites page using the favourites automation system).
-*Begin work on the generic &quot;whole-package&quot; plan passages.
+*Begin work on the generic &#39;whole system package&#39; plan passages.
 *Take the underlining off all the old passages and increase the size of the main heading on all the old passages.
 *Find users/potential users to proofread or to review the Adviser content, layout and logic, or find problems or suggest improvements.
 !!!Adviser look and feel
@@ -4558,7 +4558,7 @@ border: 1px solid black;
 *Situation assessments
 **Is emergency action on climate needed?
 *Principles, factors, strategies and solutions
-**Campaign for the whole solutions package
+**Campaign for the whole system solutions package
 **Chain of Responsibility
 **Compassion
 **Emergency management
