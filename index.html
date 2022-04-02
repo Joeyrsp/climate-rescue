@@ -797,7 +797,7 @@ Tel: +61 3 9078 9746  /  (03) 9078 9746</tw-passagedata><tw-passagedata pid="11"
 		});
 	});
 &lt;&lt;/script&gt;&gt;
-/* &lt;&lt;textboxPlus&gt;&gt; widget - End */</tw-passagedata><tw-passagedata pid="15" name="Version input (2include)" tags="@#P9991 @#Fold000" position="500,125" size="100,100">&lt;nobr&gt;Adviser revised 3 April 2022, 1.19 am.  &lt;small&gt;(Begun 19 December 2021)&lt;/small&gt;&lt;/nobr&gt;</tw-passagedata><tw-passagedata pid="16" name="Getting started" tags="@#P9998 @#Fold001" position="375,0" size="100,100">&lt;&lt;include [[Start]]&gt;&gt;</tw-passagedata><tw-passagedata pid="17" name="Start" tags="@#P9999 @#Fold001" position="250,0" size="100,100">!!Getting started
+/* &lt;&lt;textboxPlus&gt;&gt; widget - End */</tw-passagedata><tw-passagedata pid="15" name="Version input (2include)" tags="@#P9991 @#Fold000" position="500,125" size="100,100">&lt;nobr&gt;Adviser revised 3 April 2022, 2.30 am.  &lt;small&gt;(Begun 19 December 2021)&lt;/small&gt;&lt;/nobr&gt;</tw-passagedata><tw-passagedata pid="16" name="Getting started" tags="@#P9998 @#Fold001" position="375,0" size="100,100">&lt;&lt;include [[Start]]&gt;&gt;</tw-passagedata><tw-passagedata pid="17" name="Start" tags="@#P9999 @#Fold001" position="250,0" size="100,100">!!Getting started
 The purpose of the Climate Rescue Adviser is to help people to prepare a climate action plan based on a commitment to:
 *maximum protection for the climate vulnerable
 *safe climate restoration
@@ -3668,10 +3668,11 @@ Key questions to ask are:
 ----
 !Development design philosophy (tech)
 
+[[The teck stack]]
 [[Memory &amp; modules]]
 [[System initiation, playthrough &amp; autosave reloads]]
 [[The global Climate Rescue IT strategy]]
-[[Storage and file size limits set by browsers]]</tw-passagedata><tw-passagedata pid="342" name="Memory &amp; modules" tags="@#P9882 @#Fold077" position="1375,20800" size="100,100">&lt;&lt;fav&gt;&gt;
+[[Storage and file size limits set by browsers]]</tw-passagedata><tw-passagedata pid="342" name="Memory &amp; modules" tags="@#P9882 @#Fold077" position="1375,20925" size="100,100">&lt;&lt;fav&gt;&gt;
 ----
 !!Memory and modules
 !!!Exploring
@@ -3738,7 +3739,7 @@ If the lower level modules are designed to be reused rather than cloned, then so
 *calls to add information from the database into the sub-project output report
 *calls by applications of the project module to draw on variable values etc. from the higher-level differentiated &#39;whole system package&#39; plan modules (that would need to be called out of the persistent metadata for the relevant sub-project). 
 
-Reusable modules would need to have mass functions such as saves of the reusable module state, clearing of the state of the reusable modules and reinstatement of one of the state saves so that work can continue on the sub-project.   These module saves, recalls, deletions would need to be independent of the whole system autosaves.</tw-passagedata><tw-passagedata pid="343" name="Storage and file size limits set by browsers" tags="@#P9881 @#Fold077" position="1375,21175" size="100,100">&lt;&lt;fav&gt;&gt;
+Reusable modules would need to have mass functions such as saves of the reusable module state, clearing of the state of the reusable modules and reinstatement of one of the state saves so that work can continue on the sub-project.   These module saves, recalls, deletions would need to be independent of the whole system autosaves.</tw-passagedata><tw-passagedata pid="343" name="Storage and file size limits set by browsers" tags="@#P9881 @#Fold077" position="1375,21300" size="100,100">&lt;&lt;fav&gt;&gt;
 ----
 !Storage and file size limits set by browsers
 
@@ -3761,7 +3762,7 @@ You might need to be concerned about the amount of data in your game’s history
 
 Most Twine games have save data which is less than 0.25 MB, and thus have nothing to worry about in this regard.
 
-However, if you’re actually expecting to have save slots which are a megabyte or larger in size each, then this is definitely something worth paying attention to.</tw-passagedata><tw-passagedata pid="344" name="System initiation, playthrough &amp; autosave reloads" tags="@#P9880 @#Fold077" position="1375,20925" size="100,100">&lt;&lt;fav&gt;&gt;
+However, if you’re actually expecting to have save slots which are a megabyte or larger in size each, then this is definitely something worth paying attention to.</tw-passagedata><tw-passagedata pid="344" name="System initiation, playthrough &amp; autosave reloads" tags="@#P9880 @#Fold077" position="1375,21050" size="100,100">&lt;&lt;fav&gt;&gt;
 ----
 !!System initiation &amp; the playthrough &amp; autosave reloads
 The adviser is being designed to run in continuous session (with state autosave and auto reload running) AND the adviser is also being updated  in functionality and content very frequently - so the continuous user session overlaps the adviser development upgrades.
@@ -3823,16 +3824,29 @@ I&#39;m guessing that playthrough also captures pre-moment memory as well??
 
 &#39;&#39;//Joeyrsp://&#39;&#39;  What do you mean by &quot;premoment&quot;?
 
-//&#39;&#39;Philip:&#39;&#39;// That before a shift to a new passage or some coding equivalent (which I&#39;ve seen exists according to the documentation) or random advice I&#39;ve stumbled over.</tw-passagedata><tw-passagedata pid="345" name="The global Climate Rescue IT strategy" tags="@#P9879 @#Fold077" position="1375,21050" size="100,100">&lt;&lt;fav&gt;&gt;
+//&#39;&#39;Philip:&#39;&#39;// That before a shift to a new passage or some coding equivalent (which I&#39;ve seen exists according to the documentation) or random advice I&#39;ve stumbled over.</tw-passagedata><tw-passagedata pid="345" name="The teck stack" tags="" position="1375,20800" size="100,100">&lt;&lt;fav&gt;&gt;
+----
+!!The teck stack
+!!!Current selection
+After a fairly extensive review of our needs, looking at authoring tools for branching scenario development, expert system tools etc. it was decided that the Adviser needed, in the main, to be able to handle very loose logic so branching scenario style authoring tools were probably the best option for the moment.
+
+Over a couple of months we upgraded from earlier use of Twine 1.4.2, to Twine 1.4.3 then jumped to Twine2/SugarCube2 then finally settled on the current Tweego / SugarCube / VSCode teck stack.
+
+!!!Future development
+A database needs to be developed to hold the RSTI Climate Rescue knowledgebase that has been built up over the last decade or so.  For the moment we will use Google Drive to hold text docs etc. and will hold structured information chunks in Twee / SugarCube generated html files.  However the whole database issue needs much more careful exploration to determine what the best tech stack would be.  
+
+In relation to the logic capabilities of the Adviser, the Visirule expert system tool kit will likely be useful.  Once the Adviser is functional for users based on the Tweego / SugarCube / VSCode teck stack, we need to revisit the use of the Visirule toolkit.  And this review needs to be accelerated when the science base for identifying the needs of the climate vulnerable has been advanced.
+
+https://www.visirule.co.uk</tw-passagedata><tw-passagedata pid="346" name="The global Climate Rescue IT strategy" tags="@#P9879 @#Fold077" position="1375,21175" size="100,100">&lt;&lt;fav&gt;&gt;
 ----
 !The global Climate Rescue IT strategy
 &#39;&#39;//Philip://&#39;&#39; I&#39;ve got a whole new evolutionary leap in mind growing out of the adviser project.
 
-Already part of the design is the idea that the adviser would prompt a  human to human conversation between the user and climate rescue core campaigners.
+Already part of the design is the idea that the adviser would prompt a human-to-human conversation between the user and climate rescue core campaigners.
 
 Then I started thinking more about the &#39;database&#39; aspect of the adviser and then the independent version of the database and it occurred to me that campaigners around the world could feed information/ideas/strategies etc. to the central organisers to include in the database. via the CR website.  Plus some local or specialist CR campaigns might choose to use twine to develop advisers for their specialised  purposes. 
 
-So this keeps evolving eventually into a global CR IT strategy.</tw-passagedata><tw-passagedata pid="346" name="Guidance on building advisory tools" tags="@#P9958 @#Fold078" position="1750,20675" size="100,100">&lt;&lt;fav&gt;&gt;
+So this keeps evolving eventually into a global CR IT strategy.</tw-passagedata><tw-passagedata pid="347" name="Guidance on building advisory tools" tags="@#P9958 @#Fold078" position="1750,20675" size="100,100">&lt;&lt;fav&gt;&gt;
 ----
 !!Guidance on building advisory tools
 Cathy Moore&#39;s guidance material:
@@ -3861,7 +3875,7 @@ Cathy Moore&#39;s article collections on:
 *[[Twine application as adviser: Will action mapping work for my project?|https://blog.cathy-moore.com/action-mapping/will-action-mapping-work-for-my-project/]]
 
 !!Getting started with Twine 2/SugarCube2
-*[[A Quick Twine (2.2+) Tutorial|https://catn.decontextualize.com/twine/]]</tw-passagedata><tw-passagedata pid="347" name="Guidance on using Twine 2 and related tools" tags="@#P9959 @#Fold078" position="1625,20675" size="100,100">&lt;&lt;fav&gt;&gt;
+*[[A Quick Twine (2.2+) Tutorial|https://catn.decontextualize.com/twine/]]</tw-passagedata><tw-passagedata pid="348" name="Guidance on using Twine 2 and related tools" tags="@#P9959 @#Fold078" position="1625,20675" size="100,100">&lt;&lt;fav&gt;&gt;
 ----
 !!Guidance on using Twine 2
 
@@ -3869,7 +3883,7 @@ Cathy Moore&#39;s article collections on:
 *[[The SugarCube documentation|http://www.motoslave.net/sugarcube/2/docs/]]
 *[[Twinelab Twine Resources|https://twinelab.net/twine-resources/]]
 *[[Twine 2/SugarCube 2 guide (The Cookbook)|http://www.motoslave.net/sugarcube/2/]]
-*[[A Modern Developer&#39;s Workflow For Twine|https://dev.to/lazerwalker/a-modern-developer-s-workflow-for-twine-4imp]]</tw-passagedata><tw-passagedata pid="348" name="Main menu items (complete)" tags="@#P9886 @#Fold072" position="2125,20675" size="100,100">&lt;&lt;fav&gt;&gt;
+*[[A Modern Developer&#39;s Workflow For Twine|https://dev.to/lazerwalker/a-modern-developer-s-workflow-for-twine-4imp]]</tw-passagedata><tw-passagedata pid="349" name="Main menu items (complete)" tags="@#P9886 @#Fold072" position="2125,20675" size="100,100">&lt;&lt;fav&gt;&gt;
 ----
 [[Getting started]]
 [[&#39;Whole System Package&#39; Plan|Is this really what you want?]]
@@ -3883,7 +3897,7 @@ Cathy Moore&#39;s article collections on:
 [[Contact the Adviser team]]
 [[Favourites]]
 
-&lt;&lt;return&gt;&gt;</tw-passagedata><tw-passagedata pid="349" name="Wipe memory tools for developers" tags="@#P9956 @#Fold073" position="1875,20675" size="100,100">&lt;&lt;return&gt;&gt; | &lt;&lt;fav&gt;&gt; 
+&lt;&lt;return&gt;&gt;</tw-passagedata><tw-passagedata pid="350" name="Wipe memory tools for developers" tags="@#P9956 @#Fold073" position="1875,20675" size="100,100">&lt;&lt;return&gt;&gt; | &lt;&lt;fav&gt;&gt; 
 !!In case you need to wipe the Adviser&#39;s long term memory
 Between sessions, the Adviser remembers choices you have made and text you have entered.  This means that you can close your browser or reload the Adviser and the Adviser will remember your previous choices. 
 
@@ -3905,7 +3919,7 @@ If you are ready to wipe the Adviser&#39;s long term memory then click on one of
  !!! [[Warning - the NUCLEAR OPTION - wipe ALL memory types - now|Wiped ALL]] !!!
 ----
 
-&lt;&lt;return&gt;&gt;</tw-passagedata><tw-passagedata pid="350" name="Wiped ALL" tags="@#P9874 @#Fold073" position="1875,21300" size="100,100">&lt;&lt;fav&gt;&gt;
+&lt;&lt;return&gt;&gt;</tw-passagedata><tw-passagedata pid="351" name="Wiped ALL" tags="@#P9874 @#Fold073" position="1875,21300" size="100,100">&lt;&lt;fav&gt;&gt;
 ----
 &lt;nobr&gt;
 &lt;&lt;clearvariables&gt;&gt;
@@ -3913,19 +3927,19 @@ If you are ready to wipe the Adviser&#39;s long term memory then click on one of
 &lt;&lt;clearmetadata&gt;&gt;
 &lt;&lt;run Engine.restart()&gt;&gt;
 &lt;/nobr&gt;
-All memory stores have been cleared (variables in active memory, the remember cache, the metadata cache and the autosave state save.</tw-passagedata><tw-passagedata pid="351" name="Wiped STATE SAVE on ENGINE RESTART" tags="@#P9875 @#Fold073" position="1875,21175" size="100,100">&lt;&lt;fav&gt;&gt;
+All memory stores have been cleared (variables in active memory, the remember cache, the metadata cache and the autosave state save.</tw-passagedata><tw-passagedata pid="352" name="Wiped STATE SAVE on ENGINE RESTART" tags="@#P9875 @#Fold073" position="1875,21175" size="100,100">&lt;&lt;fav&gt;&gt;
 ----
 &lt;&lt;run Engine.restart()&gt;&gt;
-The Adviser&#39;s state autosave has been deleted prior to retarting the Adviser engine.</tw-passagedata><tw-passagedata pid="352" name="Wiped-metadata" tags="@#P9876 @#Fold073" position="1875,21050" size="100,100">&lt;&lt;fav&gt;&gt;
+The Adviser&#39;s state autosave has been deleted prior to retarting the Adviser engine.</tw-passagedata><tw-passagedata pid="353" name="Wiped-metadata" tags="@#P9876 @#Fold073" position="1875,21050" size="100,100">&lt;&lt;fav&gt;&gt;
 ----
 &lt;&lt;clearmetadata&gt;&gt;
-The Adviser&#39;s &#39;metadata&#39; cache has been wiped.</tw-passagedata><tw-passagedata pid="353" name="Wiped-remember" tags="@#P9877 @#Fold073" position="1875,20925" size="100,100">&lt;&lt;fav&gt;&gt;
+The Adviser&#39;s &#39;metadata&#39; cache has been wiped.</tw-passagedata><tw-passagedata pid="354" name="Wiped-remember" tags="@#P9877 @#Fold073" position="1875,20925" size="100,100">&lt;&lt;fav&gt;&gt;
 ----
 &lt;&lt;clearremember&gt;&gt;
-The Adviser&#39;s &#39;remember&#39; cache has been wiped.</tw-passagedata><tw-passagedata pid="354" name="Wiped-variables" tags="@#P9878 @#Fold073" position="1875,20800" size="100,100">&lt;&lt;fav&gt;&gt;
+The Adviser&#39;s &#39;remember&#39; cache has been wiped.</tw-passagedata><tw-passagedata pid="355" name="Wiped-variables" tags="@#P9878 @#Fold073" position="1875,20800" size="100,100">&lt;&lt;fav&gt;&gt;
 ----
 &lt;&lt;clearvariables&gt;&gt;
-The Adviser&#39;s story variables in active memory have been wiped.</tw-passagedata><tw-passagedata pid="355" name="Checklist challenge?" tags="@#P9873 @#Fold081" position="1875,21750" size="100,100">[[Intro &amp; selecting a challenge]] | (here) | [[Selecting the checklist development model?]] | [[Who leads?]] | [[Decision-making?]] | &lt;&lt;if ($ChecklistModel eq &quot; 1.&quot;) or ($ChecklistModel eq 0) or ($ChecklistModel eq &quot; Cancel&quot;)&gt;&gt;[[Setting up a climate emergency action program]]&lt;&lt;else&gt;&gt;[[Draft action checklist]]&lt;&lt;/if&gt;&gt; | &lt;&lt;fav&gt;&gt;
+The Adviser&#39;s story variables in active memory have been wiped.</tw-passagedata><tw-passagedata pid="356" name="Checklist challenge?" tags="@#P9873 @#Fold081" position="1875,21750" size="100,100">[[Intro &amp; selecting a challenge]] | (here) | [[Selecting the checklist development model?]] | [[Who leads?]] | [[Decision-making?]] | &lt;&lt;if ($ChecklistModel eq &quot; 1.&quot;) or ($ChecklistModel eq 0) or ($ChecklistModel eq &quot; Cancel&quot;)&gt;&gt;[[Setting up a climate emergency action program]]&lt;&lt;else&gt;&gt;[[Draft action checklist]]&lt;&lt;/if&gt;&gt; | &lt;&lt;fav&gt;&gt;
 ----
 !!Choosing the //&lt;big&gt;challenge&lt;/big&gt;// for checklist development
 Select the challenge you want to build an action checlist for by clicking on your preferred option:
@@ -3955,7 +3969,7 @@ The selected challenge is:
 &lt;&lt;/if&gt;&gt;
 &lt;&lt;/nobr&gt;&gt;
 
-&lt;&lt;return&gt;&gt; | [[«previous|Intro &amp; selecting a challenge]] | [[next»|Selecting the checklist development model?]]</tw-passagedata><tw-passagedata pid="356" name="Decision-making?" tags="@#P9872 @#Fold081" position="2250,21750" size="100,100">[[Intro &amp; selecting a challenge]] | [[Checklist challenge?]] | [[Selecting the checklist development model?]] | [[Who leads?]] | here)  | &lt;&lt;fav&gt;&gt;
+&lt;&lt;return&gt;&gt; | [[«previous|Intro &amp; selecting a challenge]] | [[next»|Selecting the checklist development model?]]</tw-passagedata><tw-passagedata pid="357" name="Decision-making?" tags="@#P9872 @#Fold081" position="2250,21750" size="100,100">[[Intro &amp; selecting a challenge]] | [[Checklist challenge?]] | [[Selecting the checklist development model?]] | [[Who leads?]] | here)  | &lt;&lt;fav&gt;&gt;
 ----
 &lt;&lt;if $ChecklistChallenge is &quot; 1a.&quot; or $ChecklistChallenge is &quot; 1b.&quot; or $ChecklistChallenge is &quot; 1c.&quot;&gt;&gt;
 !!What decision-making process&lt;br&gt;should be used to decide on the checklist?
@@ -3972,7 +3986,7 @@ The selected challenge is:
 &lt;&lt;else&gt;&gt;
 (A challenge to be tackled has not been selected.  To make a selection go to: [[Checklist challenge?]])
 &lt;&lt;/if&gt;&gt;
-&lt;&lt;return&gt;&gt; | [[«previous|Who leads?]] | &lt;&lt;if ($ChecklistModel eq &quot; 1.&quot;) or ($ChecklistModel eq 0) or ($ChecklistModel eq &quot; Cancel&quot;)&gt;&gt;[[next»|Setting up a climate emergency action program]]&lt;&lt;else&gt;&gt;[[next»|Draft action checklist]]&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="357" name="Decision-making? Govt2include" tags="@#P9871 @#Fold081" position="2250,21875" size="100,100">Who should sign off on the final action checklist for the stage of emergency work that your government is involved in now? What skills, knowledge and authority do they need to have?
+&lt;&lt;return&gt;&gt; | [[«previous|Who leads?]] | &lt;&lt;if ($ChecklistModel eq &quot; 1.&quot;) or ($ChecklistModel eq 0) or ($ChecklistModel eq &quot; Cancel&quot;)&gt;&gt;[[next»|Setting up a climate emergency action program]]&lt;&lt;else&gt;&gt;[[next»|Draft action checklist]]&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="358" name="Decision-making? Govt2include" tags="@#P9871 @#Fold081" position="2250,21875" size="100,100">Who should sign off on the final action checklist for the stage of emergency work that your government is involved in now? What skills, knowledge and authority do they need to have?
 
 You might want to have a look at the [[previous|Who leads?]] passage on who will prepare a draft action checklist before deciding who will sign off on it.
 
@@ -4012,7 +4026,7 @@ Select the type of person or body you think should approve/adopt the action chec
 
 __//Currently recorded full list://__&amp;nbsp;&amp;nbsp;[[(Clear all)|passage()][$climateEmergencyOfficer =&quot;&quot;; $climateEmergencyUnit =&quot;&quot;; $skillsBasedWorkingGroup =&quot;&quot;; $representativeWorkingGroup =&quot;&quot;; $branchHead =&quot;&quot;; $citizensAssembly =&quot;&quot;; $departmentHead =&quot;&quot;; $councilCEO =&quot;&quot;; $council =&quot;&quot;; $governmentMinister =&quot;&quot;; $premier =&quot;&quot;; $primeMinister =&quot;&quot;; $climateEmergencyCommitteeOfCabinet =&quot;&quot;; $cabinet =&quot;&quot;; $xtraPeopleBody =&quot;&quot;]]
 
-&lt;&lt;if $climateEmergencyOfficer isnot &quot;&quot;&gt;&gt;$climateEmergencyOfficer, &lt;&lt;/if&gt;&gt;&lt;&lt;if $climateEmergencyUnit isnot &quot;&quot;&gt;&gt;$climateEmergencyUnit, &lt;&lt;/if&gt;&gt;&lt;&lt;if $skillsBasedWorkingGroup isnot &quot;&quot;&gt;&gt;$skillsBasedWorkingGroup, &lt;&lt;/if&gt;&gt;&lt;&lt;if $representativeWorkingGroup isnot &quot;&quot;&gt;&gt;$representativeWorkingGroup, &lt;&lt;/if&gt;&gt;&lt;&lt;if $branchHead isnot &quot;&quot;&gt;&gt;$branchHead, &lt;&lt;/if&gt;&gt;&lt;&lt;if $citizensAssembly isnot &quot;&quot;&gt;&gt;$citizensAssembly, &lt;&lt;/if&gt;&gt;&lt;&lt;if $departmentHead isnot &quot;&quot;&gt;&gt;$departmentHead, &lt;&lt;/if&gt;&gt;&lt;&lt;if $councilCEO isnot &quot;&quot;&gt;&gt;$councilCEO, &lt;&lt;/if&gt;&gt;&lt;&lt;if $council isnot &quot;&quot;&gt;&gt;$council, &lt;&lt;/if&gt;&gt;&lt;&lt;if $governmentMinister isnot &quot;&quot;&gt;&gt;$governmentMinister, &lt;&lt;/if&gt;&gt;&lt;&lt;if $premier isnot &quot;&quot;&gt;&gt;$premier, &lt;&lt;/if&gt;&gt;&lt;&lt;if $primeMinister isnot &quot;&quot;&gt;&gt;$primeMinister, &lt;&lt;/if&gt;&gt;&lt;&lt;if $climateEmergencyCommitteeOfCabinet isnot &quot;&quot;&gt;&gt;$climateEmergencyCommitteeOfCabinet, &lt;&lt;/if&gt;&gt;&lt;&lt;if $cabinet isnot &quot;&quot;&gt;&gt;$cabinet, &lt;&lt;/if&gt;&gt;&lt;&lt;if $xtraPeopleBody isnot &quot;&quot;&gt;&gt;$xtraPeopleBody, &lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="358" name="Intro &amp; selecting a challenge" tags="@#P9979 @#Fold081" position="1750,21750" size="100,100">(here) | [[Checklist challenge?]] | [[Selecting the checklist development model?]] | [[Who leads?]] | [[Decision-making?]] | &lt;&lt;if ($ChecklistModel eq &quot; 1.&quot;) or ($ChecklistModel eq 0) or ($ChecklistModel eq &quot; Cancel&quot;)&gt;&gt;[[Setting up a climate emergency action program]]&lt;&lt;else&gt;&gt;[[Draft action checklist]]&lt;&lt;/if&gt;&gt; | &lt;&lt;fav&gt;&gt;
+&lt;&lt;if $climateEmergencyOfficer isnot &quot;&quot;&gt;&gt;$climateEmergencyOfficer, &lt;&lt;/if&gt;&gt;&lt;&lt;if $climateEmergencyUnit isnot &quot;&quot;&gt;&gt;$climateEmergencyUnit, &lt;&lt;/if&gt;&gt;&lt;&lt;if $skillsBasedWorkingGroup isnot &quot;&quot;&gt;&gt;$skillsBasedWorkingGroup, &lt;&lt;/if&gt;&gt;&lt;&lt;if $representativeWorkingGroup isnot &quot;&quot;&gt;&gt;$representativeWorkingGroup, &lt;&lt;/if&gt;&gt;&lt;&lt;if $branchHead isnot &quot;&quot;&gt;&gt;$branchHead, &lt;&lt;/if&gt;&gt;&lt;&lt;if $citizensAssembly isnot &quot;&quot;&gt;&gt;$citizensAssembly, &lt;&lt;/if&gt;&gt;&lt;&lt;if $departmentHead isnot &quot;&quot;&gt;&gt;$departmentHead, &lt;&lt;/if&gt;&gt;&lt;&lt;if $councilCEO isnot &quot;&quot;&gt;&gt;$councilCEO, &lt;&lt;/if&gt;&gt;&lt;&lt;if $council isnot &quot;&quot;&gt;&gt;$council, &lt;&lt;/if&gt;&gt;&lt;&lt;if $governmentMinister isnot &quot;&quot;&gt;&gt;$governmentMinister, &lt;&lt;/if&gt;&gt;&lt;&lt;if $premier isnot &quot;&quot;&gt;&gt;$premier, &lt;&lt;/if&gt;&gt;&lt;&lt;if $primeMinister isnot &quot;&quot;&gt;&gt;$primeMinister, &lt;&lt;/if&gt;&gt;&lt;&lt;if $climateEmergencyCommitteeOfCabinet isnot &quot;&quot;&gt;&gt;$climateEmergencyCommitteeOfCabinet, &lt;&lt;/if&gt;&gt;&lt;&lt;if $cabinet isnot &quot;&quot;&gt;&gt;$cabinet, &lt;&lt;/if&gt;&gt;&lt;&lt;if $xtraPeopleBody isnot &quot;&quot;&gt;&gt;$xtraPeopleBody, &lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="359" name="Intro &amp; selecting a challenge" tags="@#P9979 @#Fold081" position="1750,21750" size="100,100">(here) | [[Checklist challenge?]] | [[Selecting the checklist development model?]] | [[Who leads?]] | [[Decision-making?]] | &lt;&lt;if ($ChecklistModel eq &quot; 1.&quot;) or ($ChecklistModel eq 0) or ($ChecklistModel eq &quot; Cancel&quot;)&gt;&gt;[[Setting up a climate emergency action program]]&lt;&lt;else&gt;&gt;[[Draft action checklist]]&lt;&lt;/if&gt;&gt; | &lt;&lt;fav&gt;&gt;
 ----
 !!Introduction: How to use the (old) climate Emergency Guide.
 The next page allows you to choose an format suited to building an action checklist for:
@@ -4036,7 +4050,7 @@ There&#39;s a good chance that an effective climate emergency program will emerg
 # Act as a catalyst to build a system (bigger than one&#39;s own organisation) that can deliver the desired protection (through actions that have the right functions, scale and speed). 
 # Deliver effective action in the here and now within the current (unavoidable) resource constraints. 
 
-&lt;&lt;return&gt;&gt; | [[next»|Checklist challenge?]]</tw-passagedata><tw-passagedata pid="359" name="Selecting the checklist development model?" tags="@#P9870 @#Fold081" position="2000,21750" size="100,100">[[Intro &amp; selecting a challenge]] | [[Checklist challenge?]] | (here) | [[Who leads?]] | [[Decision-making?]] | &lt;&lt;if ($ChecklistModel eq &quot; 1.&quot;) or ($ChecklistModel eq &quot; 2.&quot;) or ($ChecklistModel eq 0) or ($ChecklistModel eq &quot; Cancel&quot;)&gt;&gt;[[Setting up a climate emergency action program]]&lt;&lt;else&gt;&gt;[[Draft action checklist]]&lt;&lt;/if&gt;&gt;  | &lt;&lt;fav&gt;&gt;
+&lt;&lt;return&gt;&gt; | [[next»|Checklist challenge?]]</tw-passagedata><tw-passagedata pid="360" name="Selecting the checklist development model?" tags="@#P9870 @#Fold081" position="2000,21750" size="100,100">[[Intro &amp; selecting a challenge]] | [[Checklist challenge?]] | (here) | [[Who leads?]] | [[Decision-making?]] | &lt;&lt;if ($ChecklistModel eq &quot; 1.&quot;) or ($ChecklistModel eq &quot; 2.&quot;) or ($ChecklistModel eq 0) or ($ChecklistModel eq &quot; Cancel&quot;)&gt;&gt;[[Setting up a climate emergency action program]]&lt;&lt;else&gt;&gt;[[Draft action checklist]]&lt;&lt;/if&gt;&gt;  | &lt;&lt;fav&gt;&gt;
 ----
 !!Selecting the checklist //&lt;big&gt;development model&lt;/big&gt;//
 Do you want to develop your checklist from first principles?  Or would you rather fast track things by using one of the ready made templates? Click on your preferred option:
@@ -4072,7 +4086,7 @@ The selected model for developing the checklist is:
 &lt;&lt;/if&gt;&gt;
 &lt;&lt;/nobr&gt;&gt;
 
-&lt;&lt;return&gt;&gt; | [[«previous|Checklist challenge?]] | [[next»|Who leads?]]</tw-passagedata><tw-passagedata pid="360" name="Who leads?" tags="@#P9869 @#Fold081" position="2125,21750" size="100,100">[[Intro &amp; selecting a challenge]] | [[Checklist challenge?]] | [[Selecting the checklist development model?]] | (here) | [[Decision-making?]] | &lt;&lt;if ($ChecklistModel eq &quot; 1.&quot;) or ($ChecklistModel eq 0) or ($ChecklistModel eq &quot; Cancel&quot;)&gt;&gt;[[Setting up a climate emergency action program]]&lt;&lt;else&gt;&gt;[[Draft action checklist]]&lt;&lt;/if&gt;&gt;  | &lt;&lt;fav&gt;&gt;
+&lt;&lt;return&gt;&gt; | [[«previous|Checklist challenge?]] | [[next»|Who leads?]]</tw-passagedata><tw-passagedata pid="361" name="Who leads?" tags="@#P9869 @#Fold081" position="2125,21750" size="100,100">[[Intro &amp; selecting a challenge]] | [[Checklist challenge?]] | [[Selecting the checklist development model?]] | (here) | [[Decision-making?]] | &lt;&lt;if ($ChecklistModel eq &quot; 1.&quot;) or ($ChecklistModel eq 0) or ($ChecklistModel eq &quot; Cancel&quot;)&gt;&gt;[[Setting up a climate emergency action program]]&lt;&lt;else&gt;&gt;[[Draft action checklist]]&lt;&lt;/if&gt;&gt;  | &lt;&lt;fav&gt;&gt;
 ----
 &lt;&lt;if $ChecklistChallenge is &quot; 1a.&quot; or $ChecklistChallenge is &quot; 1b.&quot; or $ChecklistChallenge is &quot; 1c.&quot;&gt;&gt;
 !!Who will lead the process initially?
@@ -4090,7 +4104,7 @@ The selected model for developing the checklist is:
 !!Who will lead the process initially?
 (A challenge to be tackled has not been selected.  To make a selection go to: [[Checklist challenge?]])
 &lt;&lt;/if&gt;&gt;
-&lt;&lt;return&gt;&gt; | [[«previous|Selecting the checklist development model?]] | [[next»|Decision-making?]]</tw-passagedata><tw-passagedata pid="361" name="Who leads? Govt2include" tags="@#P9868 @#Fold081" position="2125,21875" size="100,100">Who should be involved in preparing your draft action checklist for the stage of emergency work that your government is involved in now?  Which specific people should be involved?  What skills, knowledge do the checklist development leaders need to have?  To get a handle on this you might want to have a look at the [[where to start|Where to start?]] passage and the topics list passages on [[preparing|Topics list--Preparing]], [[switching|Topics list--Switching]] and [[operating|Topics list--Operating]].
+&lt;&lt;return&gt;&gt; | [[«previous|Selecting the checklist development model?]] | [[next»|Decision-making?]]</tw-passagedata><tw-passagedata pid="362" name="Who leads? Govt2include" tags="@#P9868 @#Fold081" position="2125,21875" size="100,100">Who should be involved in preparing your draft action checklist for the stage of emergency work that your government is involved in now?  Which specific people should be involved?  What skills, knowledge do the checklist development leaders need to have?  To get a handle on this you might want to have a look at the [[where to start|Where to start?]] passage and the topics list passages on [[preparing|Topics list--Preparing]], [[switching|Topics list--Switching]] and [[operating|Topics list--Operating]].
 
 You might also want to have a look at the [[next|Decision-making?]] passage on who signs off on the action checklist before deciding who will do the work on the draft checklist.
 
@@ -4117,7 +4131,7 @@ Select the types of people you think should develop the draft action checklist:
 &lt;&lt;textboxPlus &quot;If you would like to add or amend any further types of people, then write them into the box below, separated by commas:&lt;br&gt;&quot; &quot;$xtraPeople&quot; `{placeholder: &quot;Anyone else?&quot;, default: $xtraPeople}`&gt;&gt;&lt;&lt;button [[Save|passage()]]&gt;&gt;&lt;&lt;/button&gt;&gt;
 
 __//Currently recorded full list://__&amp;nbsp;&amp;nbsp;[[(Clear all)|passage()][$councillors =&quot;&quot;; $mPs =&quot;&quot;; $politicalAdvisers =&quot;&quot;; $councilStaff =&quot;&quot;; $publicServants =&quot;&quot;; $communityAdvisers =&quot;&quot;; $communityVolunteers =&quot;&quot;; $consultants =&quot;&quot;; $xtraPeople =&quot;&quot;; ]]
-&lt;&lt;if $councillors isnot &quot;&quot;&gt;&gt;$councillors, &lt;&lt;/if&gt;&gt;&lt;&lt;if $mPs isnot &quot;&quot;&gt;&gt;$mPs, &lt;&lt;/if&gt;&gt;&lt;&lt;if $politicalAdvisers isnot &quot;&quot;&gt;&gt;$politicalAdvisers, &lt;&lt;/if&gt;&gt;&lt;&lt;if $councilStaff isnot &quot;&quot;&gt;&gt;$councilStaff, &lt;&lt;/if&gt;&gt;&lt;&lt;if $publicServants isnot &quot;&quot;&gt;&gt;$publicServants, &lt;&lt;/if&gt;&gt;&lt;&lt;if $communityAdvisers isnot &quot;&quot;&gt;&gt;$communityAdvisers, &lt;&lt;/if&gt;&gt;&lt;&lt;if $communityVolunteers isnot &quot;&quot;&gt;&gt;$communityVolunteers, &lt;&lt;/if&gt;&gt;&lt;&lt;if $consultants isnot &quot;&quot;&gt;&gt;$consultants, &lt;&lt;/if&gt;&gt;&lt;&lt;if $xtraPeople isnot &quot;&quot;&gt;&gt;$xtraPeople, &lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="362" name="Background reading etc. Govt2include" tags="@#P9854 @#Fold082" position="2875,22175" size="100,100">(Content is yet to be developed for the &#39;&#39;government challenge&#39;&#39;.)</tw-passagedata><tw-passagedata pid="363" name="Background reading etc." tags="@#P9855 @#Fold082" position="2500,22050" size="100,100">[[Climate emergency mode?]] | [[Where to start?]] | [[Topics list--Preparing]] | [[Topics list--Switching]] | [[Topics list--Operating]] | (here) | &lt;&lt;fav&gt;&gt; 
+&lt;&lt;if $councillors isnot &quot;&quot;&gt;&gt;$councillors, &lt;&lt;/if&gt;&gt;&lt;&lt;if $mPs isnot &quot;&quot;&gt;&gt;$mPs, &lt;&lt;/if&gt;&gt;&lt;&lt;if $politicalAdvisers isnot &quot;&quot;&gt;&gt;$politicalAdvisers, &lt;&lt;/if&gt;&gt;&lt;&lt;if $councilStaff isnot &quot;&quot;&gt;&gt;$councilStaff, &lt;&lt;/if&gt;&gt;&lt;&lt;if $publicServants isnot &quot;&quot;&gt;&gt;$publicServants, &lt;&lt;/if&gt;&gt;&lt;&lt;if $communityAdvisers isnot &quot;&quot;&gt;&gt;$communityAdvisers, &lt;&lt;/if&gt;&gt;&lt;&lt;if $communityVolunteers isnot &quot;&quot;&gt;&gt;$communityVolunteers, &lt;&lt;/if&gt;&gt;&lt;&lt;if $consultants isnot &quot;&quot;&gt;&gt;$consultants, &lt;&lt;/if&gt;&gt;&lt;&lt;if $xtraPeople isnot &quot;&quot;&gt;&gt;$xtraPeople, &lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="363" name="Background reading etc. Govt2include" tags="@#P9854 @#Fold082" position="2875,22175" size="100,100">(Content is yet to be developed for the &#39;&#39;government challenge&#39;&#39;.)</tw-passagedata><tw-passagedata pid="364" name="Background reading etc." tags="@#P9855 @#Fold082" position="2500,22050" size="100,100">[[Climate emergency mode?]] | [[Where to start?]] | [[Topics list--Preparing]] | [[Topics list--Switching]] | [[Topics list--Operating]] | (here) | &lt;&lt;fav&gt;&gt; 
 ----
 &lt;&lt;if $ChecklistChallenge is &quot; 1.&quot;&gt;&gt;
 !!Background reading etc.
@@ -4134,7 +4148,7 @@ __//Currently recorded full list://__&amp;nbsp;&amp;nbsp;[[(Clear all)|passage()
 &lt;&lt;else&gt;&gt;
 (A challenge to be tackled has not been selected.  To make a selection go to: [[Checklist challenge?]])
 &lt;&lt;/if&gt;&gt;
-&lt;&lt;return&gt;&gt; | [[«previous|Topics list--Operating]]</tw-passagedata><tw-passagedata pid="364" name="Climate emergency mode?" tags="@#P9867 @#Fold082" position="1875,22050" size="100,100">(here) | [[Where to start?]] | [[Topics list--Preparing]] | [[Topics list--Switching]] | [[Topics list--Operating]] | [[Background reading etc.]] | &lt;&lt;fav&gt;&gt;
+&lt;&lt;return&gt;&gt; | [[«previous|Topics list--Operating]]</tw-passagedata><tw-passagedata pid="365" name="Climate emergency mode?" tags="@#P9867 @#Fold082" position="1875,22050" size="100,100">(here) | [[Where to start?]] | [[Topics list--Preparing]] | [[Topics list--Switching]] | [[Topics list--Operating]] | [[Background reading etc.]] | &lt;&lt;fav&gt;&gt;
 ----
 !!What should climate emergency mode mean?
 (Setting up)
@@ -4148,7 +4162,7 @@ __//Currently recorded full list://__&amp;nbsp;&amp;nbsp;[[(Clear all)|passage()
 
 
 
-&lt;&lt;return&gt;&gt; | [[«previous|Setting up a climate emergency action program]] | [[next»|Where to start?]]</tw-passagedata><tw-passagedata pid="365" name="Climate emergency mode?_Development page (2include)" tags="@#P9866 @#Fold082" position="1875,22175" size="100,100">There is not just one, exclusive definition of &quot;climate emergency action&quot; – but each definition leads to very different actions and very different outcomes and consequences.  So it&#39;s worth doing at least some exploration of the possible types of climate emergency before plunging ahead.
+&lt;&lt;return&gt;&gt; | [[«previous|Setting up a climate emergency action program]] | [[next»|Where to start?]]</tw-passagedata><tw-passagedata pid="366" name="Climate emergency mode?_Development page (2include)" tags="@#P9866 @#Fold082" position="1875,22175" size="100,100">There is not just one, exclusive definition of &quot;climate emergency action&quot; – but each definition leads to very different actions and very different outcomes and consequences.  So it&#39;s worth doing at least some exploration of the possible types of climate emergency before plunging ahead.
 
 
 Need to go beyond business-as-usual and reform-as-usual
@@ -4164,7 +4178,7 @@ language - use the terminology for climate that each society applies to other se
 
 [[Emergency mode of action on climate|Emergency mode (climate)--Backbone]]
 
-[[Index]]</tw-passagedata><tw-passagedata pid="366" name="Setting up a climate emergency action program" tags="@#P9978 @#Fold082" position="1750,22050" size="100,100">&lt;&lt;fav&gt;&gt;
+[[Index]]</tw-passagedata><tw-passagedata pid="367" name="Setting up a climate emergency action program" tags="@#P9978 @#Fold082" position="1750,22050" size="100,100">&lt;&lt;fav&gt;&gt;
 ----
 !!Setting up a climate emergency action program from first principles
 *[[What do we mean by climate emergency mode?|Climate emergency mode?]]
@@ -4175,7 +4189,7 @@ language - use the terminology for climate that each society applies to other se
 *[[Background reading etc.]]
 
 
-&lt;&lt;return&gt;&gt;</tw-passagedata><tw-passagedata pid="367" name="Topics list--Operating Govt2include" tags="@#P9856 @#Fold082" position="2750,22175" size="100,100">(Content is yet to be developed for the &#39;&#39;government challenge&#39;&#39;.)</tw-passagedata><tw-passagedata pid="368" name="Topics list--Operating" tags="@#P9857 @#Fold082" position="2375,22050" size="100,100">[[Climate emergency mode?]] | [[Where to start?]] | [[Topics list--Preparing]] | [[Topics list--Switching]] | (here) | [[Background reading etc.]] | &lt;&lt;fav&gt;&gt;
+&lt;&lt;return&gt;&gt;</tw-passagedata><tw-passagedata pid="368" name="Topics list--Operating Govt2include" tags="@#P9856 @#Fold082" position="2750,22175" size="100,100">(Content is yet to be developed for the &#39;&#39;government challenge&#39;&#39;.)</tw-passagedata><tw-passagedata pid="369" name="Topics list--Operating" tags="@#P9857 @#Fold082" position="2375,22050" size="100,100">[[Climate emergency mode?]] | [[Where to start?]] | [[Topics list--Preparing]] | [[Topics list--Switching]] | (here) | [[Background reading etc.]] | &lt;&lt;fav&gt;&gt;
 ----
 &lt;&lt;if $ChecklistChallenge is &quot; 1.&quot;&gt;&gt;
 !!&lt;small&gt;Topics to be worked through&lt;/small&gt;&lt;br&gt;Operating &lt;small&gt;in emergency mode&lt;/small&gt;
@@ -4192,7 +4206,7 @@ language - use the terminology for climate that each society applies to other se
 &lt;&lt;else&gt;&gt;
 (A challenge to be tackled has not been selected.  To make a selection go to: [[Checklist challenge?]])
 &lt;&lt;/if&gt;&gt;
-&lt;&lt;return&gt;&gt; | [[«previous|Topics list--Switching]] | [[next»|Background reading etc.]]</tw-passagedata><tw-passagedata pid="369" name="Topics list--Preparing Govt2include" tags="@#P9861 @#Fold082" position="2500,22175" size="100,100">(Content is yet to be developed for the &#39;&#39;government challenge&#39;&#39;.)</tw-passagedata><tw-passagedata pid="370" name="Topics list--Preparing" tags="@#P9862 @#Fold082" position="2125,22050" size="100,100">[[Climate emergency mode?]] | [[Where to start?]] | (here) | [[Topics list--Switching]] | [[Topics list--Operating]] | [[Background reading etc.]] | &lt;&lt;fav&gt;&gt;
+&lt;&lt;return&gt;&gt; | [[«previous|Topics list--Switching]] | [[next»|Background reading etc.]]</tw-passagedata><tw-passagedata pid="370" name="Topics list--Preparing Govt2include" tags="@#P9861 @#Fold082" position="2500,22175" size="100,100">(Content is yet to be developed for the &#39;&#39;government challenge&#39;&#39;.)</tw-passagedata><tw-passagedata pid="371" name="Topics list--Preparing" tags="@#P9862 @#Fold082" position="2125,22050" size="100,100">[[Climate emergency mode?]] | [[Where to start?]] | (here) | [[Topics list--Switching]] | [[Topics list--Operating]] | [[Background reading etc.]] | &lt;&lt;fav&gt;&gt;
 ----
 &lt;&lt;if $ChecklistChallenge is &quot; 1.&quot;&gt;&gt;
 !!&lt;small&gt;Topics to be worked through&lt;/small&gt;&lt;br&gt;Preparing &lt;small&gt;to go into emergency mode&lt;/small&gt;
@@ -4209,10 +4223,10 @@ language - use the terminology for climate that each society applies to other se
 &lt;&lt;else&gt;&gt;
 (A challenge to be tackled has not been selected.  To make a selection go to: [[Checklist challenge?]])
 &lt;&lt;/if&gt;&gt;
-&lt;&lt;return&gt;&gt; | [[«previous|Where to start?]] | [[next»|Topics list--Switching]]</tw-passagedata><tw-passagedata pid="371" name="Topics list--Switching Govt2include" tags="@#P9859 @#Fold082" position="2625,22175" size="100,100">&lt;&lt;nobr&gt;&gt;&lt;&lt;if $devAccess is &quot;yes&quot;&gt;&gt;
+&lt;&lt;return&gt;&gt; | [[«previous|Where to start?]] | [[next»|Topics list--Switching]]</tw-passagedata><tw-passagedata pid="372" name="Topics list--Switching Govt2include" tags="@#P9859 @#Fold082" position="2625,22175" size="100,100">&lt;&lt;nobr&gt;&gt;&lt;&lt;if $devAccess is &quot;yes&quot;&gt;&gt;
 &lt;&lt;include [[Topics list--Switching_Development page (2include)]]&gt;&gt;
 &lt;&lt;else&gt;&gt;(Content is yet to be developed for the &#39;&#39;government challenge&#39;&#39;.)
-&lt;&lt;/if&gt;&gt;&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="372" name="Topics list--Switching" tags="@#P9860 @#Fold082" position="2250,22050" size="100,100">[[Climate emergency mode?]] |  [[Where to start?]] | [[Topics list--Preparing]] | (here) | [[Topics list--Operating]] | [[Background reading etc.]] | &lt;&lt;fav&gt;&gt;
+&lt;&lt;/if&gt;&gt;&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="373" name="Topics list--Switching" tags="@#P9860 @#Fold082" position="2250,22050" size="100,100">[[Climate emergency mode?]] |  [[Where to start?]] | [[Topics list--Preparing]] | (here) | [[Topics list--Operating]] | [[Background reading etc.]] | &lt;&lt;fav&gt;&gt;
 ----
 &lt;&lt;if $ChecklistChallenge is &quot; 1.&quot;&gt;&gt;
 !!&lt;small&gt;Topics to be worked through&lt;/small&gt;&lt;br&gt;Switching &lt;small&gt;into emergency mode&lt;/small&gt;
@@ -4229,7 +4243,7 @@ language - use the terminology for climate that each society applies to other se
 &lt;&lt;else&gt;&gt;
 (A challenge to be tackled has not been selected.  To make a selection go to: [[Checklist challenge?]])
 &lt;&lt;/if&gt;&gt;
-&lt;&lt;return&gt;&gt; | [[«previous|Topics list--Preparing]] | [[next»|Topics list--Operating]]</tw-passagedata><tw-passagedata pid="373" name="Topics list--Switching_Development page (2include)" tags="@#P9858 @#Fold082" position="2625,22300" size="100,100">Triggering/accelerating</tw-passagedata><tw-passagedata pid="374" name="Where to start?" tags="@#P9865 @#Fold082" position="2000,22050" size="100,100">[[Climate emergency mode?]] | (here) | [[Topics list--Preparing]] | [[Topics list--Switching]] | [[Topics list--Operating]] | [[Background reading etc.]] | &lt;&lt;fav&gt;&gt;
+&lt;&lt;return&gt;&gt; | [[«previous|Topics list--Preparing]] | [[next»|Topics list--Operating]]</tw-passagedata><tw-passagedata pid="374" name="Topics list--Switching_Development page (2include)" tags="@#P9858 @#Fold082" position="2625,22300" size="100,100">Triggering/accelerating</tw-passagedata><tw-passagedata pid="375" name="Where to start?" tags="@#P9865 @#Fold082" position="2000,22050" size="100,100">[[Climate emergency mode?]] | (here) | [[Topics list--Preparing]] | [[Topics list--Switching]] | [[Topics list--Operating]] | [[Background reading etc.]] | &lt;&lt;fav&gt;&gt;
 ----
 &lt;&lt;if $ChecklistChallenge is &quot; 1.&quot;&gt;&gt;
 !!Where should work on the checklist start?&lt;br&gt;What are the critical determining issues?
@@ -4246,20 +4260,20 @@ language - use the terminology for climate that each society applies to other se
 &lt;&lt;else&gt;&gt;
 (A challenge to be tackled has not been selected.  To make a selection go to: [[Checklist challenge?]])
 &lt;&lt;/if&gt;&gt;
-&lt;&lt;return&gt;&gt; | [[«previous|Climate emergency mode?]] | [[next»|Topics list--Preparing]]</tw-passagedata><tw-passagedata pid="375" name="Where to start? Govt2include" tags="@#P9864 @#Fold082" position="2375,22175" size="100,100">&lt;&lt;nobr&gt;&gt;&lt;&lt;if $devAccess is &quot;yes&quot;&gt;&gt;
+&lt;&lt;return&gt;&gt; | [[«previous|Climate emergency mode?]] | [[next»|Topics list--Preparing]]</tw-passagedata><tw-passagedata pid="376" name="Where to start? Govt2include" tags="@#P9864 @#Fold082" position="2375,22175" size="100,100">&lt;&lt;nobr&gt;&gt;&lt;&lt;if $devAccess is &quot;yes&quot;&gt;&gt;
 &lt;&lt;include [[Where to start?_Development page (2include)]]&gt;&gt;
 &lt;&lt;else&gt;&gt;(Content is yet to be developed for the &#39;&#39;government challenge&#39;&#39;.)
-&lt;&lt;/if&gt;&gt;&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="376" name="Where to start?_Development page (2include)" tags="@#P9863 @#Fold082" position="2375,22300" size="100,100">&amp;bull; Process: where to start first?
+&lt;&lt;/if&gt;&gt;&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="377" name="Where to start?_Development page (2include)" tags="@#P9863 @#Fold082" position="2375,22300" size="100,100">&amp;bull; Process: where to start first?
 &amp;bull; Recognition of the loops in climate policy and action
 &amp;bull; [[Dual tracking|Dual tracking--Method]]: Fast track and preparing the ground for higher effectiveness
-&amp;bull; Building initial capacity</tw-passagedata><tw-passagedata pid="377" name="Emergency action strategy" tags="@#P9852 @#Fold083" position="2000,22450" size="100,100">[[Preparing]] | &lt;&lt;fav&gt;&gt;
+&amp;bull; Building initial capacity</tw-passagedata><tw-passagedata pid="378" name="Emergency action strategy" tags="@#P9852 @#Fold083" position="2000,22450" size="100,100">[[Preparing]] | &lt;&lt;fav&gt;&gt;
 ----
 !!Developing an emergency action strategy
 (Preparing)
 
 
 
-&lt;&lt;return&gt;&gt; | [[«previous|Preparing]]</tw-passagedata><tw-passagedata pid="378" name="Info &amp; expertise?" tags="@#P9851 @#Fold083" position="2125,22450" size="100,100">[[Preparing]] | &lt;&lt;fav&gt;&gt;
+&lt;&lt;return&gt;&gt; | [[«previous|Preparing]]</tw-passagedata><tw-passagedata pid="379" name="Info &amp; expertise?" tags="@#P9851 @#Fold083" position="2125,22450" size="100,100">[[Preparing]] | &lt;&lt;fav&gt;&gt;
 ----
 !!What information and expertise needs to be accessed?
 * education and training for the checklist developer
@@ -4267,7 +4281,7 @@ language - use the terminology for climate that each society applies to other se
 
 
 
-&lt;&lt;return&gt;&gt; | [[«previous|Preparing]]</tw-passagedata><tw-passagedata pid="379" name="Multi-tracking" tags="@#P9853 @#Fold083" position="1875,22450" size="100,100">[[Preparing]] | &lt;&lt;fav&gt;&gt;
+&lt;&lt;return&gt;&gt; | [[«previous|Preparing]]</tw-passagedata><tw-passagedata pid="380" name="Multi-tracking" tags="@#P9853 @#Fold083" position="1875,22450" size="100,100">[[Preparing]] | &lt;&lt;fav&gt;&gt;
 ----
 !!Multi-tracking
 [[Dual tracking--Method]]
@@ -4276,7 +4290,7 @@ language - use the terminology for climate that each society applies to other se
 
 
 
-&lt;&lt;return&gt;&gt; | [[«previous|Preparing]]</tw-passagedata><tw-passagedata pid="380" name="Preparing" tags="@#P9977 @#Fold083" position="1750,22450" size="100,100">&lt;&lt;fav&gt;&gt;
+&lt;&lt;return&gt;&gt; | [[«previous|Preparing]]</tw-passagedata><tw-passagedata pid="381" name="Preparing" tags="@#P9977 @#Fold083" position="1750,22450" size="100,100">&lt;&lt;fav&gt;&gt;
 ----
 !!Preparatory action for going into emergency mode
 (currently under development)
@@ -4285,7 +4299,7 @@ language - use the terminology for climate that each society applies to other se
 *[[What information and expertise needs to be accessed?|Info &amp; expertise?]]
 
 
-&lt;&lt;return&gt;&gt;</tw-passagedata><tw-passagedata pid="381" name="Switching" tags="@#P9976 @#Fold084" position="1750,22575" size="100,100">&lt;&lt;fav&gt;&gt;
+&lt;&lt;return&gt;&gt;</tw-passagedata><tw-passagedata pid="382" name="Switching" tags="@#P9976 @#Fold084" position="1750,22575" size="100,100">&lt;&lt;fav&gt;&gt;
 ----
 !!Switching:&lt;br&gt;Triggering/accelerating the shift into emergency mode
 (to be developed)
@@ -4294,7 +4308,7 @@ language - use the terminology for climate that each society applies to other se
 
 
 
-&lt;&lt;return&gt;&gt;</tw-passagedata><tw-passagedata pid="382" name="Operating" tags="@#P9975 @#Fold085" position="1750,22700" size="100,100">&lt;&lt;fav&gt;&gt;
+&lt;&lt;return&gt;&gt;</tw-passagedata><tw-passagedata pid="383" name="Operating" tags="@#P9975 @#Fold085" position="1750,22700" size="100,100">&lt;&lt;fav&gt;&gt;
 ----
 !!Operating in emergency mode
 (to be developed)
@@ -4302,7 +4316,7 @@ language - use the terminology for climate that each society applies to other se
 
 
 
-&lt;&lt;return&gt;&gt;</tw-passagedata><tw-passagedata pid="383" name="Draft action checklist" tags="@#P9974 @#Fold086" position="1750,22825" size="100,100">&lt;&lt;fav&gt;&gt;
+&lt;&lt;return&gt;&gt;</tw-passagedata><tw-passagedata pid="384" name="Draft action checklist" tags="@#P9974 @#Fold086" position="1750,22825" size="100,100">&lt;&lt;fav&gt;&gt;
 ----
 !!Draft action checklist&lt;br&gt;&lt;small&gt;for getting into emergency mode&lt;/small&gt;
 A draft action checklist will build up here as you work through the Adviser.
@@ -4337,7 +4351,7 @@ Are they familiar with [[climate emergency action mode|Climate emergency mode?]]
 ----
 To &#39;&#39;print&#39;&#39; this checklist, highlight the checklist panel, copy it (ctrl-c) and paste the contents into a word processing document.
 
-&lt;&lt;return&gt;&gt;</tw-passagedata><tw-passagedata pid="384" name="Brain dump" tags="@#P9972 @#Fold069" position="2500,21750" size="100,200">&lt;&lt;fav&gt;&gt;
+&lt;&lt;return&gt;&gt;</tw-passagedata><tw-passagedata pid="385" name="Brain dump" tags="@#P9972 @#Fold069" position="2500,21750" size="100,200">&lt;&lt;fav&gt;&gt;
 ----
 !!&#39;&#39;Brain dump for the development of this Adviser&#39;&#39;
 
@@ -4378,7 +4392,7 @@ To &#39;&#39;print&#39;&#39; this checklist, highlight the checklist panel, copy
 
 &#39;&#39;4. Operating in emergency mode&#39;&#39;
 
-&lt;&lt;return&gt;&gt;</tw-passagedata><tw-passagedata pid="385" name="Old material" tags="@#P9970 @#Fold069" position="1525,21750" size="200,200">&lt;&lt;fav&gt;&gt;
+&lt;&lt;return&gt;&gt;</tw-passagedata><tw-passagedata pid="386" name="Old material" tags="@#P9970 @#Fold069" position="1525,21750" size="200,200">&lt;&lt;fav&gt;&gt;
 ----
 !Old Material:&lt;BR&gt; from a previous project that is being merged into the Climate Rescue Adviser.
 
@@ -4394,13 +4408,13 @@ The Climate Rescue Adviser will also be integrated with the new elements of the 
 [[Draft action checklist]]
 
 
-&lt;&lt;return&gt;&gt;</tw-passagedata><tw-passagedata pid="386" name="Secret developers&#39; business (login) (include)" tags="@#P9963 @#Fold072" position="975,20800" size="100,100">&lt;&lt;fav&gt;&gt;
+&lt;&lt;return&gt;&gt;</tw-passagedata><tw-passagedata pid="387" name="Secret developers&#39; business (login) (include)" tags="@#P9963 @#Fold072" position="975,20800" size="100,100">&lt;&lt;fav&gt;&gt;
 ----
 
 
 &lt;&lt;textboxPlus &quot;&quot; &quot;$accessCode&quot; `{placeholder: &quot;Enter your access code&quot;, spellcheck: false, autofocus: true, autocomplete: &quot;off&quot;}`&gt;&gt;&lt;&lt;button [[Save|Secret developers&#39; business]]&gt;&gt;&lt;&lt;/button&gt;&gt;
 
-(letmein)</tw-passagedata><tw-passagedata pid="387" name="Secret developers&#39; business (login)" tags="@#P9964 @#Fold072" position="975,20675" size="100,100">&lt;&lt;if previous() is &quot;Secret developers&#39; business&quot; and $accessCode is &quot;letmein&quot;&gt;&gt;&lt;&lt;goto [[Dev stuff]]&gt;&gt;&lt;&lt;elseif $accessCode is &quot;letmein&quot;&gt;&gt;&lt;&lt;goto [[Secret developers&#39; business]]&gt;&gt;&lt;&lt;else&gt;&gt;&lt;&lt;include [[Secret developers&#39; business (login) (include)]]&gt;&gt;&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="388" name="Secret developers&#39; business" tags="@#P9962 @#Fold072" position="1100,20675" size="100,100">&lt;&lt;nobr&gt;&gt;&lt;&lt;if def $accessCode&gt;&gt;&lt;&lt;set $accessCode to $accessCode.trim()&gt;&gt;
+(letmein)</tw-passagedata><tw-passagedata pid="388" name="Secret developers&#39; business (login)" tags="@#P9964 @#Fold072" position="975,20675" size="100,100">&lt;&lt;if previous() is &quot;Secret developers&#39; business&quot; and $accessCode is &quot;letmein&quot;&gt;&gt;&lt;&lt;goto [[Dev stuff]]&gt;&gt;&lt;&lt;elseif $accessCode is &quot;letmein&quot;&gt;&gt;&lt;&lt;goto [[Secret developers&#39; business]]&gt;&gt;&lt;&lt;else&gt;&gt;&lt;&lt;include [[Secret developers&#39; business (login) (include)]]&gt;&gt;&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="389" name="Secret developers&#39; business" tags="@#P9962 @#Fold072" position="1100,20675" size="100,100">&lt;&lt;nobr&gt;&gt;&lt;&lt;if def $accessCode&gt;&gt;&lt;&lt;set $accessCode to $accessCode.trim()&gt;&gt;
 &lt;&lt;/if&gt;&gt;&lt;&lt;if $accessCode isnot &quot;letmein&quot;&gt;&gt;&lt;&lt;goto [[Secret developers&#39; business (login)]]&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;&lt;/nobr&gt;&gt;[[Dev stuff]] | here | [[Work program for the Adviser]] | [[Dev design_Tech|Development design philosophy (tech)]] | [[Dev design_Content|Development design philosophy (content)]] |  &lt;&lt;fav&gt;&gt;
 ----
 !!For developers of the Adviser
@@ -4414,7 +4428,7 @@ The Climate Rescue Adviser will also be integrated with the new elements of the 
 *[[Sandbox]]
 *[[Wipe memory tools for developers]]
 *[[Database (bridge within the Adviser)]]
-*[[Old Guide - Core|Old material]]</tw-passagedata><tw-passagedata pid="389" name="Work program for the Adviser" tags="@#P9961 @#Fold080" position="1250,20675" size="100,100">[[Dev stuff]] | [[Secret developers&#39; business]] | here | [[Dev design_Tech|Development design philosophy (tech)]] | [[Dev design_Content|Development design philosophy (content)]] | &lt;&lt;fav&gt;&gt;
+*[[Old Guide - Core|Old material]]</tw-passagedata><tw-passagedata pid="390" name="Work program for the Adviser" tags="@#P9961 @#Fold080" position="1250,20675" size="100,100">[[Dev stuff]] | [[Secret developers&#39; business]] | here | [[Dev design_Tech|Development design philosophy (tech)]] | [[Dev design_Content|Development design philosophy (content)]] | &lt;&lt;fav&gt;&gt;
 !!Work program for the development of the Adviser
 !!!Adviser content
 *Why does the index system have 2 passages for each index topic (a get passage and an include passage) - it seems redundant.
@@ -4434,7 +4448,7 @@ The Climate Rescue Adviser will also be integrated with the new elements of the 
 !!!Other aspect of the Climate Rescue website
 *(to come)
 
-&lt;&lt;return&gt;&gt;</tw-passagedata><tw-passagedata pid="390" name="Alternative terms--Def_2include" tags="" position="8275,7525" size="100,100">[[Definitions, acronyms, concepts (gather)]] | &lt;&lt;fav&gt;&gt; 
+&lt;&lt;return&gt;&gt;</tw-passagedata><tw-passagedata pid="391" name="Alternative terms--Def_2include" tags="" position="8275,7525" size="100,100">[[Definitions, acronyms, concepts (gather)]] | &lt;&lt;fav&gt;&gt; 
 !!Alternative terms
 &lt;&lt;include [[Alternative terms--Def_2include]]&gt;&gt;
 
@@ -4485,7 +4499,7 @@ border: 1px solid black;
 &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;&lt;return&gt;&gt;</tw-passagedata><tw-passagedata pid="391" name="Definitions, acronyms, concepts (database.gather)" tags="" position="7325,7525" size="200,100">&lt;&lt;return&gt;&gt; | [[Background|Background (get)]] | &lt;&lt;fav&gt;&gt;
+&lt;&lt;return&gt;&gt;</tw-passagedata><tw-passagedata pid="392" name="Definitions, acronyms, concepts (database.gather)" tags="" position="7325,7525" size="200,100">&lt;&lt;return&gt;&gt; | [[Background|Background (get)]] | &lt;&lt;fav&gt;&gt;
 !!Definitions, acronyms &amp; concepts (database)
 *[[Emergency action mode on the climate|Emergency action mode on climate--Def_2include]]
 *[[Prevention_Emergency|Prevention--Def_2include]]
@@ -4498,25 +4512,25 @@ border: 1px solid black;
 
 &lt;&lt;return&gt;&gt;
 
-/% Passage ID:(database.definitions-acronyms-concepts.gather)_08-01-01_000_9945 %/</tw-passagedata><tw-passagedata pid="392" name="Emergency action mode on climate--Def_2include" tags="" position="7600,7525" size="100,100">(to come)
+/% Passage ID:(database.definitions-acronyms-concepts.gather)_08-01-01_000_9945 %/</tw-passagedata><tw-passagedata pid="393" name="Emergency action mode on climate--Def_2include" tags="" position="7600,7525" size="100,100">(to come)
 
-/% Passage ID:(database.definitions-acronyms-concepts.emergency-mode-climate.2inc)_08-01-02_000_9944 %/</tw-passagedata><tw-passagedata pid="393" name="Preparedness--Def_2include" tags="" position="7850,7525" size="100,100">&lt;&lt;return&gt;&gt; | [[Definitions, acronyms, concepts (gather)]] | &lt;&lt;fav&gt;&gt; 
+/% Passage ID:(database.definitions-acronyms-concepts.emergency-mode-climate.2inc)_08-01-02_000_9944 %/</tw-passagedata><tw-passagedata pid="394" name="Preparedness--Def_2include" tags="" position="7850,7525" size="100,100">&lt;&lt;return&gt;&gt; | [[Definitions, acronyms, concepts (gather)]] | &lt;&lt;fav&gt;&gt; 
 !!Preparedness (Definition etc.)
 &lt;&lt;include [[Preparedness--Def_2include]]&gt;&gt;
 
 &lt;&lt;return&gt;&gt; 
 
-/% Passage ID:(database.definitions-acronyms-concepts.preparedness.2inc)_08-01-02_000_9943 %/</tw-passagedata><tw-passagedata pid="394" name="Prevention--Def_2include" tags="" position="7725,7525" size="100,100">(to come)
-/% Passage ID:(database.definitions-acronyms-concepts.prevention.2inc)_08-01-02_000_9942 %/</tw-passagedata><tw-passagedata pid="395" name="Recovery--Def_2include" tags="" position="8100,7525" size="100,100">&lt;&lt;return&gt;&gt; | [[Definitions, acronyms, concepts (gather)]] | &lt;&lt;fav&gt;&gt; 
+/% Passage ID:(database.definitions-acronyms-concepts.preparedness.2inc)_08-01-02_000_9943 %/</tw-passagedata><tw-passagedata pid="395" name="Prevention--Def_2include" tags="" position="7725,7525" size="100,100">(to come)
+/% Passage ID:(database.definitions-acronyms-concepts.prevention.2inc)_08-01-02_000_9942 %/</tw-passagedata><tw-passagedata pid="396" name="Recovery--Def_2include" tags="" position="8100,7525" size="100,100">&lt;&lt;return&gt;&gt; | [[Definitions, acronyms, concepts (gather)]] | &lt;&lt;fav&gt;&gt; 
 !!Recovery (Definition etc.)&lt;&lt;include [[Recovery--Def_2include]]&gt;&gt;
 
 
 
-&lt;&lt;return&gt;&gt;</tw-passagedata><tw-passagedata pid="396" name="Response--Def_2include" tags="" position="7975,7525" size="100,100">&lt;&lt;return&gt;&gt; | [[Definitions, acronyms, concepts (gather)]] | &lt;&lt;fav&gt;&gt; 
+&lt;&lt;return&gt;&gt;</tw-passagedata><tw-passagedata pid="397" name="Response--Def_2include" tags="" position="7975,7525" size="100,100">&lt;&lt;return&gt;&gt; | [[Definitions, acronyms, concepts (gather)]] | &lt;&lt;fav&gt;&gt; 
 !!Response (Definition etc.)
 &lt;&lt;include [[Response--Def_2include]]&gt;&gt;
 
-&lt;&lt;return&gt;&gt;</tw-passagedata><tw-passagedata pid="397" name="Database super-cluster (2include)" tags="" position="7325,7250" size="200,200">*[[Definitions, acronyms, concepts (database.gather)]]
+&lt;&lt;return&gt;&gt;</tw-passagedata><tw-passagedata pid="398" name="Database super-cluster (2include)" tags="" position="7325,7250" size="200,200">*[[Definitions, acronyms, concepts (database.gather)]]
 *Resources
 *References|References (gather)
 *Backbone for Climate Emergency Action
