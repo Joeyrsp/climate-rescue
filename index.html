@@ -569,10 +569,24 @@ For further advice on using the favourites system go to: [[Help]]
 &lt;&lt;/link&gt;&gt;  !!!
 
 &lt;&lt;return&gt;&gt;</tw-passagedata><tw-passagedata pid="7" name="Other material" tags="" position="250,625" size="100,100">!!Other material
-[[Favourites]]  &lt;small&gt;&gt;(&lt;&lt;link [[add to main menu|Other material]]&gt;&gt;&lt;&lt;set $favouritesInMenu to 1&gt;&gt;&lt;&lt;/link&gt;&gt;)  (&lt;&lt;link [[remove from main menu|Other material]]&gt;&gt;&lt;&lt;set $favouritesInMenu to 0&gt;&gt;&lt;&lt;/link&gt;&gt;)&lt;/small&gt;
-[[Background|Background (get)]]  &lt;small&gt;&gt;(&lt;&lt;link [[add to main menu|Other material]]&gt;&gt;&lt;&lt;set $backgroundInMenu to 1&gt;&gt;&lt;&lt;/link&gt;&gt;)  (&lt;&lt;link [[remove from main menu|Other material]]&gt;&gt;&lt;&lt;set $backgroundInMenu to 0&gt;&gt;&lt;&lt;/link&gt;&gt;)&lt;/small&gt;
-[[Dev stuff]]  &lt;small&gt;&gt;(&lt;&lt;link [[add to main menu|Other material]]&gt;&gt;&lt;&lt;set $devStuffInMenu to 1&gt;&gt;&lt;&lt;/link&gt;&gt;)  (&lt;&lt;link [[remove from main menu|Other material]]&gt;&gt;&lt;&lt;set $devStuffInMenu to 0&gt;&gt;&lt;&lt;/link&gt;&gt;)&lt;/small&gt;
-[[Contact the Adviser team]]  &lt;small&gt;&gt;(&lt;&lt;link [[add to main menu|Other material]]&gt;&gt;&lt;&lt;set $contactInMenu to 1&gt;&gt;&lt;&lt;/link&gt;&gt;)  (&lt;&lt;link [[remove from main menu|Other material]]&gt;&gt;&lt;&lt;set $contactInMenu to 0&gt;&gt;&lt;&lt;/link&gt;&gt;)&lt;/small&gt;</tw-passagedata><tw-passagedata pid="8" name="Page template - simple" tags="@#P9940 @#Fold000" position="625,0" size="100,100">&lt;&lt;fav&gt;&gt;
+[[Background|Background (get)]] &amp;nbsp;&amp;nbsp;&lt;small&gt;(&lt;&lt;link [[add to main menu|Other material]]&gt;&gt;&lt;&lt;set $backgroundInMenu to 1&gt;&gt;&lt;&lt;/link&gt;&gt;)  (&lt;&lt;link [[remove from main menu|Other material]]&gt;&gt;&lt;&lt;set $backgroundInMenu to 0&gt;&gt;&lt;&lt;/link&gt;&gt;)&lt;/small&gt;
+[[Dev stuff]] &amp;nbsp;&amp;nbsp;&lt;small&gt;(&lt;&lt;link [[add to main menu|Other material]]&gt;&gt;&lt;&lt;set $devStuffInMenu to 1&gt;&gt;&lt;&lt;/link&gt;&gt;)  (&lt;&lt;link [[remove from main menu|Other material]]&gt;&gt;&lt;&lt;set $devStuffInMenu to 0&gt;&gt;&lt;&lt;/link&gt;&gt;)&lt;/small&gt;
+[[Contact the Adviser team]] &amp;nbsp;&amp;nbsp;&lt;small&gt;(&lt;&lt;link [[add to main menu|Other material]]&gt;&gt;&lt;&lt;set $contactInMenu to 1&gt;&gt;&lt;&lt;/link&gt;&gt;)  (&lt;&lt;link [[remove from main menu|Other material]]&gt;&gt;&lt;&lt;set $contactInMenu to 0&gt;&gt;&lt;&lt;/link&gt;&gt;)&lt;/small&gt;
+[[Favourites]] &amp;nbsp;&amp;nbsp;&lt;small&gt;(&lt;&lt;link [[add to main menu|Other material]]&gt;&gt;&lt;&lt;set $favouritesInMenu to 1&gt;&gt;&lt;&lt;/link&gt;&gt;)  (&lt;&lt;link [[remove from main menu|Other material]]&gt;&gt;&lt;&lt;set $favouritesInMenu to 0&gt;&gt;&lt;&lt;/link&gt;&gt;)&lt;/small&gt;
+
+!!The &#39;levels&#39; of the Adviser that will be revealed as users progress
+*Whole System Package
+*Global scenarios
+*Building a support system
+*Adapting the &#39;whole system package&#39; plan
+*Linked projects
+*Output reports
+
+
+
+
+For developers:
+&lt;&lt;textboxPlus &quot;&quot; &quot;$displayAllCode&quot; `{placeholder: &quot;Enter your access code&quot;, spellcheck: false, autofocus: true, autocomplete: &quot;off&quot;}`&gt;&gt;&lt;&lt;button [[Save|Other material]]&gt;&gt;&lt;&lt;if $displayAllCode is &quot;showa&quot;&gt;&gt;&lt;&lt;set $wholeSystemPackagePlan to 1&gt;&gt;&lt;&lt;set $globalScenarios to 1&gt;&gt;&lt;&lt;set $buildingSupportSystem to 1&gt;&gt;&lt;&lt;set $adaptingTheWholeSystemPackagePlanShow to 1&gt;&gt;&lt;&lt;set $linkedProjectsShow to 1&gt;&gt;&lt;&lt;set $outputReportsShow to 1&gt;&gt;&lt;&lt;elseif $displayAllCode is &quot;hidea&quot;&gt;&gt;&lt;&lt;set $wholeSystemPackagePlan to 0&gt;&gt;&lt;&lt;set $globalScenarios to 0&gt;&gt;&lt;&lt;set $buildingSupportSystem to 0&gt;&gt;&lt;&lt;set $adaptingTheWholeSystemPackagePlanShow to 0&gt;&gt;&lt;&lt;set $linkedProjectsShow to 0&gt;&gt;&lt;&lt;set $outputReportsShow to 0&gt;&gt;&lt;&lt;elseif $displayAllCode is &quot;sw&quot;&gt;&gt;&lt;&lt;set $wholeSystemPackagePlan to 1&gt;&gt;&lt;&lt;elseif $displayAllCode is &quot;sg&quot;&gt;&gt;&lt;&lt;set $globalScenarios to 1&gt;&gt;&lt;&lt;elseif $displayAllCode is &quot;sb&quot;&gt;&gt;&lt;&lt;set $buildingSupportSystem to 1&gt;&gt;&lt;&lt;elseif $displayAllCode is &quot;sa&quot;&gt;&gt;&lt;&lt;set $adaptingTheWholeSystemPackagePlanShow to 1&gt;&gt;&lt;&lt;elseif $displayAllCode is &quot;sl&quot;&gt;&gt;&lt;&lt;set $linkedProjectsShow to 1&gt;&gt;&lt;&lt;elseif $displayAllCode is &quot;so&quot;&gt;&gt;&lt;&lt;set $outputReportsShow to 1&gt;&gt;&lt;&lt;elseif $displayAllCode is &quot;hw&quot;&gt;&gt;&lt;&lt;set $wholeSystemPackagePlan to 0&gt;&gt;&lt;&lt;elseif $displayAllCode is &quot;hg&quot;&gt;&gt;&lt;&lt;set $globalScenarios to 0&gt;&gt;&lt;&lt;elseif $displayAllCode is &quot;hb&quot;&gt;&gt;&lt;&lt;set $buildingSupportSystem to 0&gt;&gt;&lt;&lt;elseif $displayAllCode is &quot;ha&quot;&gt;&gt;&lt;&lt;set $adaptingTheWholeSystemPackagePlanShow to 0&gt;&gt;&lt;&lt;elseif $displayAllCode is &quot;hl&quot;&gt;&gt;&lt;&lt;set $linkedProjectsShow to 0&gt;&gt;&lt;&lt;elseif $displayAllCode is &quot;ho&quot;&gt;&gt;&lt;&lt;set $outputReportsShow to 0&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;&lt;/button&gt;&gt;</tw-passagedata><tw-passagedata pid="8" name="Page template - simple" tags="@#P9940 @#Fold000" position="625,0" size="100,100">&lt;&lt;fav&gt;&gt;
 ----
 !!Heading
 
@@ -584,9 +598,67 @@ Tel: +61 3 9078 9746  /  (03) 9078 9746</tw-passagedata><tw-passagedata pid="11"
 !Adviser developer&#39;s &#39;Sandbox&#39; for running tests
 
 
-
-----
-&lt;&lt;return&gt;&gt;</tw-passagedata><tw-passagedata pid="12" name="StoryDisplayTitle" tags="@#P9910 @#Fold000" position="125,500" size="100,100">Climate Rescue Adviser</tw-passagedata><tw-passagedata pid="13" name="StoryMenu" tags="@#P9994 @#Fold000" position="125,625" size="100,100">[[Getting started]]
+&lt;center&gt;
+&lt;table style=&quot;width: 70%; border-collapse: collapse;&quot; border=&quot;1&quot; width=&quot;70%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt;
+&lt;tbody&gt;
+&lt;tr style=&quot;height: 15px;&quot;&gt;
+&lt;td width=&quot;150&quot;&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;background: #d9d9d9;&quot; width=&quot;170&quot;&gt;
+&lt;p style=&quot;text-align: center;&quot; align=&quot;center&quot;&gt;&lt;strong&gt;Earth system level&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;background: #d9d9d9;&quot; width=&quot;170&quot;&gt;
+&lt;p style=&quot;text-align: center;&quot; align=&quot;center&quot;&gt;&lt;strong&gt;Local level&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;height: 15px;&quot;&gt;
+&lt;td style=&quot;background: #d9d9d9;&quot;&gt;
+&lt;p&gt;&lt;strong&gt;&amp;nbsp;&amp;nbsp;Prevention&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;text-align: center;&quot;&gt;
+&lt;p style=&quot;text-align: center;&quot; align=&quot;center&quot;&gt;&lt;a name=&quot;_Hlk98888066&quot;&gt;&lt;/a&gt;&lt;strong&gt;&lt;span style=&quot;font-family: Wingdings;&quot;&gt;&amp;uuml;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;text-align: center;&quot; width=&quot;150&quot;&gt;
+&lt;p&gt;&lt;strong&gt;?&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;height: 15px;&quot;&gt;
+&lt;td style=&quot;background: #d9d9d9;&quot;&gt;
+&lt;p&gt;&lt;strong&gt;&amp;nbsp;&amp;nbsp;Restoration&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;text-align: center;&quot;&gt;
+&lt;p&gt;&lt;a name=&quot;_Hlk98888066&quot;&gt;&lt;/a&gt;&lt;strong&gt;&lt;span style=&quot;font-family: Wingdings;&quot;&gt;&amp;uuml;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;text-align: center;&quot;&gt;
+&lt;p&gt;&lt;a name=&quot;_Hlk98888066&quot;&gt;&lt;/a&gt;&lt;strong&gt;&lt;span style=&quot;font-family: Wingdings;&quot;&gt;&amp;uuml;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;height: 15px;&quot;&gt;
+&lt;td style=&quot;background: #d9d9d9;&quot;&gt;
+&lt;p&gt;&lt;strong&gt;&amp;nbsp;&amp;nbsp;Adaptation&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;text-align: center;&quot;&gt;
+&lt;p&gt;&lt;a name=&quot;_Hlk98888066&quot;&gt;&lt;/a&gt;&lt;strong&gt;&lt;span style=&quot;font-family: Wingdings;&quot;&gt;&amp;uuml;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;text-align: center;&quot;&gt;
+&lt;p&gt;&lt;a name=&quot;_Hlk98888066&quot;&gt;&lt;/a&gt;&lt;strong&gt;&lt;span style=&quot;font-family: Wingdings;&quot;&gt;&amp;uuml;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;height: 15px;&quot;&gt;
+&lt;td style=&quot;background: #d9d9d9;&quot;&gt;
+&lt;p&gt;&lt;strong&gt;&amp;nbsp;&amp;nbsp;Crisis coping&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;text-align: center;&quot;&gt;
+&lt;p&gt;&lt;strong&gt;?&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;text-align: center;&quot;&gt;
+&lt;p&gt;&lt;a name=&quot;_Hlk98888066&quot;&gt;&lt;/a&gt;&lt;strong&gt;&lt;span style=&quot;font-family: Wingdings;&quot;&gt;&amp;uuml;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/center&gt;</tw-passagedata><tw-passagedata pid="12" name="StoryDisplayTitle" tags="@#P9910 @#Fold000" position="125,500" size="100,100">Climate Rescue Adviser</tw-passagedata><tw-passagedata pid="13" name="StoryMenu" tags="@#P9994 @#Fold000" position="125,625" size="100,100">[[Getting started]]
 &lt;&lt;nobr&gt;&gt;
 &lt;&lt;if $wholeSystemPackagePlan eq 1&gt;&gt;
 [[Whole System Package|Is this really what you want?]]
@@ -799,13 +871,15 @@ Tel: +61 3 9078 9746  /  (03) 9078 9746</tw-passagedata><tw-passagedata pid="11"
 &lt;&lt;/script&gt;&gt;
 /* &lt;&lt;textboxPlus&gt;&gt; widget - End */</tw-passagedata><tw-passagedata pid="15" name="Version input (2include)" tags="@#P9991 @#Fold000" position="500,125" size="100,100">&lt;nobr&gt;Adviser revised 3 April 2022, 2.30 am.  &lt;small&gt;(Begun 19 December 2021)&lt;/small&gt;&lt;/nobr&gt;</tw-passagedata><tw-passagedata pid="16" name="Getting started" tags="@#P9998 @#Fold001" position="375,0" size="100,100">&lt;&lt;include [[Start]]&gt;&gt;</tw-passagedata><tw-passagedata pid="17" name="Start" tags="@#P9999 @#Fold001" position="250,0" size="100,100">!!Getting started
 The purpose of the Climate Rescue Adviser is to help people to prepare a climate action plan based on a commitment to:
-*maximum protection for the climate vulnerable
+*maximum protection[[|http://bit.ly/DeliveringMaximumProtection]] for the climate vulnerable
 *safe climate restoration
 *taking action in the context of a &#39;whole system package&#39; plan
 *emergency mode of action.
-See:  http://bit.ly/DeliveringMaximumProtection
-
+  
 The Adviser is being built by RSTI&#39;s Climate Rescue Catalytic Group and is in a very early stage of development, so please bear with us over the coming months as it is built up.
+
+
+
 
 //(development comment)// The purpose of this page &amp;ndash; the material to be added here will help people get orientated before plunging in to create their first draft of a &#39;Whole System Package&#39; climate action plan based on the maximum protection approach.)
 
@@ -1647,12 +1721,21 @@ To turn this page into a word processing document for your own use, select the s
 !!Output reports
 [[&#39;Whole System Package&#39; Plan|Output Report_&#39;Whole System Package&#39; Plan]]
 
+&#39;&#39;Output Reports for Global Scenarios&#39;&#39;
+(to come)
+
+&#39;&#39;Output Reports for Building a Support System&#39;&#39;&#39;
+(to come)
+
 &#39;&#39;Output Reports for Adaptations of the &#39;Whole System Package&#39; Plan&#39;&#39;
 [[Individuals|Output Report_Individuals]]
 [[Climate action groups|Output Report_Climate action groups]]
 [[Governments|Output Report_Governments]]
 [[Businesses|Output Report_Businesses]]
-[[International institutions|Output Report_International institutions]]</tw-passagedata><tw-passagedata pid="59" name="Assistance material (gather-2include)" tags="" position="1000,7950" size="200,200">!!!Assistance material
+[[International institutions|Output Report_International institutions]]
+
+&#39;&#39;Output Reports for linked projects&#39;&#39;
+(to come)</tw-passagedata><tw-passagedata pid="59" name="Assistance material (gather-2include)" tags="" position="1000,7950" size="200,200">!!!Assistance material
 * [[Help]]
 * [[Index]]
 * [[Definitions, acronyms, concepts|Definitions, acronyms, concepts (gather)]]
@@ -3326,8 +3409,7 @@ Build zero emissions economy to &#39;&#39;collapse the business case&#39;&#39; f
 !!Economic mobilisation in the world wars &lt;small&gt;(Learning from history)&lt;/small&gt;
 
 Download word doc:
-[[WW2 and WW1 history project: Emergent principles
-|http://www.green-innovations.asn.au/RSTI/WW2&amp;WW1-experience_principles.doc]]
+[[WW2 and WW1 history project: Emergent principles|http://www.green-innovations.asn.au/RSTI/WW2&amp;WW1-experience_principles.doc]]
 
 
 
