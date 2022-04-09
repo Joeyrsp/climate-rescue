@@ -1,4 +1,4 @@
-:: Story JavaScript [script @#P9938 @#Fold000] {"position":"125,125"}
+// :: Story JavaScript [script @#P9938 @#Fold000] {"position":"125,125"}
 /* SCRIPT FOR NEW FUNCTIONS AND MACROS TO USE IN THE ADVISER
 =============================================
 Advice: All customised functions and variables in this script could be given AddedScript as either a prefix or a suffix to ensure that there is a very low probability of a collision with the Sugarcane js code. 
