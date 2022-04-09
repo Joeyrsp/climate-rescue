@@ -1,0 +1,41 @@
+:: 'Whole System Package' Plan [@#P9989 @#Fold002] {"position":"950,825","size":"200,200"}
+!!Developing a maximum protection, 'whole system package' plan<nobr><<set $wholeSystemPackagePlan to 1>><<set $genericWholePackagePlanArray to [0,0,0,0,0,0,0,0,0,0,0,0]>>
+</nobr>
+By answering these questions below, it should be possible to create a climate plan based on four key principles:
+*maximum protection[[|http://bit.ly/DeliveringMaximumProtection]] for the climate vulnerable, tied together by a chain of responsibility
+*safe climate restoration
+*taking action in support of and in the context of a 'whole system package' plan
+*emergency mode of action
+that can later be adapted for use by individuals, organisations and governments etc.
+
+[[Q1. Who/what should be protected?|Q1. Who-what to protect?]]
+
+[[Q2. What threats need to be dealt with?|Q2. What threats need to be dealt with?]]
+
+[[Q3. What degree of protection do you want to achieve?|Q3. How much protection?]]
+
+[[Q4. What conditions are needed by when to provide that protection with certainty?|Q4. What protection conditions needed?]]
+
+[[Q5. What actions are needed at what scale to deliver the protection by when it’s needed?|Q5. What protection actions needed?]]
+
+[[Q6. What is the geographical scope of the package? |Q6. Geographical scope?]]
+
+[[Q7. What mode of action is needed given the scale and urgency of action?|Q7. Mode of action?]]
+
+[[Q8. How can the protection be delivered?|Q8. Delivering protection]]
+
+[[Q9. What alliances are needed to deliver the protection?|Q9. What alliances needed?]]
+
+[[Q10. What actions are needed to build and activate the alliances?|Q10. What actions needed to activate alliances?]]
+
+[[11. Challenges for the 'whole system package' plan]]
+
+[[Q12. How does the approach emerging from answering the questions above differ from the (currently) usual approach?|Q12. How does action package differ from conventional?]]
+
+[[Q13. What are the action implications of these differences?|Q13. Significance of differences?]]
+
+----
+[[Output Report: 'Whole System Package' Plan|Output Report_'Whole System Package' Plan]]
+----
+<<return>> | [[«previous|Getting started]] | [[next»|Q1. Who-what to protect?]]
+

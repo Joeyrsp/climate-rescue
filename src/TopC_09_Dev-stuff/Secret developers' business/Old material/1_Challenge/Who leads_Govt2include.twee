@@ -1,0 +1,31 @@
+:: Who leads? Govt2include [@#P9868 @#Fold081] {"position":"2125,21875"}
+Who should be involved in preparing your draft action checklist for the stage of emergency work that your government is involved in now?  Which specific people should be involved?  What skills, knowledge do the checklist development leaders need to have?  To get a handle on this you might want to have a look at the [[where to start|Where to start?]] passage and the topics list passages on [[preparing|Topics list--Preparing]], [[switching|Topics list--Switching]] and [[operating|Topics list--Operating]].
+
+You might also want to have a look at the [[next|Decision-making?]] passage on who signs off on the action checklist before deciding who will do the work on the draft checklist.
+
+Select the types of people you think should develop the draft action checklist:
+<<nobr>>
+
+<<checkbox "$councillors" "" "Councillors" autocheck>>  Councillors <br>
+
+<<checkbox "$mPs" "" "Members of Parliament" autocheck>> Members of Parliament<br>
+
+<<checkbox "$politicalAdvisers" "" "Political advisers" autocheck>> Political advisers<br>
+
+<<checkbox "$councilStaff" "" "Council staff" autocheck>> Council staff<br>
+
+<<checkbox "$publicServants" "" "Public servants" autocheck>> Public servants<br>
+
+<<checkbox "$communityAdvisers" "" "Community advisers" autocheck>> Community advisers<br>
+
+<<checkbox "$communityVolunteers" "" "Community volunteers" autocheck>> Community volunteers<br>
+
+<<checkbox "$consultants" "" "Consultants" autocheck>> Consultants
+<</nobr>>
+
+<<textboxPlus "If you would like to add or amend any further types of people, then write them into the box below, separated by commas:<br>" "$xtraPeople" `{placeholder: "Anyone else?", default: $xtraPeople}`>><<button [[Save|passage()]]>><</button>>
+
+__//Currently recorded full list://__&nbsp;&nbsp;[[(Clear all)|passage()][$councillors =""; $mPs =""; $politicalAdvisers =""; $councilStaff =""; $publicServants =""; $communityAdvisers =""; $communityVolunteers =""; $consultants =""; $xtraPeople =""; ]]
+<<if $councillors isnot "">>$councillors, <</if>><<if $mPs isnot "">>$mPs, <</if>><<if $politicalAdvisers isnot "">>$politicalAdvisers, <</if>><<if $councilStaff isnot "">>$councilStaff, <</if>><<if $publicServants isnot "">>$publicServants, <</if>><<if $communityAdvisers isnot "">>$communityAdvisers, <</if>><<if $communityVolunteers isnot "">>$communityVolunteers, <</if>><<if $consultants isnot "">>$consultants, <</if>><<if $xtraPeople isnot "">>$xtraPeople, <</if>>
+
+

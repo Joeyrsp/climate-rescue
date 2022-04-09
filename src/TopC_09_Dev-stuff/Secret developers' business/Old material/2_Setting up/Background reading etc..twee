@@ -1,0 +1,21 @@
+:: Background reading etc. [@#P9855 @#Fold082] {"position":"2500,22050"}
+[[Climate emergency mode?]] | [[Where to start?]] | [[Topics list--Preparing]] | [[Topics list--Switching]] | [[Topics list--Operating]] | (here) | <<fav>> 
+----
+<<if $ChecklistChallenge is " 1.">>
+!!Background reading etc.
+!!!The government challenge
+<<include [[Background reading etc. Govt2include]]>>
+<<elseif $ChecklistChallenge is " 2.">>
+!!Background reading etc.
+!!!The citizen challenge
+(Content is yet to be developed for the ''citizen challenge''.  To make a selection for an active challenge, go to: [[Checklist challenge?]])
+<<elseif $ChecklistChallenge is " 3.">>
+!!Background reading etc.
+!!!The business challenge
+(Content is yet to be developed for the ''business challenge''.  To make a selection for an active challenge, go to: [[Checklist challenge?]])
+<<else>>
+(A challenge to be tackled has not been selected.  To make a selection go to: [[Checklist challenge?]])
+<</if>>
+<<return>> | [[«previous|Topics list--Operating]]
+
+

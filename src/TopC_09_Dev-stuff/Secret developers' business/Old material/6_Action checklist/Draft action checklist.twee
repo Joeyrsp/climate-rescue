@@ -1,0 +1,40 @@
+:: Draft action checklist [@#P9974 @#Fold086] {"position":"1750,22825"}
+<<fav>>
+----
+!!Draft action checklist<br><small>for getting into emergency mode</small>
+A draft action checklist will build up here as you work through the Adviser.
+
+!!!1. Getting organised to create or revise a current Output Report
+<<nobr>>
+<<if ($ChecklistLeaders + $DecisionMakingProcesses) eq (0 or "")>>
+//(This section is now being used.  Text will appear here when users make decisions about the content of the draft checklist.)//<br><br><</if>>
+
+<<if $ChecklistLeaders neq 0>>
+''1a. It is proposed that the [[checklist development process will be led by:|Who leads?]] ''<br>
+<<print $ChecklistLeaders>>.<br>
+Which specific people should we involve?<br>
+What skills, knowledge do the checklist development leaders need to have?<br>
+Are they familiar with [[climate emergency action mode|Climate emergency mode?]]?<br><br><</if>>
+
+<<if $DecisionMakingProcesses neq 0>>
+''1b.  It is proposed that the checklist will be [[signed-off by:|Decision-making?]]''<br>
+<<print $DecisionMakingProcesses>>.<br><br><</if>>
+<</nobr>>
+!!!2. Preparing to go into emergency mode
+(to be developed later)
+
+
+!!!3. Triggering/accelerating the switch to emergency mode
+(to be developed later)
+
+
+!!!4. Operating in emergency mode
+(to be developed later)
+
+----
+To ''print'' this checklist, highlight the checklist panel, copy it (ctrl-c) and paste the contents into a word processing document.
+
+<<return>>
+
+
+

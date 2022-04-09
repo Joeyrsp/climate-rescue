@@ -1,0 +1,44 @@
+:: Individuals [@#P9894 @#Fold027] {"position":"1625,4800"}
+<<return>> | [[Navigation» Adapting the Plan|NAV_Adapting the plan]] | <<fav>> 
+----
+
+!Individual action
+
+!!!Registering a review project
+
+!!!Setting the profile for this review project
+
+//(add profile material)//
+
+*Lifestyle
+*Citizen action
+*Workplace action
+
+!!!How to answer the question
+
+//(add advisory material)//
+
+- overall campaign building
+- locality focused
+
+!!!Writing up your conclusions (user input)
+
+<<textarea "$citizenConclusions" "">>
+
+
+!!!Questions & ideas to discuss with the Climate Rescue Catalytic Group (user input)
+
+<<textarea "$citizenQuestionsIdeas" "">>
+
+
+----
+!The report material related to this question
+
+(As the user works through this page, report material related to the page will collect here.  It will also be repeated on the Output Report page.)
+
+----
+[[Output Report_Individuals]]  (link or use ≪include≫?)
+----
+<<return>> | [[Navigation» Adapting the Plan|NAV_Adapting the plan]]
+
+

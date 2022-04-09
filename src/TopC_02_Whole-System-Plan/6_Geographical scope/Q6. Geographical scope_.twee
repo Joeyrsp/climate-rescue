@@ -1,0 +1,39 @@
+:: Q6. Geographical scope? [@#P9922 @#Fold017] {"position":"1375,1575"}
+<<return>> | [[Navigation» 'Whole System Package'|NAV_'Whole System Package' Plan]] | <<fav>>
+----
+!!Q6. What is the geographical scope of the package?
+
+!!!How to answer the question
+
+//(add advisory material)//
+
+(because of who or what is to be protected, or the character of the threats or the solutions action needed)
+
+
+!!!Writing up your conclusions (user input)
+
+<<textarea "$geographyConclusions" "">>
+
+
+!!!Questions & ideas to discuss with the Climate Rescue Catalytic Group (user input)
+
+<<textarea "$geographyQuestionsIdeas" "">>
+
+
+----
+Are you reasonably sure that you have finished working on this page?  You can change you mind later if you like.
+
+(yes)  (not yet)  add buttons
+<<set $genericWholePackagePlanArray to [0,0,0,0,0,0,0,0,0,0,0,0]>>
+
+The work on this page is/is not complete)
+
+----
+!The report material related to this question
+
+(As the user works through this page, report material related to the page will collect here.  It will also be repeated on the Output Report page.)
+
+----
+<<return>> | [[«previous|Q5. What protection actions needed?]] | [[next»|Q7. Mode of action?]]
+
+

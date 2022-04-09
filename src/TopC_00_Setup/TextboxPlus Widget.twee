@@ -1,0 +1,173 @@
+:: TextboxPlus Widget[widget nobr @#P9992 @#Fold000] {"position":"750,0"}
+/* <<textboxPlus>> widget v1.3 - Start */
+/* Created by HiEv*/
+/* https://qjzhvmqlzvoo5lqnrvuhmg-on.drv.tw/UInv/Sample_Code.html#TextboxPlus%20widget */
+/* Usage:
+	<<textboxPlus "Label: " "$variableName" `{
+		default: "Default value",
+		passage: "Passage name",
+		placeholder: "Placeholder text",
+		maxlength: 10,
+		spellcheck: false,
+		autofocus: true,
+		autocomplete: "off",
+		password: true,
+		readonly: true,
+		disabled: true,
+		onchange: "<<run alert('Text was changed.')>>",
+		oninput: "<<run alert('Input event triggered.')>>",
+		onreturn: "<<run alert('User hit RETURN.')>>"
+	}`>>
+
+	NOTE: If you put a space as the last character for the label then, instead
+		  of the textbox appearing to the right of the label, the textbox will
+		  appear on the line BELOW the label.  Also, all of the options shown
+		  within the third parameter above (after "$variableName") are optional.
+		  For a list of all "autocomplete" options see:
+			https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autocomplete
+*/
+<<widget "textboxPlus">>
+	<<if ($args[1][0] !== "$") && ($args[1][0] !== "_")>>
+		/* Show error message for bad variable name. */
+		<span class="errmsg" data-msg="&lt;&lt;textboxPlus&gt;&gt; - Invalid variable name." @data-src="$args[1]"></span>
+		<<run $(document).one(":passagerender",
+			function (ev) {
+				$(ev.content).find(".errmsg").each(function (idx) {
+					throwError($(this), $(this).data("msg"), $(this).data("src"));
+				});
+			}
+		)>>
+	<<else>>
+		/* Create textboxPlus input box. */
+		<<if $args[1][0] === "$">>
+			<<set _textboxPlusName = "textbox-" + $args[1].substr(1).toLowerCase()>>
+		<<else>>
+			<<set _textboxPlusName = "textbox--" + $args[1].substr(1).toLowerCase()>>
+		<</if>>
+		<<if ndef $args[2]>>
+			<<set _textboxPlusOptions = {}>>
+		<<else>>
+			<<set _textboxPlusOptions = $args[2]>>
+		<</if>>
+		<<if ndef _textboxPlusOptions.placeholder>>
+			<<set _textboxPlusOptions.placeholder = "">>
+		<</if>>
+		<<if ndef _textboxPlusOptions.maxlength>>
+			<<set _textboxPlusOptions.maxlength = "">>
+		<</if>>
+		<<if ndef _textboxPlusOptions.spellcheck>>
+			<<set _textboxPlusOptions.spellcheck = true>>
+		<</if>>
+		<<if ndef _textboxPlusOptions.autocomplete>>
+			<<set _textboxPlusOptions.autocomplete = "">>
+		<</if>>
+		<<if ndef _textboxPlusOptions.password>>
+			<<set _textboxPlusOptions.password = "">>
+		<</if>>
+		<<if ndef _textboxPlusOptions.readonly>>
+			<<set _textboxPlusOptions.readonly = "">>
+		<</if>>
+		<<if ndef _textboxPlusOptions.disabled>>
+			<<set _textboxPlusOptions.disabled = "">>
+		<</if>>
+		<<if ndef _textboxPlusOptions.onchange>>
+			<<set _textboxPlusOptions.onchange = "">>
+		<</if>>
+		<<if ndef _textboxPlusOptions.oninput>>
+			<<set _textboxPlusOptions.oninput = "">>
+		<</if>>
+		<<if ndef _textboxPlusOptions.onreturn>>
+			<<set _textboxPlusOptions.onreturn = "">>
+		<</if>>
+		<span class="textboxplus" @data-variable="$args[1]" @data-placeholder="_textboxPlusOptions.placeholder" @data-maxlength="_textboxPlusOptions.maxlength" @data-spellcheck="_textboxPlusOptions.spellcheck" @data-autocomplete="_textboxPlusOptions.autocomplete" @data-password="_textboxPlusOptions.password" @data-readonly="_textboxPlusOptions.readonly" @data-disabled="_textboxPlusOptions.disabled" @data-onchange="_textboxPlusOptions.onchange" @data-oninput="_textboxPlusOptions.oninput" @data-onreturn="_textboxPlusOptions.onreturn">
+			<label @for="_textboxPlusName">$args[0]</label>
+				<<if $args[0][$args[0].length - 1] === " ">>
+					<br>
+				<</if>>
+				<<if ndef _textboxPlusOptions.default>>
+					<<set _textboxPlusOptions.default = "">>
+				<</if>>
+				<<if ndef _textboxPlusOptions.passage>>
+					<<if _textboxPlusOptions.autofocus>>
+						<<textbox $args[1] _textboxPlusOptions.default autofocus>>
+					<<else>>
+						<<textbox $args[1] _textboxPlusOptions.default>>
+					<</if>>
+				<<else>>
+					<<if _textboxPlusOptions.autofocus>>
+						<<textbox $args[1] _textboxPlusOptions.default _textboxPlusOptions.passage autofocus>>
+					<<else>>
+						<<textbox $args[1] _textboxPlusOptions.default _textboxPlusOptions.passage>>
+					<</if>>
+				<</if>>
+		</span>
+	<</if>>
+<</widget>>
+<<script>>
+	$(document).on(":passagerender", function (event) {
+		/* Update textboxPlus input boxes. */
+		$(event.content).find(".textboxplus").each(function () {
+			var options = {}, props = {};
+			var data = $(this).data("placeholder");
+			if (data) {
+				options.placeholder = data;
+			}
+			data = $(this).data("maxlength");
+			if (data) {
+				options.maxlength = data;
+			}
+			data = $(this).data("spellcheck");
+			if (data.toString().toLowerCase() === "false") {
+				options.spellcheck = "false";
+			}
+			data = $(this).data("autocomplete");
+			if (data) {
+				options.autocomplete = data;
+			}
+			data = $(this).data("password");
+			if (data) {
+				props.type = "password";
+			}
+			data = $(this).data("readonly");
+			if (data) {
+				props.readonly = data;
+			}
+			data = $(this).data("disabled");
+			if (data) {
+				props.disabled = data;
+			}
+			$(this).find("input").each(function () {
+				if (props.type) {
+					$(this).removeProp("type").attr(options).prop(props);
+				} else {
+					$(this).attr(options).prop(props);
+				}
+			});
+			var changeCode = $(this).data("onchange");
+			if (changeCode) {
+				$(this).find("input").on("change", function (event) {
+					$.wiki(changeCode);
+				});
+			}
+			var inputCode = $(this).data("oninput"), parent = this;
+			if (inputCode) {
+				$(this).find("input").on("input", function (event) {
+					State.setVar($(parent).data("variable"), $(this).val());
+					$.wiki(inputCode);
+				});
+			}
+			var returnCode = $(this).data("onreturn");
+			if (returnCode) {
+				$(this).on("keyup", function (event) {
+					if (event.key === "Enter") {
+						$.wiki(returnCode);
+					}
+				});
+			}
+		});
+	});
+<</script>>
+/* <<textboxPlus>> widget - End */
+
+
+

@@ -1,0 +1,7 @@
+:: Chain of responsibility (Index) {"position":"1275,8475"}
+<<return>> | [[Index]] | <<fav>>
+<<include [[Chain of responsibility_Index2include]]>>
+
+<<return>> | [[Index]]
+
+

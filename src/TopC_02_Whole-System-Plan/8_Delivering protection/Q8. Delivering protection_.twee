@@ -1,0 +1,33 @@
+:: Q8. Delivering protection [@#P9850 @#Fold087] {"position":"1375,1825"}
+<<return>> | [[Navigation» 'Whole System Package'|NAV_'Whole System Package' Plan]] | <<fav>>
+----
+!!Q8. Delivering protection
+
+!!!How to answer the question
+
+//(add advisory material)//
+
+!!!Writing up your conclusions (user input)
+
+<<textarea "$deliveringProtectionConclusions" "">>
+
+
+!!!Questions & ideas to discuss with the Climate Rescue Catalytic Group (user input)
+
+<<textarea "$deliveringProtectionQuestionsIdeas" "">>
+
+----
+Are you reasonably sure that you have finished working on this page?  You can change you mind later if you like.
+
+(yes)  (not yet)  add buttons
+<<set $genericWholePackagePlanArray to [0,0,0,0,0,0,0,0,0,0,0,0]>>
+
+The work on this page is/is not complete)
+
+----
+!The report material related to this question
+
+(As the user works through this page, report material related to the page will collect here.  It will also be repeated on the Output Report page.)
+
+----
+<<return>> | [[«previous|Q7. Mode of action?]] | [[next»|Q9. What alliances needed?]]

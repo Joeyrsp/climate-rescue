@@ -1,0 +1,46 @@
+:: Settings Status [@#P9968 @#Fold023] {"position":"1250,20525"}
+<<fav>>
+----
+!!Where am I up to with the work on the Adviser?
+<<nobr>>
+<<if $ChecklistChallenge is " 1a.">>
+&bull;  You are currently working on the ''local government challenge''.  To change the challenge, go to: [[Checklist challenge?]])
+<<elseif $ChecklistChallenge is " 1b.">>
+&bull;  You are currently working on the ''state or territory government challenge''.  To change the challenge, go to: [[Checklist challenge?]])
+<<elseif $ChecklistChallenge is " 1c.">>
+&bull;  You are currently working on the ''national government challenge''.  To change the challenge, go to: [[Checklist challenge?]])
+<<elseif $ChecklistChallenge is " 2.">>
+&bull;  You are currently working on the ''citizen challenge''.  To change the challenge, go to: [[Checklist challenge?]])
+<<elseif $ChecklistChallenge is " 3.">>
+&bull;  You are currently working on the ''business challenge''.  To change the challenge, go to: [[Checklist challenge?]])
+<<else>>
+&bull;  You have not yet chosen the challenge to frame your checklist development work.  To select a challenge go to: [[Checklist challenge?]])
+<</if>>
+<</nobr>>
+&bull;  The selected model for developing the checklist is:
+<<nobr>>
+<<if $ChecklistModel is " 1.">>
+- starting from ''first principles''.  (Change the choice [[here.|Selecting the checklist development model?]])
+<<elseif $ChecklistModel is " 2.">><<elseif $ChecklistModel is " 2.">>
+- using a template based on the ''[[CACE|CACE (Resource)]] model''.  (Change the choice [[here.|Selecting the checklist development model?]])  
+<<elseif $ChecklistModel is " 3.">>
+- using a template that starts with a focus on ''solutions implementation''.  (Change the choice [[here.|Selecting the checklist development model?]]) 
+<<elseif $ChecklistModel is " 4.">>
+- using a template that starts with a focus on ''advocacy''.  (Change the choice [[here.|Selecting the checklist development model?]])
+<<elseif $ChecklistModel is " 5.">>
+- using a template that starts with a focus on ''community mobilisation''.  (Change the choice [[here.|Selecting the checklist development model?]])
+<<elseif $ChecklistModel is " Cancel" or $ChecklistModel is 0>>
+- (no checklist development model has been selected.  Make a choice [[here|Selecting the checklist development model?]]) 
+<</if>>
+<</nobr>>
+<<nobr>>
+<<if $devAccess is "yes">>&bull;  You are logged-in in development mode.  
+<<else>>
+&bull;  You are ''not'' logged-in in development mode.
+<</if>>
+<</nobr>>
+
+<<return>>
+
+
+

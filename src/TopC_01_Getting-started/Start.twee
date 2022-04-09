@@ -1,0 +1,96 @@
+:: Start [@#P9999 @#Fold001] {"position":"250,0"}
+(Use SETTINGS in the main menu on the left to set 'day' display mode on or off)
+----
+!!Getting started
+This Adviser is being built by RSTI's Climate Rescue Catalytic Group and is in a very early stage of development, so please bear with us over the coming months as it is built up.
+
+The purpose of the Climate Rescue Adviser is to help people to prepare their own climate action plan based on a commitment to:
+*maximum protection[[|http://bit.ly/DeliveringMaximumProtection]] for the climate vulnerable, tied together by a chain of responsibility
+*safe climate restoration
+*taking action in support of and in the context of a 'whole system package' plan
+*emergency mode of action.
+The climate vulnerable include people and other living things that are suffering now or face future impacts from extreme weather events (fires, floods, storms, heatwaves, droughts, coastal storm surges, ecosystem breakdown) and systematic changes such as in temperatures, sea-level rise and ocean acidity[[(*)|Ocean acidification is not strictly a climate issue_comment_2include]].  Young people as a whole are among the climate vulnerable because their future lives face hugely intensified climate-change-induced impacts unless drastic action is taken now.
+
+Given that climate impacts have already reached unacceptable levels, it is important to recognise that safe climate restoration should be part of a climate rescue program.
+
+The table below is a useful way to map the scope of the whole system package that will be needed to protect the climate vulnerable:  
+<<nobr>>
+<style>
+    table {
+        width: 70%;
+        font-weight: bold;
+        margin-left: 30px !important;
+    }
+
+    td {
+        width: calc(100% / 3);
+    }
+
+    td:nth-child(n + 2) {
+        text-align: center;
+    }
+</style>
+<table>
+    <tr>
+        <td class="borderless"></td>
+        <td class="grayed">Earth system level</td>
+        <td class="grayed">Local level</td>
+    </tr>
+    <tr>
+        <td class="grayed">Prevention</td>
+        <td>✓</td>
+        <td>✓</td>
+    </tr>
+    <tr>
+        <td class="grayed">Restoration</td>
+        <td>✓</td>
+        <td>✓</td>
+    </tr>
+    <tr>
+        <td class="grayed">Adaptation</td>
+        <td>?</td>
+        <td>✓</td>
+    </tr>
+    <tr>
+        <td class="grayed">Crisis coping</td>
+        <td>?</td>
+        <td>✓</td>
+    </tr>
+</table>
+<</nobr>>
+The scale and urgency of what needs to be done to provide strong protection for the climate vulnerable is so great that it will not be deliverable in time if governments and societies don't go into emergency mode.  Effective emergency action will depend on a massive mobilisation of communities and their economies.
+
+
+ 
+
+
+//(development comment)// The purpose of this page &ndash; the material to be added here will help people get orientated before plunging in to create their first draft of a 'Whole System Package' climate action plan based on the maximum protection approach.)
+
+!!!!The need for a "maximum protection" approach to climate action
+(to come)
+!!!!The need for a 'whole system package' approach to climate action
+(to come)
+!!!!The need for a "emergency mode of action" approach to climate action
+(to come)
+!!!!How the Adviser has been structured
+!!!!!The generic 'whole system package' plan
+(to come)
+!!!!!The adapted 'whole system package' plan
+(to come)
+!!!!!Identifying projects to contribute to the 'whole system package' plan
+(to come)
+!!!!!Building up a customised report 
+(to come)
+!!!!The Adviser will be improved with use
+The Adviser will be revised and expanded as we learn from the reactions of its users and from better understanding of the issues and maximum protectionstrategies.
+!!!!Assisting with the development of the Adviser
+This project is looking for people to assist with the development of the content of the Adviser and the IT platform  it is built on.  See [[Work program for the Adviser]] for a list of current projects.  If you are interested in any of these projects please [[contact Philip Sutton|Contact the Adviser team]].
+<<if $startupWarning isnot 1>>
+!!!!Ready to start using the Adviser?
+Okay – here we go: [[next»|Is this really what you want?]] 
+<<else>>
+!!!!Ready to start using the Adviser?
+Okay – here we go: [[next»|'Whole System Package' Plan]] 
+<</if>>
+<large><b>Adviser version</b></large>
+<<include [[Version input (2include)]]>>

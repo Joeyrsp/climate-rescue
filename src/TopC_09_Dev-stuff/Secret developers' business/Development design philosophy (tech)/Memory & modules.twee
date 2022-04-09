@@ -1,0 +1,71 @@
+:: Memory & modules [@#P9882 @#Fold077] {"position":"1375,20925"}
+<<fav>>
+----
+!!Memory and modules
+!!!Exploring
+''Question:''// If this is the same system being run through multiple times, is there any reason not to use system saves?//
+
+Very interesting question!  My instant gut reaction was "of course general saves are not the right solution, that's why I invented the specialist module saves idea".  But then I started thinking about it more and realised that I don't know the answer definitively.  I will have to think about it more carefully before I try to give you an answer. 
+
+--
+
+I haven't got an answer yet.  But I've started to think about the question using a brain analogy framework.
+
+The 'whole system package' plan //adaptation// options in the Adviser are a bit like a shift in attention when a person is thinking, but in the brain, one's past thinking on a range of topics is also influencing the topic that you have shifted your attention to. 
+
+Maybe the results of the user's work on the generic 'Whole System Package' plan should be available to influence focused attention on any of the plan adaptation scenarios (eg. what should the local climate group Darebin Climate Action Now [DCAN] do (in the context of one's thinking on the generic plan? 
+
+Does this mean that the Advisor needs to run in continuous session?  That's how the brain works.  Even sleep is not a clean reboot. 
+
+If the brain is in continuous session, then reverting back in the Adviser to a whole system save is like partial amnesia when a bit of your memory gets scrubbed and you have to move forward from the earlier point. 
+
+But in the brain attention shifting is a way of having topics to think about in series that are linked to the whole brain (and thus all learning up to that point) but the attention shift remembers reasonably well the main contours of what you were thinking about the focus topic the last time it had your attention and so you can step off from that point rather than having to do all the past focussed thinking all over again - but you have the advantage of being able to access the the whole brain's learning up to the moment you switch attention to a new  topic. 
+
+So what might this mean for the Adviser?.....
+
+If I do mental arithmetic calculations I use a mental module for doing the calculation.  Most people have to scrub their mental arithmetic  module when they change to a new calculation. But I'm guessing that people with very high mental arithmetic skills might have built duplicate modules so they can process several calculations in parallel.  I know of a real life case where a skilled musician was able to 'run' three orchestras in his head simultaneously in real time and could switch his attention between the orchestras and see what they were up to at the moment of paying attention.  (This case was reported on the ABC in 2021.) 
+
+For the Adviser, the user I think will need to shift topic focuses rather than working on several focusses at the one time.  (In their head they will be parallel processing to a degree, but for data entry into the computer they have to shift focus and work on topics "in series" operations.
+
+And if the user decides to drop a focus (forever), they will want to clear the detailed focus info and not their memory in general. 
+
+If the Adviser has modules that need to be run more than once on different focusses, then I think that the state of the last use of the module needs to be saved, then the module is cleared, and run on a new focus and the results saved and then the module can either reload an existing focus so that work can resume or it could start work on a new focus. 
+
+There might be things learned by the system while working on a specialist focus that in fact has generic application, in which case the information needs to be stored in the memory related to the generic system as well or instead (but still allowing focus work to draw on it. 
+
+So what does this mean for the use of whole system saves vs focussed attention saves?
+
+After rambling though all this I think that whole system saves need to be up to the minute for the whole system (ie. autosaves) with perhaps  5 to 10 'moments' saved so that <<return>> navigation can work for more than one jump, and I think that specialist focus modules need to be able to save states against named topics and to be able to be cleaned out ready to change to a new topic or to revert to an existing topic, with generic information saved into the rest of the system. 
+
+Some of the saving can be done by users locally and some of the learning needs to be fed back to the developers of the Adviser so that the developers can improve the adviser system in general, thus making the improvements available to all users.
+
+''Question:''//  Is this all hypothetical system-feel concepts or is it  based on an actual usecase/workflow you've developed?  I just don't want to get lost in the not-actually-real zone if we're talking about system requirements / next steps.  The answer to "why not use saves" should be a simple as "this thing I'm trying to do won't work with them" rather than brain analogies.//
+
+My thinking started out the former (hypothetical system-feel concepts) and I now need to see if it means something in practical terms.
+
+What happened when you posed the question (why not use whole system saves) was that I was sure I had a practical use case.  That was how the design idea of within-session sub-project saves/restoration emerged.  But when you challenged my assumption I felt I needed to find a way to get a bigger context so I could rethink my assumptions - so all this brain analogy stuff emerged to help me do that.
+
+!!!Developing options
+I think I've finally extracted some practical options from my brain analogy exploration.    I've developed two different ways that the advisor could be developed.  If we had endless time and project money we could probably implement both capability models.  Given that we don't then we should probably choose the model that is easiest to implement.
+
+So here goes........
+
+First some practical context.....the Adviser is being constructed to have four main content/action domains.  There is a database of material, there is a module for creating a //generic// 'whole system package' plan, and a set of modules to create context differentiated adapted 'whole system package' plans (individuals, climate groups, governments, businesses, international organisations); and finally a module to enable people think about designing //projects// that can sit within the two levels of 'whole system package' plans.
+
+I think that the database and the generic level 'whole system package' module should run in continuous session mode so the autosave system can handle values persistence.
+
+But I think there would be two ways to design the differentiated 'whole system package' plan modules and the project module.
+
+One option would be to have one set of code for each of these modules and then to create multiple distinct outputs from the modules, the modules could be treated as reusable.  Sub-projects would be run in a reusable module and then the module's state would be saved, allowing the module to be repurposed for another sub-project.
+
+Alternatively, the specialist modules could be //cloned// during the session so that users could end up with many projects of a related type running in the (continuous) session.  In this case the whole-system autosaves could be used to ensure that Adviser values persist. 
+
+If the lower level modules are designed to be reused rather than cloned, then some of the data that would need to be stored (to metadata) to capture the state of a module while working on a defined sub-project would be:
+
+*variables set with the module (including the content of text areas and text boxes)
+*calls to add information from the database into the sub-project output report
+*calls by applications of the project module to draw on variable values etc. from the higher-level differentiated 'whole system package' plan modules (that would need to be called out of the persistent metadata for the relevant sub-project). 
+
+Reusable modules would need to have mass functions such as saves of the reusable module state, clearing of the state of the reusable modules and reinstatement of one of the state saves so that work can continue on the sub-project.   These module saves, recalls, deletions would need to be independent of the whole system autosaves.
+
+

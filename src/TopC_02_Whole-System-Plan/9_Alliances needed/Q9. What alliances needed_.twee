@@ -1,0 +1,36 @@
+:: Q9. What alliances needed? [@#P9918 @#Fold019] {"position":"1375,1950"}
+<<return>> | [[Navigation» 'Whole System Package'|NAV_'Whole System Package' Plan]] | <<fav>>
+----
+!!Q9. What alliances are needed to deliver the protection?
+
+!!!How to answer the question
+
+//(add advisory material)//
+
+!!!Writing up your conclusions (user input)
+
+<<textarea "$alliancesConclusions" "">>
+
+
+!!!Questions & ideas to discuss with the Climate Rescue Catalytic Group (user input)
+
+<<textarea "$alliancesQuestionsIdeas" "">>
+
+
+----
+Are you reasonably sure that you have finished working on this page?  You can change you mind later if you like.
+
+(yes)  (not yet)  add buttons
+<<set $genericWholePackagePlanArray to [0,0,0,0,0,0,0,0,0,0,0,0]>>
+
+The work on this page is/is not complete)
+
+----
+!The report material related to this question
+
+(As the user works through this page, report material related to the page will collect here.  It will also be repeated on the Output Report page.)
+
+----
+<<return>> | [[«previous|Q8. Delivering protection]] | [[next»|Q10. What actions needed to activate alliances?]]
+
+

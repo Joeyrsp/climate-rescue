@@ -1,0 +1,36 @@
+:: Businesses [@#P9900 @#Fold024] {"position":"1625,5175"}
+<<return>> | [[Navigation» Adapting the Plan|NAV_Adapting the plan]] | <<fav>>
+----
+!Businesses
+
+!!!Registering a review project
+
+!!!Setting the profile for this review project
+
+//(add profile material)//
+
+!!!How to answer the question
+
+//(add advisory material)//
+
+!!!Writing up your conclusions (user input)
+
+<<textarea "$smallBusinessConclusions" "">>
+
+
+!!!Questions & ideas to discuss with the Climate Rescue Catalytic Group (user input)
+
+<<textarea "$smallBusinessQuestionsIdeas" "">>
+
+
+----
+!The report material related to this question
+
+(As the user works through this page, report material related to the page will collect here.  It will also be repeated on the Output Report page.)
+
+----
+[[Output Report_Businesses]]  (link or use ≪include≫?)
+----
+<<return>> | [[Navigation» Adapting the Plan|NAV_Adapting the plan]]
+
+

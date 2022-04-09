@@ -1,0 +1,14 @@
+sugarcube-2:
+  macros:
+    fav:
+      name: fav
+    textboxPlus:
+      name: textboxPlus
+    clearvariables:
+      name: clearvariables
+    clearremember:
+      name: clearremember
+    clearmetadata:
+      name: clearmetadata
+    restart:
+      name: restart

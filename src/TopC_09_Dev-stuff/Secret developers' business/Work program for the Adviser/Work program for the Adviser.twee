@@ -1,0 +1,25 @@
+:: Work program for the Adviser [@#P9961 @#Fold080] {"position":"1250,20675"}
+[[Dev stuff]] | [[Secret developers' business]] | here | [[Dev design_Tech|Development design philosophy (tech)]] | [[Dev design_Content|Development design philosophy (content)]] | <<fav>>
+!!Work program for the development of the Adviser
+!!!Adviser content
+*Why does the index system have 2 passages for each index topic (a get passage and an include passage) - it seems redundant.
+*Revise/complete the Getting started page.
+*Incorporate all the material in the CR strategy and framework papers into the database part of the adviser.
+*Add all pages (other than those linked to the main menu) to the new Favourites page using the favourites automation system).
+*Begin work on the generic 'whole system package' plan passages.
+*Take the underlining off all the old passages and increase the size of the main heading on all the old passages.
+*Find users/potential users to proofread or to review the Adviser content, layout and logic, or find problems or suggest improvements.
+!!!Adviser look and feel
+*Redesign the CSS
+!!!SugarCube/Twee3
+*(to come)
+!!!Tech stack
+*Decide on the tech to build the database in
+*Decide on the tech/hosting for the main public web pages
+!!!Other aspect of the Climate Rescue website
+*(to come)
+
+<<return>>
+
+
+
