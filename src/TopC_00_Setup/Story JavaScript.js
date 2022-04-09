@@ -19,7 +19,7 @@ setup.settingTheme = function () {
 	}
 };
 Setting.addToggle("Theme", {
-	label  : "Day Mode:",
+	label  : "Light Mode:",
 	default: false,
 	onInit   : setup.settingTheme,
 	onChange : setup.settingTheme
