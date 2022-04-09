@@ -8,6 +8,11 @@
             "type": "shell",
             "command": "./watch.bat",
             "runOptions": {"runOn": "folderOpen"}
-        }
+        },
+        {
+            "label": "sync",
+            "type": "shell",
+            "command": "git commit -a -m 'Sync' && git push",
+        },
     ]
 }
