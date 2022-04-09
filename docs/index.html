@@ -98,22 +98,26 @@ var LZString={_keyStr:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz01234
 		<div id="init-lacking"><p>Browser lacks capabilities required to play.</p><p>Upgrade or switch to another browser.</p></div>
 		<div id="init-loading"><div>Loading&hellip;</div></div>
 	</div>
-	<!-- UUID://F6008109-261F-402E-A46A-FB1960655837// --><tw-storydata name="Draft Adviser_T2-SC" startnode="18" creator="Tweego" creator-version="2.1.1+81d1d71" ifid="F6008109-261F-402E-A46A-FB1960655837" zoom="1" format="SugarCube" format-version="2.36.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">/**********************************************************************
+	<!-- UUID://F6008109-261F-402E-A46A-FB1960655837// --><tw-storydata name="Draft Adviser_T2-SC" startnode="18" creator="Tweego" creator-version="2.1.1+81d1d71" ifid="F6008109-261F-402E-A46A-FB1960655837" zoom="1" format="SugarCube" format-version="2.36.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">/* :: Story Stylesheet [stylesheet @#P9937 @#Fold000] {"position":"125,250"} */
+
+
+/**********************************************************************
  To auto-toggle the colour scheme of tables etc. to work with the default 
  dark mode of SugarCube and Hiev's light mode   (Joeyrsp)
  *********************************************************************/
 
 .grayed {
-  background-color: #2E2E2E;
+	background-color: #2E2E2E;
 }
 
 html.bleached .grayed {
-  background-color: #d9d9d9;
+	background-color: #d9d9d9;
 }
 
-td {
-    border-width: 1px;
+td, th {
+	border-width: 1px;
     border-style: solid;
+	vertical-align: top;
 }
 
 .borderless {
@@ -367,7 +371,9 @@ li#menu-item-saves {
     display: none;
 }
 
-/* Hiding "Saves" button - End */</style><script role="script" id="twine-user-script" type="text/twine-javascript">/* SCRIPT FOR NEW FUNCTIONS AND MACROS TO USE IN THE ADVISER
+/* Hiding "Saves" button - End */
+</style><script role="script" id="twine-user-script" type="text/twine-javascript">// :: Story JavaScript [script @#P9938 @#Fold000] {"position":"125,125"}
+/* SCRIPT FOR NEW FUNCTIONS AND MACROS TO USE IN THE ADVISER
 =============================================
 Advice: All customised functions and variables in this script could be given AddedScript as either a prefix or a suffix to ensure that there is a very low probability of a collision with the Sugarcane js code. 
 */
@@ -532,7 +538,10 @@ Object.defineProperty(Array.prototype, 'without', {
 //Function: Fast favourites Joeyrsp Feb 2022 - For Twine 2 SugarCube 2
 //Initialises the array variable for the Fast Favourites system
 
-State.setVar("$favourites", State.getVar("$favourites") || []);</script><tw-passagedata pid="1" name="Adviser Tech Stack (2include)" tags="@#P9980 @#Fold000" position="625,125" size="100,100">Edited using VSCode with the Twee3 Language Tools extension and the SugarCube code format:
+State.setVar("$favourites", State.getVar("$favourites") || []);
+
+
+</script><tw-passagedata pid="1" name="Adviser Tech Stack (2include)" tags="@#P9980 @#Fold000" position="625,125" size="100,100">Edited using VSCode with the Twee3 Language Tools extension and the SugarCube code format:
 [[VSCode|https://code.visualstudio.com/download]]
 [[Twee3 Language Tools|https://marketplace.visualstudio.com/items?itemName=cyrusfirheir.twee3-language-tools]]
 [[SugarCube 2.36.1 code|https://github.com/tmedwards/sugarcube-2]]
@@ -4603,21 +4612,19 @@ Here&#39;s what remains of the older guide:
 
 &lt;&lt;return&gt;&gt;</tw-passagedata><tw-passagedata pid="393" name="Alternative terms--Def_2include" tags="" position="8275,7700" size="100,100">&lt;style&gt;
 table {
-border-collapse: collapse;
 margin-left: 20px !important;
+width: 650px;
 }
-table, td, th {
-border: 1px solid black;
 &lt;/style&gt;
-&lt;table style=&quot;width: 650px;&quot;&gt;
+&lt;table&gt;
 &lt;tr&gt;
 &lt;th style=&quot;width: 20%;&quot; class=&quot;grayed&quot;&gt;Weak language&lt;/th&gt;
 &lt;th style=&quot;width: 25%;&quot; class=&quot;grayed&quot;&gt;Strong language&lt;/th&gt;
 &lt;th style=&quot;width: 55%;&quot; class=&quot;grayed&quot;&gt;Reasons for choice&lt;/th&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td valign=&quot;top&quot;&gt;climate &lt;i&gt;crisis&lt;/i&gt;&lt;/td&gt;
-&lt;td valign=&quot;top&quot;&gt;climate &lt;i&gt;emergency&lt;/i&gt;&lt;/td&gt;
+&lt;td&gt;climate &lt;i&gt;crisis&lt;/i&gt;&lt;/td&gt;
+&lt;td&gt;climate &lt;i&gt;emergency&lt;/i&gt;&lt;/td&gt;
 &lt;td&gt;Whatever language is normally used officially when making declarations to trigger intense emergency-mode action on major disasters is the preferred language&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -4633,7 +4640,7 @@ border: 1px solid black;
 &lt;tr&gt;
 &lt;td&gt;emissions &lt;i&gt;reduction&lt;/i&gt;&lt;/td&gt;
 &lt;td&gt;emissions &lt;i&gt;elimination&lt;/i&gt;&lt;/td&gt;
-&lt;td valign=&quot;top&quot;&gt;We need to go to zero emissions&lt;/td&gt;
+&lt;td&gt;We need to go to zero emissions&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;low carbon&lt;/td&gt;

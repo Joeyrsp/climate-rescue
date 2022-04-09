@@ -1,21 +1,19 @@
 :: Alternative terms--Def_2include {"position":"8275,7700"}
 <style>
 table {
-border-collapse: collapse;
 margin-left: 20px !important;
+width: 650px;
 }
-table, td, th {
-border: 1px solid black;
 </style>
-<table style="width: 650px;">
+<table>
 <tr>
 <th style="width: 20%;" class="grayed">Weak language</th>
 <th style="width: 25%;" class="grayed">Strong language</th>
 <th style="width: 55%;" class="grayed">Reasons for choice</th>
 </tr>
 <tr>
-<td valign="top">climate <i>crisis</i></td>
-<td valign="top">climate <i>emergency</i></td>
+<td>climate <i>crisis</i></td>
+<td>climate <i>emergency</i></td>
 <td>Whatever language is normally used officially when making declarations to trigger intense emergency-mode action on major disasters is the preferred language</td>
 </tr>
 <tr>
@@ -31,7 +29,7 @@ border: 1px solid black;
 <tr>
 <td>emissions <i>reduction</i></td>
 <td>emissions <i>elimination</i></td>
-<td valign="top">We need to go to zero emissions</td>
+<td>We need to go to zero emissions</td>
 </tr>
 <tr>
 <td>low carbon</td>

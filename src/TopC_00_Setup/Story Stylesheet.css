@@ -7,16 +7,17 @@
  *********************************************************************/
 
 .grayed {
-  background-color: #2E2E2E;
+	background-color: #2E2E2E;
 }
 
 html.bleached .grayed {
-  background-color: #d9d9d9;
+	background-color: #d9d9d9;
 }
 
-td {
-    border-width: 1px;
+td, th {
+	border-width: 1px;
     border-style: solid;
+	vertical-align: top;
 }
 
 .borderless {
