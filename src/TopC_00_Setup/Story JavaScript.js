@@ -27,7 +27,7 @@ Setting.addToggle("Theme", {
 
 
 /* ==========================================*/
-/* Saving and reloading controls */
+/* SugarCube config - including saving and reloading controls */
 /* ==========================================*/
 
 Config.saves.autosave = true;
