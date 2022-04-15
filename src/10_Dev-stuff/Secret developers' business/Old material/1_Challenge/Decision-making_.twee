@@ -1,0 +1,21 @@
+:: Decision-making? {"position":"2250,21750"}
+[[Intro & selecting a challenge]] | [[Checklist challenge?]] | [[Selecting the checklist development model?]] | [[Who leads?]] | here)  | <<fav>>
+----
+<<if $ChecklistChallenge is " 1a." or $ChecklistChallenge is " 1b." or $ChecklistChallenge is " 1c.">>
+!!What decision-making process<br>should be used to decide on the checklist?
+!!!The government challenge
+<<include [[Decision-making? Govt2include]]>>
+<<elseif $ChecklistChallenge is " 2.">>
+!!What decision-making process<br>should be used to decide on the checklist?
+!!!The citizen challenge
+(Content is yet to be developed for the ''citizen challenge''.  To make a selection for an active challenge, go to: [[Checklist challenge?]])
+<<elseif $ChecklistChallenge is " 3.">>
+!!What decision-making process<br>should be used to decide on the checklist?
+!!!The business challenge
+(Content is yet to be developed for the ''business challenge''.  To make a selection for an active challenge, go to: [[Checklist challenge?]])
+<<else>>
+(A challenge to be tackled has not been selected.  To make a selection go to: [[Checklist challenge?]])
+<</if>>
+<<return>> | [[«previous|Who leads?]] | <<if ($ChecklistModel eq " 1.") or ($ChecklistModel eq 0) or ($ChecklistModel eq " Cancel")>>[[next»|Setting up a climate emergency action program]]<<else>>[[next»|Draft action checklist]]<</if>>
+
+

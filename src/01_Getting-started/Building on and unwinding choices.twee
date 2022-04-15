@@ -1,0 +1,5 @@
+:: Building on and unwinding choices {"position":"800,300"}
+<<return>>
+----
+!!!Building on and unwinding choices that you make in the Adviser
+The Adviser remembers many of the choices you make as you work through it. Options will also be built in to allow you to unwind past choices and to make new ones.  There is also a 'nuclear' option to completely clear the Advisor memory - [[Memory wipe for users]]

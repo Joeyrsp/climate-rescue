@@ -1,0 +1,21 @@
+:: Where to start? {"position":"2000,22050"}
+[[Climate emergency mode?]] | (here) | [[Topics list--Preparing]] | [[Topics list--Switching]] | [[Topics list--Operating]] | [[Background reading etc.]] | <<fav>>
+----
+<<if $ChecklistChallenge is " 1.">>
+!!Where should work on the checklist start?<br>What are the critical determining issues?
+!!!The government challenge
+<<include [[Where to start? Govt2include]]>>
+<<elseif $ChecklistChallenge is " 2.">>
+!!Where should work on the checklist start?<br>What are the critical determining issues?
+!!!The citizen challenge
+(Content is yet to be developed for the ''citizen challenge''.  To make a selection for an active challenge, go to: [[Checklist challenge?]])
+<<elseif $ChecklistChallenge is " 3.">>
+!!Where should work on the checklist start?<br>What are the critical determining issues?
+!!!The business challenge
+(Content is yet to be developed for the ''business challenge''.  To make a selection for an active challenge, go to: [[Checklist challenge?]])
+<<else>>
+(A challenge to be tackled has not been selected.  To make a selection go to: [[Checklist challenge?]])
+<</if>>
+<<return>> | [[«previous|Climate emergency mode?]] | [[next»|Topics list--Preparing]]
+
+

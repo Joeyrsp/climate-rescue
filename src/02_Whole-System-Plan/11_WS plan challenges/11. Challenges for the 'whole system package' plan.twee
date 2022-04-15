@@ -1,0 +1,35 @@
+:: 11. Challenges for the 'whole system package' plan {"position":"1775,1700"}
+<<return>> | [[Navigation» 'Whole System Package' Plan|NAV_'Whole System Package' Plan]] | <<fav>>
+----
+!!11. Challenges that the 'whole system package' plan needs to deal with (identified in response to questions 1-10)
+
+!!!How to answer the question
+
+//(add advisory material)//
+
+!!!Writing up your conclusions (user input)
+
+<<textarea "$challengesConclusions" "">>
+
+
+!!!Questions & ideas to discuss with the Climate Rescue Catalytic Group (user input)
+
+<<textarea "$challengesQuestionsIdeas" "">>
+
+----
+Are you reasonably sure that you have finished working on this page?  You can change you mind later if you like.
+
+(yes)  (not yet)  add buttons
+<<set $genericWholePackagePlanArray to [0,0,0,0,0,0,0,0,0,0,0,0]>>
+
+The work on this page is/is not complete)
+
+----
+!The report material related to this question
+
+(As the user works through this page, report material related to the page will collect here.  It will also be repeated on the Output Report page.)
+
+----
+<<return>> | [[«previous|Q10. What actions needed to activate alliances?]] | [[next»|Q12. How does action package differ from conventional?]]
+
+

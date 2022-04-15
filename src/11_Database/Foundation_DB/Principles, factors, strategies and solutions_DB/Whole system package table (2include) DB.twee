@@ -1,0 +1,45 @@
+:: Whole system package table (2include) DB {"position":"7975,7825"}
+<<nobr>>
+<style>
+    table {
+        width: 70%;
+        font-weight: bold;
+        margin-left: 30px !important;
+    }
+
+    td {
+        width: calc(100% / 3);
+    }
+
+    td:nth-child(n + 2) {
+        text-align: center;
+    }
+</style>
+<table>
+    <tr>
+        <td class="borderless"></td>
+        <td class="grayed">Earth system level</td>
+        <td class="grayed">Local level</td>
+    </tr>
+    <tr>
+        <td class="grayed">Prevention</td>
+        <td>✓</td>
+        <td>✓</td>
+    </tr>
+    <tr>
+        <td class="grayed">Restoration</td>
+        <td>✓</td>
+        <td>✓</td>
+    </tr>
+    <tr>
+        <td class="grayed">Adaptation</td>
+        <td>?</td>
+        <td>✓</td>
+    </tr>
+    <tr>
+        <td class="grayed">Crisis coping</td>
+        <td>?</td>
+        <td>✓</td>
+    </tr>
+</table>
+<</nobr>>

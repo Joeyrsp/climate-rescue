@@ -1,0 +1,21 @@
+:: Topics list--Switching {"position":"2250,22050"}
+[[Climate emergency mode?]] |  [[Where to start?]] | [[Topics list--Preparing]] | (here) | [[Topics list--Operating]] | [[Background reading etc.]] | <<fav>>
+----
+<<if $ChecklistChallenge is " 1.">>
+!!<small>Topics to be worked through</small><br>Switching <small>into emergency mode</small>
+!!!The government challenge
+<<include [[Topics list--Switching Govt2include]]>>
+<<elseif $ChecklistChallenge is " 2.">>
+!!<small>Topics to be worked through</small><br>Switching <small>into emergency mode</small>
+!!!The citizen challenge
+(Content is yet to be developed for the ''citizen challenge''.  To make a selection for an active challenge, go to: [[Checklist challenge?]]
+<<elseif $ChecklistChallenge is " 3.">>
+!!<small>Topics to be worked through</small><br>Switching <small>into emergency mode</small>
+!!!The business challenge
+(Content is yet to be developed for the ''business challenge''.  To make a selection for an active challenge, go to: [[Checklist challenge?]])
+<<else>>
+(A challenge to be tackled has not been selected.  To make a selection go to: [[Checklist challenge?]])
+<</if>>
+<<return>> | [[«previous|Topics list--Preparing]] | [[next»|Topics list--Operating]]
+
+

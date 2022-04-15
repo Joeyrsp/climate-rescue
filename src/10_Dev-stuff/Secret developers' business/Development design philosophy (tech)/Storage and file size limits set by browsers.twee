@@ -1,0 +1,27 @@
+:: Storage and file size limits set by browsers {"position":"1375,21300"}
+<<fav>>
+----
+!Storage and file size limits set by browsers
+
+Here is some useful information on storage limits set by browsers according to NiEv in Feb 2022:
+
+https://intfiction.org/t/better-way-to-handle-if-macros/54369/7
+
+To clarify, a browser’s [[localStorage|https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage]], which is where game save data goes, is normally either 10 MB for desktop browsers or 5 MB for mobile devices (or 2 MB in some rare instances). The browser’s [[sessionStorage|https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage]], which is used to track the current state of the game, is also generally limited to 5 MB. Note also that the size of the storage space includes the names of the storage objects. (See also the [[MDN “Web Storage” article|https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API]].)
+
+HiEv's local storage manager system.  (from his code bank)
+https://qjzhvmqlzvoo5lqnrvuhmg-on.drv.tw/Sample_Code/Local_Storage_Manager.zip
+
+--
+
+From past experience, the breaking point of HTML file sizes is around 70 MB in desktop browsers, with Firefox being able to handle the largest file sizes.
+
+--
+
+You might need to be concerned about the amount of data in your game’s history. If it’s a small or medium sized game, you probably don’t need to worry about it much unless you’re cramming a ton of data in your story variables for some strange reason. However, for larger games where you may end up tracking lots of data, especially if the data frequently changes, then optimizing the data in your story variables is a good idea.
+
+Most Twine games have save data which is less than 0.25 MB, and thus have nothing to worry about in this regard.
+
+However, if you’re actually expecting to have save slots which are a megabyte or larger in size each, then this is definitely something worth paying attention to.
+
+

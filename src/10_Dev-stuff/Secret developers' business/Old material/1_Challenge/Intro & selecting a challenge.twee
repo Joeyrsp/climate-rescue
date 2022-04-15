@@ -1,0 +1,29 @@
+:: Intro & selecting a challenge {"position":"1750,21750"}
+(here) | [[Checklist challenge?]] | [[Selecting the checklist development model?]] | [[Who leads?]] | [[Decision-making?]] | <<if ($ChecklistModel eq " 1.") or ($ChecklistModel eq 0) or ($ChecklistModel eq " Cancel")>>[[Setting up a climate emergency action program]]<<else>>[[Draft action checklist]]<</if>> | <<fav>>
+----
+!!Introduction: How to use the (old) climate Emergency Guide.
+The next page allows you to choose an format suited to building an action checklist for:
+&bull; a government, or
+&bull; citizen activist work, or
+&bull; a business context. 
+
+And then on the following page you are given the option to build the action checklist via the ''fast track'' (using one of several specialised templates) or via an interactive ''deliberative track''.
+
+Then you can tell the Adviser who will be working on the production of the action checklist, and following that who will sign off on approval of the final version of the action checklist.  This information will then appear in the draft checklist
+
+Following that, if you have selected one of the fast track templates, the Adviser will take you straight to the draft checlist.
+
+But if you selected the deliberative track you will be taken instead to the setup page for developing an action checklist from first principles.
+
+!!Underlying principles that everyone can use
+There's a good chance that an effective climate emergency program will emerge, regardless of what your current circumstances are, if these five principles are applied:
+# Connect the action program to what you want to protect (ie. design and implement the action program so that it will deliver the desired protection).  (Like what happens in a high quality Occupational Health and Safety Program.) 
+# Prioritise earth system level solutions (ie. cool the earth and de-acidify the ocean, fast enough). 
+# Create strong enough motivation to drive an effective action program.
+# Act as a catalyst to build a system (bigger than one's own organisation) that can deliver the desired protection (through actions that have the right functions, scale and speed). 
+# Deliver effective action in the here and now within the current (unavoidable) resource constraints. 
+
+<<return>> | [[next»|Checklist challenge?]]
+
+
+

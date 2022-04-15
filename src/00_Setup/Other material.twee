@@ -1,0 +1,54 @@
+:: Other material {"position":"125,875"}
+!!Other material
+[[Background|Background (get)]] &nbsp;&nbsp;<small>(<<link [[add to main menu|Other material]]>><<set $backgroundShowInMenu to 1>><</link>>)  (<<link [[remove|Other material]]>><<set $backgroundShowInMenu to 0>><</link>>)</small>
+[[Dev stuff]] &nbsp;&nbsp;<small>(<<link [[add to main menu|Other material]]>><<set $devStuffShowInMenu to 1>><</link>>)  (<<link [[remove|Other material]]>><<set $devStuffShowInMenu to 0>><</link>>)</small>
+[[Contact the Adviser team]] &nbsp;&nbsp;<small>(<<link [[add to main menu|Other material]]>><<set $contactShowInMenu to 1>><</link>>)  (<<link [[remove|Other material]]>><<set $contactShowInMenu to 0>><</link>>)</small>
+[[Favourites]] &nbsp;&nbsp;<small>(<<link [[add to main menu|Other material]]>><<set $favouritesShowInMenu to 1>><</link>>)  (<<link [[remove|Other material]]>><<set $favouritesShowInMenu to 0>><</link>>)</small>
+
+!!The 'levels' of the Adviser that will be revealed as users progress
+*Whole System Package
+**Global scenarios
+**Building a support system
+**Adapting the 'whole system package' plan
+**Linked projects
+*Starting with projects
+*Output reports
+
+
+
+
+For developers:
+<<textboxPlus "" "$displayAllCode" `{placeholder: "Enter your display code", spellcheck: false, autofocus: true, autocomplete: "off"}`>><<button [[Save|Other material]]>>
+<<if $displayAllCode is "showa">>
+<<set $wholeSystemPackagePlanShowInMenu to 1>>
+<<set $globalScenariosShowInMenu to 1>>
+<<set $buildingSupportSystemShowInMenu to 1>>
+<<set $adaptingTheWholeSystemPackagePlanShowInMenu to 1>>
+<<set $linkedProjectsShowInMenu to 1>>
+<<set $startingWithProjectsShowInMenu to 1>>
+<<set $outputReportsShowInMenu to 1>>
+<<elseif $displayAllCode is "hidea">>
+<<set $wholeSystemPackagePlanShowInMenu to 0>>
+<<set $globalScenariosShowInMenu to 0>>
+<<set $buildingSupportSystemShowInMenu to 0>>
+<<set $adaptingTheWholeSystemPackagePlanShowInMenu to 0>>
+<<set $linkedProjectsShowInMenu to 0>>
+<<set $startingWithProjectsShowInMenu to 0>>
+<<set $outputReportsShowInMenu to 0>>
+<<elseif $displayAllCode is "sw">><<set $wholeSystemPackagePlanShowInMenu to 1>>
+<<elseif $displayAllCode is "sg">><<set $globalScenariosShowInMenu to 1>>
+<<elseif $displayAllCode is "sb">><<set $buildingSupportSystemShowInMenu to 1>>
+<<elseif $displayAllCode is "sa">><<set $adaptingTheWholeSystemPackagePlanShowInMenu to 1>>
+<<elseif $displayAllCode is "sl">><<set $linkedProjectsShowInMenu to 1>>
+<<elseif $displayAllCode is "ss">><<set $startingWithProjectsShowInMenu to 1>>
+<<elseif $displayAllCode is "so">><<set $outputReportsShowInMenu to 1>>
+<<elseif $displayAllCode is "hw">><<set $wholeSystemPackagePlanShowInMenu to 0>>
+<<elseif $displayAllCode is "hg">><<set $globalScenariosShowInMenu to 0>>
+<<elseif $displayAllCode is "hb">><<set $buildingSupportSystemShowInMenu to 0>>
+<<elseif $displayAllCode is "ha">><<set $adaptingTheWholeSystemPackagePlanShowInMenu to 0>>
+<<elseif $displayAllCode is "hl">><<set $linkedProjectsShowInMenu to 0>>
+<<elseif $displayAllCode is "ho">><<set $outputReportsShowInMenu to 0>>
+<<elseif $displayAllCode is "hs">><<set $startingWithProjectsShowInMenu to 0>>
+<<elseif $displayAllCode is "ho">><<set $outputReportsShowInMenu to 0>>
+<</if>><</button>>
+  

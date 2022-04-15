@@ -1,0 +1,36 @@
+:: Q12. How does action package differ from conventional? {"position":"1775,3075"}
+<<return>> | [[Navigation» 'Whole System Package'|NAV_'Whole System Package' Plan]] | <<fav>>
+----
+!!Q12. How does the approach emerging from answering the earlier questions differ from the (currently) usual approach?
+
+!!!How to answer the question
+
+//(add advisory material)//
+
+!!!Writing up your conclusions (user input)
+
+<<textarea "$packageDifferenceConclusions" "">>
+
+
+!!!Questions & ideas to discuss with the Climate Rescue Catalytic Group (user input)
+
+<<textarea "$packageDifferenceQuestionsIdeas" "">>
+
+
+----
+Are you reasonably sure that you have finished working on this page?  You can change you mind later if you like.
+
+(yes)  (not yet)  add buttons
+<<set $genericWholePackagePlanArray to [0,0,0,0,0,0,0,0,0,0,0,0]>>
+
+The work on this page is/is not complete)
+
+----
+!The report material related to this question
+
+(As the user works through this page, report material related to the page will collect here.  It will also be repeated on the Output Report page.)
+
+----
+<<return>> | [[«previous|11. Challenges for the 'whole system package' plan]] | [[next»|Q13. Significance of differences?]]
+
+

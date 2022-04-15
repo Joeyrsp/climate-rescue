@@ -1,0 +1,21 @@
+:: The teck stack {"position":"1375,20800"}
+<<fav>>
+----
+!!The teck stack
+!!!Current selection process
+After a fairly extensive review of our needs, looking at authoring tools for branching scenarios development, expert system tools etc. it was decided that the Adviser needed, in the main, to be able to handle very loose logic so branching scenario style authoring tools were probably the best option for the moment.
+
+Over a couple of months we upgraded from earlier use of Twine 1.4.2, to Twine 1.4.3 then jumped to Twine2/SugarCube2 then finally settled on the current Tweego / SugarCube / VSCode + Twee3 Language Tools teck stack.
+
+!!!The current tech stack
+<<include [[Adviser Tech Stack (2include)]]>> 
+
+!!!Future development
+A ''database'' needs to be developed to hold the RSTI Climate Rescue knowledgebase that has been built up over the last decade or so.  For the moment we will use Google Drive to hold text docs etc. and will hold structured information chunks in Twee / SugarCube generated html files.  However the whole database issue needs much more careful exploration to determine what the best tech stack would be.  
+
+In relation to the ''logic and judgement capabilities'' of the Adviser, the Visirule set of expert system tools will likely be useful.  Once the Adviser is functional for users based on the Tweego / SugarCube / VSCode teck stack, we need to revisit the use of the Visirule toolkit.  And this review needs to be accelerated when the science base for identifying the needs of the climate vulnerable has advanced further.
+
+https://www.visirule.co.uk
+clive spenser <clive@lpa.co.uk>
+
+<<return>>

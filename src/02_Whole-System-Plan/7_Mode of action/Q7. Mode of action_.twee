@@ -1,0 +1,59 @@
+:: Q7. Mode of action? {"position":"1775,2575"}
+<<return>> | [[Navigation» 'Whole System Package'|NAV_'Whole System Package' Plan]] | <<fav>>
+----
+!!Q7. What mode of action is needed given the scale and urgency of action?
+
+!!!How to answer the question
+
+//(add advisory material)//
+
+- business-as-usual
+- reform-as-usual
+- emergency mode action
+
+
+!!!Writing up your conclusions (user input)
+
+<<textarea "$actionModeConclusions" "">>
+
+
+!!!Questions & ideas to discuss with the Climate Rescue Catalytic Group (user input)
+
+<<textarea "$actionModeQuestionsIdeas" "">>
+
+
+----
+Are you reasonably sure that you have finished working on this page?  You can change you mind later if you like.
+
+(yes)  (not yet)  add buttons
+<<set $genericWholePackagePlanArray to [0,0,0,0,0,0,0,0,0,0,0,0]>>
+
+The work on this page is/is not complete)
+
+----
+!The report material related to this question
+
+(As the user works through this page, report material related to the page will collect here.  It will also be repeated on the Output Report page.)
+
+----
+<<return>> | [[«previous|Q6. Geographical scope?]] | [[next»|Q8. Delivering protection]]
+
+----
+----
+<<return>>
+----
+Old text
+!!About this Adviser
+Over 2000 governments globally have declared a climate emergency [[(see the global list)|https://www.cedamia.org/global/]].  These declarations will be hollow unless these governments transition urgently into [[emergency action mode|Emergency action mode on climate--Def_2include]] aimed to deliver [[maximum protection|http://bit.ly/DeliveringMaximumProtection]].
+
+This Adviser is being developed to assist Councillors, Members of Parliament, political party activists, Council staff, public servants, professionals and community activists to get their governments and communities into emergency action mode on the climate.
+
+At this moment in time, the Adviser is in the very earliest stage of development.  It is intended that eventually the Adviser will help in three key areas (a) //''preparatory action''// for going into emergency mode, (b) //''switching''// into emergency mode, and (c) //''operating''// in emergency mode.
+
+Despite about 2000 governments declaring a climate emergency, no government that we know of is yet operating in emergency mode.  So the work on this Adviser will focus in the first instance on the task of mapping out desirable //''preparatory action''// for going into [[emergency mode|Emergency action mode on climate--Def_2include]].
+
+In $thisYear at this early stage of the climate emergency action mobilisation in Australia and globally, it will be impossible for municipalities, state/province and national governments to get into emergency mode unless they take sufficient preparatory action.
+
+A practical first step for each stage of engagement with climate emergency action is to create an action checklist.  This Adviser is being developed to assist you with this task.
+
+

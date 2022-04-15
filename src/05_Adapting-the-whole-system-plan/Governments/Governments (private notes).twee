@@ -1,0 +1,56 @@
+:: Governments (private notes) [Twine.private] {"position":"1750,5050"}
+
+Council of war: how much should local government stray from roads, rates and rubbish?
+https://www.theguardian.com/australia-news/2022/mar/20/council-of-war-how-much-should-local-government-stray-from-roads-rates-and-rubbish
+
+High-level policy analysis questions:
+*Does the climate policy make it clear who or what (locally and globally) is to be protected from climate impacts by the policy?
+*Are the details of the climate policy clearly structured to meet identified needs of the climate vulnerable?
+*Could the policy, if implementented, deliver the intended protective outcomes effectively?
+*Does the policy include measures to propagate effective action globally (fast enough and at the needed scale)?
+*Is the policy comprehensive?  Does it cover the scope of the table below?
+
+<<nobr>>
+<style>
+    table {
+        width: 70%;
+        font-weight: bold;
+        margin-left: 30px !important;
+    }
+
+    td {
+        width: calc(100% / 3);
+    }
+
+    td:nth-child(n + 2) {
+        text-align: center;
+    }
+</style>
+<table>
+    <tr>
+        <td class="borderless"></td>
+        <td class="grayed">Earth system level</td>
+        <td class="grayed">Local level</td>
+    </tr>
+    <tr>
+        <td class="grayed">Prevention</td>
+        <td>✓</td>
+        <td>✓</td>
+    </tr>
+    <tr>
+        <td class="grayed">Restoration</td>
+        <td>✓</td>
+        <td>✓</td>
+    </tr>
+    <tr>
+        <td class="grayed">Adaptation</td>
+        <td>?</td>
+        <td>✓</td>
+    </tr>
+    <tr>
+        <td class="grayed">Crisis coping</td>
+        <td>?</td>
+        <td>✓</td>
+    </tr>
+</table>
+<</nobr>>

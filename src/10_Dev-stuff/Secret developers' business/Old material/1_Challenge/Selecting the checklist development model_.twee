@@ -1,0 +1,40 @@
+:: Selecting the checklist development model? {"position":"2000,21750"}
+[[Intro & selecting a challenge]] | [[Checklist challenge?]] | (here) | [[Who leads?]] | [[Decision-making?]] | <<if ($ChecklistModel eq " 1.") or ($ChecklistModel eq " 2.") or ($ChecklistModel eq 0) or ($ChecklistModel eq " Cancel")>>[[Setting up a climate emergency action program]]<<else>>[[Draft action checklist]]<</if>>  | <<fav>>
+----
+!!Selecting the checklist //<big>development model</big>//
+Do you want to develop your checklist from first principles?  Or would you rather fast track things by using one of the ready made templates? Click on your preferred option:
+
+<<radiobutton "$ChecklistModel" " 1." autocheck>> Developing a __''comprehensive''__ checklist ''from first principles''
+<<radiobutton "$ChecklistModel" " 2." autocheck>> Developing a targetted __''project-focussed''__ checklist ''from first principles''
+<<radiobutton "$ChecklistModel" " 3." autocheck>> Using a comprehensive checklist ''template'' based on the __''[[CACE|CACE (Resource)]] local government model''__
+<<radiobutton "$ChecklistModel" " 4." autocheck>> Using a comprehensive checklist ''template'' focussed on __''solutions implementation''__
+<<radiobutton "$ChecklistModel" " 5." autocheck>> Using a comprehensive checklist ''template'' focussed on __''advocacy''__
+<<radiobutton "$ChecklistModel" " 6." autocheck>> Using a comprehensive checklist ''template'' focussed on __''community mobilisation''__
+<<radiobutton "$ChecklistModel" " Cancel" autocheck>> Cancel the previous selection.
+
+<<button [[Save | passage()]]>><</button>>
+
+test - variable value between the brackets:  ($ChecklistModel)
+
+The selected model for developing the checklist is:
+<<nobr>>
+<<if $ChecklistModel is " 1.">>
+* develop a ''comprehensive'' checklist starting from ''first principles''.
+<<elseif $ChecklistModel is " 2.">>
+* develop a targetted ''project-focussed'' checklist  starting from ''first principles''.
+<<elseif $ChecklistModel is " 3.">>
+* use a template based on the ''[[CACE|CACE (Resource)]] model''.  
+<<elseif $ChecklistModel is " 4.">>
+* use a template that starts with a focus on ''solutions implementation''. 
+<<elseif "$ChecklistModel" is " 5.">>
+* use a template that starts with a focus on ''advocacy''.
+<<elseif $ChecklistModel is " 6.">>
+* use a template that starts with a focus on ''community mobilisation''.  
+<<elseif $ChecklistModel is " Cancel" or $ChecklistModel is 0>>
+* (no checklist development model has been selected) 
+<</if>>
+<</nobr>>
+
+<<return>> | [[«previous|Checklist challenge?]] | [[next»|Who leads?]]
+
+

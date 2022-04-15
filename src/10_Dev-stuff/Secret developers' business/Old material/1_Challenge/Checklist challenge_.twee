@@ -1,0 +1,34 @@
+:: Checklist challenge? {"position":"1875,21750"}
+[[Intro & selecting a challenge]] | (here) | [[Selecting the checklist development model?]] | [[Who leads?]] | [[Decision-making?]] | <<if ($ChecklistModel eq " 1.") or ($ChecklistModel eq 0) or ($ChecklistModel eq " Cancel")>>[[Setting up a climate emergency action program]]<<else>>[[Draft action checklist]]<</if>> | <<fav>>
+----
+!!Choosing the //<big>challenge</big>// for checklist development
+Select the challenge you want to build an action checlist for by clicking on your preferred option:
+<<radiobutton "$ChecklistChallenge" " 1a." autocheck>> ''Local overnment'': Developing an action checklist for a local government to get itself into emergency mode.  (Note: the guidance for the government challenge is in the early stages of active  development.)
+<<radiobutton "$ChecklistChallenge" " 1b." autocheck>> ''State-Territory government'': Developing an action checklist for a state or territory government to get itself into emergency mode.  (Note: the guidance for the government challenge is in the early stages of active  development.)
+<<radiobutton "$ChecklistChallenge" " 1c." autocheck>> ''National government'': Developing an action checklist for a national government to get itself into emergency mode.  (Note: the guidance for the government challenge is in the early stages of active  development.)
+<<radiobutton "$ChecklistChallenge" " 2." autocheck>> ''Citizens'': Developing an action checklist for citizens to try to get a government into emergency mode. (//Note: the guidance for the citizens' challenge has not yet been developed.//)
+<<radiobutton "$ChecklistChallenge" " 3." autocheck>> ''Business'': Developing an action checklist for business to try to get individual businesses and a coalition of businesses into emergency mode. (//Note: the guidance for the business challenge has not yet been developed.//)
+<<radiobutton "$ChecklistChallenge" " Cancel" autocheck>> Cancel selection
+
+<<button [[Save | passage()]]>><</button>>
+
+The selected challenge is:
+<<nobr>>
+<<if $ChecklistChallenge is " 1a.">>
+* ''For a local government'': Developing an action checklist for a local government to get itself into emergency mode.
+<<elseif $ChecklistChallenge is " 1b.">>
+* ''For a state or territory government'': Developing an action checklist for a state or territory government to get itself into emergency mode.
+<<elseif $ChecklistChallenge is " 1c.">>
+* ''For a national government'': Developing an action checklist for a national government to get itself into emergency mode.
+<<elseif $ChecklistChallenge is " 2.">>
+* ''For citizens'': Developing an action checklist for citizens to try to get a government into emergency mode.
+<<elseif $ChecklistChallenge is " 3.">>
+* ''For business'': Developing an action checklist for business to try to get individual businesses and a coalition of businesses into emergency mode.
+<<elseif $ChecklistChallenge is " Cancel">>
+* You have not yet selected a challenge.
+<</if>>
+<</nobr>>
+
+<<return>> | [[«previous|Intro & selecting a challenge]] | [[next»|Selecting the checklist development model?]]
+
+

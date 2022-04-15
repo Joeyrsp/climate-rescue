@@ -1,0 +1,49 @@
+:: StoryMenu {"position":"125,625"}
+[[Getting started]]
+<<nobr>>
+<<if $wholeSystemPackagePlanShowInMenu eq 1>>
+[[Whole System Package|'Whole System Package' Plan]]
+<</if>>
+
+<<if $globalScenariosShowInMenu eq 1>>
+[[Global Scenarios]]
+<</if>>
+
+<<if $buildingSupportSystemShowInMenu eq 1>>
+[[Building a support system|Building a support system for 'whole system package' action]]
+<</if>>
+
+<<if $adaptingTheWholeSystemPackagePlanShowInMenu eq 1>>
+[[Adapting the 'whole system package' plan]]
+<</if>>
+
+<<if $linkedProjectsShowInMenu eq 1>>
+[[Linked projects]]
+<</if>>
+
+<<if $startingWithProjectsShowInMenu eq 1>>
+[[Starting with projects]]
+<</if>>
+
+<<if $outputReportsShowInMenu eq 1>>
+[[Output reports]]
+<</if>>
+
+<<if $backgroundShowInMenu eq 1>>
+[[Background|Background (get)]]
+<</if>>
+
+<<if $devStuffShowInMenu eq 1>>
+[[Dev stuff]]
+<</if>>
+
+<<if $contactShowInMenu eq 1>>
+[[Contact team|Contact the Adviser team]]
+<</if>>
+
+<<if $favouritesShowInMenu eq 1>>
+[[Favourites]]
+<</if>>
+
+<</nobr>>
+[[Other material]]

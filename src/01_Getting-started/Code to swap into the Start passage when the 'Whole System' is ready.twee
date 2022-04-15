@@ -1,0 +1,7 @@
+:: Code to swap into the Start passage when the 'Whole System' is ready [Twine.private] {"position":"600,0"}
+
+
+You can begin using the Adviser by choosing one of these options:
+<<if $startupWarning isnot 1>>&nbsp;&nbsp;&nbsp;&nbsp;[[- Preparing a climate action plan|Is this really what you want?]]<<else>>&nbsp;&nbsp;&nbsp;&nbsp;[[- Preparing a climate action plan|'Whole System Package' Plan]]<</if>>
+&nbsp;&nbsp;&nbsp;&nbsp;[[- Tackling a specific climate project|Starting with projects]]
+

@@ -1,0 +1,9 @@
+:: Date templates {"position":"1600,125"}
+To print dates:
+
+$thisYear
+
+<<= $CurDate.toLocaleString("en-UK", { day: "numeric", month: "long", year: "numeric"} )>>
+
+
+

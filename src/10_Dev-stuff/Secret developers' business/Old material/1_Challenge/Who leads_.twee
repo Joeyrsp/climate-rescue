@@ -1,0 +1,22 @@
+:: Who leads? {"position":"2125,21750"}
+[[Intro & selecting a challenge]] | [[Checklist challenge?]] | [[Selecting the checklist development model?]] | (here) | [[Decision-making?]] | <<if ($ChecklistModel eq " 1.") or ($ChecklistModel eq 0) or ($ChecklistModel eq " Cancel")>>[[Setting up a climate emergency action program]]<<else>>[[Draft action checklist]]<</if>>  | <<fav>>
+----
+<<if $ChecklistChallenge is " 1a." or $ChecklistChallenge is " 1b." or $ChecklistChallenge is " 1c.">>
+!!Who will lead the process initially?
+!!!The government challenge
+<<include [[Who leads? Govt2include]]>>
+<<elseif $ChecklistChallenge is " 2.">>
+!!Who will lead the process initially?
+!!!The citizen challenge
+(Content is yet to be developed for the ''citizen challenge''.  To make a selection for an active challenge, go to: [[Checklist challenge?]])
+<<elseif $ChecklistChallenge is " 3.">>
+!!Who will lead the process initially?
+!!!The business challenge
+(Content is yet to be developed for the ''business challenge''.  To make a selection for an active challenge, go to: [[Checklist challenge?]])
+<<else>>
+!!Who will lead the process initially?
+(A challenge to be tackled has not been selected.  To make a selection go to: [[Checklist challenge?]])
+<</if>>
+<<return>> | [[«previous|Selecting the checklist development model?]] | [[next»|Decision-making?]]
+
+

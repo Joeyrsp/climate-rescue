@@ -1,0 +1,36 @@
+:: Q13. Significance of differences? {"position":"1775,3200"}
+<<return>> | [[Navigation» 'Whole System Package'|NAV_'Whole System Package' Plan]] | <<fav>>
+----
+!!Q13. What are the implications of these differences (identified in response to question 12) for action?
+
+!!!How to answer the question
+
+//(add advisory material)//
+
+!!!Writing up your conclusions (user input)
+
+<<textarea "$differenceSignificanceConclusions" "">>
+
+
+
+!!!Questions & ideas to discuss with the Climate Rescue Catalytic Group (user input)
+
+<<textarea "$differenceSignificanceQuestionsIdeas" "">>
+
+
+----
+Are you reasonably sure that you have finished working on this page?  You can change you mind later if you like.
+
+(yes)  (not yet)  add buttons
+<<set $genericWholePackagePlanArray to [0,0,0,0,0,0,0,0,0,0,0,0]>>
+
+The work on this page is/is not complete)
+
+----
+!The report material related to this question
+
+(As the user works through this page, report material related to the page will collect here.  It will also be repeated on the Output Report page.)
+
+----
+<<return>> | [[«previous|Q12. How does action package differ from conventional?]] | [[next» (the "building a support system" series)|Building a support system for 'whole system package' action]]
+

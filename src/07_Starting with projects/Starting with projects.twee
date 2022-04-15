@@ -1,0 +1,6 @@
+:: Starting with projects {"position":"1000,6200","size":"200,200"}
+<<fav>>
+----
+!!Starting with projects<<set $startingWithProjectsShowInMenu to 1>>
+[[Assessing parties and candidates]]
+<<if $protectingForestsShowInStartingWithProjects eq 1>>[[Protecting forests]]<br><</if>><<if $shapingPolicyOnUseOfOffsetsShowInStartingWithProjects eq 1>>[[Shaping policy on the use of offsets]]<br><</if>>

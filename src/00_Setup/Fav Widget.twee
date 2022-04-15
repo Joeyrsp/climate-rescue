@@ -1,0 +1,9 @@
+:: Fav Widget [widget nobr] {"position":"1475,0"}
+/* <<fav>> widget v1 - Begin.... */
+/* Code created by Joeyrsp, tweaked and packaged as a widget by Philip Sutton */
+
+<<widget "fav">>
+<span id="fave"><<include [[Favourite template]]>></span>
+<</widget>>
+					
+/* <<fav>> widget - End */
