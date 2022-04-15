@@ -614,10 +614,10 @@ For further advice on using the favourites system go to: [[Help]]
 &lt;&lt;/link&gt;&gt;  !!!
 
 &lt;&lt;return&gt;&gt;</tw-passagedata><tw-passagedata pid="7" name="Other material" tags="" position="250,625" size="100,100">!!Other material
-[[Background|Background (get)]] &amp;nbsp;&amp;nbsp;&lt;small&gt;(&lt;&lt;link [[add to main menu|Other material]]&gt;&gt;&lt;&lt;set $backgroundInMenu to 1&gt;&gt;&lt;&lt;/link&gt;&gt;)  (&lt;&lt;link [[remove from main menu|Other material]]&gt;&gt;&lt;&lt;set $backgroundInMenu to 0&gt;&gt;&lt;&lt;/link&gt;&gt;)&lt;/small&gt;
-[[Dev stuff]] &amp;nbsp;&amp;nbsp;&lt;small&gt;(&lt;&lt;link [[add to main menu|Other material]]&gt;&gt;&lt;&lt;set $devStuffInMenu to 1&gt;&gt;&lt;&lt;/link&gt;&gt;)  (&lt;&lt;link [[remove from main menu|Other material]]&gt;&gt;&lt;&lt;set $devStuffInMenu to 0&gt;&gt;&lt;&lt;/link&gt;&gt;)&lt;/small&gt;
-[[Contact the Adviser team]] &amp;nbsp;&amp;nbsp;&lt;small&gt;(&lt;&lt;link [[add to main menu|Other material]]&gt;&gt;&lt;&lt;set $contactInMenu to 1&gt;&gt;&lt;&lt;/link&gt;&gt;)  (&lt;&lt;link [[remove from main menu|Other material]]&gt;&gt;&lt;&lt;set $contactInMenu to 0&gt;&gt;&lt;&lt;/link&gt;&gt;)&lt;/small&gt;
-[[Favourites]] &amp;nbsp;&amp;nbsp;&lt;small&gt;(&lt;&lt;link [[add to main menu|Other material]]&gt;&gt;&lt;&lt;set $favouritesInMenu to 1&gt;&gt;&lt;&lt;/link&gt;&gt;)  (&lt;&lt;link [[remove from main menu|Other material]]&gt;&gt;&lt;&lt;set $favouritesInMenu to 0&gt;&gt;&lt;&lt;/link&gt;&gt;)&lt;/small&gt;
+[[Background|Background (get)]] &amp;nbsp;&amp;nbsp;&lt;small&gt;(&lt;&lt;link [[add to main menu|Other material]]&gt;&gt;&lt;&lt;set $backgroundShowInMenu to 1&gt;&gt;&lt;&lt;/link&gt;&gt;)  (&lt;&lt;link [[remove from main menu|Other material]]&gt;&gt;&lt;&lt;set $backgroundShowInMenu to 0&gt;&gt;&lt;&lt;/link&gt;&gt;)&lt;/small&gt;
+[[Dev stuff]] &amp;nbsp;&amp;nbsp;&lt;small&gt;(&lt;&lt;link [[add to main menu|Other material]]&gt;&gt;&lt;&lt;set $devStuffShowInMenu to 1&gt;&gt;&lt;&lt;/link&gt;&gt;)  (&lt;&lt;link [[remove from main menu|Other material]]&gt;&gt;&lt;&lt;set $devStuffShowInMenu to 0&gt;&gt;&lt;&lt;/link&gt;&gt;)&lt;/small&gt;
+[[Contact the Adviser team]] &amp;nbsp;&amp;nbsp;&lt;small&gt;(&lt;&lt;link [[add to main menu|Other material]]&gt;&gt;&lt;&lt;set $contactShowInMenu to 1&gt;&gt;&lt;&lt;/link&gt;&gt;)  (&lt;&lt;link [[remove from main menu|Other material]]&gt;&gt;&lt;&lt;set $contactShowInMenu to 0&gt;&gt;&lt;&lt;/link&gt;&gt;)&lt;/small&gt;
+[[Favourites]] &amp;nbsp;&amp;nbsp;&lt;small&gt;(&lt;&lt;link [[add to main menu|Other material]]&gt;&gt;&lt;&lt;set $favouritesShowInMenu to 1&gt;&gt;&lt;&lt;/link&gt;&gt;)  (&lt;&lt;link [[remove from main menu|Other material]]&gt;&gt;&lt;&lt;set $favouritesShowInMenu to 0&gt;&gt;&lt;&lt;/link&gt;&gt;)&lt;/small&gt;
 
 !!The &#39;levels&#39; of the Adviser that will be revealed as users progress
 *Whole System Package
@@ -631,7 +631,7 @@ For further advice on using the favourites system go to: [[Help]]
 
 
 For developers:
-&lt;&lt;textboxPlus &quot;&quot; &quot;$displayAllCode&quot; `{placeholder: &quot;Enter your access code&quot;, spellcheck: false, autofocus: true, autocomplete: &quot;off&quot;}`&gt;&gt;&lt;&lt;button [[Save|Other material]]&gt;&gt;&lt;&lt;if $displayAllCode is &quot;showa&quot;&gt;&gt;&lt;&lt;set $wholeSystemPackagePlan to 1&gt;&gt;&lt;&lt;set $globalScenarios to 1&gt;&gt;&lt;&lt;set $buildingSupportSystem to 1&gt;&gt;&lt;&lt;set $adaptingTheWholeSystemPackagePlanShow to 1&gt;&gt;&lt;&lt;set $linkedProjectsShow to 1&gt;&gt;&lt;&lt;set $outputReportsShow to 1&gt;&gt;&lt;&lt;elseif $displayAllCode is &quot;hidea&quot;&gt;&gt;&lt;&lt;set $wholeSystemPackagePlan to 0&gt;&gt;&lt;&lt;set $globalScenarios to 0&gt;&gt;&lt;&lt;set $buildingSupportSystem to 0&gt;&gt;&lt;&lt;set $adaptingTheWholeSystemPackagePlanShow to 0&gt;&gt;&lt;&lt;set $linkedProjectsShow to 0&gt;&gt;&lt;&lt;set $outputReportsShow to 0&gt;&gt;&lt;&lt;elseif $displayAllCode is &quot;sw&quot;&gt;&gt;&lt;&lt;set $wholeSystemPackagePlan to 1&gt;&gt;&lt;&lt;elseif $displayAllCode is &quot;sg&quot;&gt;&gt;&lt;&lt;set $globalScenarios to 1&gt;&gt;&lt;&lt;elseif $displayAllCode is &quot;sb&quot;&gt;&gt;&lt;&lt;set $buildingSupportSystem to 1&gt;&gt;&lt;&lt;elseif $displayAllCode is &quot;sa&quot;&gt;&gt;&lt;&lt;set $adaptingTheWholeSystemPackagePlanShow to 1&gt;&gt;&lt;&lt;elseif $displayAllCode is &quot;sl&quot;&gt;&gt;&lt;&lt;set $linkedProjectsShow to 1&gt;&gt;&lt;&lt;elseif $displayAllCode is &quot;so&quot;&gt;&gt;&lt;&lt;set $outputReportsShow to 1&gt;&gt;&lt;&lt;elseif $displayAllCode is &quot;hw&quot;&gt;&gt;&lt;&lt;set $wholeSystemPackagePlan to 0&gt;&gt;&lt;&lt;elseif $displayAllCode is &quot;hg&quot;&gt;&gt;&lt;&lt;set $globalScenarios to 0&gt;&gt;&lt;&lt;elseif $displayAllCode is &quot;hb&quot;&gt;&gt;&lt;&lt;set $buildingSupportSystem to 0&gt;&gt;&lt;&lt;elseif $displayAllCode is &quot;ha&quot;&gt;&gt;&lt;&lt;set $adaptingTheWholeSystemPackagePlanShow to 0&gt;&gt;&lt;&lt;elseif $displayAllCode is &quot;hl&quot;&gt;&gt;&lt;&lt;set $linkedProjectsShow to 0&gt;&gt;&lt;&lt;elseif $displayAllCode is &quot;ho&quot;&gt;&gt;&lt;&lt;set $outputReportsShow to 0&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;&lt;/button&gt;&gt;</tw-passagedata><tw-passagedata pid="8" name="Page template - simple" tags="@#P9940 @#Fold000" position="625,0" size="100,100">&lt;&lt;fav&gt;&gt;
+&lt;&lt;textboxPlus &quot;&quot; &quot;$displayAllCode&quot; `{placeholder: &quot;Enter your access code&quot;, spellcheck: false, autofocus: true, autocomplete: &quot;off&quot;}`&gt;&gt;&lt;&lt;button [[Save|Other material]]&gt;&gt;&lt;&lt;if $displayAllCode is &quot;showa&quot;&gt;&gt;&lt;&lt;set $wholeSystemPackagePlanShowInMenu to 1&gt;&gt;&lt;&lt;set $globalScenariosShowInMenu to 1&gt;&gt;&lt;&lt;set $buildingSupportSystemShowInMenu to 1&gt;&gt;&lt;&lt;set $adaptingTheWholeSystemPackagePlanShowInMenu to 1&gt;&gt;&lt;&lt;set $linkedProjectsShowInMenu to 1&gt;&gt;&lt;&lt;set $outputReportsShowInMenu to 1&gt;&gt;&lt;&lt;elseif $displayAllCode is &quot;hidea&quot;&gt;&gt;&lt;&lt;set $wholeSystemPackagePlanShowInMenu to 0&gt;&gt;&lt;&lt;set $globalScenariosShowInMenu to 0&gt;&gt;&lt;&lt;set $buildingSupportSystemShowInMenu to 0&gt;&gt;&lt;&lt;set $adaptingTheWholeSystemPackagePlanShowInMenu to 0&gt;&gt;&lt;&lt;set $linkedProjectsShowInMenu to 0&gt;&gt;&lt;&lt;set $outputReportsShowInMenu to 0&gt;&gt;&lt;&lt;elseif $displayAllCode is &quot;sw&quot;&gt;&gt;&lt;&lt;set $wholeSystemPackagePlanShowInMenu to 1&gt;&gt;&lt;&lt;elseif $displayAllCode is &quot;sg&quot;&gt;&gt;&lt;&lt;set $globalScenariosShowInMenu to 1&gt;&gt;&lt;&lt;elseif $displayAllCode is &quot;sb&quot;&gt;&gt;&lt;&lt;set $buildingSupportSystemShowInMenu to 1&gt;&gt;&lt;&lt;elseif $displayAllCode is &quot;sa&quot;&gt;&gt;&lt;&lt;set $adaptingTheWholeSystemPackagePlanShowInMenu to 1&gt;&gt;&lt;&lt;elseif $displayAllCode is &quot;sl&quot;&gt;&gt;&lt;&lt;set $linkedProjectsShowInMenu to 1&gt;&gt;&lt;&lt;elseif $displayAllCode is &quot;so&quot;&gt;&gt;&lt;&lt;set $outputReportsShowInMenu to 1&gt;&gt;&lt;&lt;elseif $displayAllCode is &quot;hw&quot;&gt;&gt;&lt;&lt;set $wholeSystemPackagePlanShowInMenu to 0&gt;&gt;&lt;&lt;elseif $displayAllCode is &quot;hg&quot;&gt;&gt;&lt;&lt;set $globalScenariosShowInMenu to 0&gt;&gt;&lt;&lt;elseif $displayAllCode is &quot;hb&quot;&gt;&gt;&lt;&lt;set $buildingSupportSystemShowInMenu to 0&gt;&gt;&lt;&lt;elseif $displayAllCode is &quot;ha&quot;&gt;&gt;&lt;&lt;set $adaptingTheWholeSystemPackagePlanShowInMenu to 0&gt;&gt;&lt;&lt;elseif $displayAllCode is &quot;hl&quot;&gt;&gt;&lt;&lt;set $linkedProjectsShowInMenu to 0&gt;&gt;&lt;&lt;elseif $displayAllCode is &quot;ho&quot;&gt;&gt;&lt;&lt;set $outputReportsShowInMenu to 0&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;&lt;/button&gt;&gt;</tw-passagedata><tw-passagedata pid="8" name="Page template - simple" tags="@#P9940 @#Fold000" position="625,0" size="100,100">&lt;&lt;fav&gt;&gt;
 ----
 !!Heading
 
@@ -642,43 +642,47 @@ For developers:
 Tel: +61 3 9078 9746  /  (03) 9078 9746</tw-passagedata><tw-passagedata pid="11" name="Sandbox" tags="@#P9957 @#Fold000" position="875,125" size="100,100">&lt;&lt;return&gt;&gt; | &lt;&lt;fav&gt;&gt; 
 !Adviser developer&#39;s &#39;Sandbox&#39; for running tests</tw-passagedata><tw-passagedata pid="12" name="StoryDisplayTitle" tags="@#P9910 @#Fold000" position="125,500" size="100,100">Climate Rescue Adviser</tw-passagedata><tw-passagedata pid="13" name="StoryMenu" tags="@#P9994 @#Fold000" position="125,625" size="100,100">[[Getting started]]
 &lt;&lt;nobr&gt;&gt;
-&lt;&lt;if $wholeSystemPackagePlan eq 1&gt;&gt;
+&lt;&lt;if $wholeSystemPackagePlanShowInMenu eq 1&gt;&gt;
 [[Whole System Package|Is this really what you want?]]
 &lt;&lt;/if&gt;&gt;
 
-&lt;&lt;if $globalScenarios eq 1&gt;&gt;
+&lt;&lt;if $globalScenariosShowInMenu eq 1&gt;&gt;
 [[Global Scenarios]]
 &lt;&lt;/if&gt;&gt;
 
-&lt;&lt;if $buildingSupportSystem eq 1&gt;&gt;
+&lt;&lt;if $buildingSupportSystemShowInMenu eq 1&gt;&gt;
 [[Building a support system|Building a support system for &#39;whole system package&#39; action]]
 &lt;&lt;/if&gt;&gt;
 
-&lt;&lt;if $adaptingTheWholeSystemPackagePlanShow eq 1&gt;&gt;
+&lt;&lt;if $adaptingTheWholeSystemPackagePlanShowInMenu eq 1&gt;&gt;
 [[Adapting the &#39;whole system package&#39; plan]]
 &lt;&lt;/if&gt;&gt;
 
-&lt;&lt;if $linkedProjectsShow eq 1&gt;&gt;
+&lt;&lt;if $linkedProjectsShowInMenu eq 1&gt;&gt;
 [[Linked projects]]
 &lt;&lt;/if&gt;&gt;
 
-&lt;&lt;if $outputReportsShow eq 1&gt;&gt;
+&lt;&lt;if $startingWithProjectsShowInMenu eq 1&gt;&gt;
+[[Starting with projects]]
+&lt;&lt;/if&gt;&gt;
+
+&lt;&lt;if $outputReportsShowInMenu eq 1&gt;&gt;
 [[Output reports]]
 &lt;&lt;/if&gt;&gt;
 
-&lt;&lt;if $backgroundInMenu eq 1&gt;&gt;
+&lt;&lt;if $backgroundShowInMenu eq 1&gt;&gt;
 [[Background|Background (get)]]
 &lt;&lt;/if&gt;&gt;
 
-&lt;&lt;if $devStuffInMenu eq 1&gt;&gt;
+&lt;&lt;if $devStuffShowInMenu eq 1&gt;&gt;
 [[Dev stuff]]
 &lt;&lt;/if&gt;&gt;
 
-&lt;&lt;if $contactInMenu eq 1&gt;&gt;
+&lt;&lt;if $contactShowInMenu eq 1&gt;&gt;
 [[Contact team|Contact the Adviser team]]
 &lt;&lt;/if&gt;&gt;
 
-&lt;&lt;if $favouritesInMenu eq 1&gt;&gt;
+&lt;&lt;if $favouritesShowInMenu eq 1&gt;&gt;
 [[Favourites]]
 &lt;&lt;/if&gt;&gt;
 
@@ -978,7 +982,7 @@ Okay – here we go: [[next»|Is this really what you want?]]
 Okay – here we go: [[next»|&#39;Whole System Package&#39; Plan]] 
 &lt;&lt;/if&gt;&gt;
 &lt;large&gt;&lt;b&gt;Adviser version&lt;/b&gt;&lt;/large&gt;
-&lt;&lt;include [[Version input (2include)]]&gt;&gt;</tw-passagedata><tw-passagedata pid="19" name="&#39;Whole System Package&#39; Plan" tags="@#P9989 @#Fold002" position="950,825" size="200,200">!!Developing a maximum protection, &#39;whole system package&#39; plan&lt;nobr&gt;&lt;&lt;set $wholeSystemPackagePlan to 1&gt;&gt;&lt;&lt;set $genericWholePackagePlanArray to [0,0,0,0,0,0,0,0,0,0,0,0]&gt;&gt;
+&lt;&lt;include [[Version input (2include)]]&gt;&gt;</tw-passagedata><tw-passagedata pid="19" name="&#39;Whole System Package&#39; Plan" tags="@#P9989 @#Fold002" position="950,825" size="200,200">!!Developing a maximum protection, &#39;whole system package&#39; plan&lt;nobr&gt;&lt;&lt;set $wholeSystemPackagePlanShowInMenu to 1&gt;&gt;&lt;&lt;set $genericWholePackagePlanArray to [0,0,0,0,0,0,0,0,0,0,0,0]&gt;&gt;
 &lt;/nobr&gt;
 By answering these questions below, it should be possible to create a climate plan based on four key principles:
 *maximum protection[[|http://bit.ly/DeliveringMaximumProtection]] for the climate vulnerable, tied together by a chain of responsibility
