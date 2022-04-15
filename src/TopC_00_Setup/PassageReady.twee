@@ -1,4 +1,0 @@
-:: PassageReady [@#P9993 @#Fold000] {"position":"500,0"}
-/% Set date variables %/
-<<set $thisYear to new Date().getFullYear()>>
-<<set $CurDate = new Date(Date.now())>>

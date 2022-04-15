@@ -1,7 +1,0 @@
-:: Wiped STATE SAVE on ENGINE RESTART [@#P9875 @#Fold073] {"position":"2000,21175"}
-<<fav>>
-----
-<<run Engine.restart()>>
-The Adviser's state autosave has been deleted prior to retarting the Adviser engine.
-
-
