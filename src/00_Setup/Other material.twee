@@ -1,8 +1,8 @@
 :: Other material {"position":"125,875"}
 !!Other material
+[[Contact the Adviser team]] &nbsp;&nbsp;<small>(<<link [[add to main menu|Other material]]>><<set $contactShowInMenu to 1>><</link>>)  (<<link [[remove|Other material]]>><<set $contactShowInMenu to 0>><</link>>)</small>
 [[Background|Background (get)]] &nbsp;&nbsp;<small>(<<link [[add to main menu|Other material]]>><<set $backgroundShowInMenu to 1>><</link>>)  (<<link [[remove|Other material]]>><<set $backgroundShowInMenu to 0>><</link>>)</small>
 [[Dev stuff]] &nbsp;&nbsp;<small>(<<link [[add to main menu|Other material]]>><<set $devStuffShowInMenu to 1>><</link>>)  (<<link [[remove|Other material]]>><<set $devStuffShowInMenu to 0>><</link>>)</small>
-[[Contact the Adviser team]] &nbsp;&nbsp;<small>(<<link [[add to main menu|Other material]]>><<set $contactShowInMenu to 1>><</link>>)  (<<link [[remove|Other material]]>><<set $contactShowInMenu to 0>><</link>>)</small>
 [[Favourites]] &nbsp;&nbsp;<small>(<<link [[add to main menu|Other material]]>><<set $favouritesShowInMenu to 1>><</link>>)  (<<link [[remove|Other material]]>><<set $favouritesShowInMenu to 0>><</link>>)</small>
 
 !!The 'levels' of the Adviser that will be revealed as users progress

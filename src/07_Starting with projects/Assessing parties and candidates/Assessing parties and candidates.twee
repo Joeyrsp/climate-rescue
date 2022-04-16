@@ -1,5 +1,5 @@
 :: Assessing parties and candidates {"position":"1475,6200"}
-<<fav>><<set $assessingPartiesCandidatesShowInStartingWithProjects to 1>><<set $startingWithProjectsShowInMenu to 1>>
+<<fav>> | [[Starting with projects]] | [[Assessing parties and candidates]]<<set $assessingPartiesCandidatesShowInStartingWithProjects to 1>><<set $startingWithProjectsShowInMenu to 1>>
 ----
 !!How to assess parties and candidates
 
