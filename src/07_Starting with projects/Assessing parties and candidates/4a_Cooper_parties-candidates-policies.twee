@@ -1,6 +1,17 @@
 :: 4a_Cooper_parties-candidates-policies
 <<fav>> | [[Starting with projects]] | [[Assessing parties and candidates]] | [[Cooper case study (Federal, 2022)|Cooper case study_2022]]<<set $assessingPartiesCandidatesShowInStartingWithProjects to 1>><<set $startingWithProjectsShowInMenu to 1>>
 ----
+!!Information sources on who is standing in the 2022 Federal Election
+After 22 April the Australian Electoral Commission will have the definitive list of candidates and parties/groups running in the election:
+https://www.aec.gov.au/election
+
+Wikipedia has a national list of candidates/parties here:
+https://en.wikipedia.org/wiki/Candidates_of_the_2022_Australian_federal_election#Victoria
+
+A candidates list is also maintained by The Tally Room:
+https://www.tallyroom.com.au
+[[Google doc|https://docs.google.com/spreadsheets/d/1l84ohT7slDVID3LBqoP8mp3lf8w0U9s9zLvgGuqUxZ0/edit#gid=0]]
+
 !!House of Representatives - candidates, parties and links to relevant policies
 <<nobr>><style>
     table {
@@ -19,7 +30,8 @@
         <td>ALP</td>
         <td><a href="https://www.alp.org.au/policies" target="_blank">www.alp.org.au/policies</a><br>
         <a href="https://www.alp.org.au/policies/powering-australia" target="_blank">www.alp.org.au/policies/powering-australia</a><br>
-        <a href="https://keystone-alp.s3-ap-southeast-2.amazonaws.com/prod/61a966013f3c53001f975016-REPUTEX_The%20economic%20impact%20of%20the%20ALP's%20Powering%20Australia%20Plan_Summary%20Report.pdf" target="_blank"></a>The Economic Impact Of The Alp's Powering Australia Plan (PDF)</td>
+        <a href="https://keystone-alp.s3-ap-southeast-2.amazonaws.com/prod/61a966013f3c53001f975016-REPUTEX_The%20economic%20impact%20of%20the%20ALP's%20Powering%20Australia%20Plan_Summary%20Report.pdf" target="_blank">The Economic Impact Of The Alp's Powering Australia Plan (PDF)</a>
+        </td>
     </tr>
     <tr>
         <td>Celeste Liddle</td>
@@ -29,138 +41,212 @@
         <a href="https://greens.org.au/platform/economy" target="_blank">greens.org.au/platform/economy</a><br>
         <a href="https://greens.org.au/platform/enviro" target="_blank">greens.org.au/platform/enviro</a><br>
         <a href="https://greens.org.au/platform/services#energy" target="_blank">greens.org.au/platform/services#energy</a><br>
-        <a href="https://greens.org.au/platform/democracy" target="_blank">greens.org.au/platform/democracy</a></td>
+        <a href="https://greens.org.au/platform/democracy" target="_blank">greens.org.au/platform/democracy</a>
+        </td>
     </tr>
     <tr>
         <td>Jadon Atkinson</td>
         <td>Liberal</td>
         <td><a href="https://www.liberal.org.au/our-plan" target="_blank">www.liberal.org.au/our-plan</a><br>
         <a href="https://www.liberal.org.au/our-plan/energy" target="_blank">www.liberal.org.au/our-plan/energy</a><br>
-        <a href="https://www.liberal.org.au/our-plan/environment" target="_blank">www.liberal.org.au/our-plan/environment</a></td>
+        <a href="https://www.liberal.org.au/our-plan/environment" target="_blank">www.liberal.org.au/our-plan/environment</a>
+        </td>
     </tr>
     <tr>
         <td>Adam La Rosa</td>
         <td>UAP</td>
         <td><a href="https://www.unitedaustraliaparty.org.au/cp-vision-for-australia/" target="_blank">www.unitedaustraliaparty.org.au/cp-vision-for-australia</a><br>
-        <a href="https://www.unitedaustraliaparty.org.au/national_policy/" target="_blank">www.unitedaustraliaparty.org.au/national_policy</a></td>
+        <a href="https://www.unitedaustraliaparty.org.au/national_policy/" target="_blank">www.unitedaustraliaparty.org.au/national_policy</a>
+        </td>
     </tr>
   <tr>
         <td>Rabin Bangaar</td>
         <td>Animal Justice Party (AJP)</td>
-        <td></td>
+        <td><a href="https://www.animaljusticeparty.org/our_policies" target="_blank">www.animaljusticeparty.org/our_policies</a><br>
+        <a href="https://www.animaljusticeparty.org/climate_change" target="_blank">www.animaljusticeparty.org/climate_change</a><br>
+        <a href="https://www.animaljusticeparty.org/energy" target="_blank">www.animaljusticeparty.org/energy</a><br>
+        <a href="https://www.animaljusticeparty.org/natural_gas" target="_blank">www.animaljusticeparty.org/natural_gas</a><br>
+        <a href="https://www.animaljusticeparty.org/tags/planet_policy" target="_blank">www.animaljusticeparty.org/tags/planet_policy</a>
+        </td>
     </tr>
     <tr>
         <td>Adrian Whitehead</td>
         <td>Fusion</td>
-        <td></td>
+        <td><a href="https://www.fusionparty.org.au/climate_emergency" target="_blank">www.fusionparty.org.au/climate_emergency</a>
+        </td>
     </tr>
     <tr>
         <td>Kath Larkin</td>
         <td>Victorian Socialists (VS)</td>
-        <td></td>
+        <td><a href="https://www.victoriansocialists.org.au/our_platform#Climate" target="_blank">www.victoriansocialists.org.au/our_platform#Climate</a>
+        </td>
     </tr>
     <tr>
         <td>William Turner</td>
         <td>One Nation</td>
-        <td></td>
+        <td><a href="https://www.onenation.org.au/climate" target="_blank">www.onenation.org.au/climate</a><br>
+        <a href="https://www.onenation.org.au/energy" target="_blank">www.onenation.org.au/energy</a>
+        </td>
     </tr>
-    </table>
-    <</nobr>>
-!!Senate - parties/groups, candidates and links to relevant policies
-<style>
+    </table><</nobr>>
+    !!Senate - parties/groups, candidates and links to relevant policies
+ <<nobr>><style>
     table {
         width: 95%;
         margin-left: 30px !important;
     }  
 </style>
 <table>
-    <tr>
-        <td style=width:20% class="grayed"><b><center>Party (if any)</center></b></td>
-        <td style=width:25% class="grayed"><b><center>Senate candidate</center></b></td>
-        <td style=width:55% class="grayed"><b><center>Policy sources</center></b></td>
+    <tr style="font-weight:bold">
+        <td style=width:20% class="grayed">Party (if any)</td>
+        <td style=width:25% class="grayed">Senate candidate(s)</td>
+        <td style=width:55% class="grayed">Policy sources</td>
     </tr>
     <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-       <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-       <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-       <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-       <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-       <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-       <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-       <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-       <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-       <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-       <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-       <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-       <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-       <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-       <tr>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>ALP</td>
+        <td>Linda White<br>
+            Jana Stewart
+        </td>
+        <td><a href="https://www.alp.org.au/policies" target="_blank">www.alp.org.au/policies</a><br>
+        <a href="https://www.alp.org.au/policies/powering-australia" target="_blank">www.alp.org.au/policies/powering-australia</a><br>
+        <a href="https://keystone-alp.s3-ap-southeast-2.amazonaws.com/prod/61a966013f3c53001f975016-REPUTEX_The%20economic%20impact%20of%20the%20ALP's%20Powering%20Australia%20Plan_Summary%20Report.pdf" target="_blank">The Economic Impact Of The Alp's Powering Australia Plan (PDF)</a>
+        </td>
     </tr>
     <tr>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>Liberal/National</td>
+        <td>Sarah Henderson (Lib)<br>
+            Bridget McKenzie (Nat)<br>
+            Greg Mirabella (Lib)
+        </td>
+        <td><a href="https://www.liberal.org.au/our-plan" target="_blank">www.liberal.org.au/our-plan</a><br>
+        <a href="https://www.liberal.org.au/our-plan/energy" target="_blank">www.liberal.org.au/our-plan/energy</a><br>
+        <a href="https://www.liberal.org.au/our-plan/environment" target="_blank">www.liberal.org.au/our-plan/environment</a><br><a href="https://nationals.org.au/wp-content/uploads/2022/04/The-Nationals_Our-Plan-for-More-Australian-Jobs.pdf" target="_blank">Nationals: Our plan for more Australian Jobs</a><br>
+        <a href="https://nationals.org.au/wp-content/uploads/2022/04/The-Nationals_Our-Plan-for-Australian-Forestry.pdf" target="_blank">Nationals: Our Plan for Australian Forestry</a>
+        </td>
     </tr>
-   </table>
-   
-
+    <tr>
+        <td>Greens</td>
+        <td>Lidia Thorpe<br>
+            Adam Frogley<br>
+            Sissy Austin<br>
+            Zeb Payne
+        </td>
+        <td><a href="https://greens.org.au/platform" target="_blank">greens.org.au/platform</a><br>
+        <a href="https://greens.org.au/platform/climate" target="_blank">greens.org.au/platform/climate</a><br>
+        <a href="https://greens.org.au/platform/economy" target="_blank">greens.org.au/platform/economy</a><br>
+        <a href="https://greens.org.au/platform/enviro" target="_blank">greens.org.au/platform/enviro</a><br>
+        <a href="https://greens.org.au/platform/services#energy" target="_blank">greens.org.au/platform/services#energy</a><br>
+        <a href="https://greens.org.au/platform/democracy" target="_blank">greens.org.au/platform/democracy</a>
+        </td>
+    </tr>
+    <tr>
+        <td>UAP</td>
+        <td>Ralph Babet<br>
+            Kelly Moran<br>
+            Andrew Lawlor<br>
+            Ken Grimmond
+        </td>
+        <td><a href="https://www.unitedaustraliaparty.org.au/cp-vision-for-australia/" target="_blank">www.unitedaustraliaparty.org.au/cp-vision-for-australia</a><br>
+        <a href="https://www.unitedaustraliaparty.org.au/national_policy/" target="_blank">www.unitedaustraliaparty.org.au/national_policy</a>
+        </td>
+    </tr>
+       <tr>
+        <td>Animal Justice Party (AJP)</td>
+        <td>Bronwyn Currie<br>
+            Chris Delforce
+        </td>
+        <td><a href="https://www.animaljusticeparty.org/our_policies" target="_blank">www.animaljusticeparty.org/our_policies</a><br>
+        <a href="https://www.animaljusticeparty.org/climate_change" target="_blank">www.animaljusticeparty.org/climate_change</a><br>
+        <a href="https://www.animaljusticeparty.org/energy" target="_blank">www.animaljusticeparty.org/energy</a><br>
+        <a href="https://www.animaljusticeparty.org/natural_gas" target="_blank">www.animaljusticeparty.org/natural_gas</a><br>
+        <a href="https://www.animaljusticeparty.org/tags/planet_policy" target="_blank">www.animaljusticeparty.org/tags/planet_policy</a>
+        </td>
+    </tr>
+    <tr>
+        <td>Fusion</td>
+        <td>Kammy Cordner Hunt</td>
+        <td><a href="https://www.fusionparty.org.au/climate_emergency" target="_blank">www.fusionparty.org.au/climate_emergency</a>
+        </td>
+    </tr>
+    <tr>
+        <td>Victorian Socialists (VS)</td>
+        <td>Aran Mylvaganam</td>
+        <td><a href="https://www.victoriansocialists.org.au/our_platform#Climate" target="_blank">www.victoriansocialists.org.au/our_platform#Climate</a>
+        </td>
+    </tr>
+    <tr>
+        <td>Liberal Democratic Party (LDP)</td>
+        <td>David Limbrick<br>
+            Krystle Mitchell<br>
+            Caroline White
+        </td>
+        <td><a href="https://www.ldp.org.au/freedom" target="_blank">www.ldp.org.au/freedom</a>
+        </td>
+    </tr>
+    <tr>
+        <td>Reason</td>
+        <td>Yolanda Vega</td>
+        <td><a href="https://www.reason.org.au/policy_suite" target="_blank">www.reason.org.au/policy_suite</a><br>
+            <a href="https://www.reason.org.au/key_issues" target="_blank">www.reason.org.au/key_issues</a><br>
+            <a href="https://www.reason.org.au/climate_emergency" target="_blank">www.reason.org.au/climate_emergency</a><br>
+            <a href="https://www.reason.org.au/ipcc_report_statement" target="_blank">www.reason.org.au/ipcc_report_statement</a>
+        </td>
+    </tr>
+    <tr>
+        <td>Socialist Alliance</td>
+        <td>Felix Dance<br>
+            Angela Carr</td>
+        <td><a href="https://socialist-alliance.org/policy#climate" target="_blank">socialist-alliance.org/policy#climate</a>
+        </td>
+    </tr>
+    <tr>
+        <td>The New Liberals</td>
+        <td>Jonathon Momsen</td>
+        <td><a href="https://tnl.net.au/policies" target="_blank">tnl.net.au/policies</a><br>
+            <a href="https://tnl.net.au/wp-content/uploads/policies/TNL_CC_policy-Final_Version.pdf" target="_blank">TNL_Climate Change Policy_net zero by 2030</a><br>
+            <a href="https://www.thenewliberals.net.au/wp-content/uploads/policies/TNL_CC_policy_Detailed_Rationale-Final_Version.pdf" target="_blank">Detailed Rationale</a><br>
+            <a href="https://www.thenewliberals.net.au/wp-content/uploads/policies/Appendix_1-The_dependence_of_the_economy_on_energy-Final_Version.pdf" target="_blank">Appendix 1</a><br>
+            <a href="https://www.thenewliberals.net.au/wp-content/uploads/policies/Appendix_2-The_Lake_Eyre_Basin-Final_Version.pdf" target="_blank">Appendix 2</a><br>
+            <a href="https://www.thenewliberals.net.au/wp-content/uploads/policies/Appendix_3-The_Appallingly_Bad_Neo-Classical_Economics_of_Climate_Change-Final_Version.pdf" target="_blank">Appendix 3</a>
+        </td>
+    </tr>
+    <tr>
+        <td>Federal ICAC Now</td>
+        <td>Gene Barker</td>
+        <td><a href="https://www.federalicacnow.org/fin_platform" target="_blank">www.federalicacnow.org/fin_platform</a>
+        </td>
+    </tr>
+    <tr>
+        <td>Citizens Party</td>
+        <td>Craig Isherwood<BR>
+            Robert Barwick
+        </td>
+        <td><a href="https://citizensparty.org.au/policies" target="_blank">citizensparty.org.au/policies</a>
+        </td>
+    </tr>
+    <tr>
+        <td>Great Australia</td>
+        <td>Darryl O'Brien</td>
+        <td><a href="https://www.greataustralianparty.com.au/gap-policies" target="_blank">www.greataustralianparty.com.au/gap-policies</a><br>
+            <a href="https://www.greataustralianparty.com.au/energy-policy" target="_blank">www.greataustralianparty.com.au/energy-policy</a><br>
+            <a href="https://www.greataustralianparty.com.au/environment-policy" target="_blank">www.greataustralianparty.com.au/environment-policy</a>
+        </td>
+    </tr>
+    <tr>
+        <td>Australian Values Party</td>
+        <td>Chris Burson</td>
+        <td><a href="https://australianvalues.org.au/climate-and-environment" target="_blank">australianvalues.org.au/climate-and-environment</a><br>
+            <a href="https://australianvalues.org.au/energy" target="_blank">australianvalues.org.au/energy</a>
+        </td>
+    </tr>
+    <tr>
+        <td>Australian Democrats</td>
+        <td>Leonie Green</td>
+        <td><a href="https://www.democrats.org.au/a-decade-of-climate-action" target="_blank">www.democrats.org.au/a-decade-of-climate-action</a><br>
+            <a href="https://www.democrats.org.au/adapting-to-climate-change-data" target="_blank">www.democrats.org.au/adapting-to-climate-change-data</a><br>
+            <a href="https://www.democrats.org.au/transport-for-the-future" target="_blank">www.democrats.org.au/transport-for-the-future</a>
+        </td>
+    </tr>
+   </table><</nobr>>
 ----
 [[Next» The Cooper Assessment|4b_Cooper_Assessment]]
