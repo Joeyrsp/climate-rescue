@@ -1,4 +1,166 @@
 :: 4a_Cooper_parties-candidates-policies
 <<fav>> | [[Starting with projects]] | [[Assessing parties and candidates]] | [[Cooper case study (Federal, 2022)|Cooper case study_2022]]<<set $assessingPartiesCandidatesShowInStartingWithProjects to 1>><<set $startingWithProjectsShowInMenu to 1>>
 ----
-!!
+!!House of Representatives - candidates, parties and links to relevant policies
+<<nobr>><style>
+    table {
+        width: 95%;
+        margin-left: 30px !important;
+    }  
+</style>
+<table>
+    <tr style="font-weight:bold">
+        <td style=width:20% class="grayed">HoR Candidate</td>
+        <td style=width:25% class="grayed">Party (if any)</td>
+        <td style=width:55% class="grayed">Policy sources</td>
+    </tr>
+    <tr>
+        <td>Ged Kearney</td>
+        <td>ALP</td>
+        <td><a href="https://www.alp.org.au/policies" target="_blank">www.alp.org.au/policies</a><br>
+        <a href="https://www.alp.org.au/policies/powering-australia" target="_blank">www.alp.org.au/policies/powering-australia</a><br>
+        <a href="https://keystone-alp.s3-ap-southeast-2.amazonaws.com/prod/61a966013f3c53001f975016-REPUTEX_The%20economic%20impact%20of%20the%20ALP's%20Powering%20Australia%20Plan_Summary%20Report.pdf" target="_blank"></a>The Economic Impact Of The Alp's Powering Australia Plan (PDF)</td>
+    </tr>
+    <tr>
+        <td>Celeste Liddle</td>
+        <td>Greens</td>
+        <td><a href="https://greens.org.au/platform" target="_blank">greens.org.au/platform</a><br>
+        <a href="https://greens.org.au/platform/climate" target="_blank">greens.org.au/platform/climate</a><br>
+        <a href="https://greens.org.au/platform/economy" target="_blank">greens.org.au/platform/economy</a><br>
+        <a href="https://greens.org.au/platform/enviro" target="_blank">greens.org.au/platform/enviro</a><br>
+        <a href="https://greens.org.au/platform/services#energy" target="_blank">greens.org.au/platform/services#energy</a><br>
+        <a href="https://greens.org.au/platform/democracy" target="_blank">greens.org.au/platform/democracy</a></td>
+    </tr>
+    <tr>
+        <td>Jadon Atkinson</td>
+        <td>Liberal</td>
+        <td><a href="https://www.liberal.org.au/our-plan" target="_blank">www.liberal.org.au/our-plan</a><br>
+        <a href="https://www.liberal.org.au/our-plan/energy" target="_blank">www.liberal.org.au/our-plan/energy</a><br>
+        <a href="https://www.liberal.org.au/our-plan/environment" target="_blank">www.liberal.org.au/our-plan/environment</a></td>
+    </tr>
+    <tr>
+        <td>Adam La Rosa</td>
+        <td>UAP</td>
+        <td><a href="https://www.unitedaustraliaparty.org.au/cp-vision-for-australia/" target="_blank">www.unitedaustraliaparty.org.au/cp-vision-for-australia</a><br>
+        <a href="https://www.unitedaustraliaparty.org.au/national_policy/" target="_blank">www.unitedaustraliaparty.org.au/national_policy</a></td>
+    </tr>
+  <tr>
+        <td>Rabin Bangaar</td>
+        <td>Animal Justice Party (AJP)</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Adrian Whitehead</td>
+        <td>Fusion</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Kath Larkin</td>
+        <td>Victorian Socialists (VS)</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>William Turner</td>
+        <td>One Nation</td>
+        <td></td>
+    </tr>
+    </table>
+    <</nobr>>
+!!Senate - parties/groups, candidates and links to relevant policies
+<style>
+    table {
+        width: 95%;
+        margin-left: 30px !important;
+    }  
+</style>
+<table>
+    <tr>
+        <td style=width:20% class="grayed"><b><center>Party (if any)</center></b></td>
+        <td style=width:25% class="grayed"><b><center>Senate candidate</center></b></td>
+        <td style=width:55% class="grayed"><b><center>Policy sources</center></b></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+       <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+       <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+       <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+       <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+       <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+       <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+       <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+       <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+       <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+       <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+       <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+       <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+       <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+       <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+   </table>
+   
+
+----
+[[Next» The Cooper Assessment|4b_Cooper_Assessment]]
