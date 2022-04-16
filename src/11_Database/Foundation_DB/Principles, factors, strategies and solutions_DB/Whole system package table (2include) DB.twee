@@ -1,5 +1,4 @@
 :: Whole system package table (2include) DB {"position":"7975,7825"}
-<<nobr>>
 <style>
     table {
         width: 70%;
@@ -42,4 +41,3 @@
         <td>✓</td>
     </tr>
 </table>
-<</nobr>>

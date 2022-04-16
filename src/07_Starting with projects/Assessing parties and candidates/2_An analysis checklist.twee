@@ -2,3 +2,22 @@
 <<fav>> | [[Starting with projects]] | [[Assessing parties and candidates]]<<set $assessingPartiesCandidatesShowInStartingWithProjects to 1>><<set $startingWithProjectsShowInMenu to 1>>
 ----
 !!A policy and candidate analysis checklist
+//''Policy analysis''//
+*Does the climate policy make it clear who or what (locally and globally) is to be protected from climate impacts by the policy?
+*Are the details of the climate policy clearly structured to meet identified needs of the climate vulnerable?
+*Could the policy, if implementented, deliver the intended protective outcomes effectively?  Is there a clear and practical implementation pathway?
+*Does the policy include measures to propagate effective action globally (fast enough and at the needed scale)?
+*Is the policy comprehensive?  Does it cover the scope of the table below?
+<<include [[Whole system package table (2include) DB]]>>
+*If the party’s or candidate’s policy is ahead of the average community position do they engage in educative activity to build understanding and support in the community?
+*Where does climate action stand in the party’s or candidate’s priorities?
+*Does the party or candidate support integrity policies that would prevent corruption or selling out for gain?
+
+//''Preferencing''//
+*What are the climate credentials of the parties and candidates preferenced by the party or candidate being assessed?
+
+//''Performance in the community and (when relevant) in government''//
+*Are the party’s or candidate’s actions before and between elections consistent with their policy position?  If the party or candidate has been elected previously what is their voting record on climate?
+
+----
+[[Next» Maximum Protection assessment framework|Preferred_Maximum protection assessment framework]]
