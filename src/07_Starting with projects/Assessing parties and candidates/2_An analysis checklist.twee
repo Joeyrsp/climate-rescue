@@ -1,7 +1,7 @@
 :: An analysis checklist
 <<fav>> | [[Starting with projects]] | [[Assessing parties and candidates]]<<set $assessingPartiesCandidatesShowInStartingWithProjects to 1>><<set $startingWithProjectsShowInMenu to 1>>
 ----
-!!A policy and candidate analysis checklist
+!!A policy and candidate/party analysis checklist
 //''Policy analysis''//
 *Does the climate policy make it clear who or what (locally and globally) is to be protected from climate impacts by the policy?
 *Are the details of the climate policy clearly structured to meet identified needs of the climate vulnerable?
