@@ -1,5 +1,5 @@
 :: Preferred_Maximum protection assessment framework {"position":"1850,6200"}
-<<fav>> | [[Starting with projects]] | [[Assessing parties and candidates]]<<set $assessingPartiesCandidatesShowInStartingWithProjects to 1>><<set $startingWithProjectsShowInMenu to 1>>
+<<fav>> | <<return>> | [[Starting with projects]] | [[Assessing parties and candidates]]<<set $assessingPartiesCandidatesShowInStartingWithProjects to 1>><<set $startingWithProjectsShowInMenu to 1>>
 ----
 !!Preferred assessment framework based on maximum protection - plus assessment checklist
 !!!Generating an assessment checklist
@@ -16,8 +16,9 @@ The checklist questions below have been developed to flush out how well a party 
 [[Generating a maximum protection assessment checklist]]
 
 !!!The 'maximum protection' assessment checklist
-*
+*Question 1: Has the election policy been framed to protect any identified climate vulnerable[[(*)|The climate vulnerable_brief (2include) DB]]? 
 
+*Question 2: What earth system level and local actions need to be taken to deliver the protection conditions needed by the climate vulnerable and when are these protection conditions needed by?
 
 
 

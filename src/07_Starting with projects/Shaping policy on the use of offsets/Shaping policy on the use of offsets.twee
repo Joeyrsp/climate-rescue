@@ -1,4 +1,4 @@
 :: Shaping policy on the use of offsets {"position":"1475,6450"}
-<<fav>><<set $shapingPolicyOnUseOfOffsetsShowInStartingWithProjects to 1>><<set $startingWithProjectsShowInMenu to 1>>
+<<fav>> | <<return>><<set $shapingPolicyOnUseOfOffsetsShowInStartingWithProjects to 1>><<set $startingWithProjectsShowInMenu to 1>>
 ----
 !!Shaping policy on the use of offsets

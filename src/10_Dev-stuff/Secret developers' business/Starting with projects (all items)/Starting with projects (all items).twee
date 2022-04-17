@@ -2,8 +2,17 @@
 <<fav>>
 ----
 !!Starting with projects (all items)
-[[Assessing parties and candidates]]
+<<nobr>>
+[[Assessing parties and candidates]]<br><br>
+[[Protecting forests]]<br><br>
+[[Shaping policy on the use of offsets]]<br><br>
+<<if $developingFastCoolingProgramShowInProjects eq 1>>
+[[Developing a fast cooling program]]
+<</if>>
+<</nobr>>
 
-[[Protecting forests]]
-
-[[Shaping policy on the use of offsets]]
+For users:
+<<textboxPlus "" "$displayProjects" `{placeholder: "Enter your project code", spellcheck: false, autofocus: true, autocomplete: "off"}`>><<button [[Save|Starting with projects (all items)]]>>
+<<if $displayProjects is "ssrm">><<set $developingFastCoolingProgramShowInProjects to 1>>
+<<elseif $displayProjects is "hsrm">><<set $developingFastCoolingProgramShowInProjects to 0>>
+<</if>><</button>>

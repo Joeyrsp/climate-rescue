@@ -2,5 +2,10 @@
 <<fav>><<set $startingWithProjectsShowInMenu to 1>>
 ----
 !!Starting with projects
-[[Assessing parties and candidates]]
-<<if $protectingForestsShowInStartingWithProjects eq 1>>[[Protecting forests]]<br><</if>><<if $shapingPolicyOnUseOfOffsetsShowInStartingWithProjects eq 1>>[[Shaping policy on the use of offsets]]<br><</if>>
+<<nobr>>
+[[Assessing parties and candidates]]<br><br>
+<<if $protectingForestsShowInStartingWithProjects eq 1>>[[Protecting forests]]<br><br><</if>>
+<<if $shapingPolicyOnUseOfOffsetsShowInStartingWithProjects eq 1>>[[Shaping policy on the use of offsets]]<br><br><</if>>
+<<if $developingFastCoolingProgramShowInProjects eq 1>>[[Developing a fast cooling program]]<br><br>
+<</if>>
+<</nobr>>
