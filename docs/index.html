@@ -615,6 +615,7 @@ For further advice on using the favourites system go to: [[Help]]
 &lt;&lt;/link&gt;&gt;  !!!
 
 &lt;&lt;return&gt;&gt;</tw-passagedata><tw-passagedata pid="7" name="Other material" tags="" position="125,875" size="100,100">!!Other material
+[[Starting with projects]]
 [[Contact the Adviser team]] &amp;nbsp;&amp;nbsp;&lt;small&gt;(&lt;&lt;link [[add to main menu|Other material]]&gt;&gt;&lt;&lt;set $contactShowInMenu to 1&gt;&gt;&lt;&lt;/link&gt;&gt;)  (&lt;&lt;link [[remove|Other material]]&gt;&gt;&lt;&lt;set $contactShowInMenu to 0&gt;&gt;&lt;&lt;/link&gt;&gt;)&lt;/small&gt;
 [[Background|Background (get)]] &amp;nbsp;&amp;nbsp;&lt;small&gt;(&lt;&lt;link [[add to main menu|Other material]]&gt;&gt;&lt;&lt;set $backgroundShowInMenu to 1&gt;&gt;&lt;&lt;/link&gt;&gt;)  (&lt;&lt;link [[remove|Other material]]&gt;&gt;&lt;&lt;set $backgroundShowInMenu to 0&gt;&gt;&lt;&lt;/link&gt;&gt;)&lt;/small&gt;
 [[Dev stuff]] &amp;nbsp;&amp;nbsp;&lt;small&gt;(&lt;&lt;link [[add to main menu|Other material]]&gt;&gt;&lt;&lt;set $devStuffShowInMenu to 1&gt;&gt;&lt;&lt;/link&gt;&gt;)  (&lt;&lt;link [[remove|Other material]]&gt;&gt;&lt;&lt;set $devStuffShowInMenu to 0&gt;&gt;&lt;&lt;/link&gt;&gt;)&lt;/small&gt;
@@ -632,7 +633,7 @@ For further advice on using the favourites system go to: [[Help]]
 
 
 
-For developers:
+For developers and specialist users:
 &lt;&lt;textboxPlus &quot;&quot; &quot;$displayAllCode&quot; `{placeholder: &quot;Enter your display code&quot;, spellcheck: false, autofocus: true, autocomplete: &quot;off&quot;}`&gt;&gt;&lt;&lt;button [[Save|Other material]]&gt;&gt;
 &lt;&lt;if $displayAllCode is &quot;showa&quot;&gt;&gt;
 &lt;&lt;set $wholeSystemPackagePlanShowInMenu to 1&gt;&gt;
@@ -650,6 +651,7 @@ For developers:
 &lt;&lt;set $linkedProjectsShowInMenu to 0&gt;&gt;
 &lt;&lt;set $startingWithProjectsShowInMenu to 0&gt;&gt;
 &lt;&lt;set $outputReportsShowInMenu to 0&gt;&gt;
+&lt;&lt;set $developingFastCoolingProgramShowInProjects to 0&gt;&gt;
 &lt;&lt;elseif $displayAllCode is &quot;sw&quot;&gt;&gt;&lt;&lt;set $wholeSystemPackagePlanShowInMenu to 1&gt;&gt;
 &lt;&lt;elseif $displayAllCode is &quot;sg&quot;&gt;&gt;&lt;&lt;set $globalScenariosShowInMenu to 1&gt;&gt;
 &lt;&lt;elseif $displayAllCode is &quot;sb&quot;&gt;&gt;&lt;&lt;set $buildingSupportSystemShowInMenu to 1&gt;&gt;
@@ -657,6 +659,7 @@ For developers:
 &lt;&lt;elseif $displayAllCode is &quot;sl&quot;&gt;&gt;&lt;&lt;set $linkedProjectsShowInMenu to 1&gt;&gt;
 &lt;&lt;elseif $displayAllCode is &quot;ss&quot;&gt;&gt;&lt;&lt;set $startingWithProjectsShowInMenu to 1&gt;&gt;
 &lt;&lt;elseif $displayAllCode is &quot;so&quot;&gt;&gt;&lt;&lt;set $outputReportsShowInMenu to 1&gt;&gt;
+&lt;&lt;elseif $displayAllCode is &quot;ssrm&quot;&gt;&gt;&lt;&lt;set $developingFastCoolingProgramShowInProjects to 1&gt;&gt;
 &lt;&lt;elseif $displayAllCode is &quot;hw&quot;&gt;&gt;&lt;&lt;set $wholeSystemPackagePlanShowInMenu to 0&gt;&gt;
 &lt;&lt;elseif $displayAllCode is &quot;hg&quot;&gt;&gt;&lt;&lt;set $globalScenariosShowInMenu to 0&gt;&gt;
 &lt;&lt;elseif $displayAllCode is &quot;hb&quot;&gt;&gt;&lt;&lt;set $buildingSupportSystemShowInMenu to 0&gt;&gt;
@@ -665,6 +668,7 @@ For developers:
 &lt;&lt;elseif $displayAllCode is &quot;ho&quot;&gt;&gt;&lt;&lt;set $outputReportsShowInMenu to 0&gt;&gt;
 &lt;&lt;elseif $displayAllCode is &quot;hs&quot;&gt;&gt;&lt;&lt;set $startingWithProjectsShowInMenu to 0&gt;&gt;
 &lt;&lt;elseif $displayAllCode is &quot;ho&quot;&gt;&gt;&lt;&lt;set $outputReportsShowInMenu to 0&gt;&gt;
+&lt;&lt;elseif $displayAllCode is &quot;hsrm&quot;&gt;&gt;&lt;&lt;set $developingFastCoolingProgramShowInProjects to 0&gt;&gt;
 &lt;&lt;/if&gt;&gt;&lt;&lt;/button&gt;&gt;</tw-passagedata><tw-passagedata pid="8" name="Page template - simple" tags="" position="1225,0" size="100,100">&lt;&lt;fav&gt;&gt;
 ----
 !!Heading
@@ -1781,7 +1785,7 @@ Are there any other stated drivers for their policies? (ie. other climate goals?
 
  It is important to note that:
  *emissions-only action will not stop the upwards warming trend for about 20 years[[(*)|Emissions only action will not stop warming trend for 20y_brief (2include) DB]].
- *the average earth temperature will likely reach +1.5°C by about 2030
+ *the average earth temperature will likely reach +1.5°C by about 2030[[(*)|Likely to reach +1.5°C by about 2030_brief (2include) DB]]
 
 
 *Q5: 
@@ -2131,9 +2135,11 @@ As we clean up the energy system by switching to renewables, the accidental SRM 
 
 We can see that the current level of warming is now extremely dangerous.  It&#39;s destroying the global coral reef ecosystems, triggering self-generating ice loss from Greenland and the Antarctic (especially the West Antarctic) that will eventually cause probably over six metres of sea level rise (unless the earth is cooled rapidly). The Arctic sea ice is massively reduced in summer.  Fires, floods and storms are causing very serious impacts already.  The permafrost is melting on a large-scale.
 
-Simply getting to zero emissions (which must be done) will not result in the needed cooling for many thousands of years.  CO&lt;sub&gt;2&lt;/sub&gt; drawdown (which must be done, on a massive scale) will take probably a few hundred years to provide the needed cooling.
+Emissions-elimination-only action will not change the //&#39;&#39;upwards&#39;&#39;// trajectory of warming for about 20 years[[(*)|Emissions only action will not stop warming trend for 20y_brief (2include) DB]].  And in this context the average earth temperature is likely to reach +1.5°C by about 2030[[(*)|Likely to reach +1.5°C by about 2030_brief (2include) DB]] 
 
-But we know that SRM could cool the earth surface temperature extremely fast (within a year or two of first deployment) and on the necessary scale.
+Simply getting to zero emissions (which must be done) will not result in the needed //&#39;&#39;cooling&#39;&#39;// for many thousands of years.  CO&lt;sub&gt;2&lt;/sub&gt; drawdown (which must be done, on a massive scale) will take probably a few hundred years to provide the needed cooling.
+
+But we know that SRM could cool the earth surface temperature extremely fast (within a year or two of first deployment) and at the necessary scale.
 
 But we don&#39;t know whether it&#39;s possible to design SRM systems to deliver this cooling without very serious side effects.  In the climate movement there is a very powerful taboo against considering SRM and doing the necessary research.
 
@@ -5280,8 +5286,7 @@ As fossil fuel use declines, so will aerosol emissions, which have been offsetti
 
 A by-product of burning fossil fuels are sulfate aerosols, which have a strong cooling impact of 0.5–1°C, but are short-lived in the atmosphere. Aerosols have been “masking” some of the warming so far.  Declining coal use and clean air policies reduce the aerosol impact. This is our “Faustian bargain” as fossil fuel use declines, so does the aerosol cooling, so that for the next two decades lower emissions will have little impact on the warming trend.
 
-A 5% annual reduction in emissions of a single greenhouse gas, from 2020 and based on a middleroad emissions path, has no statistically significant effect
-on warming for more than two decades, as compared to a no-mitigation pathway.
+A 5% annual reduction in emissions of a single greenhouse gas, from 2020 and based on a middleroad emissions path, has no statistically significant effect on warming for more than two decades, as compared to a no-mitigation pathway.
 
 Nevertheless, fast emissions elimination are vital to flatten the warming curve.
 
