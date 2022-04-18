@@ -44,7 +44,7 @@ For developers and specialist users:
 <<elseif $displayAllCode is "sl">><<set $linkedProjectsShowInMenu to 1>>
 <<elseif $displayAllCode is "ss">><<set $startingWithProjectsShowInMenu to 1>>
 <<elseif $displayAllCode is "so">><<set $outputReportsShowInMenu to 1>>
-<<elseif $displayAllCode is "ssrm">><<set $developingFastCoolingProgramShowInProjects to 1>>
+<<elseif $displayAllCode is "ssrm">><<set $startingWithProjectsShowInMenu to 1>><<set $developingFastCoolingProgramShowInProjects to 1>>
 <<elseif $displayAllCode is "hw">><<set $wholeSystemPackagePlanShowInMenu to 0>>
 <<elseif $displayAllCode is "hg">><<set $globalScenariosShowInMenu to 0>>
 <<elseif $displayAllCode is "hb">><<set $buildingSupportSystemShowInMenu to 0>>
