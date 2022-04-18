@@ -2,3 +2,4 @@
 <<fav>> | <<return>><<set $shapingPolicyOnUseOfOffsetsShowInStartingWithProjects to 1>><<set $startingWithProjectsShowInMenu to 1>>
 ----
 !!Shaping policy on the use of offsets
+(to be developed)

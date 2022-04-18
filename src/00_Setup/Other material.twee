@@ -13,6 +13,8 @@
 **Adapting the 'whole system package' plan
 **Linked projects
 *Starting with projects
+**Protecting forests
+**Shaping policy on the use of offsets
 *Output reports
 
 
@@ -36,7 +38,10 @@ For developers and specialist users:
 <<set $linkedProjectsShowInMenu to 0>>
 <<set $startingWithProjectsShowInMenu to 0>>
 <<set $outputReportsShowInMenu to 0>>
-<<set $developingFastCoolingProgramShowInProjects to 0>>
+<<set $developingFastCoolingProgramShowInStartingWithProjects to 0>>
+<<set $protectingForestsShowInStartingWithProjects to 0>>
+<<set $shapingPolicyOnUseOfOffsetsShowInStartingWithProjects to 0>>
+
 <<elseif $displayAllCode is "sw">><<set $wholeSystemPackagePlanShowInMenu to 1>>
 <<elseif $displayAllCode is "sg">><<set $globalScenariosShowInMenu to 1>>
 <<elseif $displayAllCode is "sb">><<set $buildingSupportSystemShowInMenu to 1>>
@@ -44,7 +49,9 @@ For developers and specialist users:
 <<elseif $displayAllCode is "sl">><<set $linkedProjectsShowInMenu to 1>>
 <<elseif $displayAllCode is "ss">><<set $startingWithProjectsShowInMenu to 1>>
 <<elseif $displayAllCode is "so">><<set $outputReportsShowInMenu to 1>>
-<<elseif $displayAllCode is "ssrm">><<set $startingWithProjectsShowInMenu to 1>><<set $developingFastCoolingProgramShowInProjects to 1>>
+<<elseif $displayAllCode is "ssrm">><<set $startingWithProjectsShowInMenu to 1>><<set $developingFastCoolingProgramShowInStartingWithProjects to 1>>
+<<elseif $displayAllCode is "spsp">><<set $startingWithProjectsShowInMenu to 1>><<set $protectingForestsShowInStartingWithProjects to 1>>
+<<elseif $displayAllCode is "sssp">><<set $startingWithProjectsShowInMenu to 1>><<set $shapingPolicyOnUseOfOffsetsShowInStartingWithProjects to 1>>
 <<elseif $displayAllCode is "hw">><<set $wholeSystemPackagePlanShowInMenu to 0>>
 <<elseif $displayAllCode is "hg">><<set $globalScenariosShowInMenu to 0>>
 <<elseif $displayAllCode is "hb">><<set $buildingSupportSystemShowInMenu to 0>>
@@ -53,6 +60,7 @@ For developers and specialist users:
 <<elseif $displayAllCode is "ho">><<set $outputReportsShowInMenu to 0>>
 <<elseif $displayAllCode is "hs">><<set $startingWithProjectsShowInMenu to 0>>
 <<elseif $displayAllCode is "ho">><<set $outputReportsShowInMenu to 0>>
-<<elseif $displayAllCode is "hsrm">><<set $developingFastCoolingProgramShowInProjects to 0>>
+<<elseif $displayAllCode is "hsrm">><<set $developingFastCoolingProgramShowInStartingWithProjects to 0>>
+<<elseif $displayAllCode is "hpsp">><<set $protectingForestsShowInStartingWithProjects to 0>>
+<<elseif $displayAllCode is "hssp">><<set $shapingPolicyOnUseOfOffsetsShowInStartingWithProjects to 0>>
 <</if>><</button>>
-  
