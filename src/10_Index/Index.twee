@@ -1,20 +1,18 @@
-:: Index {"position":"1000,8475","size":"200,100"}
-<<return>> | [[Background|Background (get)]] | <<fav>>
-!Index
-Please [[contact Philip Sutton|Contact the Adviser team]] if you want to see a topic that is ''already'' covered in the Adviser listed in this index.
-
-<<include [[Chain of responsibility_Index2include]]>>
-
-<<include [[Emergency_Index2include]]>>
-
-<<include [[Full responsibility_Index2include]]>>
-
-<<include [[Maximum Protection_Index2include]]>>
-
-<<include [[Security_Index2include]]>>
-
+:: Index
 <<return>>
+----
+!!Index<<set $indexShowInMenu to 1>>
+Please [[contact Philip Sutton|Contact the Adviser team]] if you want to see a topic that is already contained in the Adviser listed in this index.
 
-/% Passage ID:(background.gather.assistance-material) _06-01_000_9947 %/
-
-
+//chain of responsibility//
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[Chain of responsibility|Chain of responsibility_brief (2include) DB]]
+//climate vulnerable//
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[The climate vulnerable|The climate vulnerable_brief (2include) DB]]
+//goals//
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[Types of goals|Types of goals_brief (2include) DB]]
+//maximum protection//
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[Maximum protection|http://bit.ly/DeliveringMaximumProtection]]
+//safe climate//
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[Safe climate restoration|Safe climate restoration_brief (2include) DB]]
+//whole system package//
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[Whole system package|Whole system package_brief (2include) DB]]

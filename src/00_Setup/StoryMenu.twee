@@ -33,6 +33,10 @@
 [[Background|Background (get)]]
 <</if>>
 
+<<if $indexShowInMenu eq 1>>
+[[Index]]
+<</if>>
+
 <<if $devStuffShowInMenu eq 1>>
 [[Dev stuff]]
 <</if>>
