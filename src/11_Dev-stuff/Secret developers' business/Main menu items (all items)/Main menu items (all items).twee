@@ -1,5 +1,5 @@
 :: Main menu items (all items) {"position":"2250,20675"}
-<<fav>>
+<<fav>> | <<return>>
 ----
 [[Getting started]]
 [['Whole System Package' Plan|Is this really what you want?]]
@@ -12,5 +12,3 @@
 [[Dev stuff]]
 [[Contact the Adviser team]]
 [[Favourites]]
-
-<<return>>
