@@ -1,9 +1,6 @@
 :: Background (get) {"position":"1000,7450","size":"200,200"}
+<<fav>> | <<return>>
+----
 !!Background
 <<include [[Assistance material (gather-2include)]]>>
 <<include [[Foundational content (gather-2include)]]>>
-
-<<return>>
-
-
-

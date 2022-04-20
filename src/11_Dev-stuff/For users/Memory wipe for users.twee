@@ -1,5 +1,6 @@
 :: Memory wipe for users {"position":"1625,20525"}
-<<return>> | <<fav>> 
+<<fav>> | <<return>>
+----
 !!In case you need to wipe the Adviser's long term memory
 Between sessions, the Adviser remembers choices you have made and text you have entered.  This means that you can close your browser or reload the Adviser and the Adviser will remember your previous choices. 
 

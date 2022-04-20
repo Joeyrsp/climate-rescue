@@ -1,7 +1,8 @@
 :: Building a support system for 'whole system package' action {"position":"1000,4475","size":"200,200"}
 <<fav>> | <<return>><<set $buildingSupportSystemShowInMenu to 1>>
+----
 !!Building a support system for 'whole system package' action
-This section of the Adviser deals with build a support system, starting through RSTI, for the Climate Rescue campaign.
+This section of the Adviser deals with building a support system, starting through RSTI, for the Climate Rescue campaign.
 
 (more to come)
 
