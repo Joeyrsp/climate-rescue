@@ -1,5 +1,5 @@
 :: Main menu items (all items) {"position":"2250,20675"}
-<<fav>> | <<return>>
+<<fav>> | <<return>><<set $buildingSupportSystemShowInMenu to 1>>
 ----
 [[Getting started]]
 [['Whole System Package' Plan|Is this really what you want?]]

@@ -20,8 +20,6 @@
 *Output reports
 
 
-
-
 For developers and specialist users:
 <<textboxPlus "" "$displayAllCode" `{placeholder: "Enter your display code", spellcheck: false, autofocus: true, autocomplete: "off"}`>><<button [[Save|Other material]]>>
 <<if $displayAllCode is "showa">>
@@ -43,7 +41,6 @@ For developers and specialist users:
 <<set $developingFastCoolingProgramShowInStartingWithProjects to 0>>
 <<set $protectingForestsShowInStartingWithProjects to 0>>
 <<set $shapingPolicyOnUseOfOffsetsShowInStartingWithProjects to 0>>
-
 <<elseif $displayAllCode is "sw">><<set $wholeSystemPackagePlanShowInMenu to 1>>
 <<elseif $displayAllCode is "sg">><<set $globalScenariosShowInMenu to 1>>
 <<elseif $displayAllCode is "sb">><<set $buildingSupportSystemShowInMenu to 1>>

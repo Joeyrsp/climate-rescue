@@ -635,8 +635,6 @@ For further advice on using the favourites system go to: [[Help]]
 *Output reports
 
 
-
-
 For developers and specialist users:
 &lt;&lt;textboxPlus &quot;&quot; &quot;$displayAllCode&quot; `{placeholder: &quot;Enter your display code&quot;, spellcheck: false, autofocus: true, autocomplete: &quot;off&quot;}`&gt;&gt;&lt;&lt;button [[Save|Other material]]&gt;&gt;
 &lt;&lt;if $displayAllCode is &quot;showa&quot;&gt;&gt;
@@ -658,7 +656,6 @@ For developers and specialist users:
 &lt;&lt;set $developingFastCoolingProgramShowInStartingWithProjects to 0&gt;&gt;
 &lt;&lt;set $protectingForestsShowInStartingWithProjects to 0&gt;&gt;
 &lt;&lt;set $shapingPolicyOnUseOfOffsetsShowInStartingWithProjects to 0&gt;&gt;
-
 &lt;&lt;elseif $displayAllCode is &quot;sw&quot;&gt;&gt;&lt;&lt;set $wholeSystemPackagePlanShowInMenu to 1&gt;&gt;
 &lt;&lt;elseif $displayAllCode is &quot;sg&quot;&gt;&gt;&lt;&lt;set $globalScenariosShowInMenu to 1&gt;&gt;
 &lt;&lt;elseif $displayAllCode is &quot;sb&quot;&gt;&gt;&lt;&lt;set $buildingSupportSystemShowInMenu to 1&gt;&gt;
@@ -1459,13 +1456,15 @@ But if you are still curious about the alternative approach that will be explore
 ----
 !!Maximum protection world</tw-passagedata><tw-passagedata pid="41" name="Stabilised climate, but hotter than now" tags="" position="1425,4050" size="100,100">&lt;&lt;fav&gt;&gt;
 ---
-!!Stabilised climate, but hotter than now</tw-passagedata><tw-passagedata pid="42" name="Building a support system for &#39;whole system package&#39; action" tags="" position="1000,4475" size="200,200">!!Building a support system for &#39;whole system package&#39; action
+!!Stabilised climate, but hotter than now</tw-passagedata><tw-passagedata pid="42" name="Building a support system for &#39;whole system package&#39; action" tags="" position="1000,4475" size="200,200">&lt;&lt;fav&gt;&gt; | &lt;&lt;return&gt;&gt;&lt;&lt;set $buildingSupportSystemShowInMenu to 1&gt;&gt;
+!!Building a support system for &#39;whole system package&#39; action
 This section of the Adviser deals with build a support system, starting through RSTI, for the Climate Rescue campaign.
 
 (more to come)
 
 ----
-&lt;&lt;return&gt;&gt; | [[«previous|&#39;Whole System Package&#39; Plan]] | [[next» (the &quot;adapting the plan&quot; series)|Adapting the &#39;whole system package&#39; plan]]</tw-passagedata><tw-passagedata pid="43" name="Adapting the &#39;whole system package&#39; plan" tags="" position="1000,4875" size="200,200">!!Adapting the maximum protection, &#39;Whole System Package&#39; Plan to different contexts
+[[«previous|&#39;Whole System Package&#39; Plan]] | [[next» (the &quot;adapting the plan&quot; series)|Adapting the &#39;whole system package&#39; plan]]</tw-passagedata><tw-passagedata pid="43" name="Adapting the &#39;whole system package&#39; plan" tags="" position="1000,4875" size="200,200">&lt;&lt;fav&gt;&gt; | &lt;&lt;return&gt;&gt;
+!!Adapting the maximum protection, &#39;Whole System Package&#39; Plan to different contexts
 Most people will be approaching climate action from a particular perspective - so they will need to adapt the generic &#39;Whole System Package&#39; climate actiopn plan.
 
 Select one of the options below to start this customisation process.  You might want to come back later to explore one or more other approaches to help you see the customisation process from other perspectives 
@@ -1474,9 +1473,7 @@ Select one of the options below to start this customisation process.  You might 
 [[Climate action groups]]
 [[Governments]]
 [[Businesses]]
-[[International institutions]]
-
-&lt;&lt;return&gt;&gt;</tw-passagedata><tw-passagedata pid="44" name="Businesses" tags="" position="1625,5175" size="100,100">&lt;&lt;return&gt;&gt; | [[Navigation» Adapting the Plan|NAV_Adapting the plan]] | &lt;&lt;fav&gt;&gt;
+[[International institutions]]</tw-passagedata><tw-passagedata pid="44" name="Businesses" tags="" position="1625,5175" size="100,100">&lt;&lt;return&gt;&gt; | [[Navigation» Adapting the Plan|NAV_Adapting the plan]] | &lt;&lt;fav&gt;&gt;
 ----
 !Businesses
 
@@ -4507,7 +4504,7 @@ Cathy Moore&#39;s article collections on:
 *[[The SugarCube documentation|http://www.motoslave.net/sugarcube/2/docs/]]
 *[[Twinelab Twine Resources|https://twinelab.net/twine-resources/]]
 *[[Twine 2/SugarCube 2 guide (The Cookbook)|http://www.motoslave.net/sugarcube/2/]]
-*[[A Modern Developer&#39;s Workflow For Twine|https://dev.to/lazerwalker/a-modern-developer-s-workflow-for-twine-4imp]]</tw-passagedata><tw-passagedata pid="348" name="Main menu items (all items)" tags="" position="2250,20675" size="100,100">&lt;&lt;fav&gt;&gt; | &lt;&lt;return&gt;&gt;
+*[[A Modern Developer&#39;s Workflow For Twine|https://dev.to/lazerwalker/a-modern-developer-s-workflow-for-twine-4imp]]</tw-passagedata><tw-passagedata pid="348" name="Main menu items (all items)" tags="" position="2250,20675" size="100,100">&lt;&lt;fav&gt;&gt; | &lt;&lt;return&gt;&gt;&lt;&lt;set $buildingSupportSystemShowInMenu to 1&gt;&gt;
 ----
 [[Getting started]]
 [[&#39;Whole System Package&#39; Plan|Is this really what you want?]]
