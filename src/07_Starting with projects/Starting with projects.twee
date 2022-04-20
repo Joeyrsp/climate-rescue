@@ -1,5 +1,5 @@
 :: Starting with projects {"position":"1000,6200","size":"200,200"}
-<<fav>><<set $startingWithProjectsShowInMenu to 1>>
+<<fav>> | <<return>><<set $startingWithProjectsShowInMenu to 1>>
 ----
 !!Starting with projects
 <<nobr>>
