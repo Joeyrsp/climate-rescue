@@ -1,47 +1,47 @@
 :: StoryMenu {"position":"125,625"}
 [[Getting started]]
 <<nobr>>
-<<if $wholeSystemPackagePlanShowInMenu eq 1>>
+<<if $wholeSystemPackagePlanShowInMenu == 1>>
 [[Whole System Package|'Whole System Package' Plan]]
 <</if>>
 
-<<if $globalScenariosShowInMenu eq 1>>
+<<if $globalScenariosShowInMenu == 1>>
 [[Global Scenarios]]
 <</if>>
 
-<<if $buildingSupportSystemShowInMenu eq 1>>
+<<if $buildingSupportSystemShowInMenu == 1>>
 [[Building a support system|Building a support system for 'whole system package' action]]
 <</if>>
 
-<<if $adaptingTheWholeSystemPackagePlanShowInMenu eq 1>>
+<<if $adaptingTheWholeSystemPackagePlanShowInMenu == 1>>
 [[Adapting the 'whole system package' plan]]
 <</if>>
 
-<<if $linkedProjectsShowInMenu eq 1>>
+<<if $linkedProjectsShowInMenu == 1>>
 [[Linked projects]]
 <</if>>
 
-<<if $startingWithProjectsShowInMenu eq 1>>
+<<if $startingWithProjectsShowInMenu == 1>>
 [[Starting with projects]]
 <</if>>
 
-<<if $outputReportsShowInMenu eq 1>>
+<<if $outputReportsShowInMenu == 1>>
 [[Output reports]]
 <</if>>
 
-<<if $backgroundShowInMenu eq 1>>
+<<if $backgroundShowInMenu == 1>>
 [[Background|Background (get)]]
 <</if>>
 
-<<if $indexShowInMenu eq 1>>
+<<if $indexShowInMenu == 1>>
 [[Index]]
 <</if>>
 
-<<if $devStuffShowInMenu eq 1>>
+<<if $devStuffShowInMenu == 1>>
 [[Dev stuff]]
 <</if>>
 
-<<if $contactShowInMenu eq 1>>
+<<if $contactShowInMenu == 1>>
 [[Contact team|Contact the Adviser team]]
 <</if>>
 
