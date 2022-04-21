@@ -4,7 +4,7 @@
 <<if $ChecklistChallenge is " 1.">>
 !!Background reading etc.
 !!!The government challenge
-<<include [[Background reading etc. Govt2include]]>>
+<<include [[Background reading etc._Govt (2include)]]>>
 <<elseif $ChecklistChallenge is " 2.">>
 !!Background reading etc.
 !!!The citizen challenge

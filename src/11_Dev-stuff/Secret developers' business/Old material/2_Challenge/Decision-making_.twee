@@ -4,7 +4,7 @@
 <<if $ChecklistChallenge is " 1a." or $ChecklistChallenge is " 1b." or $ChecklistChallenge is " 1c.">>
 !!What decision-making process<br>should be used to decide on the checklist?
 !!!The government challenge
-<<include [[Decision-making? Govt2include]]>>
+<<include [[Decision-making?_Govt (2include)]]>>
 <<elseif $ChecklistChallenge is " 2.">>
 !!What decision-making process<br>should be used to decide on the checklist?
 !!!The citizen challenge

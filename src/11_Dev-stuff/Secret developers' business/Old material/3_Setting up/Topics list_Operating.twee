@@ -4,7 +4,7 @@
 <<if $ChecklistChallenge is " 1.">>
 !!<small>Topics to be worked through</small><br>Operating <small>in emergency mode</small>
 !!!The government challenge
-<<include [[Topics list--Operating Govt2include]]>>
+<<include [[Topics list--Operating_Govt (2include)]]>>
 <<elseif $ChecklistChallenge is " 2.">>
 !!<small>Topics to be worked through</small><br>Operating <small>in emergency mode</small>
 !!!The citizen challenge
