@@ -1,9 +1,9 @@
 :: Page template - simple {"position":"1225,0"}
-<<fav>>
+<<fav>> | <<return>>
 ----
 !!Heading
 
 
-<<return>>
+
 
 
