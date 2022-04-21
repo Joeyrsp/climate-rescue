@@ -12,7 +12,7 @@
         {
             "label": "sync",
             "type": "shell",
-            "command": "(git commit -a -m 'Sync') -and (git push)",
+            "command": "git add -A; (git commit -m 'Sync') -and (git push)",
         },
     ]
 }
