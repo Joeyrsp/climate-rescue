@@ -2,3 +2,6 @@
 /% Set date variables %/
 <<set $thisYear to new Date().getFullYear()>>
 <<set $CurDate = new Date(Date.now())>>
+
+/% If there is any passage listed as a favourite show the favourites page in the main menu %/
+/% <<if $favourites.length > 0>><<set $favouritesShowInMenu to 1>><<elseif>><<set $favouritesShowInMenu to 0>><</if>>	%/

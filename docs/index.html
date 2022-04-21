@@ -587,7 +587,7 @@ $thisYear
         &lt;&lt;/replace&gt;&gt;
     &lt;&lt;/link&gt;&gt;
 &lt;&lt;/nobr&gt;&gt;
-					
+				
 /* Favourite template - End */</tw-passagedata><tw-passagedata pid="6" name="Favourites" tags="" position="125,750" size="100,100">&lt;&lt;return&gt;&gt;
 ----
 !!Favourites
@@ -686,7 +686,10 @@ For developers and specialist users:
 ----
 !!Heading</tw-passagedata><tw-passagedata pid="9" name="PassageReady" tags="" position="1100,0" size="100,100">/% Set date variables %/
 &lt;&lt;set $thisYear to new Date().getFullYear()&gt;&gt;
-&lt;&lt;set $CurDate = new Date(Date.now())&gt;&gt;</tw-passagedata><tw-passagedata pid="10" name="Philip Sutton_email phone_2include" tags="" position="1575,1350" size="100,100">Philip.Sutton@green-innovations.asn.au
+&lt;&lt;set $CurDate = new Date(Date.now())&gt;&gt;
+
+/% If there is any passage listed as a favourite show the favourites page in the main menu %/
+/% &lt;&lt;if $favourites.length &gt; 0&gt;&gt;&lt;&lt;set $favouritesShowInMenu to 1&gt;&gt;&lt;&lt;elseif&gt;&gt;&lt;&lt;set $favouritesShowInMenu to 0&gt;&gt;&lt;&lt;/if&gt;&gt;	%/</tw-passagedata><tw-passagedata pid="10" name="Philip Sutton_email phone_2include" tags="" position="1575,1350" size="100,100">Philip.Sutton@green-innovations.asn.au
 Tel: +61 3 9078 9746  /  (03) 9078 9746</tw-passagedata><tw-passagedata pid="11" name="Sandbox" tags="" position="1475,125" size="100,100">&lt;&lt;return&gt;&gt; | &lt;&lt;fav&gt;&gt; 
 !Adviser developer&#39;s &#39;Sandbox&#39; for running tests</tw-passagedata><tw-passagedata pid="12" name="StoryDisplayTitle" tags="" position="125,500" size="100,100">Climate Rescue Adviser</tw-passagedata><tw-passagedata pid="13" name="StoryMenu" tags="" position="125,625" size="100,100">[[Getting started]]
 &lt;&lt;nobr&gt;&gt;
@@ -734,7 +737,7 @@ Tel: +61 3 9078 9746  /  (03) 9078 9746</tw-passagedata><tw-passagedata pid="11"
 [[Contact team|Contact the Adviser team]]
 &lt;&lt;/if&gt;&gt;
 
-&lt;&lt;if $favourites.length &gt; 0&gt;&gt;
+&lt;&lt;if $favouritesShowInMenu == 1&gt;&gt;
 [[Favourites]]
 &lt;&lt;/if&gt;&gt;
 
@@ -5151,7 +5154,7 @@ Stricly it is not a climate issue, rather it has a related cause to global warmi
 There are feedbacks from climate change though, in that global warming can result in the release of more CO&lt;sub&gt;2&lt;/sub&gt; from natural carbon stores (soils, the permafrost, burned and damaged forests, etc.) nd that in turn adds to increased acidification.
 
 &lt;&lt;return&gt;&gt;</tw-passagedata><tw-passagedata pid="407" name="Contacting the Adviser project manager (2include) DB" tags="" position="850,5100" size="100,100">The manager of this Adviser project is:
-Philip Sutton, Strategist and Manager, RSTI.</tw-passagedata><tw-passagedata pid="408" name="Alternative terms--Def (2include)" tags="" position="8225,8000" size="100,100">&lt;style&gt;
+Philip Sutton, Strategist and Manager, RSTI.</tw-passagedata><tw-passagedata pid="408" name="Alternative terms--Def (2include)" tags="" position="8225,8275" size="100,100">&lt;style&gt;
 table {
 margin-left: 20px !important;
 width: 650px;
@@ -5190,7 +5193,7 @@ width: 650px;
 &lt;/tr&gt;
 &lt;/table&gt;
 
-&lt;&lt;return&gt;&gt;</tw-passagedata><tw-passagedata pid="409" name="Definitions, acronyms, concepts (database.gather)" tags="" position="7325,8000" size="200,100">&lt;&lt;return&gt;&gt; | [[Background|Background (get)]] | &lt;&lt;fav&gt;&gt;
+&lt;&lt;return&gt;&gt;</tw-passagedata><tw-passagedata pid="409" name="Definitions, acronyms, concepts (database.gather)" tags="" position="7325,8275" size="200,100">&lt;&lt;return&gt;&gt; | [[Background|Background (get)]] | &lt;&lt;fav&gt;&gt;
 !!Definitions, acronyms &amp; concepts (database)
 *[[Emergency action mode on the climate|Emergency action mode on climate--Def (2include)]]
 *[[Prevention_Emergency|Prevention--Def (2include)]]
@@ -5201,20 +5204,20 @@ width: 650px;
 !!!Alternative terms table
 [[Alternative terms|Alternative terms--Def (2include)]]
 
-&lt;&lt;return&gt;&gt;</tw-passagedata><tw-passagedata pid="410" name="Emergency action mode on climate--Def (2include)" tags="" position="7600,8000" size="100,100">(to come)</tw-passagedata><tw-passagedata pid="411" name="Preparedness--Def (2include)" tags="" position="7850,8000" size="100,100">&lt;&lt;return&gt;&gt; | [[Definitions, acronyms, concepts (gather)]] | &lt;&lt;fav&gt;&gt; 
+&lt;&lt;return&gt;&gt;</tw-passagedata><tw-passagedata pid="410" name="Emergency action mode on climate--Def (2include)" tags="" position="7600,8275" size="100,100">(to come)</tw-passagedata><tw-passagedata pid="411" name="Preparedness--Def (2include)" tags="" position="7850,8275" size="100,100">&lt;&lt;return&gt;&gt; | [[Definitions, acronyms, concepts (gather)]] | &lt;&lt;fav&gt;&gt; 
 !!Preparedness (Definition etc.)
 &lt;&lt;include [[Preparedness--Def (2include)]]&gt;&gt;
 
-&lt;&lt;return&gt;&gt;</tw-passagedata><tw-passagedata pid="412" name="Prevention--Def (2include)" tags="" position="7725,8000" size="100,100">(to come)</tw-passagedata><tw-passagedata pid="413" name="Recovery--Def (2include)" tags="" position="8100,8000" size="100,100">&lt;&lt;return&gt;&gt; | [[Definitions, acronyms, concepts (gather)]] | &lt;&lt;fav&gt;&gt; 
+&lt;&lt;return&gt;&gt;</tw-passagedata><tw-passagedata pid="412" name="Prevention--Def (2include)" tags="" position="7725,8275" size="100,100">(to come)</tw-passagedata><tw-passagedata pid="413" name="Recovery--Def (2include)" tags="" position="8100,8275" size="100,100">&lt;&lt;return&gt;&gt; | [[Definitions, acronyms, concepts (gather)]] | &lt;&lt;fav&gt;&gt; 
 !!Recovery (Definition etc.)&lt;&lt;include [[Recovery--Def (2include)]]&gt;&gt;
 
 
 
-&lt;&lt;return&gt;&gt;</tw-passagedata><tw-passagedata pid="414" name="Response--Def (2include)" tags="" position="7975,8000" size="100,100">&lt;&lt;return&gt;&gt; | [[Definitions, acronyms, concepts (gather)]] | &lt;&lt;fav&gt;&gt; 
+&lt;&lt;return&gt;&gt;</tw-passagedata><tw-passagedata pid="414" name="Response--Def (2include)" tags="" position="7975,8275" size="100,100">&lt;&lt;return&gt;&gt; | [[Definitions, acronyms, concepts (gather)]] | &lt;&lt;fav&gt;&gt; 
 !!Response (Definition etc.)
 &lt;&lt;include [[Response--Def (2include)]]&gt;&gt;
 
-&lt;&lt;return&gt;&gt;</tw-passagedata><tw-passagedata pid="415" name="Types of goals--Def (2include) DB" tags="" position="7975,8125" size="100,100">There isn’t just one way to use the goals that we set ourselves.  We can use them to:
+&lt;&lt;return&gt;&gt;</tw-passagedata><tw-passagedata pid="415" name="Types of goals--Def (2include) DB" tags="" position="7975,8400" size="100,100">There isn’t just one way to use the goals that we set ourselves.  We can use them to:
 *//&#39;&#39;paint a picture of who we are&#39;&#39;// and how we see ourselves or how we want ourselves to be seen (this might be a private picture or often a public one in a world where identity and social media are major preoccupations);
 *//&#39;&#39;indicate what we want ‘some of’&#39;&#39;//;
 *//&#39;&#39;point to a direction for change&#39;&#39;//;
@@ -5408,7 +5411,7 @@ People might care about the climate vulnerable for ethical reasons or because th
 !!!The &#39;whole system package&#39;
 The table below is a useful way to map the scope of the whole system package that will be needed to protect the climate vulnerable:  
 &lt;&lt;include [[Whole system package table (2include) DB]]&gt;&gt;</tw-passagedata><tw-passagedata pid="426" name="Climate Reality Check 2021" tags="" position="7775,7825" size="100,100">Spratt,D. (2021). __Climate Reality Check 2021__. Breakthrough, Melbourne.
-https://www.climaterealitycheck.net</tw-passagedata><tw-passagedata pid="427" name="Delivering maximum protection--Ref2include" tags="" position="1875,9425" size="100,100">Cardilini, A. &amp; Sutton, P. (2020). __Delivering maximum protection.__ Breakthrough, Melbourne.</tw-passagedata><tw-passagedata pid="428" name="Hare brain Tortoise mind--Ref2include" tags="" position="2000,9425" size="100,100">Claxton, G. (1997). __Hare brain, tortoise mind: Why intelligence increases when you think less.__ Fourth Estate: London.</tw-passagedata><tw-passagedata pid="429" name="It’s not luck--Ref2include" tags="" position="2125,9425" size="100,100">Goldratt, E.  (1994).  __It’s not luck.__  Gower: Aldershot, Hampshire.</tw-passagedata><tw-passagedata pid="430" name="Lateral thinking for management--Ref2include" tags="" position="2250,9425" size="100,100">de Bono, E.  (1971).  __Lateral thinking for management.__  Pelican: Harmondsworth.</tw-passagedata><tw-passagedata pid="431" name="Seeds for change--Ref2include" tags="" position="2375,9425" size="100,100">White, D., Sutton, P., Pears, A., Mardon, C., Dick, J. &amp; Crow, M.  (1978).  __Seeds for change: Creatively confronting the energy crisis.__  Patchwork Press/CCV: Melbourne.</tw-passagedata><tw-passagedata pid="432" name="Successful problem management--Ref2include" tags="" position="2500,9425" size="100,100">Sanderson, M.  (1979).  __Successful problem management.__  Wiley-Interscience: New York.</tw-passagedata><tw-passagedata pid="433" name="Whole system package table (2include) DB" tags="" position="8475,7700" size="100,100">&lt;style&gt;
+https://www.climaterealitycheck.net</tw-passagedata><tw-passagedata pid="427" name="Delivering maximum protection--Ref2include" tags="" position="7650,8000" size="100,100">Cardilini, A. &amp; Sutton, P. (2020). __Delivering maximum protection.__ Breakthrough, Melbourne.</tw-passagedata><tw-passagedata pid="428" name="Hare brain Tortoise mind--Ref2include" tags="" position="7775,8000" size="100,100">Claxton, G. (1997). __Hare brain, tortoise mind: Why intelligence increases when you think less.__ Fourth Estate: London.</tw-passagedata><tw-passagedata pid="429" name="It’s not luck--Ref2include" tags="" position="7900,8000" size="100,100">Goldratt, E.  (1994).  __It’s not luck.__  Gower: Aldershot, Hampshire.</tw-passagedata><tw-passagedata pid="430" name="Lateral thinking for management--Ref2include" tags="" position="8025,8000" size="100,100">de Bono, E.  (1971).  __Lateral thinking for management.__  Pelican: Harmondsworth.</tw-passagedata><tw-passagedata pid="431" name="References (label)--Ref2include" tags="" position="7325,8000" size="200,100">Claxton, G. (1997). __Hare brain, tortoise mind: Why intelligence increases when you think less.__ Fourth Estate: London.</tw-passagedata><tw-passagedata pid="432" name="Seeds for change--Ref2include" tags="" position="8150,8000" size="100,100">White, D., Sutton, P., Pears, A., Mardon, C., Dick, J. &amp; Crow, M.  (1978).  __Seeds for change: Creatively confronting the energy crisis.__  Patchwork Press/CCV: Melbourne.</tw-passagedata><tw-passagedata pid="433" name="Successful problem management--Ref2include" tags="" position="8275,8000" size="100,100">Sanderson, M.  (1979).  __Successful problem management.__  Wiley-Interscience: New York.</tw-passagedata><tw-passagedata pid="434" name="Whole system package table (2include) DB" tags="" position="8475,7700" size="100,100">&lt;style&gt;
     table {
         width: 70%;
         font-weight: bold;
