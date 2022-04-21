@@ -1,4 +1,4 @@
-:: Preferred_Maximum protection assessment framework {"position":"1850,6200"}
+:: Preferred_Maximum protection assessment framework {"position":"2100,6200"}
 <<fav>> | <<return>> | [[Starting with projects]] | [[Assessing parties and candidates]]<<set $assessingPartiesCandidatesShowInStartingWithProjects to 1>><<set $startingWithProjectsShowInMenu to 1>>
 ----
 !!Preferred assessment framework based on maximum protection - plus assessment checklist

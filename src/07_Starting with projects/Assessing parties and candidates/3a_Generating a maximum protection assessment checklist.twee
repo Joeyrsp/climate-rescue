@@ -1,4 +1,4 @@
-:: Generating a maximum protection assessment checklist {"position":"1975,6200"}
+:: Generating a maximum protection assessment checklist {"position":"2225,6200"}
 <<fav>> | <<return>><<set $assessingPartiesCandidatesShowInStartingWithProjects to 1>><<set $startingWithProjectsShowInMenu to 1>>
 ----
 !!Generating a maximum protection assessment checklist

@@ -1,4 +1,4 @@
-:: 4b_Cooper_Assessment {"position":"2350,6200"}
+:: 4b_Cooper_Assessment {"position":"2600,6200"}
 <<fav>> | [[Starting with projects]] | [[Assessing parties and candidates]] | [[Cooper case study (Federal, 2022)|Cooper case study_2022]]<<set $assessingPartiesCandidatesShowInStartingWithProjects to 1>><<set $startingWithProjectsShowInMenu to 1>>
 ----
 !!The Cooper Assessment 
