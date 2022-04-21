@@ -1,5 +1,5 @@
 :: Where to start? {"position":"2000,22050"}
-[[Climate emergency mode?]] | (here) | [[Topics list--Preparing]] | [[Topics list--Switching]] | [[Topics list--Operating]] | [[Background reading etc.]] | <<fav>>
+[[Climate emergency mode?]] | (here) | [[Topics list_Preparing]] | [[Topics list_Switching]] | [[Topics list_Operating]] | [[Background reading etc.]] | <<fav>>
 ----
 <<if $ChecklistChallenge is " 1.">>
 !!Where should work on the checklist start?<br>What are the critical determining issues?
@@ -16,6 +16,6 @@
 <<else>>
 (A challenge to be tackled has not been selected.  To make a selection go to: [[Checklist challenge?]])
 <</if>>
-<<return>> | [[«previous|Climate emergency mode?]] | [[next»|Topics list--Preparing]]
+<<return>> | [[«previous|Climate emergency mode?]] | [[next»|Topics list_Preparing]]
 
 

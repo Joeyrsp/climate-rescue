@@ -1,10 +1,10 @@
 :: Methods {"position":"1400,18175"}
 [[Background|Background (get)]] | <<fav>>
 !!Methods
-*[[Backcasting|Backcasting--Method]]
-*[[Dual tracking|Dual tracking--Method]]
-*[[Tight feedback loops|Tight feedback loops--Method]]
-*[[Maze solving|Maze solving--Method]]
+*[[Backcasting|Backcasting_Method]]
+*[[Dual tracking|Dual tracking_Method]]
+*[[Tight feedback loops|Tight feedback loops_Method]]
+*[[Maze solving|Maze solving_Method]]
 
 <<return>>
 

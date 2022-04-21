@@ -1,5 +1,5 @@
 :: Background reading etc. {"position":"2500,22050"}
-[[Climate emergency mode?]] | [[Where to start?]] | [[Topics list--Preparing]] | [[Topics list--Switching]] | [[Topics list--Operating]] | (here) | <<fav>> 
+[[Climate emergency mode?]] | [[Where to start?]] | [[Topics list_Preparing]] | [[Topics list_Switching]] | [[Topics list_Operating]] | (here) | <<fav>> 
 ----
 <<if $ChecklistChallenge is " 1.">>
 !!Background reading etc.
@@ -16,6 +16,6 @@
 <<else>>
 (A challenge to be tackled has not been selected.  To make a selection go to: [[Checklist challenge?]])
 <</if>>
-<<return>> | [[«previous|Topics list--Operating]]
+<<return>> | [[«previous|Topics list_Operating]]
 
 
