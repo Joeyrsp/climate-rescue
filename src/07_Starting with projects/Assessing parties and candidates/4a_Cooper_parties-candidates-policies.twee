@@ -1,5 +1,5 @@
 :: 4a_Cooper_parties-candidates-policies {"position":"2475,6200"}
-<<fav>> | [[Starting with projects]] | [[Assessing parties and candidates]] | [[Cooper case study (Federal, 2022)|Cooper case study_2022]]<<set $assessingPartiesCandidatesShowInStartingWithProjects to 1>><<set $startingWithProjectsShowInMenu to 1>>
+<<fav>> | [[Starting with projects]] | [[Assessing parties and candidates]] | [[1. Scoping of potential assessment frameworks|Scoping of potential assessment frameworks]] | [[2. An analysis checklist|An analysis checklist]] | [[3. Preferred_Maximum protection assessment framework|Preferred_Maximum protection assessment framework]] | [[Cooper case study_2022]] | here | [[4b_Cooper_Assessment]]<<set $assessingPartiesCandidatesShowInStartingWithProjects to 1>><<set $startingWithProjectsShowInMenu to 1>>
 ----
 !!Information sources on who is standing in the 2022 Federal Election
 After 22 April the Australian Electoral Commission will have the definitive list of candidates and parties/groups running in the election:

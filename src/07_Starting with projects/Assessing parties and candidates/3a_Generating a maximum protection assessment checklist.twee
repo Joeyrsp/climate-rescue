@@ -1,5 +1,5 @@
 :: Generating a maximum protection assessment checklist {"position":"2225,6200"}
-<<fav>> | <<return>><<set $assessingPartiesCandidatesShowInStartingWithProjects to 1>><<set $startingWithProjectsShowInMenu to 1>>
+<<fav>> | <<return>> | [[Starting with projects]] | [[Assessing parties and candidates]] | [[1. Scoping of potential assessment frameworks|Scoping of potential assessment frameworks]] | [[2. An analysis checklist|An analysis checklist]] | [[3. Preferred_Maximum protection assessment framework|Preferred_Maximum protection assessment framework]] | here | [[4. Cooper case study_2022|Cooper case study_2022]]<<set $assessingPartiesCandidatesShowInStartingWithProjects to 1>><<set $startingWithProjectsShowInMenu to 1>>
 ----
 !!Generating a maximum protection assessment checklist
 A set of key issues is explored and then assessment questions are identified to add to the checklist[[(*)|Preferred_Maximum protection assessment framework]]

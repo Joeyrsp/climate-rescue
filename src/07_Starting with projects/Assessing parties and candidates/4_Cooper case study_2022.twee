@@ -1,9 +1,9 @@
 :: Cooper case study_2022 {"position":"2350,6200"}
-<<fav>> | [[Starting with projects]] | [[Assessing parties and candidates]]<<set $assessingPartiesCandidatesShowInStartingWithProjects to 1>><<set $startingWithProjectsShowInMenu to 1>>
+<<fav>> | [[Starting with projects]] | [[Assessing parties and candidates]] | [[1. Scoping of potential assessment frameworks|Scoping of potential assessment frameworks]] | [[2. An analysis checklist|An analysis checklist]] | [[3. Preferred_Maximum protection assessment framework|Preferred_Maximum protection assessment framework]] | here | [[4a_Cooper_parties-candidates-policies]] | [[4b_Cooper_Assessment]]<<set $assessingPartiesCandidatesShowInStartingWithProjects to 1>><<set $startingWithProjectsShowInMenu to 1>>
 ----
 !!Cooper electorate case study (Australian federal election 2022)
 Cooper is an electorate in the inner north of Melbourne, Australia.
 
-[[Parties, candidates & policies - Cooper|4a_Cooper_parties-candidates-policies]]
+[[Policies of parties & candidates - Cooper|4a_Cooper_parties-candidates-policies]]
 
-[[Cooper 'maximum protection' assessment|4b_Cooper_Assessment]]
+[[Cooper 'maximum protection' assessment of parties and condidates|4b_Cooper_Assessment]]

@@ -1,5 +1,5 @@
 :: 4b_Cooper_Assessment {"position":"2600,6200"}
-<<fav>> | [[Starting with projects]] | [[Assessing parties and candidates]] | [[Cooper case study (Federal, 2022)|Cooper case study_2022]]<<set $assessingPartiesCandidatesShowInStartingWithProjects to 1>><<set $startingWithProjectsShowInMenu to 1>>
+<<fav>> | [[Starting with projects]] | [[Assessing parties and candidates]] | [[1. Scoping of potential assessment frameworks|Scoping of potential assessment frameworks]] | [[2. An analysis checklist|An analysis checklist]] | [[3. Preferred_Maximum protection assessment framework|Preferred_Maximum protection assessment framework]] | [[Cooper case study_2022]] | [[4a_Cooper_parties-candidates-policies]] | here<<set $assessingPartiesCandidatesShowInStartingWithProjects to 1>><<set $startingWithProjectsShowInMenu to 1>>
 ----
 !!The Cooper Assessment 
 !!!Party policies that are not worth looking at in detail
@@ -28,12 +28,6 @@
         <td><center>✗</center></td>
         <td><center>✓</center></td>
        <td>Essentially anti-environmental </td>        
-    </tr>
-    <tr>
-        <td>Federal ICAC Now</td>
-        <td><center>✗</center></td>
-        <td><center>✓</center></td>
-        <td>No policy on climate</td>        
     </tr>
     <tr>
         <td>Great Australia</td>
