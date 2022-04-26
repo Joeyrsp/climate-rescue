@@ -1,0 +1,261 @@
+:: 4a_Victorian Senate_parties-candidates-policies {"position":"2475,6200"}
+<<fav>> | <<return>> | [[Starting with projects]] | [[Assessing parties and candidates]] | [[1. Scoping of potential assessment frameworks|Scoping of potential assessment frameworks]] | [[2. An analysis checklist|An analysis checklist]] | [[3. Preferred_Maximum protection assessment framework|Preferred_Maximum protection assessment framework]] | [[Victorian Senate case study_2022]] | here | [[4b_Victorian Senate_Assessment]]<<set $assessingPartiesCandidatesShowInStartingWithProjects to 1>><<set $startingWithProjectsShowInMenu to 1>>
+----
+!!Information sources on who is standing in the 2022 Federal Election
+After 22 April the Australian Electoral Commission will have the definitive list of candidates and parties/groups running in the election:
+https://www.aec.gov.au/election
+
+Wikipedia has a national list of candidates/parties here:
+https://en.wikipedia.org/wiki/Candidates_of_the_2022_Australian_federal_election#Victoria
+
+A candidates list is also maintained by The Tally Room:
+https://www.tallyroom.com.au
+[[Google doc|https://docs.google.com/spreadsheets/d/1l84ohT7slDVID3LBqoP8mp3lf8w0U9s9zLvgGuqUxZ0/edit#gid=0]]
+!!Senate - Victorian division - parties/groups, candidates and links to relevant policies
+ <<nobr>><style>
+    table {
+        width: 95%;
+    }  
+</style>
+<table>
+    <tr style="font-weight:bold">
+        <td class="grayed" style="width: 115px;">"Group"/Party<br>(if any)</td>
+        <td class="grayed" style="width: 180px;">Senate candidate(s)</td>
+        <td class="grayed">Policy sources</td>
+    </tr>
+    <tr>
+        <td>A. Reason</td>
+        <td>Yolanda Vega<br>Harry Millward</td>
+        <td><a href="https://www.reason.org.au/policy_suite" target="_blank">www.reason.org.au/policy_suite</a><br>
+            <a href="https://www.reason.org.au/key_issues" target="_blank">www.reason.org.au/key_issues</a><br>
+            <a href="https://www.reason.org.au/climate_emergency" target="_blank">www.reason.org.au/climate_emergency</a><br>
+            <a href="https://www.reason.org.au/ipcc_report_statement" target="_blank">www.reason.org.au/ipcc_report_statement</a>
+        </td>
+    </tr>
+    <tr>
+        <td>B. (grouped, no name)</td>
+        <td>Damien Richardson<br>John McBride</td>
+        <td>[[Anti-vax Neighbours star Damien Richardson running as a Senate candidate_Daily Mail Online|https://www.dailymail.co.uk/tvshowbiz/article-10713757/Anti-vax-Neighbours-star-Damien-Richardson-running-Senate-candidate.html]]</td>
+    </tr>
+    <tr>
+        <td>C. Australian Democrats</td>
+        <td>Leonie Green<br>Stephen Peter Jagoe</td>
+        <td><a href="https://www.democrats.org.au/a-decade-of-climate-action" target="_blank">www.democrats.org.au/a-decade-of-climate-action</a><br>
+            <a href="https://www.democrats.org.au/adapting-to-climate-change-data" target="_blank">www.democrats.org.au/adapting-to-climate-change-data</a><br>
+            <a href="https://www.democrats.org.au/transport-for-the-future" target="_blank">www.democrats.org.au/transport-for-the-future</a>
+        </td>
+    </tr>
+    <tr>
+        <td>D. Liberal/National</td>
+        <td>Sarah Henderson (L)<br>Bridget McKenzie (N)<br>Greg Mirabella (L)<br>Chrestyna Kmetj (L)<br>Mick Harrington (N)<br>David Burgess (L)</td>
+        <td><a href="https://www.liberal.org.au/our-plan" target="_blank">www.liberal.org.au/our-plan</a><br>
+        <a href="https://www.liberal.org.au/our-plan/energy" target="_blank">www.liberal.org.au/our-plan/energy</a><br>
+        <a href="https://www.liberal.org.au/our-plan/environment" target="_blank">www.liberal.org.au/our-plan/environment</a><br><a href="https://nationals.org.au/wp-content/uploads/2022/04/The-Nationals_Our-Plan-for-More-Australian-Jobs.pdf" target="_blank">Nationals: Our plan for more Australian Jobs</a><br>
+        <a href="https://nationals.org.au/wp-content/uploads/2022/04/The-Nationals_Our-Plan-for-Australian-Forestry.pdf" target="_blank">Nationals: Our Plan for Australian Forestry</a>
+        </td>
+    </tr>
+    <tr>
+        <td>E. Legalise Cannabis Australia</td>
+        <td>Elissa Smith<br>Wayne Taylor</td>
+        <td>[[https://legalisecannabis.org.au/party-policy/]]<br>(no climate policy)</td>
+    </tr>
+    <tr>
+        <td>F. Sustainable Australia Party</td>
+        <td>Madeleine Wearne<br>Robert Long</td>
+        <td>[[https://www.sustainableaustralia.org.au/policies]]<br>[[https://www.sustainableaustralia.org.au/environment]]<br>[[https://www.sustainableaustralia.org.au/energy]]<br>[[Finite & non-renewable resources policy|https://www.sustainableaustralia.org.au/finite_and_non_renewable_resources]]</td>
+    </tr>
+    <tr>
+        <td>G. Australian Values Party</td>
+        <td>Chris Burson<br>Samantha Asser</td>
+        <td>[[https://australianvalues.org.au/climate-and-environment]][[https://australianvalues.org.au/energy]]</td>
+    </tr>
+    <tr>
+        <td>H. Derryn Hinch's Justice Party</td>
+        <td>Derryn Hinch<br>Ruth Stanfield</td>
+        <td>[[https://www.justiceparty.com.au/our-policies]]<br>(no climate policy)</td>
+    </tr>
+    <tr>
+        <td>I. Animal Justice Party (AJP)</td>
+        <td>Bronwyn Currie<br>
+            Chris Delforce
+        </td>
+        <td><a href="https://www.animaljusticeparty.org/our_policies" target="_blank">www.animaljusticeparty.org/our_policies</a><br>
+        <a href="https://www.animaljusticeparty.org/climate_change" target="_blank">www.animaljusticeparty.org/climate_change</a><br>
+        <a href="https://www.animaljusticeparty.org/energy" target="_blank">www.animaljusticeparty.org/energy</a><br>
+        <a href="https://www.animaljusticeparty.org/natural_gas" target="_blank">www.animaljusticeparty.org/natural_gas</a><br>
+        <a href="https://www.animaljusticeparty.org/tags/planet_policy" target="_blank">www.animaljusticeparty.org/tags/planet_policy</a>
+        </td>
+    </tr>
+    <tr>
+        <td>J. Australian Progressives</td>
+        <td>Antoinette Pitt<br>David Knight</td>
+        <td>[[https://www.progressives.org.au/policies]]<br>[[https://www.progressives.org.au/environment]]</td>
+    </tr>
+    <tr>
+        <td>K. ALP</td>
+        <td>Linda White<br>Jana Stewart<br>Casey Nunn<br>Megan Bridger-Darling<br>Josh McFarlane</td>
+        <td>[[https://www.alp.org.au/policies]]<br>[[https://www.alp.org.au/policies/powering-australia]]</td>
+    </tr>
+    <tr>
+        <td>L. UAP</td>
+        <td>Ralph Babet<br>Kelly Moran<br>Ken Grimmond</td>
+        <td><a href="https://www.unitedaustraliaparty.org.au/cp-vision-for-australia/" target="_blank">www.unitedaustraliaparty.org.au/cp-vision-for-australia</a><br>
+        <a href="https://www.unitedaustraliaparty.org.au/national_policy/" target="_blank">www.unitedaustraliaparty.org.au/national_policy</a>
+        </td>
+    </tr>
+    <tr>
+        <td>M. Socialist Alliance</td>
+        <td>Felix Dance<br>
+            Angela Carr</td>
+        <td><a href="https://socialist-alliance.org/policy#climate" target="_blank">socialist-alliance.org/policy#climate</a>
+        </td>
+    </tr>
+    <tr>
+        <td>N. Australian Federation Party</td>
+        <td>Vern Hughes<br>Karen Kim<br>Cheryl Lacey<br>Chris Mara<br>Neerja Sewak<br>Mark O'Connell</td>
+        <td>[[https://www.fedparty.org.au/home-1]]<br>(they have no policies on anything - instead they have a page of values and principles)[[https://www.fedparty.org.au/values_and_principles]]<br>[[https://www.facebook.com/AusFedParty]]<br>Part of the CADCO multi-party cooperative:<br>[[https://ausfedparty.com.au/cadco]]</td>
+    </tr>
+    <tr>
+        <td>O. Shooters, Fishers and Farmers Party</td>
+        <td>Ethan Constantinou<br>Nicole Bourman</td>
+        <td>[[https://www.shootersfishersandfarmers.org.au/federal_policies-new]]<br>[[Federal_Climate Change (pdf)|https://d3n8a8pro7vhmx.cloudfront.net/sfp2015/pages/488/attachments/original/1623991640/POLICY_Federal_Climate_Change.pdf]]<br>[[Federal_Mining and Energy (pdf)|https://d3n8a8pro7vhmx.cloudfront.net/sfp2015/pages/488/attachments/original/1623991647/POLICY_Federal_Mining_and_Energy.pdf]]<br>[[Federal_Protecting our environment (pdf)|https://d3n8a8pro7vhmx.cloudfront.net/sfp2015/pages/488/attachments/original/1623991648/POLICY_Federal_Protecting_our_environment.pdf]]</td>
+    </tr>
+    <tr>
+        <td>P. Pauline Hanson's One Nation</td>
+        <td>Warren Pickering<br>Stuart Huxham</td>
+        <td>[[https://www.onenation.org.au/climate]]<br>[[https://www.onenation.org.au/energy]]</td>
+    </tr>
+    <tr>
+        <td>Q. Citizens Party</td>
+        <td>Craig Isherwood<BR>
+            Robert Barwick
+        </td>
+        <td><a href="https://citizensparty.org.au/policies" target="_blank">citizensparty.org.au/policies</a>
+        </td>
+    </tr>
+    <tr>
+        <td>R. (grouped, no name)</td>
+        <td>Morgan C Jonas<br>Monica Smit</td>
+        <td>[[https://morgancjonas.com/positions]]<br>[[Monica Smit announces candidacy for federal election_Reignite Democracy Australia|https://www.reignitedemocracyaustralia.com.au/candidacy/]]</td>
+    </tr>
+    <tr>
+        <td>S. Fusion</td>
+        <td>Kammy Cordner Hunt<br>Tahlia Farrant</td>
+        <td><a href="https://www.fusionparty.org.au/climate_emergency" target="_blank">www.fusionparty.org.au/climate_emergency</a>
+        </td>
+    </tr>
+    <tr>
+        <td>T. (grouped, no name)</td>
+        <td>Susan Benedyka<br>Christine Richards</td>
+        <td>[[https://susanbenedyka.com/my-policies]]</td>
+    </tr>
+    <tr>
+        <td>U. Greens</td>
+        <td>Lidia Thorpe<br>Adam Frogley<br>Sissy Austin<br>Zeb Payne</td>
+        <td><a href="https://greens.org.au/platform" target="_blank">greens.org.au/platform</a><br>
+        <a href="https://greens.org.au/platform/climate" target="_blank">greens.org.au/platform/climate</a><br>
+        <a href="https://greens.org.au/platform/economy" target="_blank">greens.org.au/platform/economy</a><br>
+        <a href="https://greens.org.au/platform/enviro" target="_blank">greens.org.au/platform/enviro</a><br>
+        <a href="https://greens.org.au/platform/services#energy" target="_blank">greens.org.au/platform/services#energy</a><br>
+        <a href="https://greens.org.au/platform/democracy" target="_blank">greens.org.au/platform/democracy</a>
+        </td>
+    </tr>
+    <tr>
+        <td>V. The Great Australian Party</td>
+        <td>Darryl O'Brien<br>Geoff Whitehead</td>
+        <td><a href="https://www.greataustralianparty.com.au/gap-policies" target="_blank">www.greataustralianparty.com.au/gap-policies</a><br>
+            <a href="https://www.greataustralianparty.com.au/energy-policy" target="_blank">www.greataustralianparty.com.au/energy-policy</a><br>
+            <a href="https://www.greataustralianparty.com.au/environment-policy" target="_blank">www.greataustralianparty.com.au/environment-policy</a>
+        </td>
+    </tr>
+    <tr>
+        <td>W. Liberal Democratics</td>
+        <td>David Limbrick<br>
+            Krystle Mitchell<br>
+            Caroline White
+        </td>
+        <td><a href="https://www.ldp.org.au/freedom" target="_blank">www.ldp.org.au/freedom</a>
+        </td>
+    </tr>
+    <tr>
+        <td>X. Informed Medical Options Party</td>
+        <td>Nick Clonaridis<br>Robyn Curnow</td>
+        <td>[[https://imoparty.com/Policies]]<br>Part of the CADCO multi-party cooperative:<br>[[https://imoparty.com/CADCO]]</td>
+    </tr>
+    <tr>
+        <td>Y. (grouped, no name)</td>
+        <td>Peter Byrne<br>Jason Wardle</td>
+        <td>[[A socialist program of action for the working class to oppose war and fight COVID-19 and austerity|https://www.wsws.org/en/articles/2022/04/13/aust-a13.html]]</td>
+    </tr>
+    <tr>
+        <td>Z. Victorian Socialists (VS)</td>
+        <td>Aran Mylvaganam<br>Laura Riccardi</td>
+        <td><a href="https://www.victoriansocialists.org.au/our_platform#Climate" target="_blank">www.victoriansocialists.org.au/our_platform#Climate</a>
+        </td>
+    </tr>
+    <tr>
+        <td>Independent</td>
+        <td>Glenn Floyd</td>
+        <td>[[http://www.vaxrisk.org]]</td>
+    </tr>
+    <tr>
+        <td>Independent</td>
+        <td>Allen Ridgeway</td>
+        <td>(can’t find web link)</td>
+    </tr>
+    <tr>
+        <td>Independent</td>
+        <td>James Bond</td>
+        <td>[[James Bond's mission to DESTROY the Australian senate!!!|https://www.youtube.com/watch?v=nV5yI2_HJi0]]<br>(joke candidate)</td>
+    </tr>
+    <tr>
+        <td>Independent</td>
+        <td>Neal Smith</td>
+        <td>[[https://m.facebook.com/ns4s.auspol]]<br>(a non serious candidate)</td>
+    </tr>
+    <tr>
+        <td>Independent</td>
+        <td>Max Dicks</td>
+        <td>?? only link I could find:<br>[[https://m.facebook.com/vote1maxdicks]]</td>
+    </tr>
+    <tr>
+        <td>Independent</td>
+        <td>Bernardine Atkinson</td>
+        <td>(can’t find web link)</td>
+    </tr>
+    <tr>
+        <td>Independent</td>
+        <td>Paul Ross</td>
+        <td>[[CDO Founder Paul Ross to Stand for the Australian Senate_The Citizen's Dividend Organisation|https://citizens-dividend.org/the-coopetitionist-3-4-notice-of-intention-cdo-founder-paul-ross-to-stand-for-the-australian-senate/]]</td>
+    </tr>
+    <tr>
+        <td>Independent</td>
+        <td>Nat De Francesco</td>
+        <td>(can’t find web link)</td>
+    </tr>
+    <tr>
+        <td>Independent</td>
+        <td>Joseph Toscano</td>
+        <td>[[https://pibci.net/assets/files/PIBCI%20Policy%20-%20Human%20Caused%20Environmental%20Crisis.pdf]]<br>(anarchist)</td>
+    </tr>
+    <tr>
+        <td>Independent</td>
+        <td>Tara Tran</td>
+        <td>[[Senate Candidate for Victoria - Federal Election 2022. My name: Tara Tran, I am a Vietnamese-born Australian....|https://www.facebook.com/100776784926457/posts/senate-candidate-for-victoria-federal-election-2022-my-name-tara-tran-i-am-a-vie/464156258588506/]]<br>[[https://www.youtube.com/watch?v=24uKNVh3ue8]]</td>
+    </tr>
+    <tr>
+        <td>Independent</td>
+        <td>David John Dillon</td>
+        <td>(can’t find web link)</td>
+    </tr>
+    <tr>
+        <td>Independent</td>
+        <td>Geraldine Marie Antoinette Gonsalvez</td>
+        <td>(can’t find web link)</td>
+    </tr>
+   </table><</nobr>>
+!!A list of parties and independents outside Victoria that have an interest in climate
+[[Parties-independants standing outside Victoria with interest in climate]]
+
+----
+[[Next» The Victorian Senate Assessment|4b_Victorian Senate_Assessment]]

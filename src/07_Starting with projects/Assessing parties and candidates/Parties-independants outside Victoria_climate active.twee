@@ -1,0 +1,27 @@
+:: Parties-independants standing outside Victoria with interest in climate
+<<fav>> | <<return>>
+!!Parties-independants standing outside Victoria with an active interest in climate
+This list has only just started development.
+<<nobr>><style>
+    table {
+        width: 95%;
+    }  
+</style>
+<table>
+    <tr style="font-weight:bold">
+        <td class="grayed" style="width: 115px;">"Group"/Party<br>(if any)</td>
+        <td class="grayed" style="width: 180px;">Senate candidate(s)</td>
+        <td class="grayed">Policy sources</td>
+    </tr>
+    <tr>
+        <td>The New Liberals</td>
+        <td>Jonathon Momsen</td>
+        <td><a href="https://tnl.net.au/policies" target="_blank">tnl.net.au/policies</a><br>
+            <a href="https://tnl.net.au/wp-content/uploads/policies/TNL_CC_policy-Final_Version.pdf" target="_blank">TNL_Climate Change Policy_net zero by 2030</a><br>
+            <a href="https://www.thenewliberals.net.au/wp-content/uploads/policies/TNL_CC_policy_Detailed_Rationale-Final_Version.pdf" target="_blank">Detailed Rationale</a><br>
+            <a href="https://www.thenewliberals.net.au/wp-content/uploads/policies/Appendix_1-The_dependence_of_the_economy_on_energy-Final_Version.pdf" target="_blank">Appendix 1</a><br>
+            <a href="https://www.thenewliberals.net.au/wp-content/uploads/policies/Appendix_2-The_Lake_Eyre_Basin-Final_Version.pdf" target="_blank">Appendix 2</a><br>
+            <a href="https://www.thenewliberals.net.au/wp-content/uploads/policies/Appendix_3-The_Appallingly_Bad_Neo-Classical_Economics_of_Climate_Change-Final_Version.pdf" target="_blank">Appendix 3</a>
+        </td>
+    </tr>
+   </table><</nobr>>

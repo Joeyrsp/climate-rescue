@@ -1,5 +1,5 @@
 :: Preferred_Maximum protection assessment framework {"position":"2100,6200"}
-<<fav>> | <<return>> | [[Starting with projects]] | [[Assessing parties and candidates]] | [[1. Scoping of potential assessment frameworks|Scoping of potential assessment frameworks]] | [[2. An analysis checklist|An analysis checklist]] | here | [[3a. Generating a maximum protection assessment checklist|Generating a maximum protection assessment checklist]] [[4. Cooper case study_2022|Cooper case study_2022]]<<set $assessingPartiesCandidatesShowInStartingWithProjects to 1>><<set $startingWithProjectsShowInMenu to 1>>
+<<fav>> | <<return>> | [[Starting with projects]] | [[Assessing parties and candidates]] | [[1. Scoping of potential assessment frameworks|Scoping of potential assessment frameworks]] | [[2. An analysis checklist|An analysis checklist]] | here | [[3a. Generating a maximum protection assessment checklist|Generating a maximum protection assessment checklist]] [[4. Victorian Senate case study_2022|Victorian Senate case study_2022]]<<set $assessingPartiesCandidatesShowInStartingWithProjects to 1>><<set $startingWithProjectsShowInMenu to 1>>
 ----
 !!Preferred assessment framework based on maximum protection - plus assessment checklist
 !!!Generating an assessment checklist
@@ -15,7 +15,30 @@ The checklist questions below have been developed to flush out how well a party 
 
 [[Generating a maximum protection assessment checklist]]
 
-!!!The 'maximum protection' assessment checklist
+!!!The high-level 'maximum protection' assessment checklist
+<table>
+    <tr>
+        <td class="borderless" style="width: 115px;">High level Q1:</td>
+        <td class="borderless">Does the policy identify ''who or what is be protected'' from the impacts of climate change?</td>
+    </tr>
+        <tr>
+        <td class="borderless">High level Q2:</td>
+        <td class="borderless">Does the policy identify what the ''needs'' of the climate vulnerable are that need to be met, and by when?</td>
+    </tr>
+        <tr>
+        <td class="borderless">High level Q3:</td>
+        <td class="borderless">Does the policy spell out ''what has to be done by when'' to meet the needs of the climate vulnerable?</td>
+    </tr>
+        <tr>
+        <td class="borderless">High level Q4:</td>
+        <td class="borderless">Does the policy indicate how the government/community will ''foster effective global action''?</td>
+    </tr>
+        <tr>
+        <td class="borderless">High level Q5:</td>
+        <td class="borderless">Does the policy indicate how ''understanding'' of the climate issue will be developed throughout the community and ''how the whole community will be mobilised'' to take action that will be effective?</td>
+    </tr>
+</table>
+!!!The detailed 'maximum protection' assessment checklist
 <table>
     <tr>
         <td class="borderless">Q1:</td>
@@ -23,7 +46,7 @@ The checklist questions below have been developed to flush out how well a party 
     </tr>
     <tr>
         <td class="borderless">Q2:</td>
-        <td class="borderless">What earth system level and local protection conditions need to be delivered for the climate vulnerable and when are these protection conditions required by?</td>
+        <td class="borderless">What earth system level and local protection conditions need to be delivered for the climate vulnerable and when are these protection conditions required by? (the ''needs of the climate vulnerable'')</td>
     </tr>
     <tr>
         <td class="borderless">Q3:</td>
@@ -53,11 +76,12 @@ The checklist questions below have been developed to flush out how well a party 
         <td class="borderless">Does the party or candidate have policies for or about:
         •&nbsp;&nbsp;emissions elimination?
         •&nbsp;&nbsp;CO<sub>2</sub> drawdown (as an offset, or to lower the atmospheric level)?
-        •&nbsp;&nbsp;fast cooling (in years, not decades)</td>
+        •&nbsp;&nbsp;fast cooling (in years, not decades)?
+        •&nbsp;&nbsp;any other type of protective action?</td>
     </tr>
     <tr>
         <td class="borderless">Q9:</td>
-        <td class="borderless">Does the party or candidate have policies to deliver benefit for the climate vulnerable at the local level?</td>
+        <td class="borderless">Does the party or candidate have policies to deliver benefit for the climate vulnerable at the regional or local level?</td>
     </tr>
     <tr>
         <td class="borderless">Q10:</td>
@@ -71,4 +95,4 @@ The checklist questions below have been developed to flush out how well a party 
 
 
 ----
-[[Next» Cooper electorate case study|Cooper case study_2022]]
+[[Next» Victorian Senate electorate case study|Victorian Senate case study_2022]]

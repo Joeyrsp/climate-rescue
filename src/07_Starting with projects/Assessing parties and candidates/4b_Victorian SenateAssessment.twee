@@ -1,0 +1,58 @@
+:: 4b_Victorian Senate_Assessment {"position":"2600,6200"}
+<<fav>> | <<return>> | [[Starting with projects]] | [[Assessing parties and candidates]] | [[1. Scoping of potential assessment frameworks|Scoping of potential assessment frameworks]] | [[2. An analysis checklist|An analysis checklist]] | [[3. Preferred_Maximum protection assessment framework|Preferred_Maximum protection assessment framework]] | [[Victorian Senate case study_2022]] | [[4a_Victorian Senate_parties-candidates-policies]] | here<<set $assessingPartiesCandidatesShowInStartingWithProjects to 1>><<set $startingWithProjectsShowInMenu to 1>>
+----
+!!The Victorian Senate Assessment 
+!!!Party policies that may not warrant examination in more detail from a climate perspective
+<<nobr>><style>
+    table {
+        width: 95%;
+    }  
+</style>
+<table>
+    <tr style="font-weight:bold">
+        <td style=width:26% class="grayed">Parties</td>
+        <td style=width:64% class="grayed">Comments</td>
+        
+    </tr>
+    <tr>
+        <td>Australian Federation Party</td>
+        <td>They have no policies on ''anything''.  Instead they have a page of values and principles.</td>        
+    </tr>
+    <tr>
+        <td>Australian Values Party</td>
+        <td>The policies are written in high sounding language but have no content/commitments that seem to mean anything.  Probably a party that is aiming to draw progessive voters with no time to assess their policies.  It will be important to look carefully at where their preferences go. </td>        
+    </tr>
+    <tr>
+        <td>Citizens Party</td>
+       <td>Essentially anti-environmental </td>        
+    </tr>
+    <tr>
+        <td>Derryn Hinch's Justice Party</td>
+       <td>No climate policy</td>        
+    </tr>
+    <tr>
+        <td>Great Australia</td>
+    <td>Insanely random mix of bad and good policies (could be amusing if they weren’t actually asking people to vote for them)</td>        
+    </tr>
+    <tr>
+        <td>Legalise Cannabis Australia</td>
+        <td>No climate policy</td>        
+    </tr>
+    <tr>
+        <td>Liberal Democratic Party (LDP)</td>
+        <td>Essentially anti-environmental </td>        
+    </tr>
+    <tr>
+        <td>One Nation</td>
+        <td>Amazingly open and direct: Opposes action on climate and investment in renewables, supports fossil fuels, especially coal.</td>        
+    </tr>
+    <tr>
+        <td>UAP</td>
+        <td>Essentially anti-environmental </td>        
+    </tr>
+   </table><</nobr>>
+
+(the assessment of parties with pro-climate action policies - still to come)
+
+----
+(The end of the Victorian Senate 2022 case study)
