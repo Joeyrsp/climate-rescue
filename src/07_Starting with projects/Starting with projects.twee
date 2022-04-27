@@ -4,7 +4,9 @@
 !!Starting with projects
 <<nobr>>
 [[Assessing parties and candidates]]<br><br>
-<<if $protectingForestsShowInStartingWithProjects eq 1>>[[Protecting forests]]<br><br><</if>>
-<<if $shapingPolicyOnUseOfOffsetsShowInStartingWithProjects eq 1>>[[Shaping policy on the use of offsets]]<br><br><</if>>
+<<if $campaigningProtectClimateVulnerableShowInStartingWithProjects eq 1>>[[Campaigning to protect the climate vulnerable]]<br><br><</if>>
 <<if $developingFastCoolingProgramShowInStartingWithProjects eq 1>>[[Developing a fast cooling program]]<br><br><</if>>
+<<if $protectingForestsShowInStartingWithProjects eq 1>>[[Protecting forests]]<br><br><</if>>
+<<if $researchingNeedsOfClimateVulnerableShowInStartingWithProjects eq 1>>[[Researching the needs of the climate vulnerable]]<br><br><</if>>
+<<if $shapingPolicyOnUseOfOffsetsShowInStartingWithProjects eq 1>>[[Shaping policy on the use of offsets]]<br><br><</if>>
 <</nobr>>
