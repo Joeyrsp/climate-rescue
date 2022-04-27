@@ -1,5 +1,5 @@
 :: Scoping of potential assessment frameworks {"position":"1850,6200"}
-<<fav>> | <<return>> | [[Starting with projects]] | [[Assessing parties and candidates]] | here | [[2. An analysis checklist|An analysis checklist]] | [[3. Preferred_Maximum protection assessment framework|Preferred_Maximum protection assessment framework]] | [[4. Victorian Senate case study_2022|Victorian Senate case study_2022]]<<set $assessingPartiesCandidatesShowInStartingWithProjects to 1>><<set $startingWithProjectsShowInMenu to 1>>
+<<fav>> | <<return>> | [[Starting with projects]] | [[Assessing parties and candidates]] | here | [[2. An analysis checklist|An analysis checklist]] | [[3. Preferred_Maximum protection assessment framework|Preferred_Maximum protection assessment framework]] | [[4. Case studies|Case studies]]<<set $assessingPartiesCandidatesShowInStartingWithProjects to 1>><<set $startingWithProjectsShowInMenu to 1>>
 ----
 !!Scoping of potential assessment frameworks
 What are the ''//purposes//'' of assessing candidates and parties in the lead up to an election?

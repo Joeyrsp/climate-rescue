@@ -1,5 +1,5 @@
 :: An analysis checklist {"position":"1975,6200"}
-<<fav>> | <<return>> | [[Starting with projects]] | [[Assessing parties and candidates]] | [[1. Scoping of potential assessment frameworks|Scoping of potential assessment frameworks]] | here | [[3. Preferred_Maximum protection assessment framework|Preferred_Maximum protection assessment framework]] | [[4. Victorian Senate case study_2022|Victorian Senate case study_2022]]<<set $assessingPartiesCandidatesShowInStartingWithProjects to 1>><<set $startingWithProjectsShowInMenu to 1>>
+<<fav>> | <<return>> | [[Starting with projects]] | [[Assessing parties and candidates]] | [[1. Scoping of potential assessment frameworks|Scoping of potential assessment frameworks]] | here | [[3. Preferred_Maximum protection assessment framework|Preferred_Maximum protection assessment framework]] | [[4. Case studies|Case studies]]<<set $assessingPartiesCandidatesShowInStartingWithProjects to 1>><<set $startingWithProjectsShowInMenu to 1>>
 ----
 !!A policy and candidate/party analysis checklist
 //''Policy analysis''//
