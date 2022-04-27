@@ -15,9 +15,9 @@
 **Adapting the 'whole system package' plan
 **Linked projects
 *Starting with projects
-**Researching the needs of the climate vulnerable
 **Campaigning to protect the climate vulnerable
 **Protecting forests
+**Researching the needs of the climate vulnerable
 **Shaping policy on the use of offsets
 *Output reports
 
@@ -50,9 +50,13 @@ For developers and specialist users:
 <<elseif $displayAllCode is "sl">><<set $linkedProjectsShowInMenu to 1>>
 <<elseif $displayAllCode is "ss">><<set $startingWithProjectsShowInMenu to 1>>
 <<elseif $displayAllCode is "so">><<set $outputReportsShowInMenu to 1>>
+<<elseif $displayAllCode is "scpcv">><<set $startingWithProjectsShowInMenu to 1>><<set $campaigningProtectClimateVulnerableShowInStartingWithProjects to 1>>
 <<elseif $displayAllCode is "ssrm">><<set $startingWithProjectsShowInMenu to 1>><<set $developingFastCoolingProgramShowInStartingWithProjects to 1>>
-<<elseif $displayAllCode is "spsp">><<set $startingWithProjectsShowInMenu to 1>><<set $protectingForestsShowInStartingWithProjects to 1>>
-<<elseif $displayAllCode is "sssp">><<set $startingWithProjectsShowInMenu to 1>><<set $shapingPolicyOnUseOfOffsetsShowInStartingWithProjects to 1>>
+<<elseif $displayAllCode is "spf">><<set $startingWithProjectsShowInMenu to 1>><<set $protectingForestsShowInStartingWithProjects to 1>>
+<<elseif $displayAllCode is "srpcv">><<set $startingWithProjectsShowInMenu to 1>><<set $researchingNeedsOfClimateVulnerableShowInStartingWithProjects to 1>>
+<<elseif $displayAllCode is "soff">><<set $startingWithProjectsShowInMenu to 1>><<set $shapingPolicyOnUseOfOffsetsShowInStartingWithProjects to 1>>
+<<elseif $displayAllCode is "smonica">><<set $startingWithProjectsShowInMenu to 1>><<set $wwfDrawdownProjectShowInStartingWithProjects to 1>>
+
 <<elseif $displayAllCode is "hw">><<set $wholeSystemPackagePlanShowInMenu to 0>>
 <<elseif $displayAllCode is "hg">><<set $globalScenariosShowInMenu to 0>>
 <<elseif $displayAllCode is "hb">><<set $buildingSupportSystemShowInMenu to 0>>
@@ -61,7 +65,19 @@ For developers and specialist users:
 <<elseif $displayAllCode is "ho">><<set $outputReportsShowInMenu to 0>>
 <<elseif $displayAllCode is "hs">><<set $startingWithProjectsShowInMenu to 0>>
 <<elseif $displayAllCode is "ho">><<set $outputReportsShowInMenu to 0>>
+<<elseif $displayAllCode is "hcpcv">><<set $campaigningProtectClimateVulnerableShowInStartingWithProjects to 0>>
 <<elseif $displayAllCode is "hsrm">><<set $developingFastCoolingProgramShowInStartingWithProjects to 0>>
-<<elseif $displayAllCode is "hpsp">><<set $protectingForestsShowInStartingWithProjects to 0>>
-<<elseif $displayAllCode is "hssp">><<set $shapingPolicyOnUseOfOffsetsShowInStartingWithProjects to 0>>
+<<elseif $displayAllCode is "hpf">><<set $protectingForestsShowInStartingWithProjects to 0>>
+<<elseif $displayAllCode is "hrpcv">><<set $researchingNeedsOfClimateVulnerableShowInStartingWithProjects to 0>>
+<<elseif $displayAllCode is "hoff">><<set $shapingPolicyOnUseOfOffsetsShowInStartingWithProjects to 0>>
+<<elseif $displayAllCode is "hmonica">><<set $wwfDrawdownProjectShowInStartingWithProjects to 0>>
 <</if>><</button>>
+
+
+
+<<if $campaigningProtectClimateVulnerableShowInStartingWithProjects eq 1>>[[Campaigning to protect the climate vulnerable]]<br><br><</if>>
+<<if $developingFastCoolingProgramShowInStartingWithProjects eq 1>>[[Developing a fast cooling program]]<br><br><</if>>
+<<if $protectingForestsShowInStartingWithProjects eq 1>>[[Protecting forests]]<br><br><</if>>
+<<if $researchingNeedsOfClimateVulnerableShowInStartingWithProjects eq 1>>[[Researching the needs of the climate vulnerable]]<br><br><</if>>
+<<if $shapingPolicyOnUseOfOffsetsShowInStartingWithProjects eq 1>>[[Shaping policy on the use of offsets]]<br><br><</if>>
+<<if $wwfDrawdownProjectShowInStartingWithProjects eq 1>>[[WWF drawdown project]]<br><br><</if>>

@@ -12,4 +12,3 @@
 <<if $wwfDrawdownProjectShowInStartingWithProjects eq 1>>[[WWF drawdown project]]<br><br><</if>>
 <</nobr>>
 
-
