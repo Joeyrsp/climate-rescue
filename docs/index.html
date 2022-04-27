@@ -668,9 +668,12 @@ For developers and specialist users:
 &lt;&lt;elseif $displayAllCode is &quot;sl&quot;&gt;&gt;&lt;&lt;set $linkedProjectsShowInMenu to 1&gt;&gt;
 &lt;&lt;elseif $displayAllCode is &quot;ss&quot;&gt;&gt;&lt;&lt;set $startingWithProjectsShowInMenu to 1&gt;&gt;
 &lt;&lt;elseif $displayAllCode is &quot;so&quot;&gt;&gt;&lt;&lt;set $outputReportsShowInMenu to 1&gt;&gt;
+&lt;&lt;elseif $displayAllCode is &quot;scpcv&quot;&gt;&gt;&lt;&lt;set $startingWithProjectsShowInMenu to 1&gt;&gt;&lt;&lt;set $campaigningProtectClimateVulnerableShowInStartingWithProjects to 1&gt;&gt;
 &lt;&lt;elseif $displayAllCode is &quot;ssrm&quot;&gt;&gt;&lt;&lt;set $startingWithProjectsShowInMenu to 1&gt;&gt;&lt;&lt;set $developingFastCoolingProgramShowInStartingWithProjects to 1&gt;&gt;
-&lt;&lt;elseif $displayAllCode is &quot;spsp&quot;&gt;&gt;&lt;&lt;set $startingWithProjectsShowInMenu to 1&gt;&gt;&lt;&lt;set $protectingForestsShowInStartingWithProjects to 1&gt;&gt;
-&lt;&lt;elseif $displayAllCode is &quot;sssp&quot;&gt;&gt;&lt;&lt;set $startingWithProjectsShowInMenu to 1&gt;&gt;&lt;&lt;set $shapingPolicyOnUseOfOffsetsShowInStartingWithProjects to 1&gt;&gt;
+&lt;&lt;elseif $displayAllCode is &quot;spf&quot;&gt;&gt;&lt;&lt;set $startingWithProjectsShowInMenu to 1&gt;&gt;&lt;&lt;set $protectingForestsShowInStartingWithProjects to 1&gt;&gt;
+&lt;&lt;elseif $displayAllCode is &quot;srpcv&quot;&gt;&gt;&lt;&lt;set $startingWithProjectsShowInMenu to 1&gt;&gt;&lt;&lt;set $researchingNeedsOfClimateVulnerableShowInStartingWithProjects to 1&gt;&gt;
+&lt;&lt;elseif $displayAllCode is &quot;soff&quot;&gt;&gt;&lt;&lt;set $startingWithProjectsShowInMenu to 1&gt;&gt;&lt;&lt;set $shapingPolicyOnUseOfOffsetsShowInStartingWithProjects to 1&gt;&gt;
+&lt;&lt;elseif $displayAllCode is &quot;smonica&quot;&gt;&gt;&lt;&lt;set $startingWithProjectsShowInMenu to 1&gt;&gt;&lt;&lt;set $wwfDrawdownProjectShowInStartingWithProjects to 1&gt;&gt;
 &lt;&lt;elseif $displayAllCode is &quot;hw&quot;&gt;&gt;&lt;&lt;set $wholeSystemPackagePlanShowInMenu to 0&gt;&gt;
 &lt;&lt;elseif $displayAllCode is &quot;hg&quot;&gt;&gt;&lt;&lt;set $globalScenariosShowInMenu to 0&gt;&gt;
 &lt;&lt;elseif $displayAllCode is &quot;hb&quot;&gt;&gt;&lt;&lt;set $buildingSupportSystemShowInMenu to 0&gt;&gt;
@@ -679,9 +682,12 @@ For developers and specialist users:
 &lt;&lt;elseif $displayAllCode is &quot;ho&quot;&gt;&gt;&lt;&lt;set $outputReportsShowInMenu to 0&gt;&gt;
 &lt;&lt;elseif $displayAllCode is &quot;hs&quot;&gt;&gt;&lt;&lt;set $startingWithProjectsShowInMenu to 0&gt;&gt;
 &lt;&lt;elseif $displayAllCode is &quot;ho&quot;&gt;&gt;&lt;&lt;set $outputReportsShowInMenu to 0&gt;&gt;
+&lt;&lt;elseif $displayAllCode is &quot;hcpcv&quot;&gt;&gt;&lt;&lt;set $campaigningProtectClimateVulnerableShowInStartingWithProjects to 0&gt;&gt;
 &lt;&lt;elseif $displayAllCode is &quot;hsrm&quot;&gt;&gt;&lt;&lt;set $developingFastCoolingProgramShowInStartingWithProjects to 0&gt;&gt;
-&lt;&lt;elseif $displayAllCode is &quot;hpsp&quot;&gt;&gt;&lt;&lt;set $protectingForestsShowInStartingWithProjects to 0&gt;&gt;
-&lt;&lt;elseif $displayAllCode is &quot;hssp&quot;&gt;&gt;&lt;&lt;set $shapingPolicyOnUseOfOffsetsShowInStartingWithProjects to 0&gt;&gt;
+&lt;&lt;elseif $displayAllCode is &quot;hpf&quot;&gt;&gt;&lt;&lt;set $protectingForestsShowInStartingWithProjects to 0&gt;&gt;
+&lt;&lt;elseif $displayAllCode is &quot;hrpcv&quot;&gt;&gt;&lt;&lt;set $researchingNeedsOfClimateVulnerableShowInStartingWithProjects to 0&gt;&gt;
+&lt;&lt;elseif $displayAllCode is &quot;hoff&quot;&gt;&gt;&lt;&lt;set $shapingPolicyOnUseOfOffsetsShowInStartingWithProjects to 0&gt;&gt;
+&lt;&lt;elseif $displayAllCode is &quot;hmonica&quot;&gt;&gt;&lt;&lt;set $wwfDrawdownProjectShowInStartingWithProjects to 0&gt;&gt;
 &lt;&lt;/if&gt;&gt;&lt;&lt;/button&gt;&gt;</tw-passagedata><tw-passagedata pid="8" name="Page template - simple" tags="" position="1225,0" size="100,100">&lt;&lt;fav&gt;&gt; | &lt;&lt;return&gt;&gt;
 ----
 !!Heading</tw-passagedata><tw-passagedata pid="9" name="PassageReady" tags="" position="1100,0" size="100,100">/% Set date variables %/
@@ -2322,9 +2328,7 @@ I think that there are (at least) three serious complicating factors:
 &lt;&lt;if $shapingPolicyOnUseOfOffsetsShowInStartingWithProjects eq 1&gt;&gt;[[Shaping policy on the use of offsets]]&lt;br&gt;&lt;br&gt;&lt;&lt;/if&gt;&gt;
 &lt;&lt;if $wwfDrawdownProjectShowInStartingWithProjects eq 1&gt;&gt;[[WWF drawdown project]]&lt;br&gt;&lt;br&gt;&lt;&lt;/if&gt;&gt;
 &lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="78" name="WWF drawdown project" tags="" position="975,975" size="100,100">&lt;&lt;fav&gt;&gt; | &lt;&lt;return&gt;&gt;
-!!WWF drawdown project - private notes
-
-share my draft BZE drawdown project doc with Monica</tw-passagedata><tw-passagedata pid="79" name="Output Report_&#39;Whole System Package&#39; Plan" tags="" position="1775,1575" size="100,100">&lt;&lt;fav&gt;&gt;
+!!WWF drawdown project</tw-passagedata><tw-passagedata pid="79" name="Output Report_&#39;Whole System Package&#39; Plan" tags="" position="1775,1575" size="100,100">&lt;&lt;fav&gt;&gt;
 ----
 !Output Report - &#39;Whole System Package&#39; Plan
 //(content will be auto-generated here based on freeform user input, and material selected by the adviser basedon the user&#39;s yes/no answers to questions or other structures choises made by the user.  After the user has developed a draft plan Climate Rescue will create opportunities for the user to have discussions with campaign workers.)//
