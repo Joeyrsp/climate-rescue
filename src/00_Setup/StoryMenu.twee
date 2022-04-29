@@ -45,8 +45,7 @@
 [[Contact team|Contact the Adviser team]]
 <</if>>
 
-/% <<if $favourites.length > 0>>%/
-<<if $favouritesShowInMenu == 1>> 
+<<if $favourites?.length > 0>>
 [[Favourites]]
 <</if>>
 
