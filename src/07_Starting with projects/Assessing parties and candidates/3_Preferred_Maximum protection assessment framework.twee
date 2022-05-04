@@ -1,5 +1,5 @@
 :: Preferred_Maximum protection assessment framework {"position":"2100,6200"}
-<<fav>> | <<return>> | [[Starting with projects]] | [[Assessing parties and candidates]] | [[1. Scoping of potential assessment frameworks|Scoping of potential assessment frameworks]] | [[2. An analysis checklist|An analysis checklist]] | here | [[3a. Generating a maximum protection assessment checklist|Generating a maximum protection assessment checklist]] [[4. Case studies|Case studies]]<<set $assessingPartiesCandidatesShowInStartingWithProjects to 1>><<set $startingWithProjectsShowInMenu to 1>>
+<<fav>> | <<return>> | [[Starting with projects]] | [[Assessing parties and candidates]] | [[1. Scoping of potential assessment frameworks|Scoping of potential assessment frameworks]] | [[2. An analysis checklist|An analysis checklist]] | here | [[3a. Generating a maximum protection assessment checklist|Generating a maximum protection assessment checklist]] | [[4. Case studies|Case studies]]<<set $assessingPartiesCandidatesShowInStartingWithProjects to 1>><<set $startingWithProjectsShowInMenu to 1>>
 -----
 !!Preferred assessment framework based on maximum protection - plus assessment checklist
 !!!Generating an assessment checklist
@@ -116,7 +116,5 @@ The checklist questions below have been developed to flush out how well a party 
         <td class="borderless"></td>
     </tr>
 </table>
-
-
 ----
 [[Next» Victorian Senate electorate case study|Case studies]]
