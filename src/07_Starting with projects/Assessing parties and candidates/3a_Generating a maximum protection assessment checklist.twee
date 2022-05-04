@@ -2,7 +2,7 @@
 <<fav>> | <<return>> | [[Starting with projects]] | [[Assessing parties and candidates]] | [[1. Scoping of potential assessment frameworks|Scoping of potential assessment frameworks]] | [[2. An analysis checklist|An analysis checklist]] | [[3. Preferred_Maximum protection assessment framework|Preferred_Maximum protection assessment framework]] | here | [[4. Case studies|Case studies]]<<set $assessingPartiesCandidatesShowInStartingWithProjects to 1>><<set $startingWithProjectsShowInMenu to 1>>
 ----
 !!Generating a maximum protection assessment checklist
-A set of key issues is explored and then assessment questions are identified to add to the checklist[[(*)|Preferred_Maximum protection assessment framework]]
+A set of key issues is explored and assessment questions identified to add to the checklist[[(*)|Preferred_Maximum protection assessment framework]]
 !!!1. Identifying the climate vulnerable and the conditions they need to be protected, including by when 
 The climate vulnerable[[(*)|The climate vulnerable_brief (2include) DB]] might be people and other living things that electors care about for ethical reasons.  Or they might include cultural or productive assets or life support systems or critical earth system elements.
 
