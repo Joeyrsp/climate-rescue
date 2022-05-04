@@ -1,5 +1,29 @@
 :: Protecting forests {"position":"1725,6325"}
-<<fav>> | <<return>><<set $protectingForestsShowInStartingWithProjects to 1>><<set $startingWithProjectsShowInMenu to 1>>
+<<fav>> | <<return>> | [[Starting with projects]] | here <<set $protectingForestsShowInStartingWithProjects to 1>><<set $startingWithProjectsShowInMenu to 1>>
 ----
 !!What climate action is needed to protect forests?
-(to be developed)
+!!!Foundational research project
+!!!!Draft scope
+*Identify forest types around Australia that are vulnerable to climate change between now and the end of the century  ie.
+**could become depauperate (significantly reduced native species richness), or
+**could be replaced by other forest types or ecological communities.
+*Depending on the ease of data availability, select one or more vulnerable forest types and identify when they face substantial transformation as a result of climate change based on currently //''probable''// climate model scenarios.
+*Identify the climate-induced threats that are critical to the forest's survival and thriving (eg. fire severity, fire return period, impacts of extreme weather events, changes in rainfall, humidity or temperature regimes, etc.)
+*For the selected forest types identify what //''earth system conditions''// (eg. surface average temperature, globally, and if known other local environmental conditions linked to climate) would need to be retained/restored, by when, to ensure the survival and thriving of the vulnerable forest type(s).
+*If known, identify forests in other parts of the world that are threatened by mid century, so that the Climate Rescue campaign can reach out to activists and researchers in those countries.
+*If known, identify forest researchers and activists in other countries that the Climate Rescue campaign could/should reach out to.
+*Write this up, provide references and include photos if possible.
+
+It would be ideal if the selected forest type(s) were iconic/significant and strongly threatened, but it would not be useful to exaggerate the threat.
+
+---
+
+That's it I think. Keen to discuss this with you to clarify or refine anything in relation to the project.
+
+How long might this work take do you think?  Could it be completed in May or (less ideal) sometime in June?
+
+What hourly rate would you charge?  How much might the project cost?  Could it be done for between $2000 and $4000?
+
+
+<<include [[Philip Sutton_email phone (2include)]]>>
+
