@@ -2,6 +2,22 @@
 <<fav>> | <<return>> | [[Starting with projects]] | [[Assessing parties and candidates]] | [[1. Scoping of potential assessment frameworks|Scoping of potential assessment frameworks]] | [[2. An analysis checklist|An analysis checklist]] | [[3. Preferred_Maximum protection assessment framework|Preferred_Maximum protection assessment framework]] | [[Case studies]] | [[4a_Victorian Senate_parties-candidates-policies]] | here | [[4c_Other parties & independants standing outside Victoria with strong interest in climate|Other parties-independants standing outside Victoria with interest in climate]]<<set $assessingPartiesCandidatesShowInStartingWithProjects to 1>><<set $startingWithProjectsShowInMenu to 1>>
 ----
 !!The Victorian Senate Assessment 
+!!!Parties and candidates to be assessed
+*Reason/%[[Reason|Reason_assessment]]%/
+*Australian Democrats/%[[Australian Democrats|Australian Democrats_assessment]]%/
+*Lib-Nat/%[[Lib-Nat|Lib-Nat_assessment]]%/
+*Sustainable Australia Party/%[[Sustainable Australia Party|Sustainable Australia Party_assessment]]%/
+*Animal Justice Party/%[[Animal Justice Party|Animal Justice Party_assessment]]%/
+*Australian Progressives/%[[Australian Progressives|Australian Progressives_assessment]]%/
+*ALP/%[[ALP|ALP_assessment]]%/
+*Socialist Alliance/%[[Socialist Alliance|Socialist Alliance_assessment]]%/
+*[[Fusion|Fusion_assessment]]
+*Susan Benedyka/%[[Susan Benedyka|Susan Benedyka_assessment]]%/
+*Greens/%[[Greens|Greens_assessment]]%/
+*Byrne Wardle (Socialists)/%[[Byrne Wardle (Socialists)|Byrne Wardle (Socialists)_assessment]]%/
+*Victorian Socialists/%[[Victorian Socialists|Victorian Socialists_assessment]]%/
+*Joseph Toscano/%[[Joseph Toscano|Joseph Toscano_assessment]]%/
+
 !!!Party policies that may not warrant examination in more detail from a climate perspective
 <<nobr>><style>
     table {
