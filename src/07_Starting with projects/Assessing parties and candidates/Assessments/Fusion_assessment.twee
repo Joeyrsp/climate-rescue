@@ -2,57 +2,23 @@
 <<fav>> | <<return>> | [[Starting with projects]] | [[Assessing parties and candidates]] | [[1. Scoping of potential assessment frameworks|Scoping of potential assessment frameworks]] | [[2. An analysis checklist|An analysis checklist]] | [[3. Preferred_Maximum protection assessment framework|Preferred_Maximum protection assessment framework]] | [[Case studies]] | [[4a_Victorian Senate_parties-candidates-policies]] | [[4b_Victorian Senate_Assessment]] | here | [[4c_Other parties & independants standing outside Victoria with strong interest in climate|Other parties-independants standing outside Victoria with interest in climate]]<<set $assessingPartiesCandidatesShowInStartingWithProjects to 1>><<set $startingWithProjectsShowInMenu to 1>>
 ----
 !!Fusion assessment
-!!!Temp - Fusion policy - remove elements as they are processed into the assessment
-
-
-10 year transition to negative emissions
-Price on carbon
-Lead internationally to restore a safe climate
-800% renewables
-Declare an emergency and mobilise to reverse global warming
-The world has left it too long for a gradual path to net zero to restore a safe climate, for tweaked business as usual to get us where we need to be. The nature of the emergency needs to be recognised, and actions to mobilise against it need to be prioritised - to take a war-footing against a threat to our survival.
-
-
-Place a material price on carbon emissions, and remove all subsidies from greenhouse intensive practices and vehicles.
-Incentivise carbon-drawdown measures such as regenerative agriculture
-Ensure that climate effects are considered in all other policy actions
-10-year transition to negative emissions
-Transitioning to negative emissions only requires demonstration that the technology is available, economical, and reliable. Beginning the path to zero emissions in 10 years will ensure that we are well-placed to minimise global warming, and create an economic boom as new sectors emerge to support and utilise the new economy.
-
-Set a target for net zero emissions in 10 years, with negative emissions, carbon drawdown, to follow.
-Build the renewable replacement for the fossil-fuel grid.
-Much more - refer to Beyond Zero Emissions
-800% Renewables - Leading the international effort
-Australia is ideally placed to take advantage of the transition to clean energy - our large continent and variety of renewable sources ensures that we can generate far more energy than we need, to export clean energy and energy intensive products to the world. Leadership and collaboration with the international community are required in order to reduce greenhouse concentrations globally.
-
-Set an 800% renewable energy target, and establish a national grid to distribute renewable energy.
-Build and incentivise clean energy export markets, and disincentivise greenhouse-intensive imports and products
-Invest in R+D, to accelerate the transition away from fossil fuels, and make Australia the global leader in clean technology.
-Zero emissions transport
-A swift transition to zero emissions across every sector requires urgent work in the area of transport. Electric vehicle batteries have the added bonus of being able to stabilise the grid during peak demand.
-
-All governments replace their fleets with electric vehicles.
-Roll out a nationally coordinated electric vehicle charging network.
-Remove the luxury tax from electric vehicles.
-High speed rail from Melbourne to Brisbane.
-Facilitate financing for purchase of electric vehicles, based on savings accrued.
-Continue to invest in green hydrogen and other zero emissions liquid fuels as a potential future zero emissions heavy vehicle and flight fuel.
-
-
-
 !!!Overview
-<font color=blue>(to come)</font>
+<font color=blue>The strengths of the Fusion policy are:
+*the recognition that the climate is unacceptably dangerous already, so the Paris goals are not suitable or strong enough.
+*safe climate conditions need to be restored.
+*climate action needs to go further than emissions elimination (eg. additional measures are needed like the drawdown of CO<sub>2</sub> from the air/ocean to get the concentration in the environment back to a safe level).
+*climate action needs to be undertaken in emergency mode, where resources and capabilities are mobilised intensely so that action can occur at the necessary scale and speed.
+The gaps in the Fusion policy are:
+*the lack of a clear anchor on protecting specific classes of the climate vulnerable (humans, other living things,) leaving the policy without clear conditions to be restored in time.
+*policy holes arising because the needed end state and timing has not been clarified.
 
-"against a threat to our survival"
+These two extracts from the Fusion policy are not correct:</font>
 
-"will require decisive action to take advantage of all options still open to us." - what does this imply?
+"Transitioning to negative emissions only requires demonstration that the technology is available, economical, and reliable."
+><font color=blue>Negative emissions technologies that are "available, economical, and reliable" cannot be scaled up to the necessary scale without conflicting seriously with biodiversity protectionand food production and may be very vulnerableto rising temperatures. Some of the drawdown technologies that might be needed are very immature and may never be fully self funding.</font>
 
-"Transitioning to negative emissions only requires demonstration that the technology is available, economical, and reliable."  Not true in a great many ways
-
-"Beginning the path to zero emissions in 10 years will ensure that we are well-placed to minimise global warming"   Not true in a great many ways
-
-"create an economic boom as new sectors emerge to support and utilise the new economy"  uncertain
-
+"Beginning the path to zero emissions in 10 years will ensure that we are well-placed to minimise global warming"
+><font color=blue>[[Breakthrough research|http://www.breakthroughonline.org.au]] - especially the paper Climate Reality Check 2021 show that zero emissions alone will not stop the upward trajectory of the global temerature for about 20 years.</font>
 
 !!!Response to the checklist questions
 <table>
@@ -70,7 +36,7 @@ Continue to invest in green hydrogen and other zero emissions liquid fuels as a 
     </tr>
     <tr>
         <td class="borderless"></td>
-        <td class="borderless"><font color=blue>Xxxxxxx</font></td>
+        <td class="borderless"><font color=blue>No, this is not included in the policy.</font></td>
     </tr>
     <tr>
         <td class="borderless">Q3:</td>
@@ -78,7 +44,7 @@ Continue to invest in green hydrogen and other zero emissions liquid fuels as a 
     </tr>
     <tr>
         <td class="borderless"></td>
-        <td class="borderless"><font color=blue>Xxxxxxx</font></td>
+        <td class="borderless"><font color=blue>(Not applicable, in the light of the answer to the previous question.)</font></td>
     </tr>
     <tr>
         <td class="borderless">Q4:</td>
@@ -86,7 +52,7 @@ Continue to invest in green hydrogen and other zero emissions liquid fuels as a 
     </tr>
     <tr>
         <td class="borderless"></td>
-        <td class="borderless"><font color=blue>Xxxxxxx</font></td>
+        <td class="borderless"><font color=blue>The policy doesn't reference the Paris goals, which is appropriate given that the Fusion policy asserts that the climate is already unacceptably dangerous well before the lowest Paris temperature goal (+1.5°C ).</font></td>
     </tr>
     <tr>
         <td class="borderless">Q5:</td>
@@ -94,7 +60,7 @@ Continue to invest in green hydrogen and other zero emissions liquid fuels as a 
     </tr>
     <tr>
         <td class="borderless"></td>
-        <td class="borderless"><font color=blue>Xxxxxxx</font></td>
+        <td class="borderless"><font color=blue>It is not clear what types of goals Fusion is pursuing (eg. a literal goal or a stretch goal) because Fusion hasn't identified clearly who or what it is trying to protect and what conditions need to be delivered by when to provide that protection.</font></td>
     </tr>
     <tr>
         <td class="borderless">Q6:</td>
@@ -102,7 +68,7 @@ Continue to invest in green hydrogen and other zero emissions liquid fuels as a 
         (a)&nbsp;&nbsp;presented symbolically to indicate the warming trend?
         <font color=blue>No</font>
         (b)&nbsp;&nbsp;seen as creating a current emergency situation/problem?
-        <font color=blue>The present state of the climate is recognised as being not safe and creating an emergency problem</font>
+        <font color=blue>The present state of the climate is recognised as being not safe and as creating an emergency problem</font>
         (c)&nbsp;&nbsp;seen as dangerous but something to be stabilised and adapted to (not reversed)?
         <font color=blue>No</font>
         (d)&nbsp;&nbsp;seen as dangerous, unacceptable and something to be reversed?
@@ -114,19 +80,19 @@ Continue to invest in green hydrogen and other zero emissions liquid fuels as a 
     </tr>
     <tr>
         <td class="borderless"></td>
-        <td class="borderless"><font color=blue>The policy commits to restoring a safe climate. But what constitutes 'safe' for whom by when is not identified.</font></td>
+        <td class="borderless"><font color=blue>The policy commits to restoring a safe climate. But what constitutes 'safe' for whom, and by when is not identified.</font></td>
     </tr>
     <tr>
         <td class="borderless">Q8:</td>
         <td class="borderless">Does the party or candidate have quantitative targets and deadlines for:
         (a)&nbsp;&nbsp;emissions elimination?
-        <font color=blue>Xxxxxxx</font>
+        <font color=blue>The policy argues for getting to net zero in 10 years (2032) - and then going further (but doesn't say how much further for what reason and by when).</font>
         (b)&nbsp;&nbsp;CO<sub>2</sub> drawdown from the air to restore a safe atmospheric level?
-        <font color=blue>Xxxxxxx</font>
+        <font color=blue>The policy argues for negative emissions (reducing atmospheric greenhouse gas levels) after reaching zero emissions in 10 years.</font>
         (c)&nbsp;&nbsp;fast cooling (eg. solar reflection methods or cirrus cloud thinning) (to be achieved in years, not decades) if this can be done with clear net environmental and social benefit globally?
-        <font color=blue>Xxxxxxx</font>
+        <font color=blue>Fast cooling is not mentioned in the policy.</font>
         (d)&nbsp;&nbsp;any other type of protective action at the earth system level? (ie. controlling ice loss to the ocean, neutralisation of excess ocean acidification, etc.) if this can be done with clear net environmental and social benefit globally.
-        <font color=blue>Xxxxxxx</font></td>
+        <font color=blue>Other protection methods are not mentioned in the policy.</font></td>
     </tr>
     <tr>
         <td class="borderless">Q9:</td>
@@ -134,63 +100,77 @@ Continue to invest in green hydrogen and other zero emissions liquid fuels as a 
     </tr>
     <tr>
         <td class="borderless"></td>
-        <td class="borderless"><font color=blue>Xxxxxxx</font></td>
+        <td class="borderless"><font color=blue>No</font></td>
     </tr>
     <tr>
         <td class="borderless">Q10:</td>
         <td class="borderless">What policies are there to provide a comprehensive suite of protective actions, for example, related to:
         (a)&nbsp;&nbsp;rapidly converting ''all sectors'' of the economy and society to //''zero emissions''//
-        <font color=blue>A commitment is made to go to zero emissions in 10 years (2032) (followed by negative emissions).</font>
+        <font color=blue>Commitments are made to:
+        •&nbsp;&nbsp;go to zero emissions in 10 years (2032) (followed by negative emissions).  The policy refers people to zero emissions solutions research by [[BZE|https://bze.org.au]].
+        •&nbsp;&nbsp;replace all government transoprt fleets with electric vehicles.
+        •&nbsp;&nbsp;continue to invest in green hydrogen and other zero emissions liquid fuels as a potential future zero emissions heavy vehicle and flight fuel.</font>
         (b)&nbsp;&nbsp;rapidly building capacity (and lowering the unit cost) of //''drawing down''// all the excess CO<sub>2</sub> from the air (ie. not just as an offset for current emissions)
-        <font color=blue>Xxxxxxx</font>
+        <font color=blue>Elaborating policies of this sort are not included in the policy.</font>
         (c)&nbsp;&nbsp;rapidly researching //''fast cooling''// methods and if it can be done with clear net global benefit deploying fast cooling
-        <font color=blue>Xxxxxxx</font>
+        <font color=blue>Elaborating policies on fast cooling are not included in the policy.</font>
         (d)&nbsp;&nbsp;rapidly researching and if it can be done with clear net global benefit deploying other earth system level actions to tackle issues such as excess loss of ice from Greenland, Antarctica, the Himalayas, and the acidification of the ocean.
-        <font color=blue>Xxxxxxx</font></td>
+        <font color=blue>No policies of this sort are included in the policy.</font></td>
     </tr>
     <tr>
         <td class="borderless">Q11:</td>
         <td class="borderless">What policies are there to provide a comprehensive suite of supportive actions, for example, related to:
         (a)&nbsp;&nbsp;Planning a comprehensive program to protect the climate vulnerable that fully taps the potential of the jurisdiction and its community
-        <font color=blue>Xxxxxxx</font>
+        <font color=blue>The policy calls for ensuring that climate effects are considered in all other policy actions.</font>
         (b)&nbsp;&nbsp;Deploying an emergency-mode response
-        <font color=blue>The policy says that a climate emergency needs to be declared and mobilised against via a Climate Emergency and Mobilisation Act</font>
+        <font color=blue>The policy says that "the world has left it too long for a gradual path to net zero to restore a safe climate".  We need "to take a war-footing against a threat to our survival". A climate emergency needs to be declared and mobilised against via a Climate Emergency and Mobilisation Act.</font>
         (c)&nbsp;&nbsp;Planning the rapid conversion of Australian exports to zero emissions (even if overseas demand persists for emission intensive products)
-        <font color=blue>Xxxxxxx</font>
+        <font color=blue>This topic is not covered in the policy.</font>
         (d)&nbsp;&nbsp;Climate impacts and earth systems research
-        <font color=blue>Xxxxxxx</font>
+        <font color=blue>This topic is not covered in the policy.</font>
         (e)&nbsp;&nbsp;Community education (issues/policy)
-        <font color=blue>Xxxxxxx</font>
+        <font color=blue>This topic is not covered in the policy.</font>
         (f)&nbsp;&nbsp;Participatory democracy
-        <font color=blue>Xxxxxxx</font>
+        <font color=blue>This topic is not covered in the policy.</font>
         (g)&nbsp;&nbsp;Research & development/innovation
-        <font color=blue>Xxxxxxx</font>
+        <font color=blue>The policy calls for investment in R+D, to accelerate the transition away from fossil fuels, and make Australia the global leader in clean technology.</font>
         (h)&nbsp;&nbsp;Ensuring that climate solutions are sustainable
-        <font color=blue>Xxxxxxx</font>
+        <font color=blue>This topic is not covered in the policy.</font>
         (i)&nbsp;&nbsp;Developing renewable resources
-        <font color=blue>Xxxxxxx</font>
+        <font color=blue>The policy calls for 800% renewables - to meet domestic and export needs.</font>
         (j)&nbsp;&nbsp;Skills development/training etc.
-        <font color=blue>Xxxxxxx</font>
+        <font color=blue>This topic is not covered in the policy.</font>
         (k)&nbsp;&nbsp;Driving the early/accelerated retirement of all emissions sources
-        <font color=blue>Xxxxxxx</font>
-        (l)&nbsp;&nbsp;Enabling access to the market for new, necessary technologies to enable learning-by-doing cost unit reductions
-        <font color=blue>Xxxxxxx</font>
+        <font color=blue>This topic is not discussed overtly in the policy, but the policy commitment to putting a price on greenhouse gas emissions ('carbon' price) no doubt is intended to accelerate the retirement of all emissions sources.</font>
+        (l)&nbsp;&nbsp;Enabling access to the market for new, necessary technologies to drive learning-by-doing cost reductions per unit of production
+        <font color=blue>This topic is not covered in the policy.</font>
         (m)&nbsp;&nbsp;Enabling access to capital
-        <font color=blue>Xxxxxxx</font>
+        <font color=blue>This topic is not covered overtly in the policy, but the policy items listed under Q11(p) probably relate to this issue to some degree.</font>
         (n)&nbsp;&nbsp;Providing public funding for necessary technology that is not able to be self-financing (eg. some forms of CO<sub>2</sub> drawdown)
-        <font color=blue>Xxxxxxx</font>
+        <font color=blue>This topic is not covered in the policy.</font>
         (o)&nbsp;&nbsp;Provision of infrastructure
-        <font color=blue>Xxxxxxx</font>
+        <font color=blue>The policy calls for:
+        •&nbsp;&nbsp;the establishment of a national grid to distribute renewable energy
+        •&nbsp;&nbsp;use electric vehicle batteries to stabilise the grid during peak demand
+        •&nbsp;&nbsp;construct a nationally coordinated electric vehicle charging network
+        •&nbsp;&nbsp;build a high speed rail from Melbourne to Brisbane</font>
         (p)&nbsp;&nbsp;Legal and price regulation/prohibition of emissions sources and supply chain activities including production, extraction and exploration
-        <font color=blue>Xxxxxxx</font>
+        <font color=blue>The policy calls for:
+        •&nbsp;&nbsp;a carbon price (with no further details)
+        •&nbsp;&nbsp;the removal of all subsidies from greenhouse intensive practices and vehicles
+        •&nbsp;&nbsp;the "incentivisation (subsidisation?) of clean energy export markets and carbon-drawdown measures such as regenerative agriculture
+        •&nbsp;&nbsp;the disincentivisation of greenhouse-intensive imports and products
+        •&nbsp;&nbsp;the removal of the luxury tax from electric vehicles
+        •&nbsp;&nbsp;facilitation of financing for the purchase of electric vehicles, based on savings accrued.
+        Action to disincentivise the export of emissions intensive products is not discussed.</font>
         (q)&nbsp;&nbsp;Fair transition processes for workforces and communities currently dependent on obsolete forms of employment
-        <font color=blue>Xxxxxxx</font>
+        <font color=blue>This topic is not covered in the policy.</font>
         (r)&nbsp;&nbsp;Effective global action
-        <font color=blue>The policy asserts that action will be needed across all sectors of the world’s economies</font>
+        <font color=blue>The policy asserts that action will be needed across all sectors of the world’s economies.</font>
         (s)&nbsp;&nbsp;International leadership
-        <font color=blue>Xxxxxxx</font>
+        <font color=blue>The policy says that Australia should lead and collaborate internationally to make it possible to reduceemissions concentrations and to restore a safe climate.</font>
         (t)&nbsp;&nbsp;International aid
-        <font color=blue>Xxxxxxx</font></td>
+        <font color=blue>This topic is not covered in the policy.</font></td>
     </tr>
     <tr>
         <td class="borderless">Q12:</td>
@@ -198,7 +178,7 @@ Continue to invest in green hydrogen and other zero emissions liquid fuels as a 
     </tr>
     <tr>
         <td class="borderless"></td>
-        <td class="borderless"><font color=blue>Xxxxxxx</font></td>
+        <td class="borderless"><font color=blue>No</font></td>
     </tr>
     <tr>
         <td class="borderless">Q13:</td>
@@ -206,7 +186,6 @@ Continue to invest in green hydrogen and other zero emissions liquid fuels as a 
     </tr>
     <tr>
         <td class="borderless"></td>
-        <td class="borderless"><font color=blue>Xxxxxxx</font></td>
+        <td class="borderless"><font color=blue>The assessment checklist needed some revisions so that it could handle the scope of the Fusion policy.</font></td>
     </tr>
 </table>
-
