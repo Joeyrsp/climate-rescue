@@ -29,6 +29,10 @@
 [[Output reports]]
 <</if>>
 
+<<if $crCampaignStrategybackgroundShowInMenu == 1>>
+[[Climate Rescue Campaign Strategy|CR Strategy]]
+<</if>>
+
 <<if $backgroundShowInMenu == 1>>
 [[Background|Background (get)]]
 <</if>>

@@ -3,21 +3,22 @@
 [[Contact the Adviser team]] &nbsp;&nbsp;<small>(<<link [[add to main menu|Other material]]>><<set $contactShowInMenu to 1>><</link>>)  (<<link [[remove|Other material]]>><<set $contactShowInMenu to 0>><</link>>)</small>
 [[Building a support system|Building a support system for 'whole system package' action]] &nbsp;&nbsp;<small>(<<link [[add to main menu|Other material]]>><<set $buildingSupportSystemShowInMenu to 1>><</link>>)  (<<link [[remove|Other material]]>><<set $buildingSupportSystemShowInMenu to 0>><</link>>)</small>
 [[Starting with projects]] &nbsp;&nbsp;<small>(<<link [[add to main menu|Other material]]>><<set $startingWithProjectsShowInMenu to 1>><</link>>)  (<<link [[remove|Other material]]>><<set $startingWithProjectsShowInMenu to 0>><</link>>)</small>
+[[Climate Rescue Campaign Strategy|CR Strategy]] &nbsp;&nbsp;<small>(<<link [[add to main menu|Other material]]>><<set $crCampaignStrategybackgroundShowInMenu to 1>><</link>>)  (<<link [[remove|Other material]]>><<set $crCampaignStrategybackgroundShowInMenu to 0>><</link>>)</small>
 [[Background|Background (get)]] &nbsp;&nbsp;<small>(<<link [[add to main menu|Other material]]>><<set $backgroundShowInMenu to 1>><</link>>)  (<<link [[remove|Other material]]>><<set $backgroundShowInMenu to 0>><</link>>)</small>
 [[Index]] &nbsp;&nbsp;<small>(<<link [[add to main menu|Other material]]>><<set $indexShowInMenu to 1>><</link>>)  (<<link [[remove|Other material]]>><<set $indexShowInMenu to 0>><</link>>)</small>/%
 [[Favourites]] &nbsp;&nbsp;<small>(<<link [[add to main menu|Other material]]>><<set $favouritesShowInMenu to 1>><</link>>)  (<<link [[remove|Other material]]>><<set $favouritesShowInMenu to 0>><</link>>)</small>%/
 [[Dev stuff]] &nbsp;&nbsp;<small>(<<link [[add to main menu|Other material]]>><<set $devStuffShowInMenu to 1>><</link>>)  (<<link [[remove|Other material]]>><<set $devStuffShowInMenu to 0>><</link>>)</small>
 
-!!The 'levels' of the Adviser that will be revealed as users progress
+!!The 'levels' of the Adviser that will be revealed as users progress (and the Adviser modules are developed!)
 *Whole System Package
 **Global scenarios
 **Building a support system
 **Adapting the 'whole system package' plan
 **Linked projects
 *Starting with projects
-**Campaigning to protect the climate vulnerable
-**Protecting forests
 **Researching the needs of the climate vulnerable
+**Protecting forests
+**Campaigning to protect the climate vulnerable
 **Shaping policy on the use of offsets
 *Output reports
 
@@ -56,6 +57,7 @@ For developers and specialist users:
 <<elseif $displayAllCode is "srpcv">><<set $startingWithProjectsShowInMenu to 1>><<set $researchingNeedsOfClimateVulnerableShowInStartingWithProjects to 1>>
 <<elseif $displayAllCode is "soff">><<set $startingWithProjectsShowInMenu to 1>><<set $shapingPolicyOnUseOfOffsetsShowInStartingWithProjects to 1>>
 <<elseif $displayAllCode is "smonica">><<set $startingWithProjectsShowInMenu to 1>><<set $wwfDrawdownProjectShowInStartingWithProjects to 1>>
+<<elseif $displayAllCode is "scrstrat">><<set $crCampaignStrategybackgroundShowInMenu to 1>>
 <<elseif $displayAllCode is "hw">><<set $wholeSystemPackagePlanShowInMenu to 0>>
 <<elseif $displayAllCode is "hg">><<set $globalScenariosShowInMenu to 0>>
 <<elseif $displayAllCode is "hb">><<set $buildingSupportSystemShowInMenu to 0>>
@@ -70,4 +72,10 @@ For developers and specialist users:
 <<elseif $displayAllCode is "hrpcv">><<set $researchingNeedsOfClimateVulnerableShowInStartingWithProjects to 0>>
 <<elseif $displayAllCode is "hoff">><<set $shapingPolicyOnUseOfOffsetsShowInStartingWithProjects to 0>>
 <<elseif $displayAllCode is "hmonica">><<set $wwfDrawdownProjectShowInStartingWithProjects to 0>>
+<<elseif $displayAllCode is "hcrstrat">><<set $crCampaignStrategybackgroundShowInMenu to 0>>
 <</if>><</button>>
+
+
+<<if $crCampaignStrategybackgroundShowInMenu == 1>>
+[[Climate Rescue Campaign Strategy|CR Strategy]]
+<</if>>
