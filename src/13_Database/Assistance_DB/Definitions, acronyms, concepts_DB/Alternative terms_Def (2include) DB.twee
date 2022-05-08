@@ -7,14 +7,14 @@ width: 650px;
 </style>
 <table>
 <tr>
-<th style="width: 20%;" class="grayed">Weak language</th>
+<th style="width: 20%;" class="grayed">Weaker language</th>
 <th style="width: 25%;" class="grayed">Strong language</th>
 <th style="width: 55%;" class="grayed">Reasons for choice</th>
 </tr>
 <tr>
 <td>climate <i>crisis</i></td>
 <td>climate <i>emergency</i></td>
-<td>Whatever language is normally used officially when making declarations to trigger intense emergency-mode action on major disasters is the preferred language</td>
+<td>Talking about the 'climate crisis' is okay when referring to the climate //''problem''//.  But when referring to the climate //''response''// then whatever language is normally used officially when making declarations to trigger intense emergency-mode action on major disasters is the preferred language.</td>
 </tr>
 <tr>
 <td>coal<br>(as a stand in term for emissions sources)</td>
@@ -35,6 +35,11 @@ width: 650px;
 <td>low carbon</td>
 <td>zero emissions</td>
 <td>We need to go to zero emissions</td>
+</tr>
+<tr>
+<td>reversing climate change</td>
+<td>restoring a safe climate</td>
+<td>Talking about 'reversing climate change' is better than 'stabilising the climate' (at some warmer level) but reversing doesn't make it clear what the desired end point is so it's not clear what good policy would need to be.</td>
 </tr>
 </table>
 
