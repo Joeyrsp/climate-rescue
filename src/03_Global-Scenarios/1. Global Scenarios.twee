@@ -1,16 +1,18 @@
 :: Global Scenarios {"position":"1000,3875","size":"200,200"}
+<<fav>> | <<return>>
+----
 !!Global scenarios
-
 !!!Political/cultural scenarios
-[[Dhubai-iication, an artificial world to protect the powerful]]
-[[Descent into warring]]
-[[Maximum protection world]]
+[[Dhubai-ification, an artificial world to protect the powerful|Dhubai-ification, an artificial world to protect the powerful_Scenario]]
+[[Descent into warring|Descent into warring_Scenario]]
+[[Maximum protection world|Maximum protection world_Scenario]]
 
-!!!Earth system outcome sceanrios
-[[Stabilised climate, but hotter than now]]
-[[Hothouse earth]]
-[[Maximum protection world]]
+!!!Earth system outcome scenarios
+[[Stabilised climate, but hotter than now|Stabilised climate, but hotter than now_Scenario]]
+[[Hothouse earth|Hothouse earth_Scenario]]
+[[Maximum protection world|Maximum protection world_Scenario]]
 
 !!!Fast cooling scenarios
-
-
+[[20 years of research then 50% cooling, maybe|20 years of research then 50% cooling, maybe_Scenario]]
+[[Maintain the taboo, no field research, no deployment|Maintain the taboo, no field research, no deployment_Scenario]]
+[[Early, full deployment if can be made safe|Early, full deployment if can be made safe_Scenario]]

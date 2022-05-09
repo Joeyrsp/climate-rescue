@@ -1,5 +1,5 @@
-:: Hothouse earth {"position":"1425,4175"}
-<<fav>>
+:: Hothouse earth_Scenario {"position":"1425,4175"}
+<<fav>> | <<return>> | [[Global Scenarios]]
 ---
 !!Hothouse earth
 
