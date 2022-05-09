@@ -1,4 +1,4 @@
-:: Definitions, acronyms, concepts (database.gather) {"position":"7325,8275","size":"200,100"}
+:: Definitions, acronyms, concepts DB {"position":"7325,8275","size":"200,100"}
 <<return>> | [[Background|Background (get)]] | <<fav>>
 !!Definitions, acronyms & concepts (database)
 <<nobr>><style>
@@ -35,15 +35,11 @@
         <td>RD&D</td>
         <td>Research, Development & Demonstration - an extension of the concept of R&D (research and development)</td>
     </tr>
-    <tr>
-        <td></td>
-        <td></td>
-    </tr>
 </table>
 <</nobr>>
 
 !!!Alternative terms table
-[[Alternative terms|Alternative terms_Def (2include)]]
+[[Alternative terms -2|Alternative terms_Def (2include)]]
 
 <<return>>
 
