@@ -1,6 +1,7 @@
 :: Other material {"position":"125,875"}
 !!Other material
 [[Contact the Adviser team]] &nbsp;&nbsp;<small>(<<link [[add to main menu|Other material]]>><<set $contactShowInMenu to 1>><</link>>)  (<<link [[remove|Other material]]>><<set $contactShowInMenu to 0>><</link>>)</small>
+[[Global Scenarios]] &nbsp;&nbsp;<small>(<<link [[add to main menu|Other material]]>><<set $contactShowInMenu to 1>><</link>>)  (<<link [[remove|Other material]]>><<set $contactShowInMenu to 0>><</link>>)</small>
 [[Building a support system|Building a support system for 'whole system package' action]] &nbsp;&nbsp;<small>(<<link [[add to main menu|Other material]]>><<set $buildingSupportSystemShowInMenu to 1>><</link>>)  (<<link [[remove|Other material]]>><<set $buildingSupportSystemShowInMenu to 0>><</link>>)</small>
 [[Starting with projects]] &nbsp;&nbsp;<small>(<<link [[add to main menu|Other material]]>><<set $startingWithProjectsShowInMenu to 1>><</link>>)  (<<link [[remove|Other material]]>><<set $startingWithProjectsShowInMenu to 0>><</link>>)</small>
 [[Climate Rescue Campaign Strategy|CR Strategy]] &nbsp;&nbsp;<small>(<<link [[add to main menu|Other material]]>><<set $crCampaignStrategybackgroundShowInMenu to 1>><</link>>)  (<<link [[remove|Other material]]>><<set $crCampaignStrategybackgroundShowInMenu to 0>><</link>>)</small>
@@ -21,7 +22,6 @@
 **Campaigning to protect the climate vulnerable
 **Shaping policy on the use of offsets
 *Output reports
-
 
 For developers and specialist users:
 <<textboxPlus "" "$displayAllCode" `{placeholder: "Enter your display code", spellcheck: false, autofocus: true, autocomplete: "off"}`>><<button [[Save|Other material]]>>
@@ -57,6 +57,7 @@ For developers and specialist users:
 <<elseif $displayAllCode is "srpcv">><<set $startingWithProjectsShowInMenu to 1>><<set $researchingNeedsOfClimateVulnerableShowInStartingWithProjects to 1>>
 <<elseif $displayAllCode is "soff">><<set $startingWithProjectsShowInMenu to 1>><<set $shapingPolicyOnUseOfOffsetsShowInStartingWithProjects to 1>>
 <<elseif $displayAllCode is "smonica">><<set $startingWithProjectsShowInMenu to 1>><<set $wwfDrawdownProjectShowInStartingWithProjects to 1>>
+<<elseif $displayAllCode is "svic">><<set $startingWithProjectsShowInMenu to 1>><<set $HowBroadBasedStateTerritoryEnvGroupsPursueClimateRescueShowInStartingWithProjects to 1>>
 <<elseif $displayAllCode is "scrstrat">><<set $crCampaignStrategybackgroundShowInMenu to 1>>
 <<elseif $displayAllCode is "hw">><<set $wholeSystemPackagePlanShowInMenu to 0>>
 <<elseif $displayAllCode is "hg">><<set $globalScenariosShowInMenu to 0>>
@@ -72,10 +73,8 @@ For developers and specialist users:
 <<elseif $displayAllCode is "hrpcv">><<set $researchingNeedsOfClimateVulnerableShowInStartingWithProjects to 0>>
 <<elseif $displayAllCode is "hoff">><<set $shapingPolicyOnUseOfOffsetsShowInStartingWithProjects to 0>>
 <<elseif $displayAllCode is "hmonica">><<set $wwfDrawdownProjectShowInStartingWithProjects to 0>>
+<<elseif $displayAllCode is "hvic">><<set $HowBroadBasedStateTerritoryEnvGroupsPursueClimateRescueShowInStartingWithProjects to 0>>
 <<elseif $displayAllCode is "hcrstrat">><<set $crCampaignStrategybackgroundShowInMenu to 0>>
 <</if>><</button>>
 
-
-<<if $crCampaignStrategybackgroundShowInMenu == 1>>
-[[Climate Rescue Campaign Strategy|CR Strategy]]
-<</if>>
+ShowInStartingWithProjects

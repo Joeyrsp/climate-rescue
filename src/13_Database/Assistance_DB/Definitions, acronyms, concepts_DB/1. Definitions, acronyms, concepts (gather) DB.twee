@@ -1,0 +1,49 @@
+:: Definitions, acronyms, concepts (database.gather) {"position":"7325,8275","size":"200,100"}
+<<return>> | [[Background|Background (get)]] | <<fav>>
+!!Definitions, acronyms & concepts (database)
+<<nobr>><style>
+    table {
+        width: 95%;
+    }  
+</style>
+<table>
+    <tr style="font-weight:bold">
+        <td class="grayed" style="width: 200px;">Term</td>
+        <td class="grayed">Definition or link</td>
+    </tr>
+    <tr>
+        <td>Emergency action mode on the climate</td>
+        <td>[[(link)|Emergency action mode on climate_Def (2include)]]</td>
+    </tr>
+    <tr>
+        <td>Emergency - Prevention</td>
+        <td>[[(link)|Prevention_Def (2include)]]</td>
+    </tr>
+    <tr>
+        <td>Emergency - Preparedness</td>
+        <td>[[(link)|Preparedness_Def (2include)]]</td>
+    </tr>
+    <tr>
+        <td>Emergency - Response</td>
+        <td>[[(link)|Response_Def (2include)]]</td>
+    </tr>
+    <tr>
+        <td>Emergency - Recovery</td>
+        <td>[[(link)|Recovery_Def (2include)]]</td>
+    </tr>
+    <tr>
+        <td>RD&D</td>
+        <td>Research, Development & Demonstration - an extension of the concept of R&D (research and development)</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+<</nobr>>
+
+!!!Alternative terms table
+[[Alternative terms|Alternative terms_Def (2include)]]
+
+<<return>>
+
