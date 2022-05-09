@@ -1,13 +1,9 @@
 :: Emergency action mode on climate_Def (get) {"position":"1275,8800"}
-<<return>> | [[Definitions, acronyms, concepts (gather)]] | <<fav>>
-(Definition) 
+<<fav>>| <<return>> | [[Definitions, acronyms, concepts (gather)]]
+---- 
 !!Emergency action mode //on the climate// (Definition etc.)
-<<include [[Emergency action mode on climate_Def (2include)]]>>
+<<include [[Emergency action mode on climate_Def (2include) DB]]>>
 
 [[Emergency (Index)]]
 
-
-
 <<return>>
-
-

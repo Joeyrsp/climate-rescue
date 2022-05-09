@@ -8,7 +8,7 @@ width: 650px;
 <table>
 <tr>
 <th style="width: 20%;" class="grayed">Weaker language</th>
-<th style="width: 25%;" class="grayed">Strong language</th>
+<th style="width: 25%;" class="grayed">Preferred strong language</th>
 <th style="width: 55%;" class="grayed">Reasons for choice</th>
 </tr>
 <tr>
@@ -42,5 +42,3 @@ width: 650px;
 <td>Talking about 'reversing climate change' is better than 'stabilising the climate' (at some warmer level) but reversing doesn't make it clear what the desired end point is so it's not clear what good policy would need to be.</td>
 </tr>
 </table>
-
-<<return>>

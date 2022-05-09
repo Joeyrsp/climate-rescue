@@ -1,0 +1,9 @@
+:: Response-Emergency_Def (get) {"position":"1650,8800"}
+<<fav>> | <<return>> | [[Definitions, acronyms, concepts (gather)]]
+---- 
+!!Response (Definition etc.)
+<<include [[Response-Emergency_Def (2include) DB]]>>
+
+[[Emergency (Index)]]
+
+<<return>>

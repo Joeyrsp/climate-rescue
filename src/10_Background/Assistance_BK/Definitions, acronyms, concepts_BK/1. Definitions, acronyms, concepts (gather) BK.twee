@@ -1,6 +1,7 @@
-:: Definitions, acronyms, concepts DB {"position":"7325,8275","size":"200,100"}
-<<return>> | [[Background|Background (get)]] | <<fav>>
-!!Definitions, acronyms & concepts (database)
+:: Definitions, acronyms, concepts (gather) {"position":"1000,8800","size":"200,100"}
+<<fav>> | <<return>> | [[Background|Background (get)]]
+----
+!!Definitions, acronyms & concepts
 <<nobr>><style>
     table {
         width: 95%;
@@ -13,23 +14,23 @@
     </tr>
     <tr>
         <td>Emergency action mode on the climate</td>
-        <td>[[(link)|Emergency action mode on climate_Def (2include)]]</td>
+        <td>[[(link)|Emergency action mode on climate_Def (get)]]</td>
     </tr>
     <tr>
         <td>Emergency - Prevention</td>
-        <td>[[(link)|Prevention_Def (2include)]]</td>
+        <td>[[(link)|Prevention-Emergency_Def (get)]]</td>
     </tr>
     <tr>
         <td>Emergency - Preparedness</td>
-        <td>[[(link)|Preparedness_Def (2include)]]</td>
+        <td>[[(link)|Preparedness-Emergency_Def (get)]]</td>
     </tr>
     <tr>
         <td>Emergency - Response</td>
-        <td>[[(link)|Response_Def (2include)]]</td>
+        <td>[[(link)|Response-Emergency_Def (get)]]</td>
     </tr>
     <tr>
         <td>Emergency - Recovery</td>
-        <td>[[(link)|Recovery_Def (2include)]]</td>
+        <td>[[(link)|Recovery-Emergency_Def (get)]]</td>
     </tr>
     <tr>
         <td>RD&D</td>
@@ -37,9 +38,7 @@
     </tr>
 </table>
 <</nobr>>
-
 !!!Alternative terms table
-[[Alternative terms -2|Alternative terms_Def (2include)]]
+[[Alternative terms|Alternative terms_Def (get)]]
 
 <<return>>
-
