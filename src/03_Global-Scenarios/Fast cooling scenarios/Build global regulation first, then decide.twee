@@ -1,4 +1,4 @@
-:: Build global regulation first, then decide_Scenario
+:: Build global regulation first, then decide_GScenario
 <<fav>> | <<return>> | [[Global Scenarios]]
 ---
 !!Build global regulation first, then decide

@@ -33,8 +33,12 @@
         <td>[[(link)|Recovery-Emergency_Def (get)]]</td>
     </tr>
     <tr>
+        <td>Fast cooling methods</td>
+        <td><<include [[Fast cooling methods_Def (2include) DB]]>></td>
+    </tr>
+    <tr>
         <td>RD&D</td>
-        <td>Research, Development & Demonstration - an extension of the concept of R&D (research and development)</td>
+        <td><<include [[RD&D_Def (2include) DB]]>></td>
     </tr>
 </table>
 <</nobr>>
