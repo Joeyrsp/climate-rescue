@@ -1,5 +1,5 @@
 :: Developing a fast cooling program {"position":"1725,6575"}
-<<fav>> | <<return>>
+<<fav>> | <<return>><<set $developingFastCoolingProgramShowInStartingWithProjects to 1>><<set $startingWithProjectsShowInMenu to 1>>
 ----
 !!Links in the page<a id="Links in the page"></a>
 The newest material is at the top of this page, oldest last.
