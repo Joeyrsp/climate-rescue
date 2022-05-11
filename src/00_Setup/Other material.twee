@@ -10,17 +10,10 @@
 [[Favourites]] &nbsp;&nbsp;<small>(<<link [[add to main menu|Other material]]>><<set $favouritesShowInMenu to 1>><</link>>)  (<<link [[remove|Other material]]>><<set $favouritesShowInMenu to 0>><</link>>)</small>%/
 [[Dev stuff]] &nbsp;&nbsp;<small>(<<link [[add to main menu|Other material]]>><<set $devStuffShowInMenu to 1>><</link>>)  (<<link [[remove|Other material]]>><<set $devStuffShowInMenu to 0>><</link>>)</small>
 
-!!The 'levels' of the Adviser that will be revealed as users progress (and the Adviser modules are developed!)
-*Whole System Package
-**Global scenarios
-**Building a support system
-**Adapting the 'whole system package' plan
-**Linked projects
-*Starting with projects
-**Researching the needs of the climate vulnerable
-**Protecting forests
-**Campaigning to protect the climate vulnerable
-**Shaping policy on the use of offsets
+!!Further 'levels' of the Adviser that will be revealed as the Adviser modules are developed:
+*Whole System Package Plan
+*Adapting the 'whole system package' plan
+*Linked projects
 *Output reports
 
 For developers and specialist users:
