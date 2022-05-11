@@ -76,5 +76,3 @@ For developers and specialist users:
 <<elseif $displayAllCode is "hvic">><<set $HowBroadBasedStateTerritoryEnvGroupsPursueClimateRescueShowInStartingWithProjects to 0>>
 <<elseif $displayAllCode is "hcrstrat">><<set $crCampaignStrategybackgroundShowInMenu to 0>>
 <</if>><</button>>
-
-ShowInStartingWithProjects
