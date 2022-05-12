@@ -13,6 +13,14 @@
         <td class="grayed">Definition or link</td>
     </tr>
     <tr>
+        <td>Chain of responsibility</td>
+        <td>[[(link)|Chain of responsibility_brief (2include) DB]]</td>
+    </tr>
+    <tr>
+        <td>Duty of care</td>
+        <td>[[(link)|Duty of care (2include) DB]]</td>
+    </tr>
+    <tr>
         <td>Emergency action mode on the climate</td>
         <td>[[(link)|Emergency action mode on climate_Def (get)]]</td>
     </tr>
@@ -39,6 +47,10 @@
     <tr>
         <td>RD&D</td>
         <td><<include [[RD&D_Def (2include) DB]]>></td>
+    </tr>
+    <tr>
+        <td>RSTI</td>
+        <td><<include [[RSTI_Def (2include) DB]]>></td>
     </tr>
 </table>
 <</nobr>>

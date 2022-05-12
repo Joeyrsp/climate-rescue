@@ -1,15 +1,5 @@
 :: Chain of Responsibility_PrinEtc {"position":"1650,18050"}
 <<fav>> | <<return>>
 ----
-!!!Chain of Responsibility
-
-(content to come)
-
-[[Chain of responsibility (Index)]]
-
-
-
-
-<<return>>
-
-
+!!!Chain of responsibility
+<<include [[Chain of responsibility_brief (2include) DB]]>>
