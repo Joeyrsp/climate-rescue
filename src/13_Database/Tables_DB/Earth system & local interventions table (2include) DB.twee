@@ -1,0 +1,29 @@
+:: Earth system & local interventions table (2include) DB {"position":"8475,7700"}
+<style>
+    table {
+        width: 70%;
+        margin-left: 30px !important;
+    }
+
+    td {
+        width: calc(100% / 3);
+    }
+</style>
+<table>
+    <tr>
+        <td class="borderless"></td>
+        <td class="grayed"><b>Earth system level</b></td>
+        <td class="grayed"><b>Local level</b></td>
+    </tr>
+    <tr>
+        <td class="grayed"><b>Types of intervention</b></td>
+        <td>•&nbsp;&nbsp;Emissions elimination
+        •&nbsp;&nbsp;CO<sub>2</sub> drawdown to lower level in the air
+        •&nbsp;&nbsp;Fast cooling (if can be designed to be safe enough to use)
+        </td>
+        <td>•&nbsp;&nbsp;Human fire management
+        •&nbsp;&nbsp;Replanting, other species reintroductons
+        •&nbsp;&nbsp;Genetic interventions to increase species resilience
+        •&nbsp;&nbsp;Other conservation biology interventions</td>
+    </tr>
+</table>
