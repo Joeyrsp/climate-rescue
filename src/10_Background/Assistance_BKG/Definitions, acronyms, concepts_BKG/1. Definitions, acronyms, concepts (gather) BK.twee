@@ -1,6 +1,9 @@
 :: Definitions, acronyms, concepts (gather) {"position":"1000,8800","size":"200,100"}
 <<fav>> | <<return>> | [[Background|Background (get)]]
 ----
+!!Alternative terms table
+[[Alternative terms|Alternative terms_Def (get)]]
+
 !!Definitions, acronyms & concepts
 <<nobr>><style>
     table {
@@ -45,6 +48,10 @@
         <td><<include [[Fast cooling methods_Def (2include) DB]]>></td>
     </tr>
     <tr>
+        <td>IPCC</td>
+        <td><<include [[IPCC_Def (2include) DB]]>></td>
+    </tr>
+    <tr>
         <td>RD&D</td>
         <td><<include [[RD&D_Def (2include) DB]]>></td>
     </tr>
@@ -54,7 +61,5 @@
     </tr>
 </table>
 <</nobr>>
-!!!Alternative terms table
-[[Alternative terms|Alternative terms_Def (get)]]
 
 <<return>>
