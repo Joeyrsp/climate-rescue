@@ -1,1 +1,5 @@
 :: Maze solving & bridge building (include) DB
+!!Maze solving and bridge building
+Strategy and action planning need to be built out from two different points: from where one wants to end up and from where one is now.  This is how we solve mazes (from the entry point and the exit point).  Working back from the end point is often called backcasting.  Forecasting starts from where one is.
+
+‘Bridging’ between the destination and the starting point can be tackled also in a loosely analogous way to building a long physical bridge from one side.  The bridge is built, in stages – out to the first pier, then out to the next and the next – but all the while knowing where the destination point is.
