@@ -1,0 +1,43 @@
+:: Power focuses table (2include) DB {"position":"8475,7700"}
+<style>
+    td {
+        width: calc(100% / 4);
+    }
+</style><table>
+    <tr>
+        <td class="borderless"></td>
+        <td class="grayed"><center><b>Top down</b></center></td>
+        <td class="grayed"><center><b>Middle out</b></center></td>
+        <td class="grayed"><center><b>Bottom up</b></center></td>
+    </tr>
+    <tr>
+        <td class="grayed"><b>Power of ideas & skills</b></td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td class="grayed"><b>People power</b></td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td class="grayed"><b>Government power</b></td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td class="grayed"><b>Business/money power</b></td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td class="grayed"><b>Other sources of power?</b></td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+</table>
