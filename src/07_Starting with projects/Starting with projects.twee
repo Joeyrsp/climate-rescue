@@ -10,6 +10,6 @@
 <<if $researchingNeedsOfClimateVulnerableShowInStartingWithProjects eq 1>>[[Researching the needs of the climate vulnerable]]<br><br><</if>>
 <<if $shapingPolicyOnUseOfOffsetsShowInStartingWithProjects eq 1>>[[Shaping policy on the use of offsets]]<br><br><</if>>
 <<if $wwfDrawdownProjectShowInStartingWithProjects eq 1>>[[WWF drawdown project]]<br><br><</if>>
-<<if $HowBroadBasedStateTerritoryEnvGroupsPursueClimateRescueShowInStartingWithProjects eq 1>>[[How broad-based state-territory env groups can pursue climate rescue]]<br><br><</if>>
+<<if $howBroadBasedStateTerritoryEnvGroupsPursueClimateRescueShowInStartingWithProjects eq 1>>[[How broad-based state-territory env groups can pursue climate rescue]]<br><br><</if>>
 <</nobr>>
 

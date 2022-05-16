@@ -1,5 +1,5 @@
 :: How broad-based state-territory env groups can pursue climate rescue
-<<fav>> | <<return>><<set $HowBroadBasedStateTerritoryEnvGroupsPursueClimateRescueShowInStartingWithProjects to 1>><<set $startingWithProjectsShowInMenu to 1>>
+<<fav>> | <<return>><<set $howBroadBasedStateTerritoryEnvGroupsPursueClimateRescueShowInStartingWithProjects to 1>><<set $startingWithProjectsShowInMenu to 1>>
 ----
 !!How broad-based state/territory environment groups can pursue climate rescue
 How could broad-based state/territory environment groups pursue the "climate rescue" approach to climate action to provide maximum protection for the climate vulnerable?  How could this be done without the group needing to turn into a different type of organisation?
