@@ -1,0 +1,31 @@
+:: Earth system areas & challenges table (2include) DB
+<table>
+    <tr>
+        <td style="width: 30%;" class="grayed"><b>Earth system action areas</b></td>
+        <td style="width: 70%;" class="grayed"><center><b>Challenges</b></center></td>
+    </tr>
+    <tr>
+        <td>Zero emissions economy</td>
+        <td>How to achieve at emergency speed; technology development and cost reduction for currently difficult sectors</td>
+    </tr>
+    <tr>
+        <td>Excess CO<sub>2</sub> drawdown</td>
+        <td>What methods can be climate impact resistent? (eg. heat tolerant); how can it reach full scale?; how to reduce cost?; how to pay for?; how to achieve at emergency speed; </td>
+    </tr>
+    <tr>
+        <td>Excess methane removal</td>
+        <td>Is it technically feasible and safe?; how to reduce cost?; if possible and safe-how to achieve at emergency speed?; how can it reach full scale?</td>
+    </tr>
+    <tr>
+        <td>Fast cooling[[(*)|Fast cooling methods_Def (get)]]</td>
+        <td>How to ramp up research; can it be done with clear net environmental benefit (safely)?; if can be done safely-how to achieve at emergency speed?; how can it reach full scale?</td>
+    </tr>
+    <tr>
+        <td>Ocean alkalinity restoration</td>
+        <td>How to ramp up research; can it be done with clear net environmental benefit (safely)?; how to reduce cost?; how to pay for?; if can be done safely-how to achieve at emergency speed?; how can it reach full scale?</td>
+    </tr>
+    <tr>
+        <td>Stopping excess ice loss to the ocean</td>
+        <td>How to ramp up research; can it be done with clear net environmental benefit (safely)?; how to reduce cost?; how to pay for?; if can be done safely-how to achieve at emergency speed?; how can it reach full scale?</td>
+    </tr>
+</table>
