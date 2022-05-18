@@ -1,9 +1,0 @@
-:: Working with EV
-<<fav>> | <<return>> | [[How broad-based state-territory env groups can pursue climate rescue]]<<set $howBroadBasedStateTerritoryEnvGroupsPursueClimateRescueShowInStartingWithProjects to 1>><<set $startingWithProjectsShowInMenu to 1>>
-----
-!!Working with EV
-!!!EV organisational DNA that it wants to retain
-<<include [[EV's organisational character DNA (2include)]]>>
-!!!Next steps
-*Identify what action model EV wants to explore: eg.[[(*)|Multi-tracking_StratFrame]] 
-*Anything else?
