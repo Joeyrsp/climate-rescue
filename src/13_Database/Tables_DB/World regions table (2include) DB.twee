@@ -1,0 +1,76 @@
+:: World regions table (2include) DB
+<style>
+table {
+margin-left: 20px !important;
+width: 650px;
+}
+</style>
+<table>
+<tr>
+<th style="width: 25%;" class="grayed">Major regions</th>
+<th style="width: 75%;" class="grayed">Sub-regions</th>
+</tr>
+<tr>
+<td rowspan="5">Africa</td>
+<td>Eastern</td>
+</tr>
+<tr>
+<td>Middle</td>
+</tr>
+<tr>
+<td>Northern</td>
+</tr>
+<tr>
+<td>Southern</td>
+</tr>
+<tr>
+<td>Western</td>
+</tr>
+<tr>
+<td rowspan="4">Americas</td>
+<td>Caribbean</td>
+</tr>
+<tr>
+<td>Central</td>
+</tr>
+<tr>
+<td>North</td>
+</tr>
+<tr>
+<td>South</td>
+</tr>
+<tr>
+<td rowspan="6">Asia</td>
+<td>Central</td>
+</tr>
+<tr>
+<td>East</td>
+</tr>
+<tr>
+<td>North (see Russia)</td>
+</tr>
+<tr>
+<td>South</td>
+</tr>
+<tr>
+<td>Southeast</td>
+</tr>
+<tr>
+<td>West</td>
+</tr>
+<tr>
+<td rowspan="2">Europe</td>
+<td>EU</td>
+</tr>
+<tr>
+<td>Non-EU</td>
+</tr>
+<tr>
+<td>Oceania</td>
+<td></td>
+</tr>
+<tr>
+<td>Russia</td>
+<td>Non-EU-Europe, North Asia</td>
+</tr>
+</table>
