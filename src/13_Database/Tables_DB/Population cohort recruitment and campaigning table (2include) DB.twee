@@ -1,43 +1,63 @@
 :: Population cohort recruitment and campaigning table (2include) DB
 <table>
     <tr>
-        <td style="width: 30%;" class="grayed"><b>Targets to take on the 2 actions focuses approach</b></td>
-        <td style="width: 30%;" class="grayed"><center><b>Focus 1: Action to promote an <u>integrated package of measures</u> to protect the climate vulnerable and restore a safe climate</b></center></td>
-        <td style="width: 30%;" class="grayed"><center><b>Focus 2: Action(s) to <u>contribute</u> to the integrated package of measures</b></center></td>
+        <td style="width: 25%;" class="grayed"><b>Starting point</b></td>
+        <td style="width: 25%;" class="grayed"><center><b>Recruitment</b></center></td>
+        <td style="width: 25%;" class="grayed"><center><b>Campaigning</b></center></td>
+        <td style="width: 25%;" class="grayed"><center><b>Complexity</b></center></td>
     </tr>
     <tr>
-        <td>Individuals</td>
+        <td>Building the CRCG secretariat</td>
         <td></td>
         <td></td>
+        <td>High (generalists and specialists)</td>
     </tr>
     <tr>
-        <td>Community groups / civil society organisations</td>
+        <td>Project related networking (PCV, FCC, DCR)</td>
         <td></td>
         <td></td>
+        <td>High (generalists and specialists)</td>
     </tr>
     <tr>
-        <td>Political parties</td>
+        <td>Grassroots mobilising in areas of high climate concern</td>
         <td></td>
         <td></td>
+        <td>Mixed</td>
     </tr>
     <tr>
-        <td>Local governments</td>
+        <td>Youth networking</td>
         <td></td>
         <td></td>
+        <td>Mixed</td>
     </tr>
     <tr>
-        <td>State/Territory governments</td>
+        <td>Grassroots mobilising in areas of high climate vulnerability</td>
         <td></td>
         <td></td>
+        <td>Mixed</td>
     </tr>
     <tr>
-        <td>National government</td>
+        <td>Grassroots mobilising in areas of high social influence</td>
         <td></td>
         <td></td>
+        <td>Mixed</td>
     </tr>
     <tr>
-        <td>International organisations</td>
+        <td>Political party networking</td>
         <td></td>
         <td></td>
+        <td>Mixed</td>
+    </tr>
+    <tr>
+        <td>Networking amongst professionals</td>
+        <td></td>
+        <td></td>
+        <td>Mixed (leaning towards high)</td>
+    </tr>
+    <tr>
+        <td>Elite networking</td>
+        <td></td>
+        <td></td>
+        <td>Mixed (leaning towards high)</td>
     </tr>
 </table>
