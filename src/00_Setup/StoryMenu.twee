@@ -37,6 +37,10 @@
 [[Background|Background (get)]]
 <</if>>
 
+<<if $defEtcShowInMenu == 1>>
+[[Definitions, acronyms|Definitions, acronyms, concepts (gather)]]
+<</if>>
+
 <<if $indexShowInMenu == 1>>
 [[Index]]
 <</if>>
