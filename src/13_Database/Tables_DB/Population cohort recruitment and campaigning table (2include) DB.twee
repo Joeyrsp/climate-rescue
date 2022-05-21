@@ -1,0 +1,43 @@
+:: Population cohort recruitment and campaigning table (2include) DB
+<table>
+    <tr>
+        <td style="width: 30%;" class="grayed"><b>Targets to take on the 2 actions focuses approach</b></td>
+        <td style="width: 30%;" class="grayed"><center><b>Focus 1: Action to promote an integrated package of measures to protect the climate vulnerable and restore a safe climate</b></center></td>
+        <td style="width: 30%;" class="grayed"><center><b>Focus 2: Action(s) to contribute to the integrated package of measures</b></center></td>
+    </tr>
+    <tr>
+        <td>Individuals</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Community groups / civil society organisations</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Political parties</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Local governments</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>State/Territory governments</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>National government</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>International organisations</td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
