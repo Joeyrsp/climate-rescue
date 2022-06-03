@@ -1,6 +1,10 @@
 :: StoryMenu {"position":"125,625"}
 [[Getting started]]
 <<nobr>>
+<<if $invitationToResetYourClimateStrategyShowInMenu == 1>>
+[[Resetting climate strategy?|An invitation to reset your climate strategy]]
+<</if>>
+
 <<if $wholeSystemPackagePlanShowInMenu == 1>>
 [[Whole System Package|'Whole System Package' Plan]]
 <</if>>
