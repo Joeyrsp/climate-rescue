@@ -1,5 +1,5 @@
 :: Database (bridge within the Adviser) {"position":"2125,20675"}
-<<fav>>
+<<fav>> | <<return>>
 ----
 !!Database
 The material linked here will (eventually) be transferred to an external database and the content will be called in from there.
@@ -13,6 +13,3 @@ Material is identified here so it's clearer for the Adviser developers what need
 <<include [[Database super-cluster (2include)]]>>
 
 <<return>>
-
-
-
