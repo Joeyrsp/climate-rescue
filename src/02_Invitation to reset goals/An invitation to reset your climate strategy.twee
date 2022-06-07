@@ -1,17 +1,12 @@
 :: An invitation to reset your climate strategy
 <<fav>> | <<return>><<set $invitationToResetYourClimateStrategyShowInMenu to 1>>
+----
 !!An invitation to think about resetting your climate strategy
 We often say "//we know what to do, we have all the needed solutions, we just need to get on with it, get on with reducing emissions//".
 
 This would have been close to being true in say 1970, two decades before the UN Framework Convention on Climate Change was activated, but now, 3 decades after the UNFCCC came into operation, this is not true if we want to successfully protect the climate vulnerable.
 
-Because excess greenhouse gas emissions have been going on for so long at such a large scale, these excess emissions have created a series of additional problems that now have to be dealt with in their own right if we are to protect the climate vulnerable:
-*the level of greenhouse //''gases''// (CO<sub>2</sub>, methane, etc.) in the air is way too high
-*the global //''temperature''// is way too high (even at the current level of +1.2°C)
-*the //''heat content''// of the //''oceans''// is too high
-*the //''acidification''// of the oceans is too high
-*the //''loss of ice''// from the ice sheets and the Arctic Ocean is too high
-*the melting of the //''permafrost''// is too high.
+<<include [[Additional domains of action for earth system restoration (include) DB]]>>
 After we create a zero emissions economy these additional problems will be unwound by natural processes – but only //''over thousands of years''//.  In the meantime the impact on the climate vulnerable will be devastating.  With action made up of only emissions elimination, the global temperature will keep //''rising''// for the next 20 years passing through +1.5°C in about 2030.
 
 The poor do not have enough money to protect themselves by adaptation.  The rich will spend more on adaptation for themselves as climate impacts increase but they are unlikely to devote enough money to protect the poor around the world and adaptation cannot provide adequate protection to non-human living things in almost any part of the world.
@@ -25,8 +20,11 @@ But the bulk of the climate movement around the world is not developing or advoc
 
 If we do care about delivering timely and adequate protection for the climate vulnerable then maybe it’s time to consider resetting our goals?
 
-How can this happen?  The first step is probably to begin a discussion about what the protection needs of the climate vulnerable are and therefore what our action goals should be given where earth system conditions have got to by 2022 and where conditions will go, by when, under effective and ineffective action scenarios.
+How can this happen?  The first step is probably to begin a discussion about what the protection needs of the climate vulnerable are and therefore what our action goals should be, given where earth system conditions have got to by $thisYear and where conditions will go, by when, under effective and ineffective action scenarios.
 
 Would you or your group be interested in engaging in such an action-focussed discussion?
 
 If you are, please contact the [[Climate Rescue team|Contact the Climate Rescue team]].
+
+----
+<<fav>> | <<return>>
