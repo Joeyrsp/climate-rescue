@@ -2,7 +2,7 @@
 [[Getting started]]
 <<nobr>>
 <<if $invitationToResetYourClimateStrategyShowInMenu == 1>>
-[[Resetting climate strategy?|An invitation to reset your climate strategy]]
+[[Resetting climate goals?|An invitation to reset your climate goals]]
 <</if>>
 
 <<if $wholeSystemPackagePlanShowInMenu == 1>>
