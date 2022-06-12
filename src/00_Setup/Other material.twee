@@ -3,7 +3,7 @@
 ----
 !!Other material
 [[Contact the Adviser team]] &nbsp;&nbsp;<small>(<<link [[add to main menu|Other material]]>><<set $contactShowInMenu to 1>><</link>>)  (<<link [[remove|Other material]]>><<set $contactShowInMenu to 0>><</link>>)</small>
-[[An invitation to reset your climate strategy]] &nbsp;&nbsp;<small>(<<link [[add to main menu|Other material]]>><<set $invitationToResetYourClimateStrategyShowInMenu to 1>><</link>>)  (<<link [[remove|Other material]]>><<set $invitationToResetYourClimateStrategyShowInMenu to 0>><</link>>)</small>
+[[An invitation to reset your climate goals]] &nbsp;&nbsp;<small>(<<link [[add to main menu|Other material]]>><<set $invitationToResetYourClimateStrategyShowInMenu to 1>><</link>>)  (<<link [[remove|Other material]]>><<set $invitationToResetYourClimateStrategyShowInMenu to 0>><</link>>)</small>
 [[Global Scenarios]] &nbsp;&nbsp;<small>(<<link [[add to main menu|Other material]]>><<set $contactShowInMenu to 1>><</link>>)  (<<link [[remove|Other material]]>><<set $contactShowInMenu to 0>><</link>>)</small>
 [[Building a support system|Building a support system for 'whole system package' action]] &nbsp;&nbsp;<small>(<<link [[add to main menu|Other material]]>><<set $buildingSupportSystemShowInMenu to 1>><</link>>)  (<<link [[remove|Other material]]>><<set $buildingSupportSystemShowInMenu to 0>><</link>>)</small>
 [[Starting with projects]] &nbsp;&nbsp;<small>(<<link [[add to main menu|Other material]]>><<set $startingWithProjectsShowInMenu to 1>><</link>>)  (<<link [[remove|Other material]]>><<set $startingWithProjectsShowInMenu to 0>><</link>>)</small>
