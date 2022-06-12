@@ -1,5 +1,5 @@
 :: An invitation to reset your climate goals
-<<fav>> | <<return>><<set $invitationToResetYourClimateStrategyShowInMenu to 1>>
+<<fav>> | <<return>><<set $invitationToResetYourClimateGoalsShowInMenu to 1>>
 ----
 !!An invitation to think about resetting your climate goals
 We often say "//we know what to do, we have all the needed solutions, we just need to get on with it, get on with reducing emissions//".
@@ -16,7 +16,7 @@ If we want to protect the climate vulnerable we will have to do more than:
 *adapt to the impacts of climate.
 We will need to take immediate action on the six additional problems listed above, at sufficient scale and speed, if this can be done safely enough.
 
-But the bulk of the climate movement around the world is not currently developing or advocating for strategies to protect the climate vulnerable from the additional 6 problems identified above.
+But the bulk of the climate movement around the world is not currently developing or advocating for goals and strategies to protect the climate vulnerable from the additional 6 problems identified above.
 
 If we do care about delivering timely and adequate protection for the climate vulnerable then maybe it’s time to consider resetting our goals?
 
